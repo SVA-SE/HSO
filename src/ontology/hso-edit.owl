@@ -460,6 +460,19 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000001 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000001">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <terms:description xml:lang="en">A specific surveillance activity that is planned and has (or will have) associated results. A surveillance component or a surveillance system could both be a surveillance activity. 
+Ideally, every activity would have unique attributes for methods - for instance, only one sampling stage. If samples are collected in a slaughterhouse AND in farms, these would ideally be modeled as two different activities, and the appropriate properties used to declare them as linked. But since activities are not defined the same in every health surveillance sector, nor do all data support such a granularity, the class is able to model methods and results for any surveillance activity declared.
+
+One surveillance activity should have an unique identifier, to which results are linked.</terms:description>
+        <rdfs:label xml:lang="en">Surveillance Activity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
