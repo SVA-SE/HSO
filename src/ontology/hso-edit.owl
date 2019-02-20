@@ -835,6 +835,30 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#NCBITaxon_562 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_562">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
+        <rdfs:label>Escherichia coli</rdfs:label>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_590 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_590">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:590</oboInOwl:hasAlternativeId>
+        <rdfs:label>Salmonella spp</rdfs:label>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003>RF-00000304-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#NCBITaxon_593874 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_593874">
