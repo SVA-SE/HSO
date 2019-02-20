@@ -1,0 +1,8 @@
+Individual: @A*(rdf:ID) 
+Types: Salmonella
+Annotations: label @B*
+Annotations: SSD_catalogue @C*
+Annotations: SSD_termCode @D*
+Annotations: hasAlternativeId @E*
+Facts: isSubSpeciesOf @F*
+
