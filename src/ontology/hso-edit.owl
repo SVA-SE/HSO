@@ -336,15 +336,6 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_194 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194">
-        <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">RF-00000042-MCG</hso:HSO_0000003>
-    </rdf:Description>
-    
-
-
     <!-- https://w3id.org/hso#HSO_0000001 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000001">
@@ -389,7 +380,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000008 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000008">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:205</oboInOwl:hasAlternativeId>
         <rdfs:label>Campylobacter spp</rdfs:label>
         <hso:HSO_0000002>PARAM</hso:HSO_0000002>
@@ -401,7 +391,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000009 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000009">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:522483</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter avium</rdfs:label>
@@ -412,7 +401,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000010 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000010">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:449520</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter canadensis</rdfs:label>
@@ -423,7 +411,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000011 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000011">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28078</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyoilei</oboInOwl:hasRelatedSynonym>
@@ -438,7 +425,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000012 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000012">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:199</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter concisus</rdfs:label>
@@ -449,7 +435,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000013 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000013">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1448859</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter corcagiensis</rdfs:label>
@@ -460,7 +445,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000014 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000014">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cryaerophilus</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
@@ -472,7 +456,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000015 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000015">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525142</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cuniculorum</rdfs:label>
@@ -483,7 +466,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000016 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000016">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:200</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter curvus</rdfs:label>
@@ -496,7 +478,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000017 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000017">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:119231</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter faecalis</rdfs:label>
@@ -507,7 +488,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000018 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000018">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:196</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirillum fetus</oboInOwl:hasRelatedSynonym>
@@ -522,7 +502,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000019 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000019">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000018"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32019</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus fetus</oboInOwl:hasExactSynonym>
@@ -537,7 +516,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000020 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000020">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000018"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1507806</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. testudinum</rdfs:label>
@@ -548,7 +526,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000021 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000021">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000018"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32020</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus venerealis</oboInOwl:hasExactSynonym>
@@ -563,7 +540,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000022 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000022">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1780363</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter geochelonis</rdfs:label>
@@ -574,7 +550,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000023 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000023">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:824</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides gracilis</oboInOwl:hasRelatedSynonym>
@@ -588,7 +563,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000024 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000024">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28898</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter helveticus</rdfs:label>
@@ -599,7 +573,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000025 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000025">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1813019</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hepaticus</rdfs:label>
@@ -610,7 +583,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000026 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000026">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:76517</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Campylobacter hominis</oboInOwl:hasRelatedSynonym>
@@ -624,7 +596,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000027 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000027">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:198</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis</rdfs:label>
@@ -637,7 +608,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000028 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000028">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000027"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:91352</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. hyointestinalis</rdfs:label>
@@ -650,7 +620,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000029 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000029">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000027"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:91353</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. lawsonii</rdfs:label>
@@ -663,7 +632,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000030 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000030">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1244530</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter iguaniorum</rdfs:label>
@@ -674,7 +642,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000031 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000031">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:260714</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter insulaenigrae</rdfs:label>
@@ -685,7 +652,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000032 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000032">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:197</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ampylobacter jejuni</oboInOwl:hasRelatedSynonym>
@@ -701,7 +667,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000033 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000033">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000032"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni jejuni</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni subsp. jejuni</rdfs:label>
@@ -714,7 +679,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000034 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000034">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000032"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:207</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni-like bacterium</rdfs:label>
@@ -725,7 +689,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000035 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000035">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:75658</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lanienae</rdfs:label>
@@ -736,7 +699,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000036 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000036">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:201</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lari</rdfs:label>
@@ -749,7 +711,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000037 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000037">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:303118</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lawrenci</oboInOwl:hasExactSynonym>
@@ -761,7 +722,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000038 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000038">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:202</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis</rdfs:label>
@@ -774,7 +734,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000039 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000039">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28079</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis-like bacterium</rdfs:label>
@@ -785,7 +744,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000040 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000040">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1848766</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ornithocola</rdfs:label>
@@ -796,7 +754,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000041 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000041">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:488546</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter peloridis</rdfs:label>
@@ -807,7 +764,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000042 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000042">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1965231</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter pinnipediorum</rdfs:label>
@@ -818,7 +774,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000043 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000043">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:203</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolinella recta</oboInOwl:hasRelatedSynonym>
@@ -832,7 +787,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000044 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000044">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:204</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter showae</rdfs:label>
@@ -843,7 +797,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000045 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000045">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:206</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum</rdfs:label>
@@ -856,7 +809,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000046 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000046">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000045"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1031919</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar faecalis</rdfs:label>
@@ -867,7 +819,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000047 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000047">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000045"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:593874</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar paraureolyticus</rdfs:label>
@@ -878,7 +829,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000048 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000048">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000045"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32024</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar sputorum</rdfs:label>
@@ -891,7 +841,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000049 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000049">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000045"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32023</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. bubulus</rdfs:label>
@@ -904,7 +853,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000050 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000050">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000045"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. mucosalis</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
@@ -916,7 +864,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000051 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000051">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:497724</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter subantarcticus</rdfs:label>
@@ -927,7 +874,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000052 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000052">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:654366</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter troglodytis</rdfs:label>
@@ -938,7 +884,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000053 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000053">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28080</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter upsaliensis</rdfs:label>
@@ -951,7 +896,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000054 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000054">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:827</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ureolyticus</rdfs:label>
@@ -962,7 +906,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000055 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000055">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#HSO_0000008"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1031542</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter volucris</rdfs:label>
@@ -973,7 +916,6 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000056 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000056">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter, unspecified sp.</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000044-MCG</hso:HSO_0000003>
@@ -984,11 +926,25 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000057 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000057">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermotolerant Campylobacter, unspecified</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000052-MCG</hso:HSO_0000003>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194">
+        <hso:HSO_0000003 xml:lang="en">RF-00000042-MCG</hso:HSO_0000003>
+        <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
+    </rdf:Description>
 </rdf:RDF>
 
 
