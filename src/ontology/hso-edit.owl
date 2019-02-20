@@ -3,6 +3,7 @@
      xml:base="https://w3id.org/ahso"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:hso="https://w3id.org/hso#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -151,6 +152,53 @@
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000002 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000002">
+        <terms:description xml:lang="en">From the European Food Safety Agency (EFSA):
+https://zenodo.org/record/344473#.WzvvyvkzYkV
+
+The Data Collection Framework (DCF) application is constituted of an interactive web-based application that aims at facilitating data exchange, data extraction and data reusability. A harmonized terminology is used to collect and analyse data in a coherent way with the aim to support scientific research.
+
+DCF_catalogues file contains all the valid catalogues published in the DCF.  
+
+The SSD2 file contains the controlled terminologies based on the standard description of samples and analytical results (Standard Sample Description Extension), extended to cover additional data collection domains, such as zoonotic agents in food and animals, antimicrobial resistance and food additives.  
+
+This annotation points to the specific catalague, within SSD2, form which terms were imported.</terms:description>
+        <rdfs:label xml:lang="en">SSD_catalogue</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000003">
+        <terms:description xml:lang="en">&quot;This annotation gives the specific code for the concept include din the ontology. Look for this code in the specific catalogue via the annotation property &quot;&quot;SSD_catalogue&quot;&quot;.
+
+Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quot;.&quot;</terms:description>
+        <rdfs:label xml:lang="en">SSD_termCode</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000004 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000004">
+        <terms:description xml:lang="en">This annotation gives the specific term name for the concept include din the ontology. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</terms:description>
+        <rdfs:label xml:lang="en">SSD_temExtendedName</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000005 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000005">
+        <terms:description xml:lang="en">This annotation gives any additional notes. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</terms:description>
+        <rdfs:label xml:lang="en">SSD_termScopeNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -165,6 +213,22 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000006 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000006">
+        <rdfs:label xml:lang="en">isSubSpeciesOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000007 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000007">
+        <rdfs:label xml:lang="en">isSerotypeOf</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -299,6 +363,43 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#waiting_placement">
         <rdfs:label xml:lang="en">awaiting ontology review/placement</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000008 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000008">
+        <oboInOwl:hasAlternativeId>NCBITaxon:205</oboInOwl:hasAlternativeId>
+        <rdfs:label>Campylobacter spp</rdfs:label>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003>RF-00000042-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194">
+        <hso:HSO_0000003 xml:lang="en">RF-00000042-MCG</hso:HSO_0000003>
+        <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
+    </rdf:Description>
 </rdf:RDF>
 
 
