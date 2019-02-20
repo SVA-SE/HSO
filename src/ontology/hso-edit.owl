@@ -408,6 +408,76 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#NCBITaxon_1045010 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1045010">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1045010</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O157</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000202-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O157</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_1055535 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1055535">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055535</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O111</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000182-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O111</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_1055536 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1055536">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055536</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_1078021 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1078021">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078021</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O113:H21</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000181-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O113</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_1078032 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1078032">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078032</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O45:H2</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003254-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O45</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#NCBITaxon_108619 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_108619">
@@ -417,6 +487,20 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Newport</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000960-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_1095706 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1095706">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1095706</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O18</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003235-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O18</hso:HSO_0000004>
     </owl:NamedIndividual>
     
 
@@ -432,6 +516,20 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#NCBITaxon_1232152 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1232152">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1232152</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H11</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#NCBITaxon_1244530 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1244530">
@@ -439,6 +537,20 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1244530</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter iguaniorum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_1365258 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1365258">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1365258</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli 151_06</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003301-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O151</hso:HSO_0000004>
     </owl:NamedIndividual>
     
 
@@ -703,6 +815,34 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#NCBITaxon_244317 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_244317">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244317</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O128:H2</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000184-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O128</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_244319 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_244319">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244319</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:H11</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#NCBITaxon_260714 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_260714">
@@ -858,6 +998,62 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#NCBITaxon_376725 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_376725">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:376725</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H2</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_397454 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_397454">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:397454</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O142:H6</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002684-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O142</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_404394 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_404394">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404394</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:NM</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_404399 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_404399">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404399</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#NCBITaxon_449520 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_449520">
@@ -944,7 +1140,7 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_562">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
-        <rdfs:label>Escherichia coli</rdfs:label>
+        <rdfs:label>Escherichia coli instance</rdfs:label>
         <hso:HSO_0000002>PARAM</hso:HSO_0000002>
         <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
     </owl:NamedIndividual>
@@ -1113,6 +1309,48 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#NCBITaxon_991913 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_991913">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991913</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H25</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_991915 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_991915">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991915</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O121:H19</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000177-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O121</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_991919 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_991919">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991919</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O145:NM</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000155-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O145</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#PARAM_RF-00000044-MCG -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000044-MCG">
@@ -1170,6 +1408,42 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. mucosalis</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000066-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00000125-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000125-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000125-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00000193-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000193-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC non-O157</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000193-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC non-O157</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00003897-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00003897-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic, unspecified</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003897-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic, unspecified</hso:HSO_0000004>
     </owl:NamedIndividual>
 </rdf:RDF>
 
