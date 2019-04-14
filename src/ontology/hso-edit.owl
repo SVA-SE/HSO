@@ -669,6 +669,33 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000020 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000020">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
+        <rdfs:label xml:lang="en">broiler chickens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000021 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000021">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000018"/>
+        <rdfs:label xml:lang="en">dairy cattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000022 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000022">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
+        <rdfs:label xml:lang="en">beef cattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#NCBITaxon_1031542 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1031542">
