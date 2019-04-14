@@ -674,6 +674,10 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000020">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
         <rdfs:label xml:lang="en">broiler chickens</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A0C78</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">Gallus gallus broiler</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">Gallus gallus animals raised for meat production purposes. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Broiler</hso:HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -1624,6 +1628,15 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. lawsonii</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000059-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#NCBITaxon_9606 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9606">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
     </owl:NamedIndividual>
     
 
