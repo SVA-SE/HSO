@@ -18,6 +18,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://w3id.org/hso">
         <owl:imports rdf:resource="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl"/>
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
         <owl:versionInfo>0.1.0</owl:versionInfo>
         <terms:creator>Fernanda Dórea (nanda@datadrivensurveillance.org)</terms:creator>
         <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>
@@ -505,6 +506,14 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194">
         <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">RF-00000042-MCG</hso:HSO_0000003>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
     </rdf:Description>
     
 
