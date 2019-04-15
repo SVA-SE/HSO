@@ -636,6 +636,8 @@ for now.</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified from the wording of the wordnet definition</obo:IAO_0000119>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009/09/28 Alan Ruttenberg. Fucoidan-use-case</obo:IAO_0000232>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hospital</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">E210A</hso:HSO_0000003>
     </owl:Class>
     
 
@@ -964,17 +966,6 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
-    <!-- https://w3id.org/hso#HSO_0000042 -->
-
-    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hospital or medical care facility</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E210A</hso:HSO_0000003>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/hso#HSO_0000043 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000043">
@@ -1035,64 +1026,10 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">restaurant</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catering</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E900A</hso:HSO_0000003>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000049 -->
-
-    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000049">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restaurant or Cafe or Pub or Bar or Hotel or Catering service</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E910A</hso:HSO_0000003>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000050 -->
-
-    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000050">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mobile retailer or market/street vendor</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E920A</hso:HSO_0000003>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000051 -->
-
-    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000051">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Take-away or fast-food outlet</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E930A</hso:HSO_0000003>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000052 -->
-
-    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000052">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canteen or workplace catering</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E940A</hso:HSO_0000003>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000053 -->
-
-    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000053">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporary mass catering (fairs or festivals)</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E950A</hso:HSO_0000003>
     </owl:Class>
     
 
@@ -2293,6 +2230,221 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003897-MCG</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic, unspecified</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E012A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E012A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000030"/>
+        <rdfs:label xml:lang="en">zoo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E013A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E013A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000029"/>
+        <rdfs:label xml:lang="en">veterinary clinic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E101A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E101A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000032"/>
+        <rdfs:label xml:lang="en">farm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E112A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E112A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000034"/>
+        <rdfs:label xml:lang="en">bee hives</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E132A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E132A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000033"/>
+        <rdfs:label xml:lang="en">artifical insemination station</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E151A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E151A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000036"/>
+        <rdfs:label xml:lang="en">fishing and processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E152A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E152A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000037"/>
+        <rdfs:label xml:lang="en">aquaculture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E153A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E153A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000038"/>
+        <rdfs:label xml:lang="en">fishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E160A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E160A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000039"/>
+        <rdfs:label xml:lang="en">hatchery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E180A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E180A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000040"/>
+        <rdfs:label xml:lang="en">hunting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E191A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E191A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000041"/>
+        <rdfs:label xml:lang="en">natural habitat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E210A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E210A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000844"/>
+        <rdfs:label xml:lang="en">hospital</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E220A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E220A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000043"/>
+        <rdfs:label xml:lang="en">residential institution</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E230A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E230A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000045"/>
+        <rdfs:label xml:lang="en">household</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E240A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E240A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000044"/>
+        <rdfs:label xml:lang="en">school</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E310A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E310A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000024"/>
+        <rdfs:label xml:lang="en">meat processing plant</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E311A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E311A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000025"/>
+        <rdfs:label xml:lang="en">slaughterhouse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E320A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E320A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000026"/>
+        <rdfs:label xml:lang="en">fish processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E350A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E350A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000027"/>
+        <rdfs:label xml:lang="en">feed processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E520A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E520A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000047"/>
+        <rdfs:label xml:lang="en">retail</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E910A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E910A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000048"/>
+        <rdfs:label xml:lang="en">catering</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E920A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E920A">
+        <rdfs:label xml:lang="en">canteen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E983A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E983A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000055"/>
+        <rdfs:label xml:lang="en">official kennel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPNT_E990A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E990A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000056"/>
+        <rdfs:label xml:lang="en">Catering on aircraft or ship or train</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
