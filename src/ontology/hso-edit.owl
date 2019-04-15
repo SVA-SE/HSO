@@ -1,35 +1,35 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/ahso#"
      xml:base="https://w3id.org/ahso"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:EOL="http://opendata.inra.fr/EOL/#"
-     xmlns:pav="http://purl.org/pav/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:hso="https://w3id.org/hso#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:pav="http://purl.org/pav/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:EOL1="http://opendata.inra.fr/EOL/"
      xmlns:core="http://purl.obolibrary.org/obo/core#"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:basic="http://prismstandard.org/namespaces/basic/2.0/"
      xmlns:dcat="http://www.w3.org/ns/dcat#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:basic="http://prismstandard.org/namespaces/basic/2.0/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://w3id.org/hso">
         <owl:imports rdf:resource="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
-        <terms:creator>Fernanda Dórea (nanda@datadrivensurveillance.org)</terms:creator>
         <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>
-        <terms:title>Health Surveillance Ontology (HSO)</terms:title>
+        <terms:creator>Fernanda Dórea (nanda@datadrivensurveillance.org)</terms:creator>
         <terms:description xml:lang="en">An ontology to support semantic interoperability among domains involved in health surveillance (animal health, public health and food safety). More details at http://datadrivensurveillance.org.</terms:description>
+        <terms:title>Health Surveillance Ontology (HSO)</terms:title>
         <rdfs:comment xml:lang="en">This is an ontology to support (one) health surveillance, focused on &quot;surveillance system level data&quot;, hat is, data outputs from surveillance activities, such as number of samples collected, cases observed, etc.</rdfs:comment>
+        <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -67,9 +67,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000111>definition</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
         <obo:IAO_0000111>textual definition</obo:IAO_0000111>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
@@ -98,9 +96,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -541,6 +537,46 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A057Z</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Live animal of the taxonomic species Gallus gallus domesticus L. The animals are commonly known as Gallus gallus (chicken) or Fowl or Chicken. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Chicken</hso:HSO_0000005>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A056J</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</hso:HSO_0000005>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A057F</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Live animals of the taxonomic species Sus domestica L., Sus scrofa domesticus L. The animals are commonly known as Pig or swine. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Domestic_pig</hso:HSO_0000005>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A057E</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</hso:HSO_0000005>
+    </rdf:Description>
+    
+
+
     <!-- https://w3id.org/hso#HSO_0000001 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000001">
@@ -610,6 +646,9 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000016">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
         <rdfs:label xml:lang="en">egg production</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A0C7P</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Animals farmed for egg production purposes</hso:HSO_0000005>
     </owl:Class>
     
 
@@ -619,6 +658,9 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000017">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
         <rdfs:label xml:lang="en">meat production</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A0C7G</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Animals farmed for meat production purposes</hso:HSO_0000005>
     </owl:Class>
     
 
@@ -628,6 +670,9 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000018">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
         <rdfs:label xml:lang="en">milk production</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A0C7N</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Animals farmed for milk production purposes</hso:HSO_0000005>
     </owl:Class>
     
 
@@ -637,6 +682,9 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000019">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
         <rdfs:label xml:lang="en">reproducer</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A0C7G</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Animals farmed for breeding purposes</hso:HSO_0000005>
     </owl:Class>
     
 
@@ -673,6 +721,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000020">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">broilers</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">broiler chickens</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">A0C78</hso:HSO_0000003>
@@ -686,7 +735,12 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000021">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">dairy cows</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">dairy cattle</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A0C9L</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">Dairy cows</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for milk production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Dairy_cattle</hso:HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -695,7 +749,12 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000022">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">beef cows</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">beef cattle</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A0C9Q</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">Meat production cattle</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</hso:HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -1589,6 +1648,8 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9031">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
         <rdfs:label xml:lang="en">Gallus gallus</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A057Z</hso:HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -1637,6 +1698,9 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9606">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A056J</hso:HSO_0000003>
+        <hso:HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</hso:HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -1646,6 +1710,8 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9823">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
         <rdfs:label xml:lang="en">Sus scrofa</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A057F</hso:HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -1655,6 +1721,9 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9913">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
         <rdfs:label xml:lang="en">Bos taurus</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">A057E</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">Cattle (as animal)</hso:HSO_0000004>
     </owl:NamedIndividual>
     
 
@@ -1799,5 +1868,5 @@ One surveillance activity should have an unique identifier, to which results are
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
