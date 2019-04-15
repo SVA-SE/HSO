@@ -752,6 +752,373 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000023 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacturing</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E300A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000024 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000024">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000023"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat processing</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E310A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000025 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000025">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000024"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">abattoir</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slaughterhouse</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E311A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000026 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000026">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000023"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish processing</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E320A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000027 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000027">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000023"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacture of prepared animal feeds</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E350A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000028 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veterinary activities</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E011A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000029 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000029">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000028"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">vet clinic</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veterinary clinics</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E013A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000030 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zoo</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E012A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000031 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary production</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E100A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000032 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000032">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000031"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farm</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E101A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000033 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000033">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000032"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">AI station</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial insemination station</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E132A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000034 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000034">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000031"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bee hives</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E112A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000035 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000035">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000031"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fishery activities</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E150A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000036 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000036">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000035"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fishing and fish processing</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E151A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000037 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000037">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000035"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquaculture</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E152A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000038 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000038">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000035"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fishing</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E153A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000039 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000039">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000031"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hatchery</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E160A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000040 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000040">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000031"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hunting</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E180A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000041 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000041">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000031"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural habitat</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E191A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000042 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hospital or medical care facility</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E210A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000043 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residential institution (nursing home or prison or boarding school)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E220A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000044 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000044">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000043"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">School or kindergarten</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E240A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000045 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Household</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E230A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000046 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distribution: wholesale and retail sale</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E500A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000047 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000047">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000046"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">grocery store</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retail</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E520A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000048 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catering</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E900A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000049 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000049">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restaurant or Cafe or Pub or Bar or Hotel or Catering service</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E910A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000050 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000050">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mobile retailer or market/street vendor</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E920A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000051 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000051">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Take-away or fast-food outlet</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E930A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000052 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000052">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canteen or workplace catering</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E940A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000053 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000053">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000048"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporary mass catering (fairs or festivals)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E950A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000055 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official kennel</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E983A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000056 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catering on aircraft or ship or train</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E990A</hso:HSO_0000003>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
