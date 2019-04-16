@@ -1,0 +1,189 @@
+'[Former] Yugoslavia'
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+'Antigua and Barbuda'
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+'Bosnia and Herzegovina'
+Botswana
+Brazil
+'Brunei Darussalam'
+Bulgaria
+'Burkina Faso'
+Burundi
+Cambodia
+Cameroon
+Canada
+'Cape Verde'
+Chad
+Chile
+China
+Colombia
+Comoros
+'Costa Rica'
+'Cote d'Ivoire'
+Croatia
+Cuba
+'Czech Republic'
+'Democratic Republic of the Congo'
+Djibouti
+Dominica
+'Dominican Republic'
+Ecuador
+Egypt
+'El Salvador'
+England
+'Equatorial Guinea'
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+'French Republic'
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+'Kingdom of Norway'
+'Kingdom of Spain'
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Malawi
+Malaysia
+Mali
+Mauritania
+Mexico
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+'New Zealand'
+Nicaragua
+Niger
+Nigeria
+'Niue Fekai'
+'North Korea'
+Oman
+Pakistan
+Palau
+Panama
+'Papua New Guinea'
+Paraguay
+Peru
+Poland
+'Portuguese Republic'
+Qatar
+'Republic of China'
+'Republic of Congo'
+'Republic of Ireland'
+'Republic of South Africa'
+Romania
+Russia
+Rwanda
+'Saint Kitts-Nevis'
+'Saint Lucia'
+'Saint Vincent and the Grenadines'
+Samoa
+'San Marino'
+'Sao Tome and Principe'
+'Saudi Arabia'
+Scotland
+Senegal
+Serbia
+'Sierra Leone'
+Singapore
+'Slovak Republic'
+Slovenia
+Somalia
+'South Africa'
+'South Sudan'
+'Sri Lanka'
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Tajikistan
+Tanzania
+Thailand
+'The Bahamas'
+'The Philippines'
+Timor-Leste
+Togo
+Tokelau
+Tonga
+'Trinidad and Tobago'
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+'United Arab Emirates'
+'United Kingdom'
+Uruguay
+Uzbekistan
+Vanuatu
+'Vatican City'
+Venezuela
+'Viet Nam'
+Wales
+Yemen
+Zambia
+Zimbabwe
