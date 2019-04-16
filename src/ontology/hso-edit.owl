@@ -1363,6 +1363,15 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000057 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000123"/>
+        <rdfs:label xml:lang="en">supra-national geopolitical entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
@@ -1422,6 +1431,14 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 xml:lang="en">	NZ	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	New Zealand	</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">	New Zealand	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000553 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000553">
+        <obo:RO_0001025 rdf:resource="https://w3id.org/hso#COUNTRY_EU"/>
     </owl:NamedIndividual>
     
 
@@ -5299,6 +5316,19 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#COUNTRY_EU -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#COUNTRY_EU">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000057"/>
+        <rdfs:label xml:lang="en">European Union</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">COUNTRY</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">EU</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">European Union</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">European Union</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#COUNTRY_KR -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#COUNTRY_KR">
@@ -5347,6 +5377,19 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 xml:lang="en">US</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">United States</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">United States of America</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#COUNTRY_XE -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#COUNTRY_XE">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000057"/>
+        <rdfs:label xml:lang="en">Non European Union</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">COUNTRY</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">XE</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en"></hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en"></hso:HSO_0000005>
     </owl:NamedIndividual>
     
 
