@@ -2426,6 +2426,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#SAMPNT_E920A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E920A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000048"/>
         <rdfs:label xml:lang="en">canteen</rdfs:label>
     </owl:NamedIndividual>
     
