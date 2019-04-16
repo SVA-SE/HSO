@@ -1753,7 +1753,7 @@ One surveillance activity should have an unique identifier, to which results are
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espana {language: Spanish}</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reino de Espana</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spain</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingdom of Spain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spain</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">	ES	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	Spain	</hso:HSO_0000004>
@@ -2856,7 +2856,7 @@ One surveillance activity should have an unique identifier, to which results are
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kongeriket Noreg {language: Norwegian}</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kongeriket Norge {language: Norwegian}</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norway</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingdom of Norway</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norway</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">	NO	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	Norway	</hso:HSO_0000004>
@@ -3427,7 +3427,7 @@ One surveillance activity should have an unique identifier, to which results are
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO3166-2:FR</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">France {alternative name}</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republique francaise {language: French}</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French Republic</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">France</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">	FR	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	France	</hso:HSO_0000004>
@@ -3492,7 +3492,7 @@ One surveillance activity should have an unique identifier, to which results are
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eire {1937-12-29-to-1949-04-18}</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Free State {1921-12-06-to-1937-12-29}</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poblacht na hEireann</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republic of Ireland</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ireland</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">	IE	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	Ireland	</hso:HSO_0000004>
@@ -3515,7 +3515,7 @@ One surveillance activity should have an unique identifier, to which results are
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO3166-2:PT</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal {alternative name}</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republica Portuguesa</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portuguese Republic</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">	PT	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	Portugal	</hso:HSO_0000004>
@@ -3737,7 +3737,7 @@ One surveillance activity should have an unique identifier, to which results are
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czechoslovakia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovakia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovenska republika</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovak Republic</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovakia</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">	SK	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	Slovakia	</hso:HSO_0000004>
@@ -5294,6 +5294,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#COUNTRY_CY">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <rdfs:label xml:lang="en">Cyprus</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">COUNTRY</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">CY</hso:HSO_0000003>
