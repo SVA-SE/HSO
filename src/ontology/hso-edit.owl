@@ -5457,6 +5457,390 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#LANG_BG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_BG">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgarian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgarian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_CS -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_CS">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czech</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czech</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_DA -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_DA">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danish</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DA</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danish</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_DE -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_DE">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_EL -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_EL">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EL</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_EN -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_EN">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_ES -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_ES">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanish</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanish</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_ET -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_ET">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estonian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ET</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estonian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_FI -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_FI">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finnish</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FI</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finnish</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_FR -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_FR">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_GA -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_GA">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GA</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_HR -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_HR">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croatian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croatian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_HU -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_HU">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hungarian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HU</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hungarian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_IS -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_IS">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Icelandic</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Icelandic</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_IT -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_IT">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_LT -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_LT">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lithuanian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LT</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lithuanian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_LV -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_LV">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latvian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LV</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latvian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_ME -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_ME">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montenegrin</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ME</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montenegrin</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_MK -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_MK">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macedonian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MK</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macedonian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_MT -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_MT">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltese</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MT</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltese</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_NL -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_NL">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dutch</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NL</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dutch</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_NO -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_NO">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norwegian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NO</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norwegian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_PL -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_PL">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polish</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PL</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polish</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_PT -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_PT">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portuguese</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PT</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portuguese</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_RO -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_RO">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romanian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romanian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_RS -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_RS">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serbian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serbian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_RU -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_RU">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RU</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_SK -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_SK">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovakian</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SK</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovakian</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_SL -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_SL">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovene</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovene</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_SV -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_SV">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swedish</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SV</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swedish</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_TR -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_TR">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#LANG_ZH -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_ZH">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZH</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#NCBITaxon_1031542 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1031542">
