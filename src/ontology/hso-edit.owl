@@ -1372,6 +1372,17 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000058 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001742"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Nomenclature of Territorial Units for Statistics</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics</rdfs:comment>
+        <rdfs:label xml:lang="en">NUTS region</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
