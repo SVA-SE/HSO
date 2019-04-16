@@ -45,18 +45,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0000006 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000006"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001763 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001763"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
@@ -426,68 +414,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000005">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000415"/>
-        <obo:GENEPIO_0000006 xml:lang="en">state / province / territory / region</obo:GENEPIO_0000006>
-        <obo:GENEPIO_0001763>lookup:http://purl.obolibrary.org/obo/GAZ_00000448</obo:GENEPIO_0001763>
-        <obo:IAO_0000115 xml:lang="en">A primary administrative division of a country, such as a state in the United States.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A primary administrative division of a country, such as a state in the United States.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:414</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTT:569</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geonames:A.ADM1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGN:81100</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">first-order administrative region</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first-order administrative region</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001886"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000467</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic region {alternative name}</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001742 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001742">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25632"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C87194"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89811"/>
-        <obo:GENEPIO_0000006 xml:lang="en">region</obo:GENEPIO_0000006>
-        <obo:GENEPIO_0001763>lookup:http://purl.obolibrary.org/obo/GAZ_00000448</obo:GENEPIO_0001763>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A subnational region is a type of subnational entity similar to a nation&apos;s state, province, or territory.</obo:IAO_0000115>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">subnational region</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001886 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001886">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000114 xml:lang="en">A designated area on earth is one or more areas defined by one or more boundaries.  A boundary can be defined by a polygon perimeter, a lat/long and radius, or a fiat-boundary geographic featureset like a river channel or mountain ridge; it may have one or more names associated with it. Note that areas associated with a name may change their boundary definitions over time.</obo:IAO_0000114>
-        <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">designated area on Earth</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
@@ -651,72 +577,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25464 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25464">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000415"/>
-        <obo:IAO_0000115>A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Country</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GEO_000000396</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25632 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25632">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C87194"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89811"/>
-        <obo:GENEPIO_0001763>lookup:http://purl.obolibrary.org/obo/GAZ_00000448</obo:GENEPIO_0001763>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115>A region, district or division of a country; a tract; a portion a state, especially one remote from the capital.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Province</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C87194 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C87194">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89811"/>
-        <obo:GENEPIO_0001763>lookup:http://purl.obolibrary.org/obo/GAZ_00000448</obo:GENEPIO_0001763>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115>A constituent administrative district of a nation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:comment xml:lang="en">Damion&apos;s note: Placing or &quot;multihoming&quot; state (a governmental region) under various classes means that the entity can be interpreted within the respective class, and can inherit properties/axioms of that class
-
-State under &quot;categorical&quot; yeilds a uri enabling reference to the state as a unique entity.
-State under &quot;area&quot; references the polygon region bounding the state.
-State under &quot;geopolitical region&quot; references concepts of governance and law.
-State under &quot;name&quot; references its name, a string.
-
-Complications arise: a state can change names, boundaries, laws, etc. over time.
-
-On a data entry form we&apos;re primarily intersted in state as categorical item (= pulldown list). In cases of countries where we don&apos;t have lists of states or provinces, then we could accept &quot;state name&quot; - a string - in form input?
-
-One could create &quot;state name&quot; as an ontology term, etc.  Organizing state concept as a compendium of &quot;state name&quot; ,&quot;state area&quot; , &quot;state boundary&quot; etc. accomplishes the same goal of defining aspects of state-ness, but adds alot of compound-term complexity.</rdfs:comment>
-        <rdfs:label>State</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C89811 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C89811">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
-        <obo:GENEPIO_0001763>lookup:http://purl.obolibrary.org/obo/GAZ_00000448</obo:GENEPIO_0001763>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115>A geographical area under the jurisdiction of a sovereign state and marked off for administrative or other purposes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Territory</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
@@ -778,17 +638,6 @@ for now.</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hospital</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">SAMPNT</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">E210A</hso:HSO_0000003>
-    </owl:Class>
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_000415 -->
-
-    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000415">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001886"/>
-        <obo:IAO_0000115 xml:lang="en">a geopolitical region is a geographic region recognized by social or legal convention.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
-        <rdfs:label xml:lang="en">geopolitical region</rdfs:label>
     </owl:Class>
     
 
