@@ -25,6 +25,7 @@
     <owl:Ontology rdf:about="https://w3id.org/hso">
         <owl:imports rdf:resource="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/matrix.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_specimen.owl"/>
         <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>
         <terms:creator>Fernanda Dórea (nanda@datadrivensurveillance.org)</terms:creator>
@@ -521,6 +522,22 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">material entity</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000993 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002743 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0002743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000993"/>
+    </rdf:Description>
     
 
 
