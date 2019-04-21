@@ -670,6 +670,30 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001790">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">This is a catch-all category for listing specimen related terms</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">specimen datum</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001532"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0001884"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0001889"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/GENEPIO_0002105</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/OBI_0001616</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0001886 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001886">
