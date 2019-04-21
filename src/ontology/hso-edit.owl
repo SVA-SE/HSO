@@ -378,6 +378,38 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000067 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000067">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">hasDatum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000068 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000068">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000067"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <rdfs:label xml:lang="en">hasSpecimenDatum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000069 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000069">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000068"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">hasMatrixType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1583,6 +1615,15 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:label xml:lang="en">swab specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000066 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000066">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">excreta specimen</rdfs:label>
     </owl:Class>
     
 
@@ -6084,6 +6125,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S027A">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
         <rdfs:label xml:lang="en">environmental sample</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">MTXTYP</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">S027A</hso:HSO_0000003>
@@ -7433,6 +7475,487 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E990A">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000056"/>
         <rdfs:label xml:lang="en">Catering on aircraft or ship or train</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S000A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S000A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - no specified matrix</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S000A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S001A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S001A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000063"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - blood</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S001A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - blood</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S002A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S002A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - caecum</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S002A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - caecum</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S003A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S003A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - ear</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S003A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - ear</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S004A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S004A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggs</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S004A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggs</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S005A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S005A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000066"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - faeces</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S005A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - faeces</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S006A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S006A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - fleece</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S006A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - fleece</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S007A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S007A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000061"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - foetus/stillbirth</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S007A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - foetus/stillbirth</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S008A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S008A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - lymph nodes</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S008A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - lymph nodes</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S009A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S009A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000063"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - meat juice</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S009A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - meat juice</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S010A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S010A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000063"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - milk</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S010A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - milk</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S012A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S012A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - rectum-anal swab</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S012A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - rectum-anal swab</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S013A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S013A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - vaginal swab</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S013A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - vaginal swab</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S014A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S014A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - placental swab</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S014A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - placental swab</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S015A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S015A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - nasal swab</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S015A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - nasal swab</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S017A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S017A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - organ/tissue</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S017A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - organ/tissue</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S018A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S018A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - tonsil</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S018A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - tonsil</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S019A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S019A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - no specified matrix</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S019A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S020A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S020A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - blood</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S020A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - blood</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S021A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S021A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - carcase swabs</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S021A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - carcase swabs</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S022A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S022A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - meat</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S022A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - meat</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S023A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S023A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - milk</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S023A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - milk</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S024A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S024A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - neck skin</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S024A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - neck skin</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S025A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S025A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - tonsil</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S025A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - tonsil</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S026A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S026A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feed sample - no specified matrix</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S026A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feed sample</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S027A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S027A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - no specified matrix</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S027A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S028A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S028A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S028A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S029A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S029A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - dust</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S029A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - dust</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S031A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S031A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - cloacal swab</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S031A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - cloacal swab</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S032A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S032A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggshells</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S032A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggshells</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S033A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S033A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - air</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S033A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - air</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S034A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S034A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - fabric swab</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S034A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - fabric swab</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S035A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S035A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - hatcher basket liner</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S035A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - hatcher basket liner</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S036A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S036A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - brain</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S036A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - brain</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S037A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S037A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - delivery box liner</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S037A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - delivery box liner</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S038A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S038A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - hide</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S038A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - hide</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S039A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S039A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs and dust</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S039A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs and dust</hso:HSO_0000004>
     </owl:NamedIndividual>
 </rdf:RDF>
 
