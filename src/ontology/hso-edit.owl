@@ -1542,6 +1542,51 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000061 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label xml:lang="en">whole organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000062 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label xml:lang="en">matrix from organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000063 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000063">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">fluid specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000064 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000064">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">organ/tissue specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000065 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label xml:lang="en">swab specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
