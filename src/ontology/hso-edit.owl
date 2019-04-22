@@ -1658,6 +1658,16 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000073 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000073">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:label xml:lang="en">epidemiological unit</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">SAMPUNTYP</hso:HSO_0000002>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
@@ -7960,6 +7970,102 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STXXA</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not specified</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G198A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G198A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">holding</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G198A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">holding</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G199A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G199A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G199A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G200A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G200A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slaughter batch</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G200A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slaughter batch</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G201A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G201A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slaughter animal (heads)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G201A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slaughter animal (heads)</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G202A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G202A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herd/flock</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G202A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herd/flock</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G203A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G203A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G203A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G204A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G204A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">batch</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G204A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">batch</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPUNTYP_G243A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPUNTYP_G243A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pen</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G243A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pen</hso:HSO_0000004>
     </owl:NamedIndividual>
     
 
