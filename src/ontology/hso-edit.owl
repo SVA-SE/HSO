@@ -1696,6 +1696,185 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000074 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">number of units tested</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000075 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000075">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000074"/>
+        <rdfs:label xml:lang="en">Number of PSU tested</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000076 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000076">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000074"/>
+        <rdfs:label xml:lang="en">Number of SSU tested</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000077 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">number of units positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000078 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000078">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000077"/>
+        <rdfs:label xml:lang="en">Number of PSU positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000079 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000079">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000077"/>
+        <rdfs:label xml:lang="en">Number of SSU positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000080 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">number of units negative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000081 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000081">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000080"/>
+        <rdfs:label xml:lang="en">Number of PSU negative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000082 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000082">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000080"/>
+        <rdfs:label xml:lang="en">Number of SSU negative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000083 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Number of specimen tested</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000084 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Number of specimen negative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000085 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label xml:lang="en">calculated sample size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000086 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000086">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000085"/>
+        <terms:description xml:lang="en">calculated number of primary sampling units</terms:description>
+        <rdfs:label xml:lang="en">calculated number of PSU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000087 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000087">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000085"/>
+        <terms:description xml:lang="en">calculated number of secondary sampling units</terms:description>
+        <rdfs:label xml:lang="en">calculated number of SSU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000088 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Number of specimen positive</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
