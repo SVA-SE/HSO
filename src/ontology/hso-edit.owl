@@ -1648,6 +1648,16 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000072 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000072">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:label xml:lang="en">sampling strategy</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">SAMPSTR</hso:HSO_0000002>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
@@ -7849,6 +7859,107 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPNT_E990A">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000056"/>
         <rdfs:label xml:lang="en">Catering on aircraft or ship or train</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_ST10A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST10A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objective sampling</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST10A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objective sampling</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objective sampling—planned strategy based on the selection of a random sample, which is statistically representative of the population to be analysed. Each unit, within the framework population, has a specified probability of being selected. This strategy provides data from which statistical inference can be implemented. That means that the results inferred are comparable. Objective sampling is often the case in monitoring and surveillance schemes as well as in surveys.</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_ST20A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST20A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selective sampling</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST20A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selective sampling</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selective sampling—planned strategy whereby the selection of the sample is from previously defined ‘high-risk’ population groups. Samples are normally selected to either illustrate or document unsatisfactory conditions or suspected adulteration of a product. The sampling is deliberately biased and is directed at the particular products or manufacturers. The sampling procedure can be random or not. The specification of the ‘high-risk’ population comes from either scientific studies or previous analysis and information of other regions or countries. The comparability of the results lies on both the definition of the population to be analysed and the way the samples have been drawn</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_ST30A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST30A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suspect sampling</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST30A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suspect sampling</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suspect sampling—unplanned selection of a sample whereby the individual units are selected based on the recent judgement and experience regarding the population, lot or sampling frame, e.g. earlier positive samples. The samples obtained from this procedure are not randomly extracted.</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_ST40A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST40A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convenient sampling</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST40A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convenient sampling</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convenient sampling—is used in exploratory research when the researcher is interested in getting an inexpensive approximation of the truth. The samples are selected because they are convenient and easy to obtain. This non-probability method is often used during preliminary research efforts to get a gross estimate of the results, without incurring the cost or time required to select a random sample. This methodology is potentially subject to serious bias</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_ST50A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST50A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Census</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST50A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Census</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Census—strategy whereby all units of the population are sampled</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_ST60A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST60A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Import sampling</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST60A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Import sampling</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_ST90A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST90A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST90A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR_STXXA -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_STXXA">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not specified</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STXXA</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not specified</hso:HSO_0000004>
     </owl:NamedIndividual>
     
 
