@@ -26,6 +26,7 @@
         <owl:imports rdf:resource="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/matrix.owl"/>
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_mass.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_specimen.owl"/>
         <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>
         <terms:creator>Fernanda Dórea (nanda@datadrivensurveillance.org)</terms:creator>
@@ -795,7 +796,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000111 xml:lang="en">measurement datum</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Examples of measurement data are the recoding of the weight of a mouse as {40,mass,&quot;grams&quot;}, the recording of an observation of the behavior of the mouse {,process,&quot;agitated&quot;}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -808,6 +808,34 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ebi.ac.uk/efo/EFO_0001444</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">measurement datum</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000414 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -8548,6 +8576,25 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S039A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs and dust</hso:HSO_0000004>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
+        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
+        <hso:HSO_0000003>G167A</hso:HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
+        <hso:HSO_0000003>G148A</hso:HSO_0000003>
+        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
+    </rdf:Description>
 </rdf:RDF>
 
 
