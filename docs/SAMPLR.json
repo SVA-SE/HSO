@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"instances","startColumn":"A","endColumn":"E","startRow":"2","endRow":"9","comment":"","rule":"Individual: @A*(rdf:ID) \nTypes: \u0027Surveillance sampler type\u0027\nAnnotations: SSD_termCode @B*\nAnnotations: label @C*\nAnnotations: SSD_catalogue @D*\nAnnotations: SSD_temExtendedName @E*\nAnnotations: SSD_termScopeNote @F*","active":true}]}
