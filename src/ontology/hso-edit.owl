@@ -1883,6 +1883,1411 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000089 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification not possible</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F001A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification not possible</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analytical method measuring principle is known, but could not be classified.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000090 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Performance Liquid Chromatography (HPLC)/Liquid Chromatography (LC)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F018A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Performance Liquid Chromatography (HPLC)/Liquid Chromatography (LC)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Performance, High Pressure and Liquid Chromatography.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000091 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunological detection or quantification method</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F077A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunological detection or quantification method</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applies to e.g. immunoelectrophoresis</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000092 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000092">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000091"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk ring-test</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F523A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk ring-test</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000093 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzyme-linked immunosorbent assay (ELISA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F080A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzyme-linked immunosorbent assay (ELISA)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzyme-linked Immunosorbent Assay</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000094 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000094">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000093"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELISA, Competitive ELISA (C-ELISA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F530A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELISA, Competitive ELISA (C-ELISA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000095 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCR</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F086A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCR</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polymerase Chain Reaction</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000096 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000096">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000095"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-time PCR (CEN TC275/WG6)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F123A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-time PCR (CEN TC275/WG6)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-time polymerase chain reaction (quantitative PCR)</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000097 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000097">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000095"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reverse-transcription PCR (RT-PCR)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F189A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reverse-transcription PCR (RT-PCR)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000098 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000098">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000095"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simplex PCR</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F194A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simplex PCR</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000099 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000099">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000095"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duplex PCR</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F195A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duplex PCR</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000100 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000100">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000095"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiplex PCR</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F196A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiplex PCR</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000101 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microscopical and histometrical tests</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F095A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microscopical and histometrical tests</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000102 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000102">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000101"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trichinoscopic examination</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F546A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trichinoscopic examination</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000103 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiological tests</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F099A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiological tests</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000104 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000104">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiological standard tests</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F100A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiological standard tests</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applies to e.g. MPN</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000105 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000105">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFNOR NF U47 100 (2007)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F133A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFNOR NF U47 100 (2007)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolation and identification of Salmonella or search for particular serovar&apos;s in the animal production sector</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000106 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000106">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFNOR NF U47 101 (2007)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F134A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFNOR NF U47 101 (2007)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolation and identification of any Salmonella serotypes or of specified salmonella serotypes among birds</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000107 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000107">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F135A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horizontal method for the detection of Escherichia coli O157</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000108 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000108">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 20776-1:2006</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F136A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 20776-1:2006</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reference method for testing the in vitro activity of antimicrobial agents against rapidly growing aerobic bacteria involved in infectious diseases</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000109 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000109">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F137A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horizontal method for the detection of Salmonella spp. </hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000110 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000110">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002/Amd 1:2007</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F138A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002/Amd 1:2007</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annex D: Detection of Salmonella spp. in animal faeces and in environmental samples from the primary production stage </hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000111 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000111">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 71, 1999, 5th Ed. Salmonella</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F140A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 71, 1999, 5th Ed. Salmonella</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of Salmonella in food</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000112 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000112">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2006  Campylobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F163A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2006  Campylobacter</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 1: Detection method</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000113 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000113">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F164A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 2: Colony-count technique</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000114 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000114">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010  Campylobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F165A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010  Campylobacter</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 3: Semi-quantitative method</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000115 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000115">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010/Cor 1:2011  Campylobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F166A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010/Cor 1:2011  Campylobacter</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000116 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000116">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002 Salmonella</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F167A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002 Salmonella</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for the detection of Salmonella spp.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000117 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000117">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002/Amd 1:2007 (Annex D of ISO 6579) Salmonella</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F168A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002/Amd 1:2007 (Annex D of ISO 6579) Salmonella</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annex D: Detection of Salmonella spp. in animal faeces and in environmental samples from the primary production stage</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000118 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000118">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996/Amd 1:2004  Listeria</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F169A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996/Amd 1:2004  Listeria</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modification of the isolation media and the haemolysis test, and inclusion of precision data</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000119 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000119">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998/Amd 1:2004  Listeria</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F170A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998/Amd 1:2004  Listeria</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modification of the enumeration medium</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000120 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000120">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-1:1999/Amdt 1:2003 Coagulase-positives staphylococci</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F171A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-1:1999/Amdt 1:2003 Coagulase-positives staphylococci</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inclusion of precision data</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000121 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000121">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-2:1999/Amdt 1:2003 Coagulase-positives staphylococci</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F172A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-2:1999/Amdt 1:2003 Coagulase-positives staphylococci</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inclusion of precision data</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000122 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000122">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 13136:2012 (including the EU-RL adaptation for O104:H4)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F173A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 13136:2012 (including the EU-RL adaptation for O104:H4)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feed -- Real-time polymerase chain reaction (PCR)-based method for the detection of food-borne pathogens -- Horizontal method for the detection of Shiga toxin-producing Escherichia coli (STEC) and the determination of O157,</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000123 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000123">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10273:2003 Yersinia</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F175A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10273:2003 Yersinia</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for the detection of presumptive pathogenic Yersinia enterocolitica</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000124 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000124">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN/ISO 7932 Bacillus cereus</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F176A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN/ISO 7932 Bacillus cereus</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for the enumeration of presumptive Bacillus cereus -- Colony-count technique at 30 degrees C</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000125 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000125">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 22964:2006 (IDF/RM 210: 2006) Cronobacter spp. (Enterobacter sakazakii)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F177A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 22964:2006 (IDF/RM 210: 2006) Cronobacter spp. (Enterobacter sakazakii)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk and milk products -- Detection of Enterobacter sakazakii</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000126 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000126">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Combination disk method</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F555A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Combination disk method</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000127 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000127">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Combination strip test/Epsilometer test</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F556A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Combination strip test/Epsilometer test</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000128 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000128">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 119, 2007, 3rd Ed. Termotolerante Campylobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F600A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 119, 2007, 3rd Ed. Termotolerante Campylobacter</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL No. 119, 3rd  ed. 2007, Thermotolerant Campylobacter. Detection, semi-quantitative and quantitative determination in foods and drinking water</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000129 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000129">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 187, 2007 Salmonella</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F601A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 187, 2007 Salmonella</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL No. 187, 2007, Salmonella. Detection in foods, animal faeces and environmental materials from primary animal production using MSRV</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000130 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000130">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579-1:2017 Salmonella</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F609A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579-1:2017 Salmonella</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the detection, enumeration and serotyping of Salmonella -- Part 1: Detection of Salmonella spp.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000131 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000131">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:2017 Listeria</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F610A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:2017 Listeria</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the detection and enumeration of Listeria monocytogenes and of Listeria spp. -- Part 1: Detection method</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000132 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000132">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:2017 Listeria</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F611A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:2017 Listeria</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the detection and enumeration of Listeria monocytogenes and of Listeria spp. -- Part 2: Enumeration method</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000133 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000133">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 19020:2017 Staphylococcal enterotoxins</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F612A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 19020:2017 Staphylococcal enterotoxins</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the immunoenzymatic detection of staphylococcal enterotoxins in foodstuffs</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000134 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000134">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 21528-1:2017 Enterobacteriaceae</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F613A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 21528-1:2017 Enterobacteriaceae</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the detection and enumeration of Enterobacteriaceae -- Part 1: Detection of Enterobacteriaceae</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000135 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000135">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 21528-2:2017 Enterobacteriaceae</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F614A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 21528-2:2017 Enterobacteriaceae</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the detection and enumeration of Enterobacteriaceae -- Part 2: Colony-count technique</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000136 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000136">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 22964:2017 Cronobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F615A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 22964:2017 Cronobacter</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the detection of Cronobacter spp.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000137 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000137">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-2:2017 Campylobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F616A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-2:2017 Campylobacter</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 2: Colony-count technique</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000138 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000138">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2017 Campylobacter</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F617A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2017 Campylobacter</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 1: Detection method</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000139 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000139">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10273:2017 Yersinia enterocolitica</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F618A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10273:2017 Yersinia enterocolitica</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for the detection of pathogenic Yersinia enterocolitica</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000140 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000140">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000103"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 136, 5th ed. 2010, Listeria monocytogenes</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F649A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 136, 5th ed. 2010, Listeria monocytogenes</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 136, 5th ed. 2010, Listeria monocytogenes. Detection in foods and feeding stuffs and enumeration in foods</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000141 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiological special tests</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F101A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiological special tests</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applies to e.g. Keimdiff, Salm test, etc.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000142 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular detection or quantification method</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F115A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular detection or quantification method</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000143 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000143">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000142"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulsed field gel electrophoresis (PFGE)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F504A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulsed field gel electrophoresis (PFGE)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000144 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morphological identification</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F120A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morphological identification</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morphological identification for insect samples</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000145 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect Immunofluorescent Antibody test (IFAT)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F121A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect Immunofluorescent Antibody test (IFAT)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A form of fluorescent antibody technique using antigen-antibody complex labelled with flourescein-conjugated anti-immunoglobulin antibody</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000146 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumeration method</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F141A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumeration method</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998 (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 2: Enumeration method) and ISO 11290-2:1998/Amd 1:2004 (Modification of the enumeration medium )</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000147 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection method of microorganisms</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F144A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection method of microorganisms</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996  (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 1: Detection method) and ISO 11290-1:1996/Amd 1:2004 (Modification of the isolation media and the haemolysis test, and inclusion of precision data )</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000148 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complement fixation test (CFT)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F148A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complement fixation test (CFT)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A serological test for detecting the presence of a specific antibody or antigen</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000149 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modified agglutination test (MAT)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F149A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modified agglutination test (MAT)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000150 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latex agglutination test (LAT)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F150A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latex agglutination test (LAT)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000151 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunoblotting (IB)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F151A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunoblotting (IB)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analytical technique used to detect specific proteins in the given sample of tissue homogenate or extract.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000152 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect ELISA (I-ELISA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F152A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect ELISA (I-ELISA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000153 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluorescent in situ hybridization (FISH)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F153A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluorescent in situ hybridization (FISH)</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cytogenetic technique that is used to detect and localize the presence or absence of specific DNA sequences on chromosomes.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000154 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolation (Cell, Egg, Mouse)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F154A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolation (Cell, Egg, Mouse)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000155 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immuno Histo Chemistry (IHC)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F155A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immuno Histo Chemistry (IHC)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000156 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunofluorenscence assay tests (IFA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F156A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunofluorenscence assay tests (IFA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000157 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staining</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F157A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staining</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000158 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-Time PCR (qualitative or quantitative)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F159A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-Time PCR (qualitative or quantitative)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000159 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct agglutination (DA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F160A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct agglutination (DA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000160 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU RL method_food_2. Rev. 2 - O104:H4</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F161A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU RL method_food_2. Rev. 2 - O104:H4</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection and identification of Verocytotoxin-producing Escherichia coli (VTEC) O104:H4 in food by Real Time PCR</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000161 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histology</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F162A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histology</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000162 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG ELISA</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F190A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG ELISA</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000163 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM-capture ELISA (MAC-ELISA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F191A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM-capture ELISA (MAC-ELISA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000164 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect hemoagglutination test (IHA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F192A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect hemoagglutination test (IHA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000165 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seroneutralisation test</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F193A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seroneutralisation test</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000166 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple-locus variable-number tandem repeat analysis (MLVA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F197A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple-locus variable-number tandem repeat analysis (MLVA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000167 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spa-typing</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F198A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spa-typing</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000168 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi locus sequence typing (MLST)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F199A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi locus sequence typing (MLST)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000169 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F500A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analytical method unknown</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000170 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole genome sequencing</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F512A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole genome sequencing</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000171 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macroscopic identification method</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F533A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macroscopic identification method</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000172 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunofluorescence method</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F537A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunofluorescence method</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000173 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Automatic digestion method for pooled samples of up to 35 g</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F543A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Automatic digestion method for pooled samples of up to 35 g</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000174 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic stirrer method for pooled sample digestion</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F544A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic stirrer method for pooled sample digestion</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000175 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically assisted pooled sample digestion method / on filter isolation technique</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F545A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically assisted pooled sample digestion method / on filter isolation technique</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000176 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically assisted pooled sample digestion method/sedimentation technique</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F547A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically assisted pooled sample digestion method/sedimentation technique</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000177 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin test</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F567A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin test</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000178 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001 or NMKL 164:2005 or DIN 10167</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F593A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001 or NMKL 164:2005 or DIN 10167</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001 or NMKL 164:2005 or DIN 10167 or any alternative method validated against these methods, according to the ISO 16140. In case of testing E. coli O157 in animal faecal samples, also related OIE method is considered an alternative validated me</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000179 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In house real time PCR methods based on ISO/TS 13136:2012</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F594A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In house real time PCR methods based on ISO/TS 13136:2012</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In house real time PCR methods based on ISO/TS 13136:2012 or any alternative method validated against this method, according to the ISO 16140 or PCR methods based on ISO/TS 13136:2012, adapted to animal samples.</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000180 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other methods based on PCR detection of vtx genes</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F595A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other methods based on PCR detection of vtx genes</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000181 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIN 10118:2004</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F596A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIN 10118:2004</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIN 10118:2004 or any alternative method validated against this method, according to the ISO 16140</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000182 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other methods based on the immunochemical detection of VT</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F597A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other methods based on the immunochemical detection of VT</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000183 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F598A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000184 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIE method for E.coli O157 in animal faecal samples</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F602A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIE method for E.coli O157 in animal faecal samples</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIE recommended method for the detection of E.coli O157 in animal faeces and any other cultural methods based on ISO 16654/2001 adapted to animal samples</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000185 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 19343:2017 Histamine</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F620A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 19343:2017 Histamine</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Detection and quantification of histamine in fish and fishery products -- HPLC method</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000186 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visual inspection</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F648A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visual inspection</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-mortem inspection of carcases carryout according to the Regulation (EC) No 854/2004</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000187 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slide agglutination according White Kauffmann Le Minor Scheme</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F650A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slide agglutination according White Kauffmann Le Minor Scheme</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000188 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slide agglutination followed by molecular serotyping (PCR or WGS)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F651A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slide agglutination followed by molecular serotyping (PCR or WGS)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000189 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flotation technique for faecal parasites</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F652A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flotation technique for faecal parasites</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000190 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-time PCR (BAX): detection of STEC and identification of serogroups O26, O111, O121, O145, O103 and O45</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F653A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-time PCR (BAX): detection of STEC and identification of serogroups O26, O111, O121, O145, O103 and O45</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000191 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000191">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000147"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection method presence in x g</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F145A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection method presence in x g</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996  (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 1: Detection method) and ISO 11290-1:1996/Amd 1:2004 (Modification of the isolation media and the haemolysis test, and inclusion of precision data )</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000192 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000192">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000158"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 15216-1:2017 Hepatitis A virus and norovirus</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F619A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 15216-1:2017 Hepatitis A virus and norovirus</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of the food chain -- Horizontal method for determination of hepatitis A virus and norovirus using real-time RT-PCR -- Part 1: Method for quantificatation</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000193 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000193">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000159"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose Bengal plate test (RBT)/Buffered Brucella antigen test (BBAT)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F520A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose Bengal plate test (RBT)/Buffered Brucella antigen test (BBAT)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000194 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000194">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000159"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serum agglutination test (SAT)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F521A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serum agglutination test (SAT)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000195 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000195">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sedimentation and Counting Technique</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F188A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sedimentation and Counting Technique</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eckert J, Deplazes P, Craig PS, Gemmell MA, Gottstein B, Heath D, et al. Echinococcosis in animals: clinical aspects, diagnosis and treatment. In: Eckert J, Gemmell MA, F.-X. Meslin, Pawlowski ZS, editors. WHO/OIE Manual on echinococcosis in humans and an</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000196 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000196">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000172"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluorescence polarisation assay (FPA)</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F538A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluorescence polarisation assay (FPA)</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000197 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000197">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000174"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic stirrer method for pooled sample digestion/on filter isolation and larva detection by a latex agglutination test</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F591A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic stirrer method for pooled sample digestion/on filter isolation and larva detection by a latex agglutination test</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000198 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000198">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000174"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial digestion test for in vivo detection of Trichinella spp. larvae in meat samples, PrioCheck Trichinella AAD Kit</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F592A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial digestion test for in vivo detection of Trichinella spp. larvae in meat samples, PrioCheck Trichinella AAD Kit</hso:HSO_0000004>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000199 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000199">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000178"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 164, 2005, 2nd Ed. Escherichia coli O157</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F139A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 164, 2005, 2nd Ed. Escherichia coli O157</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of Escherichia coli serogroup O157 in foods and feeding stuffs</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000200 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000200">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000178"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001  E. coli</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F174A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001  E. coli</hso:HSO_0000004>
+        <hso:HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for the detection of Escherichia coli O157</hso:HSO_0000005>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
