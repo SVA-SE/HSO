@@ -3288,6 +3288,24 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000201 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000201">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:label xml:lang="en">assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000202 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000202">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000201"/>
+        <rdfs:label xml:lang="en">diagnostic test type</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
@@ -7202,6 +7220,162 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 xml:lang="en">	GD	</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">	Grenada	</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">	Grenada	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT01A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT01A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT01A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT02A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT02A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serotyping</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT02A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serotyping</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT03A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT03A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phagetyping</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT03A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phagetyping</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT04A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT04A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susceptibility test</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT04A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susceptibility test</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT05A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT05A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speciation</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT05A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speciation</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT06A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT06A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Screening</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT06A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Screening</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT07A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT07A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantification</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT07A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantification</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT08A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT08A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Confirmation</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT08A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Confirmation</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT09A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT09A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determination</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT09A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determination</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT10A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT10A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumeration</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT10A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumeration</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT11A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT11A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolate characterisation</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT11A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolate characterisation</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT12A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT12A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discriminatory test</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT12A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discriminatory test</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ANLYTYP_AT13A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT13A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular characterisation/genotyping</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYTYP</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT13A</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular characterisation/genotyping</hso:HSO_0000004>
     </owl:NamedIndividual>
     
 
