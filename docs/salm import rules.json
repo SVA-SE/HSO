@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Salm","startColumn":"A","endColumn":"F","startRow":"2","endRow":"13","comment":"","rule":"Individual: @A*(rdf:ID) \nTypes: Salmonella\nAnnotations: label @B*\nAnnotations: SSD_catalogue @C*\nAnnotations: SSD_termCode @D*\nAnnotations: hasAlternativeId @E*\nFacts: isSubSpeciesOf @F*","active":true}]}
