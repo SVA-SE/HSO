@@ -26,6 +26,7 @@
         <owl:imports rdf:resource="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/matrix.owl"/>
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_assay.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_mass.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_specimen.owl"/>
         <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>

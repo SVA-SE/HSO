@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1555416221019" name="http://opendata.inra.fr/EOL/" uri="eol.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1555416221019" name="http://purl.obolibrary.org/obo/bfo.owl" uri="BFO_IAO_top.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1555416221019" name="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl" uri="campy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1555416221019" name="https://w3id.org/ahso" uri="NUTS_instances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1555416221019" name="https://w3id.org/hso/imports/NCBITaxon_import.owl" uri="NCBI_bos_sus_gallus.owl"/>
+    </group>
+</catalog>
