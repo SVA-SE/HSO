@@ -285,6 +285,15 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000239 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000239">
+        <dc:description xml:lang="en">an annotation created specifically for the NLP work of recognizing entities automatically from published/printed reports.</dc:description>
+        <rdfs:label xml:lang="en">synonyms_NLP</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -412,6 +421,321 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000203 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000203">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:label xml:lang="en">hasReportItem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000206 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000206">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:label xml:lang="en">hasTargetOrganism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000207 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000207">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000206"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:label xml:lang="en">hasTargetHazard</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000208 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000208">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000206"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <rdfs:label xml:lang="en">hasTargetHost</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000214 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000214">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label xml:lang="en">SAspecimen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000215 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000215">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">SAmatrixtype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000216 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000216">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label xml:lang="en">SAcontext</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000217 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000217">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label xml:lang="en">SAsampler</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000218 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000218">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label xml:lang="en">reportLang</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000219 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000219">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000009"/>
+        <rdfs:label xml:lang="en">reportCountry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000220 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000220">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000058"/>
+        <rdfs:label xml:lang="en">SAsampledArea</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000221 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000221">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000014"/>
+        <rdfs:label xml:lang="en">SAproductionType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000222 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000222">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000073"/>
+        <rdfs:label xml:lang="en">SAepiUnit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000223 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000223">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:label xml:lang="en">SAsamplingStrategy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000224 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000224">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000085"/>
+        <rdfs:label xml:lang="en">SAsamplesize</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000225 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000225">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label xml:lang="en">SAestablishment</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000226 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000226">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label xml:lang="en">SAdiagnTest</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000227 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000227">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000202"/>
+        <rdfs:label xml:lang="en">SAtestType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000228 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000228">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:label xml:lang="en">SAsampleWeight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000229 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000229">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
+        <rdfs:label xml:lang="en">SAsampleWeightUnit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000230 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000230">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000213"/>
+        <rdfs:label xml:lang="en">SAyear</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000231 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000231">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000083"/>
+        <rdfs:label xml:lang="en">SAsamplesTotal</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000232 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000232">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000088"/>
+        <rdfs:label xml:lang="en">SAsamplesPOS</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000233 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000233">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000084"/>
+        <rdfs:label xml:lang="en">SAsamplesNEG</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000234 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000234">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000074"/>
+        <rdfs:label xml:lang="en">SAunitsTotal</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000235 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000235">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000077"/>
+        <rdfs:label xml:lang="en">SAunitsPOS</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000236 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000236">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000080"/>
+        <rdfs:label xml:lang="en">SAunitsNEG</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000237 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000237">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000211"/>
+        <rdfs:label xml:lang="en">SAsamplesPOSperc</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000238 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000238">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000203"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000205"/>
+        <rdfs:label xml:lang="en">SAunitsPOSperc</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -463,6 +787,29 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">has decimal measurement value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000204 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000204">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label>has percentage measurement value</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1183,6 +1530,13 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000009">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000011"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">surveillance activity start date</rdfs:label>
     </owl:Class>
     
@@ -1192,6 +1546,13 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000010">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000011"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">surveillance activity end date</rdfs:label>
     </owl:Class>
     
@@ -1700,7 +2061,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000074 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
@@ -1734,7 +2095,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000077 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
@@ -1768,7 +2129,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000080 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
@@ -1802,7 +2163,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000083 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
@@ -1818,7 +2179,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000084 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
@@ -1870,7 +2231,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000088 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
@@ -3302,6 +3663,143 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000202">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000201"/>
         <rdfs:label xml:lang="en">diagnostic test type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000205 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000205">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Percentage of units positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000209 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000209">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000205"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Percentage of PSU positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000210 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000210">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000205"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Percentage of SSU positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000211 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000211">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Percentage of specimen positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000212 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:label xml:lang="en">Aggregated test results</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000213 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000213">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">surveillance activity year</rdfs:label>
     </owl:Class>
     
 
@@ -7495,6 +7993,8 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 xml:lang="en">A0C78</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">Gallus gallus broiler</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">Gallus gallus animals raised for meat production purposes. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Broiler</hso:HSO_0000005>
+        <hso:HSO_0000239 xml:lang="en">&apos;broiler chicken&apos;,&apos;broiler chickens&apos;,&apos;broiler&apos;,&apos;broilers&apos;,&apos;meat chicken&apos;,&apos;meat chickens&apos;,&apos;meat poultry&apos;,&apos;broiler poultry&apos;,&apos;slaughter chicken&apos;,&apos;slaughter chickens&apos;,&apos;slaughter poultry&apos;</hso:HSO_0000239>
+        <hso:HSO_0000239 xml:lang="en">&apos;dairy cow&apos;,&apos;dairy cows&apos;,&apos;daity cattle&apos;,&apos;milk cow&apos;,&apos;milk cows&apos;,&apos;milk cattle&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -7523,6 +8023,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 xml:lang="en">A0C9Q</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">Meat production cattle</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</hso:HSO_0000005>
+        <hso:HSO_0000239 xml:lang="en">&apos;beef cattle&apos;,&apos;beef cows&apos;,&apos;meat cattle&apos;,&apos;meat cows&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -9776,6 +10277,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G198A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">holding</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;farm&apos;,&apos;farms&apos;,&apos;PPN&apos;,&apos;property&apos;,&apos;properties&apos;,&apos;holding&apos;,&apos;holdings&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -9788,6 +10290,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G199A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;animal&apos;,&apos;animals&apos;,&apos;individual&apos;,&apos;individuals&apos;,&apos;human&apos;,&apos;person&apos;,&apos;humans&apos;,&apos;cases&apos;,&apos;case&apos;,&apos;single&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -9800,6 +10303,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G200A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slaughter batch</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;slaughter batch&apos;,&apos;slaughter batches&apos;,&apos;slaughter group&apos;,&apos;slaughter groups&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -9824,6 +10328,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G202A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herd/flock</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;herd&apos;,&apos;herds&apos;,&apos;flock&apos;,&apos;flocks&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -9899,6 +10404,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S002A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - caecum</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;caecum&apos;,&apos;caeca&apos;,&apos;ceca&apos;,&apos;cecum&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -9938,6 +10444,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S005A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - faeces</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;feces&apos;,&apos;faeces&apos;,&apos;fecal&apos;,&apos;faecal&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -10358,8 +10865,8 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003>G167A</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
-        <hso:HSO_0000003>G148A</hso:HSO_0000003>
         <hso:HSO_0000002>UNIT</hso:HSO_0000002>
+        <hso:HSO_0000003>G148A</hso:HSO_0000003>
     </rdf:Description>
 </rdf:RDF>
 
