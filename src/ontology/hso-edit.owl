@@ -285,6 +285,15 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000239 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000239">
+        <dc:description xml:lang="en">an annotation created specifically for the NLP work of recognizing entities automatically from published/printed reports.</dc:description>
+        <rdfs:label xml:lang="en">synonyms_NLP</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -7984,6 +7993,8 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 xml:lang="en">A0C78</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">Gallus gallus broiler</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">Gallus gallus animals raised for meat production purposes. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Broiler</hso:HSO_0000005>
+        <hso:HSO_0000239 xml:lang="en">&apos;broiler chicken&apos;,&apos;broiler chickens&apos;,&apos;broiler&apos;,&apos;broilers&apos;,&apos;meat chicken&apos;,&apos;meat chickens&apos;,&apos;meat poultry&apos;,&apos;broiler poultry&apos;,&apos;slaughter chicken&apos;,&apos;slaughter chickens&apos;,&apos;slaughter poultry&apos;</hso:HSO_0000239>
+        <hso:HSO_0000239 xml:lang="en">&apos;dairy cow&apos;,&apos;dairy cows&apos;,&apos;daity cattle&apos;,&apos;milk cow&apos;,&apos;milk cows&apos;,&apos;milk cattle&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -8012,6 +8023,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003 xml:lang="en">A0C9Q</hso:HSO_0000003>
         <hso:HSO_0000004 xml:lang="en">Meat production cattle</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</hso:HSO_0000005>
+        <hso:HSO_0000239 xml:lang="en">&apos;beef cattle&apos;,&apos;beef cows&apos;,&apos;meat cattle&apos;,&apos;meat cows&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -10265,6 +10277,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G198A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">holding</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;farm&apos;,&apos;farms&apos;,&apos;PPN&apos;,&apos;property&apos;,&apos;properties&apos;,&apos;holding&apos;,&apos;holdings&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -10277,6 +10290,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G199A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;animal&apos;,&apos;animals&apos;,&apos;individual&apos;,&apos;individuals&apos;,&apos;human&apos;,&apos;person&apos;,&apos;humans&apos;,&apos;cases&apos;,&apos;case&apos;,&apos;single&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -10289,6 +10303,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G200A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slaughter batch</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;slaughter batch&apos;,&apos;slaughter batches&apos;,&apos;slaughter group&apos;,&apos;slaughter groups&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -10313,6 +10328,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G202A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herd/flock</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;herd&apos;,&apos;herds&apos;,&apos;flock&apos;,&apos;flocks&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -10388,6 +10404,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S002A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - caecum</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;caecum&apos;,&apos;caeca&apos;,&apos;ceca&apos;,&apos;cecum&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
@@ -10427,6 +10444,7 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S005A</hso:HSO_0000003>
         <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - faeces</hso:HSO_0000004>
+        <hso:HSO_0000239 xml:lang="en">&apos;feces&apos;,&apos;faeces&apos;,&apos;fecal&apos;,&apos;faecal&apos;</hso:HSO_0000239>
     </owl:NamedIndividual>
     
 
