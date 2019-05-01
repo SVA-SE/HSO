@@ -1246,6 +1246,13 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000009">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000011"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">surveillance activity start date</rdfs:label>
     </owl:Class>
     
@@ -1255,6 +1262,13 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000010">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000011"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">surveillance activity end date</rdfs:label>
     </owl:Class>
     
@@ -3486,6 +3500,22 @@ One surveillance activity should have an unique identifier, to which results are
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000212">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <rdfs:label xml:lang="en">Aggregated test results</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000213 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000213">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">surveillance activity year</rdfs:label>
     </owl:Class>
     
 
