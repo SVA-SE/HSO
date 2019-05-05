@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#"
+     xml:base="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-66="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#hasDatum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#hasDatum">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen_datum"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#sampled_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#sampled_from">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#anatomical_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#anatomical_entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#anatomical_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#origin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#origin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen_datum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen_datum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen_datum"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen_from_organ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen_from_organ">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#sampled_from"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#hasDatum"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ_origin"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#hasDatum"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ_origin"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#liver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#liver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#liver_specimen_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#liver_specimen_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen"/>
+        <sampled_from rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#liver"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#liver_specimen_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#liver_specimen_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#specimen"/>
+        <hasDatum rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ_origin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ_origin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#organ_origin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66#origin"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

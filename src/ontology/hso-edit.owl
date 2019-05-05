@@ -1533,8 +1533,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000011"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">surveillance activity start date</rdfs:label>
@@ -1549,8 +1548,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000011"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">surveillance activity end date</rdfs:label>
@@ -2065,8 +2063,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">number of units tested</rdfs:label>
@@ -2099,8 +2096,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">number of units positive</rdfs:label>
@@ -2133,8 +2129,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">number of units negative</rdfs:label>
@@ -2167,8 +2162,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Number of specimen tested</rdfs:label>
@@ -2183,8 +2177,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Number of specimen negative</rdfs:label>
@@ -2235,8 +2228,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Number of specimen positive</rdfs:label>
@@ -3674,20 +3666,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange>
-                    <rdfs:Datatype>
-                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-                        <owl:withRestrictions rdf:parseType="Collection">
-                            <rdf:Description>
-                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
-                            </rdf:Description>
-                            <rdf:Description>
-                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
-                            </rdf:Description>
-                        </owl:withRestrictions>
-                    </rdfs:Datatype>
-                </owl:onDataRange>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Percentage of units positive</rdfs:label>
@@ -3699,25 +3678,6 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000209">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000205"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange>
-                    <rdfs:Datatype>
-                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-                        <owl:withRestrictions rdf:parseType="Collection">
-                            <rdf:Description>
-                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
-                            </rdf:Description>
-                            <rdf:Description>
-                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
-                            </rdf:Description>
-                        </owl:withRestrictions>
-                    </rdfs:Datatype>
-                </owl:onDataRange>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Percentage of PSU positive</rdfs:label>
     </owl:Class>
     
@@ -3727,25 +3687,6 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000210">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000205"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange>
-                    <rdfs:Datatype>
-                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-                        <owl:withRestrictions rdf:parseType="Collection">
-                            <rdf:Description>
-                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
-                            </rdf:Description>
-                            <rdf:Description>
-                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
-                            </rdf:Description>
-                        </owl:withRestrictions>
-                    </rdfs:Datatype>
-                </owl:onDataRange>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Percentage of SSU positive</rdfs:label>
     </owl:Class>
     
@@ -3758,20 +3699,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000204"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange>
-                    <rdfs:Datatype>
-                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-                        <owl:withRestrictions rdf:parseType="Collection">
-                            <rdf:Description>
-                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
-                            </rdf:Description>
-                            <rdf:Description>
-                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
-                            </rdf:Description>
-                        </owl:withRestrictions>
-                    </rdfs:Datatype>
-                </owl:onDataRange>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Percentage of specimen positive</rdfs:label>
@@ -3795,8 +3723,7 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000012"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">surveillance activity year</rdfs:label>
@@ -10385,7 +10312,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S001A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S001A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000063"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - blood</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10398,7 +10325,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S002A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S002A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - caecum</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10412,7 +10339,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S003A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S003A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - ear</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10425,7 +10352,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S004A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S004A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggs</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10438,7 +10365,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S005A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S005A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000066"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - faeces</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10452,7 +10379,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S006A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S006A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - fleece</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10465,7 +10392,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S007A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S007A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000061"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - foetus/stillbirth</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10478,7 +10405,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S008A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S008A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - lymph nodes</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10491,7 +10418,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S009A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S009A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000063"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - meat juice</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10504,7 +10431,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S010A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S010A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000063"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - milk</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10517,7 +10444,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S012A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S012A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - rectum-anal swab</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10530,7 +10457,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S013A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S013A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - vaginal swab</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10543,7 +10470,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S014A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S014A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - placental swab</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10556,7 +10483,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S015A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S015A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - nasal swab</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10569,7 +10496,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S017A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S017A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - organ/tissue</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10582,7 +10509,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S018A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S018A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - tonsil</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10596,7 +10523,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S019A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - no specified matrix</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S019A</hso:HSO_0000003>
@@ -10609,7 +10536,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S020A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - blood</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S020A</hso:HSO_0000003>
@@ -10622,7 +10549,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S021A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - carcase swabs</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S021A</hso:HSO_0000003>
@@ -10635,7 +10562,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S022A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - meat</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S022A</hso:HSO_0000003>
@@ -10648,7 +10575,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S023A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - milk</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S023A</hso:HSO_0000003>
@@ -10661,7 +10588,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S024A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - neck skin</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S024A</hso:HSO_0000003>
@@ -10674,7 +10601,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S025A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - tonsil</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S025A</hso:HSO_0000003>
@@ -10687,7 +10614,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S026A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S027A"/>
+        <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S026A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feed sample - no specified matrix</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S026A</hso:HSO_0000003>
@@ -10738,7 +10665,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S031A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S031A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000065"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - cloacal swab</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10751,7 +10678,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S032A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S032A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggshells</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10803,7 +10730,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S036A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S036A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - brain</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
@@ -10829,7 +10756,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S038A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S038A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000064"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <hso:HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - hide</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</hso:HSO_0000002>
