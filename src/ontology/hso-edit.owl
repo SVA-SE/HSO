@@ -1417,46 +1417,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A057Z</hso:HSO_0000003>
-        <hso:HSO_0000005 xml:lang="en">Live animal of the taxonomic species Gallus gallus domesticus L. The animals are commonly known as Gallus gallus (chicken) or Fowl or Chicken. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Chicken</hso:HSO_0000005>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A056J</hso:HSO_0000003>
-        <hso:HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</hso:HSO_0000005>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A057F</hso:HSO_0000003>
-        <hso:HSO_0000005 xml:lang="en">Live animals of the taxonomic species Sus domestica L., Sus scrofa domesticus L. The animals are commonly known as Pig or swine. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Domestic_pig</hso:HSO_0000005>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A057E</hso:HSO_0000003>
-        <hso:HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</hso:HSO_0000005>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C25464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25464">
@@ -8412,6 +8372,14 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_90371 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90371">
@@ -8447,6 +8415,30 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. lawsonii</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000059-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
     </owl:NamedIndividual>
     
 
@@ -9257,52 +9249,6 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:label xml:lang="en">contact material</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">MTXTYP</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">S031A</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_9031 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9031">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
-        <rdfs:label xml:lang="en">Gallus gallus</rdfs:label>
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A057Z</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_9606 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9606">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A056J</hso:HSO_0000003>
-        <hso:HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</hso:HSO_0000005>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_9823 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9823">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
-        <rdfs:label xml:lang="en">Sus scrofa</rdfs:label>
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A057F</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_9913 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9913">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <rdfs:label xml:lang="en">Bos taurus</rdfs:label>
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">A057E</hso:HSO_0000003>
-        <hso:HSO_0000004 xml:lang="en">Cattle (as animal)</hso:HSO_0000004>
     </owl:NamedIndividual>
     
 
@@ -10667,19 +10613,44 @@ One surveillance activity should have an unique identifier, to which results are
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
-        <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
         <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
+        <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
         <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
         <hso:HSO_0000002>PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <rdfs:label xml:lang="en">Gallus gallus</rdfs:label>
+        <hso:HSO_0000005 xml:lang="en">Live animal of the taxonomic species Gallus gallus domesticus L. The animals are commonly known as Gallus gallus (chicken) or Fowl or Chicken. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Chicken</hso:HSO_0000005>
+        <hso:HSO_0000003 xml:lang="en">A057Z</hso:HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</hso:HSO_0000005>
+        <hso:HSO_0000003 xml:lang="en">A056J</hso:HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000005 xml:lang="en">Live animals of the taxonomic species Sus domestica L., Sus scrofa domesticus L. The animals are commonly known as Pig or swine. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Domestic_pig</hso:HSO_0000005>
+        <rdfs:label xml:lang="en">Sus scrofa</rdfs:label>
+        <hso:HSO_0000003 xml:lang="en">A057F</hso:HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
+        <hso:HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</hso:HSO_0000005>
+        <hso:HSO_0000003 xml:lang="en">A057E</hso:HSO_0000003>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000004 xml:lang="en">Cattle (as animal)</hso:HSO_0000004>
+        <rdfs:label xml:lang="en">Bos taurus</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
         <hso:HSO_0000002>UNIT</hso:HSO_0000002>
         <hso:HSO_0000003>G167A</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
-        <hso:HSO_0000003>G148A</hso:HSO_0000003>
         <hso:HSO_0000002>UNIT</hso:HSO_0000002>
+        <hso:HSO_0000003>G148A</hso:HSO_0000003>
     </rdf:Description>
 </rdf:RDF>
 
