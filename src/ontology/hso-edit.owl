@@ -30,7 +30,7 @@
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_mass.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_specimen.owl"/>
         <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>
-        <terms:creator>Fernanda Dórea (nanda@datadrivensurveillance.org)</terms:creator>
+        <terms:creator xml:lang="datadrivensurveillance.org)">Fernanda Dórea (nanda</terms:creator>
         <terms:description xml:lang="en">An ontology to support semantic interoperability among domains involved in health surveillance (animal health, public health and food safety). More details at http://datadrivensurveillance.org.</terms:description>
         <terms:title>Health Surveillance Ontology (HSO)</terms:title>
         <rdfs:comment xml:lang="en">This is an ontology to support (one) health surveillance, focused on &quot;surveillance system level data&quot;, hat is, data outputs from surveillance activities, such as number of samples collected, cases observed, etc.</rdfs:comment>
@@ -1404,15 +1404,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_562 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
-        <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
     </rdf:Description>
     
 
@@ -7541,6 +7532,967 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1031542 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1031542">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1031542</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter volucris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1031919 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1031919">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1031919</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar faecalis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1045010 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1045010">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1045010</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O157</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000202-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O157</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1055535 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1055535">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055535</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O111</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000182-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O111</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1055536 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1055536">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055536</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1078021 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1078021">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078021</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O113:H21</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000181-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O113</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1078032 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1078032">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078032</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O45:H2</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003254-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O45</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_108619 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_108619">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:108619</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Newport</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000960-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1095706 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1095706">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1095706</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O18</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003235-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O18</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_119231 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119231">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:119231</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter faecalis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1232152 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1232152">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1232152</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H11</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1244531 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1244531">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1244531</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter iguaniorum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1365258 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1365258">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1365258</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli 151_06</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003301-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O151</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1448857 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1448857">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1448857</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter corcagiensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_149385 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_149385">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:149385</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Hadar</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001843-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_149539 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_149539">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:149539</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Enteritidis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002135-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1507806 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1507806">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1507806</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. testudinum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1780362 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1780362">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1780362</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter geochelonis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1813019 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1813019">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1813019</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hepaticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1848766 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1848766">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1848766</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ornithocola</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_192953 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_192953">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:192953</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Stanley</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001316-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:195</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyoilei</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio coli</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter coli</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000054-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:196</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirillum fetus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio fetus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000055-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1965231 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1965231">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1965231</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter pinnipediorum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:197</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ampylobacter jejuni</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio hepaticus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio jejuni</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000061-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:198</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000058-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:199</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter concisus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:200</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter curvus</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000049-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:201</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lari</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000048-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:202</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000047-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:203</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolinella recta</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter rectus</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000045-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:204</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter showae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:205</oboInOwl:hasAlternativeId>
+        <rdfs:label>Campylobacter spp</rdfs:label>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003>RF-00000042-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:206</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000064-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:207</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni-like bacterium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_244317 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_244317">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244317</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O128:H2</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000184-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O128</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_244319 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_244319">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244319</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:H11</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_260714 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_260714">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:260714</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter insulaenigrae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28079 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28079">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28079</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis-like bacterium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28080 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28080">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28080</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter upsaliensis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000043-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28898 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28898">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28898</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter helveticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28901 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28901">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_599"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28901</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003200-PAR</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_303118 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_303118">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:303118</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lawrenci</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lawrenceae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32019 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32019">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32019</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus fetus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio fetus subsp. Intestinalis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. fetus</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000056-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32020 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32020">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32020</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus venerealis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio foetus venerealis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. venerealis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000057-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32023">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32023</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. bubulus</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000065-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32024 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32024">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32024</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar sputorum</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000067-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_363569 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_363569">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:363569</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Javiana</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000895-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_374106 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_374106">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:374106</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cuniculorum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_376725 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_376725">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:376725</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H2</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_397454 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_397454">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:397454</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O142:H6</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002684-PAR</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O142</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_404394 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_404394">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404394</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:NM</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_404399 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_404399">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404399</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_449520 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_449520">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:449520</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter canadensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_48409 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_48409">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:48409</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Virchow</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001152-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_488546 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_488546">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:488546</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter peloridis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_497724 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_497724">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:497724</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter subantarcticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_522485 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_522485">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:522485</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter avium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_54736 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_54736">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_599"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:54736</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella bongori</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001328-PAR</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_562 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28901"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:59201</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003052-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_593874 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_593874">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:593874</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar paraureolyticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_595 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_595">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:595</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Infantis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001894-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_599 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_599">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:590</oboInOwl:hasAlternativeId>
+        <rdfs:label>Salmonella spp</rdfs:label>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003>RF-00000304-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_611 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_611">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:611</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Heidelberg</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001957-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_654363 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_654363">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:654366</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter troglodytis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_75658 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_75658">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:75658</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lanienae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_76517 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76517">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:76517</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Campylobacter hominis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hominis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000051-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_824 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_824">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:824</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides gracilis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter gracilis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000053-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_827 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_827">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:827</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ureolyticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_90371 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90371">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:90371</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002265-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91352 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91352">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:91352</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. hyointestinalis</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000060-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91353 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91353">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:91353</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. lawsonii</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000059-MCG</hso:HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_991913 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_991913">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991913</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H25</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_991915 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_991915">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991915</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O121:H19</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000177-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O121</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_991919 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_991919">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <hso:HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991919</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O145:NM</rdfs:label>
+        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000155-MCG</hso:HSO_0000003>
+        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O145</hso:HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#ANLYTYP_AT01A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYTYP_AT01A">
@@ -8309,890 +9261,6 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
-    <!-- https://w3id.org/hso#NCBITaxon_1031542 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1031542">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1031542</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter volucris</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1031919 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1031919">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_206"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1031919</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar faecalis</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1045010 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1045010">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1045010</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O157</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000202-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O157</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1055535 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1055535">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055535</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O111</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000182-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O111</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1055536 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1055536">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055536</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1078021 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1078021">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078021</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O113:H21</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000181-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O113</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1078032 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1078032">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078032</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O45:H2</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003254-PAR</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O45</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_108619 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_108619">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:108619</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Newport</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000960-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1095706 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1095706">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1095706</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O18</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003235-PAR</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O18</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_119231 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_119231">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:119231</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter faecalis</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1232152 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1232152">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1232152</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H11</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1244530 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1244530">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1244530</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter iguaniorum</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1365258 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1365258">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1365258</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli 151_06</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003301-PAR</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O151</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1448859 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1448859">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1448859</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter corcagiensis</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_149385 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_149385">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:149385</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Hadar</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001843-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_149539 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_149539">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:149539</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Enteritidis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002135-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1507806 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1507806">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_196"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1507806</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. testudinum</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1780363 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1780363">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1780363</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter geochelonis</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1813019 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1813019">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1813019</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hepaticus</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1848766 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1848766">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1848766</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ornithocola</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_192953 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_192953">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:192953</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Stanley</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001316-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_196 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_196">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:196</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirillum fetus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio fetus</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000055-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_1965231 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_1965231">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1965231</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter pinnipediorum</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_197 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_197">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:197</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ampylobacter jejuni</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio hepaticus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio jejuni</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000061-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_198 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_198">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:198</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000058-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_199 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_199">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:199</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter concisus</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_200 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_200">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:200</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter curvus</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000049-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_201 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_201">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:201</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lari</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000048-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_202 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_202">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:202</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000047-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_203 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_203">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:203</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolinella recta</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter rectus</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000045-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_204 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_204">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:204</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter showae</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_205 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_205">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <oboInOwl:hasAlternativeId>NCBITaxon:205</oboInOwl:hasAlternativeId>
-        <rdfs:label>Campylobacter spp</rdfs:label>
-        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003>RF-00000042-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_206 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_206">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:206</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000064-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_207 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_207">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:207</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni-like bacterium</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_244317 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_244317">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244317</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O128:H2</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000184-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O128</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_244319 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_244319">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244319</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:H11</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_260714 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_260714">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:260714</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter insulaenigrae</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_28078 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_28078">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28078</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyoilei</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio coli</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter coli</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000054-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_28079 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_28079">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28079</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis-like bacterium</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_28080 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_28080">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28080</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter upsaliensis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000043-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_28898 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_28898">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28898</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter helveticus</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_28901 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_28901">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_590"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28901</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003200-PAR</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_303118 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_303118">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:303118</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lawrenci</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lawrenceae</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_32019 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_32019">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_196"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32019</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus fetus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio fetus subsp. Intestinalis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. fetus</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000056-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_32020 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_32020">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_196"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32020</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus venerealis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio foetus venerealis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. venerealis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000057-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_32023 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_32023">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_206"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32023</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. bubulus</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000065-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_32024 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_32024">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_206"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32024</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar sputorum</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000067-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_363569 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_363569">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:363569</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Javiana</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000895-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_376725 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_376725">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:376725</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H2</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_397454 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_397454">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:397454</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O142:H6</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002684-PAR</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O142</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_404394 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_404394">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404394</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:NM</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_404399 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_404399">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404399</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_449520 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_449520">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:449520</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter canadensis</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_48409 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_48409">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:48409</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Virchow</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001152-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_488546 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_488546">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:488546</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter peloridis</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_497724 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_497724">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:497724</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter subantarcticus</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_522483 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_522483">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:522483</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter avium</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_525142 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_525142">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525142</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cuniculorum</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_54736 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_54736">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_590"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:54736</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella bongori</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001328-PAR</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_562 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_562">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
-        <rdfs:label>Escherichia coli instance</rdfs:label>
-        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_590 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_590">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <oboInOwl:hasAlternativeId>NCBITaxon:590</oboInOwl:hasAlternativeId>
-        <rdfs:label>Salmonella spp</rdfs:label>
-        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003>RF-00000304-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_59201 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_59201">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_28901"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:59201</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003052-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_593874 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_593874">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_206"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:593874</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar paraureolyticus</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_595 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_595">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:595</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Infantis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001894-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_611 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_611">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:611</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Heidelberg</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001957-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_654366 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_654366">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:654366</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter troglodytis</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_75658 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_75658">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:75658</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lanienae</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_76517 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_76517">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:76517</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Campylobacter hominis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hominis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000051-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_824 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_824">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:824</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides gracilis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter gracilis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000053-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_827 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_827">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:827</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ureolyticus</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://w3id.org/hso#NCBITaxon_9031 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_9031">
@@ -9200,45 +9268,6 @@ One surveillance activity should have an unique identifier, to which results are
         <rdfs:label xml:lang="en">Gallus gallus</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">A057Z</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_90371 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_90371">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_59201"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:90371</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002265-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_91352 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_91352">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_198"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:91352</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. hyointestinalis</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000060-MCG</hso:HSO_0000003>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_91353 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_91353">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_198"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:91353</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. lawsonii</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000059-MCG</hso:HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -9278,53 +9307,11 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
-    <!-- https://w3id.org/hso#NCBITaxon_991913 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_991913">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991913</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H25</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_991915 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_991915">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991915</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O121:H19</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000177-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O121</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#NCBITaxon_991919 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#NCBITaxon_991919">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
-        <hso:HSO_0000007 rdf:resource="https://w3id.org/hso#NCBITaxon_562"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991919</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O145:NM</rdfs:label>
-        <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000155-MCG</hso:HSO_0000003>
-        <hso:HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O145</hso:HSO_0000004>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://w3id.org/hso#PARAM_RF-00000044-MCG -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000044-MCG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter, unspecified sp.</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000044-MCG</hso:HSO_0000003>
@@ -9336,7 +9323,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000050-MCG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cryaerophilus</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000050-MCG</hso:HSO_0000003>
@@ -9348,7 +9335,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000052-MCG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_205"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermotolerant Campylobacter, unspecified</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000052-MCG</hso:HSO_0000003>
@@ -9360,7 +9347,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000062-MCG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_197"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni jejuni</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni subsp. jejuni</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
@@ -9373,7 +9360,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000066-MCG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
-        <hso:HSO_0000006 rdf:resource="https://w3id.org/hso#NCBITaxon_206"/>
+        <hso:HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. mucosalis</rdfs:label>
         <hso:HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000066-MCG</hso:HSO_0000003>
@@ -10679,13 +10666,20 @@ One surveillance activity should have an unique identifier, to which results are
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
+        <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
+        <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
+        <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
         <hso:HSO_0000002>UNIT</hso:HSO_0000002>
         <hso:HSO_0000003>G167A</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
-        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
         <hso:HSO_0000003>G148A</hso:HSO_0000003>
+        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
     </rdf:Description>
 </rdf:RDF>
 
