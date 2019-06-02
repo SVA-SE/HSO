@@ -3615,6 +3615,15 @@ One surveillance activity should have an unique identifier, to which results are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000245 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <rdfs:label xml:lang="en">sampled from datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#deprecated -->
 
     <owl:Class rdf:about="https://w3id.org/hso#deprecated">
@@ -9132,6 +9141,51 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000004 xml:lang="en">Meat production cattle</hso:HSO_0000004>
         <hso:HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</hso:HSO_0000005>
         <hso:HSO_0000239 xml:lang="en">&apos;beef cattle&apos;,&apos;beef cows&apos;,&apos;meat cattle&apos;,&apos;meat cows&apos;</hso:HSO_0000239>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000246 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000246">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000247 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000247">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000248 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000248">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000249 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000249">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000250 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000250">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">swab sample</rdfs:label>
     </owl:NamedIndividual>
     
 
