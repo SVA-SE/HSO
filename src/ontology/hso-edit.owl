@@ -605,6 +605,38 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000242 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000242">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">sampled from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000243 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000243">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000242"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <rdfs:label xml:lang="en">sampled from anatomical entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000244 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000244">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000242"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label xml:lang="en">sampled from organism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
