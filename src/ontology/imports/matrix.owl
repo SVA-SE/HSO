@@ -220,51 +220,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/genepio.owl"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000993 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000993">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent material continuant that is self-connected and retains its identity over time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/genepio.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0002743 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002743">
-        <obo:GENEPIO_0000006 xml:lang="en">specimen extraction matrix</obo:GENEPIO_0000006>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Those components of a sample that are not measured by an experiment.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/genepio.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
-        <rdfs:comment xml:lang="en">&quot;This observable is important where process of capturing sample can affect dna extraction.&quot;</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">matrix</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001730 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001730">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002743"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/genepio.owl"/>
-        <rdfs:label xml:lang="en">unknown source</rdfs:label>
-    </owl:Class>
 </rdf:RDF>
 
 

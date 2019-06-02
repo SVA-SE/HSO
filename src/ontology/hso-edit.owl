@@ -1095,22 +1095,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000993 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000993">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0002743 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0002743">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000993"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000004">
@@ -10616,8 +10600,8 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
         <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
         <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
         <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
@@ -10649,8 +10633,8 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003>G167A</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
-        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
         <hso:HSO_0000003>G148A</hso:HSO_0000003>
+        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
     </rdf:Description>
 </rdf:RDF>
 
