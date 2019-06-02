@@ -637,6 +637,17 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000251 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000251">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000068"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">hasSpecimenFromOrganismType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2077,6 +2088,12 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000061 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000061">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000246"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">whole organism</rdfs:label>
     </owl:Class>
@@ -2107,6 +2124,12 @@ One surveillance activity should have an unique identifier, to which results are
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000247"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">fluid specimen</rdfs:label>
     </owl:Class>
@@ -2122,6 +2145,12 @@ One surveillance activity should have an unique identifier, to which results are
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">organ/tissue specimen</rdfs:label>
     </owl:Class>
@@ -2131,6 +2160,12 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000065 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000065">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000250"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">swab specimen</rdfs:label>
     </owl:Class>
@@ -2144,6 +2179,12 @@ One surveillance activity should have an unique identifier, to which results are
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000174"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000249"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
@@ -3619,7 +3660,7 @@ One surveillance activity should have an unique identifier, to which results are
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
-        <rdfs:label xml:lang="en">sampled from datum</rdfs:label>
+        <rdfs:label xml:lang="en">specimen from organism type</rdfs:label>
     </owl:Class>
     
 
