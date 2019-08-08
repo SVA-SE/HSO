@@ -695,7 +695,14 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- https://w3id.org/hso#HSO_0000008 -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000008">
-        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000257"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:label xml:lang="en">surveillance  history item</rdfs:label>
     </owl:DatatypeProperty>
     
