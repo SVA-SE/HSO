@@ -1013,6 +1013,33 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000304 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000304">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000280"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000304"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000304"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">applies sampling strategy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2595,7 +2622,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000072 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000072">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:label xml:lang="en">sampling strategy</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">SAMPSTR</hso:HSO_0000002>
     </owl:Class>
