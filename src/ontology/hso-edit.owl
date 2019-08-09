@@ -854,6 +854,165 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000296 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000296">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000257"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000280"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:label xml:lang="en">target population</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000297 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000297">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000280"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001742"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000297"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000297"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">target geographical area</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000298 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000298">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000257"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000280"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000300"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000298"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000298"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">target country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000299 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000299">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000280"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000299"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000299"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">target host species</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000300 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000300">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000280"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000014"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000300"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000300"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">target host sector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000301 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000301">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000257"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label xml:lang="en">target pathogen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000302 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000302">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000257"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:label xml:lang="en">susceptible species</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1918,7 +2077,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000014 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000014">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:label xml:lang="en">livestock farming system</rdfs:label>
     </owl:Class>
     
