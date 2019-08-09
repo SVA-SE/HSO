@@ -727,8 +727,19 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- https://w3id.org/hso#HSO_0000285 -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000285">
-        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000256"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000284"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000285"/>
+        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">has surveillance actions</rdfs:label>
     </owl:ObjectProperty>
     
@@ -738,8 +749,19 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000286">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000285"/>
-        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000256"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000280"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
+        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">has sampling design</rdfs:label>
     </owl:ObjectProperty>
     
@@ -749,8 +771,19 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000287">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000285"/>
-        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000256"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000281"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000287"/>
+        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">has reporting protocol</rdfs:label>
     </owl:ObjectProperty>
     
@@ -760,8 +793,19 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000288">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000285"/>
-        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000256"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000282"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">has sample collection protocol</rdfs:label>
     </owl:ObjectProperty>
     
@@ -771,9 +815,41 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000289">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000285"/>
-        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000256"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000283"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000289"/>
+        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">has diagnostic protocol</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000295 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000295">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000295"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">has surveillance context</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2340,7 +2416,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000070 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000070">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <rdfs:label xml:lang="en">Surveillance context</rdfs:label>
         <hso:HSO_0000002 xml:lang="en">PRGTYP</hso:HSO_0000002>
     </owl:Class>
@@ -9699,6 +9775,56 @@ One surveillance activity should have an unique identifier, to which results are
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <oboInOwl:source xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</oboInOwl:source>
         <rdfs:label xml:lang="en">eradicate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000290 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000290">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <oboInOwl:source xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</oboInOwl:source>
+        <rdfs:label xml:lang="en">Continuous data collection</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000291 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000291">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <oboInOwl:source xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</oboInOwl:source>
+        <rdfs:label xml:lang="en">Sentinel surveillance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000292 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000292">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <oboInOwl:source xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</oboInOwl:source>
+        <rdfs:label xml:lang="en">Participatory surveillance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000293 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000293">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <oboInOwl:source xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</oboInOwl:source>
+        <rdfs:label xml:lang="en">Indicator−based surveillance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000294 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000294">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <oboInOwl:source xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</oboInOwl:source>
+        <rdfs:label xml:lang="en">Syndromic surveillance</rdfs:label>
     </owl:NamedIndividual>
     
 
