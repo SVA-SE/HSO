@@ -1253,6 +1253,16 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- https://w3id.org/hso#HSO_0000085 -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000085">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">calculated sample size</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1262,6 +1272,16 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000086">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000085"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">calculated number of PSU</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1271,6 +1291,16 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000087">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000085"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">calculated number of SSU</rdfs:label>
     </owl:DatatypeProperty>
     
