@@ -404,17 +404,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- https://w3id.org/hso#HSO_0000068 -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000068">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000067"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
         <rdfs:label xml:lang="en">hasSpecimenDatum</rdfs:label>
     </owl:ObjectProperty>
@@ -425,32 +416,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000069">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000068"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000060"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000069"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000069"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000069"/>
-        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">hasMatrixType</rdfs:label>
     </owl:ObjectProperty>
     
@@ -624,21 +591,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000242"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000243"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000243"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000243"/>
-        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">sampled from anatomical entity</rdfs:label>
     </owl:ObjectProperty>
     
@@ -650,21 +602,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000242"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000244"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000244"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000244"/>
-        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">sampled from organism</rdfs:label>
     </owl:ObjectProperty>
     
@@ -676,21 +613,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000068"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000251"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000251"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000251"/>
-        </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">hasSpecimenFromOrganismType</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1164,114 +1086,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000307"/>
         </owl:propertyChainAxiom>
         <rdfs:label xml:lang="en">sampling stage</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000308 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000308">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
-        </owl:propertyChainAxiom>
-        <rdfs:label xml:lang="en">sampled specimen</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000309 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000309">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000283"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000289"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000309"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000289"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000309"/>
-        </owl:propertyChainAxiom>
-        <rdfs:label xml:lang="en">employs assay</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000310 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000310">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000311"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000283"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000202"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000289"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000309"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000310"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000289"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000309"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000310"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000309"/>
-            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000310"/>
-        </owl:propertyChainAxiom>
-        <rdfs:label xml:lang="en">has diagnostic test type</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000311 -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000311">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
-                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000283"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000201"/>
-        <rdfs:label xml:lang="en">has assay datum</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1948,7 +1762,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0001790 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001790">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -4313,7 +4127,7 @@ One surveillance activity should have an unique identifier, to which results are
     <!-- https://w3id.org/hso#HSO_0000201 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
         <rdfs:label xml:lang="en">assay datum</rdfs:label>
     </owl:Class>
     
@@ -12117,8 +11931,8 @@ One surveillance activity should have an unique identifier, to which results are
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
-        <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
         <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
+        <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
         <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
         <hso:HSO_0000002>PARAM</hso:HSO_0000002>
@@ -12153,8 +11967,8 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000003>G167A</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
-        <hso:HSO_0000003>G148A</hso:HSO_0000003>
         <hso:HSO_0000002>UNIT</hso:HSO_0000002>
+        <hso:HSO_0000003>G148A</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000016">
         <hso:HSO_0000003 xml:lang="en">A0C7P</hso:HSO_0000003>
@@ -12176,8 +11990,8 @@ One surveillance activity should have an unique identifier, to which results are
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000019">
         <hso:HSO_0000005 xml:lang="en">Animals farmed for breeding purposes</hso:HSO_0000005>
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">A0C7G</hso:HSO_0000003>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <rdfs:label xml:lang="en">reproducer</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
