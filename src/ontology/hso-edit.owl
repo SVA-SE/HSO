@@ -1082,7 +1082,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000073"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
@@ -1255,6 +1255,29 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000201"/>
         <rdfs:label xml:lang="en">has assay datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000312 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000312">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/hso#HSO_0000313"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000257"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:label xml:lang="en">realized in surveillance activity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000313 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000313">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000257"/>
+        <rdfs:label xml:lang="en">realizes surveillance system</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -12103,8 +12126,8 @@ One surveillance activity should have an unique identifier, to which results are
         <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
         <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
         <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
+        <hso:HSO_0000002>PARAM</hso:HSO_0000002>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
         <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
@@ -12159,8 +12182,8 @@ One surveillance activity should have an unique identifier, to which results are
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000019">
         <hso:HSO_0000003 xml:lang="en">A0C7G</hso:HSO_0000003>
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <hso:HSO_0000005 xml:lang="en">Animals farmed for breeding purposes</hso:HSO_0000005>
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <rdfs:label xml:lang="en">reproducer</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
