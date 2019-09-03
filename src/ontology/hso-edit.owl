@@ -23,6 +23,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://w3id.org/hso">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/matrix.owl"/>
@@ -2308,6 +2309,7 @@ for now.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1515976"/>
@@ -12123,11 +12125,11 @@ One surveillance activity should have an unique identifier, to which results are
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
-        <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
         <hso:HSO_0000003>RF-00003072-PAR</hso:HSO_0000003>
+        <oboInOwl:hasAlternativeId>NCBITaxon:562</oboInOwl:hasAlternativeId>
         <hso:HSO_0000002 xml:lang="en">PARAM</hso:HSO_0000002>
-        <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
         <hso:HSO_0000002>PARAM</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">RF-00003072-PAR</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
         <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
@@ -12137,8 +12139,8 @@ One surveillance activity should have an unique identifier, to which results are
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
         <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
-        <hso:HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</hso:HSO_0000005>
         <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
+        <hso:HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</hso:HSO_0000005>
         <hso:HSO_0000003 xml:lang="en">A056J</hso:HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
@@ -12181,9 +12183,9 @@ One surveillance activity should have an unique identifier, to which results are
         <hso:HSO_0000005 xml:lang="en">Animals farmed for milk production purposes</hso:HSO_0000005>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000019">
+        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <hso:HSO_0000003 xml:lang="en">A0C7G</hso:HSO_0000003>
         <hso:HSO_0000005 xml:lang="en">Animals farmed for breeding purposes</hso:HSO_0000005>
-        <hso:HSO_0000002 xml:lang="en">MTX</hso:HSO_0000002>
         <rdfs:label xml:lang="en">reproducer</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
