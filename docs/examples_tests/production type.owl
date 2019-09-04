@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#"
+     xml:base="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-72="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionDatum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionDatum"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionPurpose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionPurpose">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionDatum"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_purpose"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionStage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionStage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionDatum"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_stage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasSpecies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasSpecies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#species"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#isFarmingSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#isFarmingSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionDatum"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#(PRE-SET)_livestock_farming_systems"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adult_broilers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adult_broilers">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionPurpose"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionStage"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adults"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasSpecies"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#chickens"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#isFarmingSystem"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adult_broilers"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#broilers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#animal_production_units -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#animal_production_units"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#beef_cows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#beef_cows">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionPurpose"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasSpecies"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#cows"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#isFarmingSystem"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#beef_cows"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#animal_production_units"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#broilers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#broilers">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasProductionPurpose"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#hasSpecies"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#chickens"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#isFarmingSystem"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#broilers"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#animal_production_units"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#pop_unit_datum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#pop_unit_datum"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#population_unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_purpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_purpose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#pop_unit_datum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_stage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_stage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#pop_unit_datum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#species"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#(PRE-SET)_livestock_farming_systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#(PRE-SET)_livestock_farming_systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#pop_unit_datum"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BeefHerd1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BeefHerd1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd"/>
+        <hasProductionPurpose rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat"/>
+        <hasSpecies rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#cows"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BeefHerd2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BeefHerd2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd"/>
+        <isFarmingSystem rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#beef_cows"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerAdultsHerd1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerAdultsHerd1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd"/>
+        <hasProductionPurpose rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat"/>
+        <hasProductionStage rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adults"/>
+        <hasSpecies rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#chickens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerAdultsHerd2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerAdultsHerd2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd"/>
+        <isFarmingSystem rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adult_broilers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerHerd1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerHerd1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd"/>
+        <hasProductionPurpose rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat"/>
+        <hasSpecies rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#chickens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerHerd2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#BroilerHerd2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#herd"/>
+        <isFarmingSystem rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#broilers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adult_broilers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adult_broilers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#(PRE-SET)_livestock_farming_systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adults -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#adults">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#beef_cows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#beef_cows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#(PRE-SET)_livestock_farming_systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#broilers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#broilers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#(PRE-SET)_livestock_farming_systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#chickens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#chickens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#species"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#cows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#cows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#species"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#meat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_purpose"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#young -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#young">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72#production_stage"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
