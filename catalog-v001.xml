@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="http://opendata.inra.fr/EOL/" uri="src/ontology/imports/eol.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="http://purl.obolibrary.org/obo/bfo.owl" uri="src/ontology/imports/BFO_IAO_top.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="duplicate:http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66" uri="docs/examples_tests/specimen%20datum.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="duplicate:http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-66" uri="docs/examples_tests/specimen%20datum2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="http://www.semanticweb.org/fernanda.dorea/ontologies/2019/4/untitled-ontology-72" uri="docs/examples_tests/production%20type.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl" uri="src/ontology/imports/campy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/ahso" uri="hso.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/NCBITaxon_import.owl" uri="src/ontology/imports/NCBI_bos_sus_gallus.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/NCBI_campy_salm_ecoli.owl" uri="src/ontology/imports/NCBI_campy_salm_ecoli.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/matrix.owl" uri="src/ontology/imports/matrix.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/obi_assay.owl" uri="src/ontology/imports/OBI_assay.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/obi_mass.owl" uri="src/ontology/imports/obi_mass.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/obi_planspec.owl" uri="src/ontology/imports/OBI_planspec.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/obi_specimen.owl" uri="src/ontology/imports/OBI_specimen.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/tax-rank.owl" uri="src/ontology/imports/NCBI_tax-rank.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/uberon_spcimen1.owl" uri="src/ontology/imports/UBERON_specimen1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="https://w3id.org/hso/imports/uberon_spcimen2.owl" uri="src/ontology/imports/uberon_spcimen2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="shadowed:https://w3id.org/ahso" uri="src/ontology/hso-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="shadowed:https://w3id.org/ahso" uri="src/ontology/hso-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567541160666" name="shadowed:https://w3id.org/ahso" uri="src/ontology/imports/NUTS_instances.owl"/>
+    </group>
+</catalog>
