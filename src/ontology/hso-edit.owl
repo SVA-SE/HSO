@@ -13,6 +13,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#">
     <owl:Ontology rdf:about="https://w3id.org/hso">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_organism.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_plannedprocess.owl"/>
         <dc:contributor>Ann Lindberg</dc:contributor>
         <dc:contributor>Crawford Revie</dc:contributor>
@@ -57,6 +58,53 @@
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000002 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000002">
+        <dc:description xml:lang="en">From the European Food Safety Agency (EFSA):
+https://zenodo.org/record/344473#.WzvvyvkzYkV
+
+The Data Collection Framework (DCF) application is constituted of an interactive web-based application that aims at facilitating data exchange, data extraction and data reusability. A harmonized terminology is used to collect and analyse data in a coherent way with the aim to support scientific research.
+
+DCF_catalogues file contains all the valid catalogues published in the DCF.  
+
+The SSD2 file contains the controlled terminologies based on the standard description of samples and analytical results (Standard Sample Description Extension), extended to cover additional data collection domains, such as zoonotic agents in food and animals, antimicrobial resistance and food additives.  
+
+This annotation points to the specific catalague, within SSD2, form which terms were imported.</dc:description>
+        <rdfs:label xml:lang="en">SSD_catalogue</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000003">
+        <dc:description xml:lang="en">&quot;This annotation gives the specific code for the concept include din the ontology. Look for this code in the specific catalogue via the annotation property &quot;&quot;SSD_catalogue&quot;&quot;.
+
+Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quot;.&quot;</dc:description>
+        <rdfs:label xml:lang="en">SSD_termCode</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000004 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000004">
+        <dc:description xml:lang="en">This annotation gives the specific term name for the concept include din the ontology. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</dc:description>
+        <rdfs:label xml:lang="en">SSDtermExtendedName</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000005 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000005">
+        <dc:description xml:lang="en">This annotation gives any additional notes. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</dc:description>
+        <rdfs:label xml:lang="en">SSD_termScopeNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -88,9 +136,17 @@
     
 
 
-    <!-- https://w3id.org/hso#HSO0000001 -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
-    <owl:Class rdf:about="https://w3id.org/hso#HSO0000001">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000001 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <dc:description xml:lang="en">A specific surveillance activity that is planned and has (or will have) associated results. A surveillance component or a surveillance system could both be a surveillance activity. 
 Ideally, every activity would have unique attributes for methods - for instance, only one sampling stage. If samples are collected in a slaughterhouse AND in farms, these would ideally be modeled as two different activities, and the appropriate properties used to declare them as linked. But since activities are not defined the same in every health surveillance sector, nor do all data support such a granularity, the class is able to model methods and results for any surveillance activity declared.
