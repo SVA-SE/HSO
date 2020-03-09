@@ -10,9 +10,12 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#">
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://w3id.org/hso">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_organism.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_plannedprocess.owl"/>
         <dc:contributor>Ann Lindberg</dc:contributor>
@@ -133,6 +136,14 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    </rdf:Description>
     
 
 
