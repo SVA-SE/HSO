@@ -167,6 +167,81 @@ One surveillance activity should have an unique identifier, to which results are
 The act of being a &quot;planned activity&quot; is used in the context of OBI, where his implies the existence of a protocol for action. Therefore, surveillance activities such as outbreak investigations, are also considered a planned process (even if the outbreak itself is not a planned occurrence, the response to one is planned for).</dc:description>
         <rdfs:label xml:lang="en">Surveillance Activity</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Gallus gallus domesticus L. The animals are commonly known as Gallus gallus (chicken) or Fowl or Chicken. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Chicken</HSO_0000005>
+        <HSO_0000003 xml:lang="en">A057Z</HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</HSO_0000005>
+        <HSO_0000003 xml:lang="en">A056J</HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000005 xml:lang="en">Live animals of the taxonomic species Sus domestica L., Sus scrofa domesticus L. The animals are commonly known as Pig or swine. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Domestic_pig</HSO_0000005>
+        <HSO_0000002 xml:lang="en">A057F</HSO_0000002>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
+        <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</HSO_0000005>
+        <HSO_0000003>A057E</HSO_0000003>
+        <HSO_0000002>MTX</HSO_0000002>
+        <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
+    </rdf:Description>
 </rdf:RDF>
 
 
