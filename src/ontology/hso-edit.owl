@@ -22,7 +22,7 @@
         <dcterms:creator>Fernanda Dórea</dcterms:creator>
         <dcterms:description xml:lang="en">An ontology to support semantic interoperability among domains involved in health surveillance (animal health, public health and food safety). More details at http://datadrivensurveillance.org.</dcterms:description>
         <dcterms:title xml:lang="en">Health Surveillance Ontology (HSO)</dcterms:title>
-        <rdfs:comment xml:lang="en">This is an ontology to support (one) health surveillance, focused on &quot;surveillance system level data&quot;, hat is, data outputs from surveillance activities, such as number of samples collected, cases observed, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is an ontology to support (one) health surveillance, focused on &quot;surveillance system level data&quot;, that is, data outputs from surveillance activities, such as number of samples collected, cases observed, etc.</rdfs:comment>
         <owl:versionInfo xml:lang="en">1.1.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -74,6 +74,32 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:label xml:lang="en">is about</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/hso#HSO0000001 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <dc:description xml:lang="en">A specific surveillance activity that is planned and has (or will have) associated results. A surveillance component or a surveillance system could both be a surveillance activity. 
+Ideally, every activity would have unique attributes for methods - for instance, only one sampling stage. If samples are collected in a slaughterhouse AND in farms, these would ideally be modeled as two different activities, and the appropriate properties used to declare them as linked. But since activities are not defined the same in every health surveillance sector, nor do all data support such a granularity, the class is able to model methods and results for any surveillance activity declared.
+
+One surveillance activity should have an unique identifier, to which results are linked.
+
+The act of being a &quot;planned activity&quot; is used in the context of OBI, where his implies the existence of a protocol for action. Therefore, surveillance activities such as outbreak investigations, are also considered a planned process (even if the outbreak itself is not a planned occurrence, the response to one is planned for).</dc:description>
+        <rdfs:label xml:lang="en">Surveillance Activity</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
