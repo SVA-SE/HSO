@@ -140,7 +140,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000004">
         <dc:description xml:lang="en">This annotation gives the specific term name for the concept include din the ontology. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</dc:description>
-        <rdfs:label xml:lang="en">SSDtermExtendedName</rdfs:label>
+        <rdfs:label xml:lang="en">SSD_termExtendedName</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -351,6 +351,103 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1045010 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1045010">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1045010</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O157</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000202-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O157</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1055535 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1055535">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055535</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O111</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000182-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O111</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1055536 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1055536">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1055536</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1078021 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1078021">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078021</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O113:H21</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000181-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O113</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1078032 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1078032">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078032</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O45:H2</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003254-PAR</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O45</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_108619 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_108619">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:108619</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Newport</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000960-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1095706 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1095706">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1095706</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O18</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003235-PAR</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O18</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_119231 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119231">
@@ -358,6 +455,20 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:119231</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter faecalis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1232152 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1232152">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1232152</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H11</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</HSO_0000004>
     </owl:NamedIndividual>
     
 
@@ -373,6 +484,20 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1365258 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1365258">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1365258</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli 151_06</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003301-PAR</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O151</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1448859 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1448859">
@@ -380,6 +505,32 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1448859</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter corcagiensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_149385 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_149385">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:149385</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Hadar</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001843-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_149539 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_149539">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:149539</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Enteritidis</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002135-MCG</HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -424,6 +575,19 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1848766</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ornithocola</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_192953 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_192953">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:192953</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Stanley</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001316-MCG</HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -594,6 +758,34 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_244317 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_244317">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244317</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O128:H2</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000184-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O128</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_244319 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_244319">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:244319</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:H11</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_260714 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_260714">
@@ -651,6 +843,19 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28898</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter helveticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28901 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28901">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_599"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28901</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003200-PAR</HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -723,6 +928,75 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_363569 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_363569">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:363569</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Javiana</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000895-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_376725 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_376725">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:376725</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H2</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_397454 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_397454">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:397454</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O142:H6</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002684-PAR</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O142</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_404394 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_404394">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404394</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26:NM</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_404399 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_404399">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:404399</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O26</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000139-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O26</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_449520 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_449520">
@@ -730,6 +1004,19 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:449520</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter canadensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_48409 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_48409">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:48409</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Virchow</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001152-MCG</HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -778,6 +1065,19 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_54736 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_54736">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_599"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:54736</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella bongori</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001328-PAR</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_562 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
@@ -794,6 +1094,19 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28901"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:59201</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003052-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_593874 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_593874">
@@ -801,6 +1114,44 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:593874</oboInOwl:hasAlternativeId>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar paraureolyticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_595 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_595">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:595</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Infantis</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001894-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_599 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_599">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:599</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella spp</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000304-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_611 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_611">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:611</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Heidelberg</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001957-MCG</HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -874,6 +1225,19 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_90371 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90371">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <HSO_0000006 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:90371</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002265-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_91352 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91352">
@@ -920,6 +1284,48 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_991913 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_991913">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991913</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O103:H25</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000175-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O103</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_991915 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_991915">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991915</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O121:H19</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000177-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O121</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_991919 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_991919">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <HSO_0000007 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:991919</oboInOwl:hasAlternativeId>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli O145:NM</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000155-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC O145</HSO_0000004>
     </owl:NamedIndividual>
     
 
@@ -985,6 +1391,42 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#PARAM_RF-00000125-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000125-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000125-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00000193-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000193-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC non-O157</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000193-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VTEC non-O157</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00003897-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00003897-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic, unspecified</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003897-MCG</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic, unspecified</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1002,8 +1444,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_590">
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella</obo:IAO_0000111>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella spp</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
         <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
@@ -1022,8 +1464,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
         <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</HSO_0000005>
-        <HSO_0000002>MTX</HSO_0000002>
         <HSO_0000003>A057E</HSO_0000003>
+        <HSO_0000002>MTX</HSO_0000002>
         <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
     </rdf:Description>
 </rdf:RDF>
