@@ -1,0 +1,2648 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/ahso#"
+     xml:base="https://w3id.org/ahso"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:EOL="http://opendata.inra.fr/EOL/#"
+     xmlns:hso="https://w3id.org/hso#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:pav="http://purl.org/pav/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:EOL1="http://opendata.inra.fr/EOL/"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:basic="http://prismstandard.org/namespaces/basic/2.0/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
+    <owl:Ontology rdf:about="https://w3id.org/hso">
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/locatedin.owl"/>
+        <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>
+        <terms:creator xml:lang="datadrivensurveillance.org)">Fernanda Dórea (nanda</terms:creator>
+        <terms:description xml:lang="en">An ontology to support semantic interoperability among domains involved in health surveillance (animal health, public health and food safety). More details at http://datadrivensurveillance.org.</terms:description>
+        <terms:title>Health Surveillance Ontology (HSO)</terms:title>
+        <rdfs:comment xml:lang="en">This is an ontology to support (one) health surveillance, focused on &quot;surveillance system level data&quot;, hat is, data outputs from surveillance activities, such as number of samples collected, cases observed, etc.</rdfs:comment>
+        <owl:versionInfo>0.1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000002 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000002">
+        <terms:description xml:lang="en">From the European Food Safety Agency (EFSA):
+https://zenodo.org/record/344473#.WzvvyvkzYkV
+
+The Data Collection Framework (DCF) application is constituted of an interactive web-based application that aims at facilitating data exchange, data extraction and data reusability. A harmonized terminology is used to collect and analyse data in a coherent way with the aim to support scientific research.
+
+DCF_catalogues file contains all the valid catalogues published in the DCF.  
+
+The SSD2 file contains the controlled terminologies based on the standard description of samples and analytical results (Standard Sample Description Extension), extended to cover additional data collection domains, such as zoonotic agents in food and animals, antimicrobial resistance and food additives.  
+
+This annotation points to the specific catalague, within SSD2, form which terms were imported.</terms:description>
+        <rdfs:label xml:lang="en">SSD_catalogue</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000003">
+        <terms:description xml:lang="en">&quot;This annotation gives the specific code for the concept include din the ontology. Look for this code in the specific catalogue via the annotation property &quot;&quot;SSD_catalogue&quot;&quot;.
+
+Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quot;.&quot;</terms:description>
+        <rdfs:label xml:lang="en">SSD_termCode</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000004 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000004">
+        <terms:description xml:lang="en">This annotation gives the specific term name for the concept include din the ontology. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</terms:description>
+        <rdfs:label xml:lang="en">SSD_temExtendedName</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000005 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000005">
+        <terms:description xml:lang="en">This annotation gives any additional notes. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</terms:description>
+        <rdfs:label xml:lang="en">SSD_termScopeNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001742">
+        <rdfs:label xml:lang="en">subnational region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25464">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000415"/>
+        <rdfs:label>Country</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/GEO_000000396</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000415 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000415">
+        <rdfs:label xml:lang="en">geopolitical region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000058 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001742"/>
+        <rdfs:comment xml:lang="en">https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics</rdfs:comment>
+        <rdfs:label xml:lang="en">NUTS region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000463 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000463">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AU	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Australia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Commonwealth of Australia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000469 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000469">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Zealand</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	New Zealand	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	New Zealand	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000558 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000558">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Turkey	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Turkey	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000560 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000560">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SD	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Sudan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of the Sudan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000562 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000562">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tunisia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Tunisia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Tunisia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000563 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000563">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algeria</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	DZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Algeria	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	People’s Democratic Republic of Algeria	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000565 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000565">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morocco</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Morocco	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Morocco	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000566 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000566">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libya</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LY	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Libya	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Libya	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000567 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000567">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiopia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ET	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Ethiopia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Federal Democratic Republic of Ethiopia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000581 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000581">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eritrea</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ER	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Eritrea	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	State of Eritrea	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000582 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000582">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Djibouti</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	DJ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Djibouti	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Djibouti	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000583 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000583">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauritania</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Mauritania	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Islamic Republic of Mauritania	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000584 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000584">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mali</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ML	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Mali	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Mali	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000585 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000585">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niger</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Niger	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Niger	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000586 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000586">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chad</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TD	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Chad	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Chad	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000591 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000591">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spain</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ES	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Spain	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Spain	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000843 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000843">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iceland</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	IS	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Iceland	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Iceland	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000904 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000904">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benin</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BJ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Benin	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Benin	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000905 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000905">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkina Faso</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BF	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Burkina Faso	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Burkina Faso	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000906 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000906">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cote d&apos;Ivoire</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CI	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Côte d’Ivoire	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Côte d’Ivoire	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000907 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000907">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gambia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	The Gambia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of The Gambia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000908 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000908">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghana</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GH	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Ghana	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Ghana	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000909 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000909">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Guinea	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Guinea	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000910 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000910">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea-Bissau</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Guinea-Bissau	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Guinea-Bissau	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000911 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000911">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liberia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Liberia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Liberia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000912 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000912">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nigeria</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Nigeria	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Federal Republic of Nigeria	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000913 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000913">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senegal</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Senegal	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Senegal	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000914 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000914">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sierra Leone</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SL	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Sierra Leone	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Sierra Leone	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000915 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000915">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Togo</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Togo	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Togolese Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001086 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001086">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Democratic Republic of the Congo</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Congo	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of the Congo	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001087 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001087">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rwanda</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	RW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Rwanda	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Rwanda	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001088 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001088">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republic of Congo</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CD	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Democratic Republic of the Congo	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Democratic Republic of the Congo	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001090 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001090">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burundi</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BI	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Burundi	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Burundi	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001091 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001091">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equatorial Guinea</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GQ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Equatorial Guinea	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Equatorial Guinea	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001092 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001092">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabon</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Gabon	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Gabonese Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001093 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001093">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cameroon</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Cameroon	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Cameroon	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001094 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001094">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republic of South Africa</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ZA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	South Africa	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of South Africa	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001095 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001095">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angola</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Angola	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Angola	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001096 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001096">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Namibia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Namibia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Namibia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001097 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001097">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Botswana</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Botswana	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Botswana	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001098">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesotho</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LS	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Lesotho	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Lesotho	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001099 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001099">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swaziland</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Swaziland	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Swaziland	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001100 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001100">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozambique</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Mozambique	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Mozambique	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001101 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001101">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenya</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Kenya	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Kenya	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001102 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001102">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uganda</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	UG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Uganda	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Uganda	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001103 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001103">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanzania</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Tanzania	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	United Republic of Tanzania	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001104 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001104">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somalia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Somalia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Federal Republic of Somalia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001105 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001105">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malawi</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Malawi	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Malawi	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001106 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001106">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zimbabwe</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ZW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Zimbabwe	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Zimbabwe	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001107 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001107">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zambia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ZM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Zambia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Zambia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001227 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001227">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cape Verde</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CV	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Cape Verde	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Cape Verde	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00001251 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001251">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbados</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BB	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Barbados	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Barbados	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002473 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002473">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	JO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Jordan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Hashemite Kingdom of Jordan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002474 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002474">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syria</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SY	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Syria	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Syrian Arab Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002476 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002476">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Israel</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	IL	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Israel	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	State of Israel	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002478 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002478">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanon</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LB	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Lebanon	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Lebanese Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002511 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002511">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolivia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Bolivia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Plurinational State of Bolivia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002522 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002522">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guyana</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GY	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Guyana	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Cooperative Republic of Guyana	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002525 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002525">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suriname</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Suriname	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Suriname	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002560 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002560">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canada</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Canada	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Canada	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002637 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002637">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United Kingdom</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GB	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	United Kingdom	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	United Kingdom of Great Britain and Northern Ireland	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002639 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002639">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002640 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002640">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wales</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002641 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002641">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">England</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002646 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002646">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin_date: 1990-10-03.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germany</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	DE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Germany	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Federal Republic of Germany	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002650 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002650">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	IT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Italy	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Italian Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002699 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002699">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norway</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Norway	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Norway	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002719 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002719">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croatia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	HR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Croatia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Croatia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002721 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002721">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin_date: 1991-12.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	RU	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Russia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Russian Federation	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002724 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002724">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ukraine</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	UA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Ukraine	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Ukraine	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002729 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002729">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweden</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Sweden	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Sweden	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002733 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002733">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Bahamas</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BS	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Bahamas	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Commonwealth of the Bahamas	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002747 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002747">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	JP	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Japan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Japan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002801 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002801">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North Korea</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KP	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	North Korea	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Democratic People’s Republic of Korea	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002825 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002825">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chile</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CL	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Chile	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Chile	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002828 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002828">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazil</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Brazil	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Federative Republic of Brazil	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002839 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002839">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">India</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002845 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002845">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	China	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	People’s Republic of China	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002852 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002852">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MX	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Mexico	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	United Mexican States	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002892 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002892">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panama</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Panama	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Panama	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002894 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002894">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honduras</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	HN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Honduras	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Honduras	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002901 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002901">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costa Rica</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Costa Rica	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Costa Rica	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002912 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002912">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecuador</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	EC	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Ecuador	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Ecuador	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002928 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002928">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argentina</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Argentina	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Argentine Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002929 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002929">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colombia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Colombia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Colombia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002930 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002930">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uruguay</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	UY	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Uruguay	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Eastern Republic of Uruguay	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002931 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002931">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Venezuela</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	VE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Venezuela	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Bolivarian Republic of Venezuela	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002932 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002932">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peru</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Peru	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Peru	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002933 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002933">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraguay</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PY	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Paraguay	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Paraguay	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002934 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002934">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belize</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Belize	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Belize	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002935 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002935">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Salvador</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SV	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	El Salvador	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of El Salvador	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002936 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002936">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guatemala</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Guatemala	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Guatemala	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002937 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002937">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finland</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	FI	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Finland	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Finland	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002938 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002938">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belgium</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Belgium	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Belgium	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002939 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002939">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poland</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PL	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Poland	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Poland	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002940 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002940">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">France</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	FR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	France	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	French Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002941 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002941">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Switzerland</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CH	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Switzerland	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Swiss Confederation	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002942 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002942">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austria</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Austria	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Austria	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002943 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002943">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ireland</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	IE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Ireland	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Ireland	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002944 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002944">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Portugal	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Portuguese Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002945 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002945">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greece</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Greece	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Hellenic Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002947 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002947">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxembourg</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LU	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Luxembourg	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Grand Duchy of Luxembourg	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002948 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002948">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andorra</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AD	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Andorra	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Principality of Andorra	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002950 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002950">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgaria</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Bulgaria	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Bulgaria	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002951 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002951">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romania</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	RO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Romania	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Romania	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002952 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002952">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hungary</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	HU	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Hungary	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Hungary	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002953 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002953">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albania</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AL	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Albania	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Albania	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002954 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002954">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czech Republic</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Czech Republic	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Czech Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002955 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002955">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovenia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SI	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Slovenia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Slovenia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002956 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002956">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slovakia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SK	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Slovakia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Slovak Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002957 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002957">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serbia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	RS	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Serbia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Serbia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002958 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002958">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO3166-2 codes for 2009 revision of admin. units seem not to have been assigned.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latvia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LV	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Latvia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Latvia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002959 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002959">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estonia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	EE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Estonia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Estonia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002960 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002960">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lithuania</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Lithuania	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Lithuania	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00002978 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00002978">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicaragua</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NI	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Nicaragua	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Nicaragua	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003102 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003102">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Marino</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	San Marino	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of San Marino	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003103 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003103">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vatican City</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	VA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	the Holy See/ Vatican City State	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	the Holy See/ Vatican City State	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003727 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003727">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indonesia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ID	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Indonesia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Indonesia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003744 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003744">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thailand</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TH	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Thailand	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Thailand	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003750 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003750">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bangladesh</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BD	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Bangladesh	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	People’s Republic of Bangladesh	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003756 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003756">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viet Nam</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	VN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Vietnam	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Socialist Republic of Vietnam	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003762 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003762">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuba</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	CU	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Cuba	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Cuba	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003767 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003767">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trinidad and Tobago</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Trinidad and Tobago	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Trinidad and Tobago	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003781 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003781">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaica</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	JM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Jamaica	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Jamaica	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003857 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003857">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monaco</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MC	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Monaco	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Principality of Monaco	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003858 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003858">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liechtenstein</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LI	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Liechtenstein	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Principality of Liechtenstein	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003897 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003897">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moldova</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MD	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Moldova	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Moldova	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003901 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003901">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brunei Darussalam</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Brunei	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Brunei Darussalam	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003902 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003902">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaysia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MY	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Malaysia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Malaysia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003920 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003920">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhutan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Bhutan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Bhutan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003922 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003922">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papua New Guinea</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Papua New Guinea	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Independent State of Papua New Guinea	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003923 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003923">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Singapore	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Singapore	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003924 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003924">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sri Lanka</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LK	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Sri Lanka	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Democratic Socialist Republic of Sri Lanka	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003926 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003926">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timor</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TL	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Timor-Leste	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Democratic Republic of Timor-Leste	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003934 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003934">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 2nd level administrative regions of Egypt are very confusuing and different sources conflicting. Those in gaz.obo are from GeoHive (http://www.xist.org/default1.aspx) and are not fully in agreement with those from the WHO (the file EGY_SALB_table.xls downloaded from http://www.who.int/whosis/database/gis/salb/salb_coding.aspx#DATA).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egypt</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	EG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Egypt	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Arab Republic of Egypt	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003952 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003952">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominican Republic</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	DO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Dominican Republic	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Dominican Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00003953 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00003953">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haiti</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	HT	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Haiti	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Haiti	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004094 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004094">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armenia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Armenia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Armenia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004399 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004399">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nepal</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NP	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Nepal	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Federal Democratic Republic of Nepal	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004474 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004474">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iran</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	IR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Iran	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Islamic Republic of Iran	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004483 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004483">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iraq</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	IQ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Iraq	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Iraq	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004525 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004525">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Philippines</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PH	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Philippines	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of the Philippines	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004941 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004941">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azerbaijan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Azerbaijan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Azerbaijan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004942 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004942">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin_date: 1936-12-05. end_date: 1990-10-20.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Georgia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Georgia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004979 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004979">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin_date: 1991-12-31.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uzbekistan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	UZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Uzbekistan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Uzbekistan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00004999 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00004999">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographically the western regions of Kazakhstan may be in Europe.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kazakhstan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KZ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Kazakhstan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Kazakhstan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005018 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005018">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkmenistan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Turkmenistan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Turkmenistan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005246 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005246">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pakistan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PK	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Pakistan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Islamic Republic of Pakistan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005279 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005279">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Saudi Arabia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Saudi Arabia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005281 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005281">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bahrain</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BH	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Bahrain	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Bahrain	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005282 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005282">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United Arab Emirates</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	United Arab Emirates	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	United Arab Emirates	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005283 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005283">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oman</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	OM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Oman	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Sultanate of Oman	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005284 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005284">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yemen</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	YE	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Yemen	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Yemen	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005285 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005285">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuwait</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Kuwait	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	State of Kuwait	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005286 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005286">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qatar</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	QA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Qatar	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	State of Qatar	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005341 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005341">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Republic of China</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Taiwan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Taiwan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00005820 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00005820">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comoros</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Comoros	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Union of the Comoros	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006882 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006882">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afghanistan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AF	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Afghanistan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Islamic Republic of Afghanistan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006883 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006883">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antigua and Barbuda</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Antigua and Barbuda	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Antigua and Barbuda	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006886 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006886">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin_date: 1990-07-27.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belarus</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BY	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Belarus	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Belarus	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006887 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006887">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bosnia and Herzegovina</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	BA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Bosnia and Herzegovina	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Bosnia and Herzegovina	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006888 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006888">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambodia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KH	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Cambodia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Cambodia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006889 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006889">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laos</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LA	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Laos	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Lao People’s Democratic Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006890 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006890">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominica</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	DM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Dominica	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Commonwealth of Dominica	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006891 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006891">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiji</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	FJ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Fiji	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Fiji	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006893 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006893">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kyrgyzstan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006894 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006894">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kiribati</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KG	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Kyrgyzstan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kyrgyz Republic	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006895 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006895">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macedonia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MK	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Former Yugoslav Republic of Macedonia, the	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Former Yugoslav Republic of Macedonia, the. This code is in accordance with ISO 3166-2, code taken from name in Macedonian: Makedonija.	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006898 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006898">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montenegro</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ME	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Montenegro	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Montenegro	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006899 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006899">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myanmar</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MM	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Myanmar/Burma	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Myanmar/Burma	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006900 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006900">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nauru</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NR	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Nauru	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Nauru	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006902 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006902">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niue Fekai</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	NU	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Niue	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Niue	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006905 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006905">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palau</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	PW	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Palau	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Palau	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006906 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006906">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Kitts-Nevis</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	KN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Saint Kitts and Nevis	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Federation of Saint Kitts and Nevis	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006909 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006909">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Lucia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	LC	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Saint Lucia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Saint Lucia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006910 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006910">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samoa</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	AS	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	American Samoa	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	American Samoa: territory of the USA.	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006912 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006912">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tajikistan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TJ	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Tajikistan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Tajikistan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006916 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006916">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tonga</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TO	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Tonga	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Kingdom of Tonga	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006918 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006918">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanuatu</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	VU	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Vanuatu	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of Vanuatu	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00006927 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00006927">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sao Tome and Principe</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	ST	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	São Tomé and Príncipe	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Democratic Republic of São Tomé and Príncipe	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00008744 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00008744">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mongolia</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	MN	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Mongolia	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Mongolia	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00009715 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00009715">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuvalu</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TV	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Tuvalu	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Tuvalu	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00011337 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00011337">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kosovo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00052663 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00052663">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begin_date: 1943-11-29. end_date: 1991-06-25. Previous to 1943: Kingdom of Yugoslavia, begins_in: 1918-12-01; end_date: 1941-04_17.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Former] Yugoslavia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00233439 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00233439">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Sudan</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	SS	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	South Sudan	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Republic of South Sudan	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00260188 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00260188">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tokelau</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	TK	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Tokelau	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Tokelau: territory of New Zealand.	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_02000565 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_02000565">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Vincent and the Grenadines</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	VC	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Saint Vincent and the Grenadines	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Saint Vincent and the Grenadines	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_02000573 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_02000573">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grenada</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">	COUNTRY	</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">	GD	</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">	Grenada	</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">	Grenada	</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#COUNTRY_CY -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#COUNTRY_CY">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label xml:lang="en">Cyprus</rdfs:label>
+        <hso:HSO_0000002 xml:lang="en">COUNTRY</hso:HSO_0000002>
+        <hso:HSO_0000003 xml:lang="en">CY</hso:HSO_0000003>
+        <hso:HSO_0000004 xml:lang="en">Cyprus</hso:HSO_0000004>
+        <hso:HSO_0000005 xml:lang="en">Republic of Cyprus</hso:HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
+        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
+        <hso:HSO_0000003>G167A</hso:HSO_0000003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
+        <hso:HSO_0000002>UNIT</hso:HSO_0000002>
+        <hso:HSO_0000003>G148A</hso:HSO_0000003>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
