@@ -22,7 +22,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
-    <owl:Ontology>
+    <owl:Ontology rdf:about="https://w3id.org/hso">
         <owl:imports rdf:resource="https://w3id.org/hso/imports/locatedin.owl"/>
         <terms:contributor>Karl Hammar, Patrick Lambrix, Noel Kennedy, Victor Oliveira, Crawford Revie, Ann Lindberg, Eva Blomqvist</terms:contributor>
         <terms:creator xml:lang="datadrivensurveillance.org)">Fernanda Dórea (nanda</terms:creator>
