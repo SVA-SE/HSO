@@ -210,6 +210,39 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000417 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000833"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achieves_planned_objective</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell sorting process achieves the objective specification &apos;material separation objective&apos;</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BP, AR, PPPB branch</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPPB branch derived</obo:IAO_0000119>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified according to email thread from 1/23/09 in accordince with DT and PPPB branch</obo:IAO_0000232>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achieves_planned_objective</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000833 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000833">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">objective_achieved_by</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation obtains between an objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process.</obo:IAO_0000115>
+        <obo:IAO_0000117>OBI</obo:IAO_0000117>
+        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">objective_achieved_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025"/>
@@ -949,6 +982,24 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:label xml:lang="en">legislative specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000264 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:label xml:lang="en">surveillance objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000265 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:label xml:lang="en">surveillance purpose</rdfs:label>
     </owl:Class>
     
 
@@ -1987,6 +2038,126 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#COUNTRY_XE">
         <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000057"/>
         <rdfs:label xml:lang="en">non European Union</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000268 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000268">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">case detection</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000269 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000269">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">demonstration of disease freedom</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000270 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000270">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">early detection</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000271 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000271">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">prevalence estimation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000272 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000272">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">verify success</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000273 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000273">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">maintain freedom</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000274 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000274">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">detect introduction</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000275 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000275">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">control outbreak</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000276 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000276">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">inform intervention</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000277 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000277">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">detect changes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000278 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000278">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">control</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000279 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000279">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000265"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">eradicate</rdfs:label>
     </owl:NamedIndividual>
     
 
