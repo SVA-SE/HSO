@@ -183,12 +183,30 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000039 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000039"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:label xml:lang="en">is about</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000581 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000581"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000583 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000583"/>
     
 
 
@@ -226,6 +244,12 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000004 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000004"/>
     
 
 
@@ -527,6 +551,136 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
         <obo:IAO_0000114 xml:lang="en">A designated area on earth is one or more areas defined by one or more boundaries.  A boundary can be defined by a polygon perimeter, a lat/long and radius, or a fiat-boundary geographic featureset like a named river channel or mountain ridge; it may have one or more names associated with it. Note that areas associated with a name may change their boundary definitions over time.</obo:IAO_0000114>
         <obo:IAO_0000117>Damion Dooley</obo:IAO_0000117>
         <rdfs:label xml:lang="en">designated area on Earth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111 xml:lang="en">data item</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Data items include counts of things, analyte concentrations, and statistical summaries.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym.</obo:IAO_0000116>
+        <obo:IAO_0000116>2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">JAR: datum     -- well, this will be very tricky to define, but maybe some 
+information-like stuff that might be put into a computer and that is 
+meant, by someone, to denote and/or to be interpreted by some 
+process... I would include lists, tables, sentences... I think I might 
+defer to Barry, or to Brian Cantwell Smith
+
+JAR: A data item is an approximately justified approximately true approximate belief</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Jonathan Rees</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">data</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000112 xml:lang="en">10 feet. 3 ml.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">a scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: we decided to keep datum singular in scalar measurement datum, as in
+this case we explicitly refer to the singular form</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Would write this as: has_part some &apos;measurement unit label&apos; and has_part some numeral and has_part exactly 2, except for the fact that this won&apos;t let us take advantage of OWL reasoning over the numbers. Instead use has measurment value property to represent the same. Use has measurement unit label (subproperty of has_part) so we can easily say that there is only one of them.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">scalar measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000111 xml:lang="en">data set</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves).</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009/10/23 Alan Ruttenberg. The intention is that this term represent collections of like data. So this isn&apos;t for, e.g. the whole contents of a cel file, which includes parameters, metadata etc. This is more like java arrays of a certain rather specific type</obo:IAO_0000116>
+        <obo:IAO_0000116>2014-05-05: Data sets are aggregates and thus must include two or more data items. We have chosen not to add logical axioms to make this restriction.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000042</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000111 xml:lang="en">measurement datum</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Examples of measurement data are the recoding of the weight of a mouse as {40,mass,&quot;grams&quot;}, the recording of an observation of the behavior of the mouse {,process,&quot;agitated&quot;}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2/2/2009 is_specified_output of some assay?</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000305</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measuring a temporal interval</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009/09/28 Alan Ruttenberg. Fucoidan-use-case</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">time measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000581"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000583"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <rdfs:label xml:lang="en">time stamped measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -1896,8 +2050,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E. coli</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E. coli</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia/Shigella coli</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli</obo:IAO_0000111>
@@ -1924,8 +2078,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
         <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</HSO_0000005>
-        <HSO_0000003>A057E</HSO_0000003>
         <HSO_0000002>MTX</HSO_0000002>
+        <HSO_0000003>A057E</HSO_0000003>
         <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
     </rdf:Description>
 </rdf:RDF>
