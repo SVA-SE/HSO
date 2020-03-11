@@ -977,6 +977,15 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000070 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:label xml:lang="en">surveillance context</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#HSO_0000261 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000261">
@@ -2162,6 +2171,56 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000290 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000290">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Continuous data collection</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000291 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000291">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Sentinel surveillance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000292 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000292">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Participatory surveillance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000293 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000293">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Indicator−based surveillance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000294 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000294">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Syndromic surveillance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#LANG_BG -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#LANG_BG">
@@ -2639,6 +2698,270 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003897-MCG</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, non-pathogenic, unspecified</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K005A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K005A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official (National) programme</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K005A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official (National) programme</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K009A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K009A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official (EU) programme</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K009A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official (EU) programme</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K010A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K010A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diet study</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K010A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diet study</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K012A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K012A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry/ private programme</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K012A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry/ private programme</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K013A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K013A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K013A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K014A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K014A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other/ Combination of several programmes</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K014A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other/ Combination of several programmes</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K018A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K018A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official (National and EU) programme</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K018A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official (National and EU) programme</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K019A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K019A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU increased control programme on imported food</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K019A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU increased control programme on imported food</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K020A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K020A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical investigations</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K020A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical investigations</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K021A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K021A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Control and eradication programmes</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K021A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Control and eradication programmes</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K022A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K022A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K022A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K023A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K023A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring - active</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K023A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring - active</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K024A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K024A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring - passive</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K024A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring - passive</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K025A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K025A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring - EFSA specifications</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K025A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monitoring - EFSA specifications</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K026A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K026A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveillance</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K026A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveillance</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K027A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K027A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey - EU baseline survey</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K027A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey - EU baseline survey</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K028A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K028A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey - national survey</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K028A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey - national survey</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K029A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K029A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K029A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K030A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K030A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveillance active</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K030A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveillance active</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K031A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K031A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveillance passive</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K031A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveillance passive</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K032A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K032A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outbreak investigation</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K032A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outbreak investigation</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PRGTYP_K033A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K033A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RASSF alert notification</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K033A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RASSF alert notification</HSO_0000004>
     </owl:NamedIndividual>
     
 
