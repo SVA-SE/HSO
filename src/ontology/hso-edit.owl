@@ -236,6 +236,27 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000262 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000262">
+        <owl:inverseOf rdf:resource="https://w3id.org/hso#HSO_0000263"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000261"/>
+        <rdfs:label xml:lang="en">has legal basis</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000263 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000263">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000261"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:label xml:lang="en">is legal basis of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -919,6 +940,15 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000059">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
         <rdfs:label xml:lang="en">language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000261 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:label xml:lang="en">legislative specification</rdfs:label>
     </owl:Class>
     
 
