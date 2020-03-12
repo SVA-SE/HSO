@@ -720,6 +720,296 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000074 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000074">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of units tested</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000075 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000075">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000074"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of PSU tested</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000076 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000076">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000074"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of SSU tested</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000077 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000077">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of units positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000078 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000078">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000077"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of PSU positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000079 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000079">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000077"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of SSU positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000080 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000080">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of units negative</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000081 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000081">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000080"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of PSU negative</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000082 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000082">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000080"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of SSU negative</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000083 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000083">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of specimen tested</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000084 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000084">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of specimen negative</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000085 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000085">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">calculated sample size</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000086 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000086">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000085"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">calculated number of PSU</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000087 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000087">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000085"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">calculated number of SSU</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000088 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000088">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of specimen positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000205 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000205">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Percentage of units positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000209 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000209">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000205"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Percentage of PSU positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000210 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000210">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000205"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Percentage of SSU positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000211 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000211">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">percentage of specimen positive</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000212 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000212">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:label xml:lang="en">surveillance activity aggregated results</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://w3id.org/hso#HSO_0000213 -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000213">
@@ -3875,8 +4165,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000003 xml:lang="en">A057Z</HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</HSO_0000005>
         <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</HSO_0000005>
         <HSO_0000003 xml:lang="en">A056J</HSO_0000003>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
@@ -3886,8 +4176,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
         <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</HSO_0000005>
-        <HSO_0000003>A057E</HSO_0000003>
         <HSO_0000002>MTX</HSO_0000002>
+        <HSO_0000003>A057E</HSO_0000003>
         <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000016">
