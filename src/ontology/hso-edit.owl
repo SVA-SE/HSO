@@ -645,6 +645,33 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000306 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000306">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000306"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000306"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">has sampler type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1398,6 +1425,16 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <rdfs:label xml:lang="en">surveillance context</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000071 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">surveillance sampler type</rdfs:label>
+        <HSO_0000002 xml:lang="en">SAMPLR</HSO_0000002>
     </owl:Class>
     
 
@@ -3521,6 +3558,96 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K033A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RASSF alert notification</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPLR_CX01A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR_CX01A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry sampling</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLR</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX01A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry sampling</HSO_0000004>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sampling performed by the industry.</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPLR_CX02A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR_CX02A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official sampling</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLR</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX02A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official sampling</HSO_0000004>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sampling performed under the control of the competent authority.</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPLR_CX03A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR_CX03A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official and industry sampling</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLR</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX03A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official and industry sampling</HSO_0000004>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sampling performed under the control of the competent authority and by industry.</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPLR_CX04A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR_CX04A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HACCP and own check</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLR</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX04A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HACCP and own check</HSO_0000004>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programme designed to effectively control processes by identifying critical control points (CCPs), establishing critical limits for each CCP, monitoring CCPs, gathering data, keeping records, and implementing corrective actions and verification procedures. HACCP is applied by the food or feed business operators (Codex Alimentarius).</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPLR_CX05A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR_CX05A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Private sampling</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLR</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX05A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Private sampling</HSO_0000004>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sampling performed by private people/entities like pet owner, farmer, pet shop employee, private veterinarian (on request of a farmer or a pet owner or another private entity). Private sampler should be used in the following cases: the owner of a pet who takes a sample from its clinical suspected pet animal; the owner or vet of a zoo/circus who collects samples from animals of the zoo/circus to be diagnosed for a specific disease. Private sampler should not be used when veterinarians/owner/hunters are commissioned by the Competent Authorities or perform sampling within a specific legislation and for which a pre-determined sampling programme for monitoring/surveillance exists (in this case the sampler should be ‘Official sampling’).</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPLR_CX06A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR_CX06A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official, based on Regulation 854/2004</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLR</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX06A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official, based on Regulation 854/2004</HSO_0000004>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official, based on Regulation 854/2004</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPLR_CX99A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR_CX99A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000071"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not applicable</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLR</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX99A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not applicable</HSO_0000004>
     </owl:NamedIndividual>
     
 
