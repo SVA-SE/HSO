@@ -1166,6 +1166,56 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000014 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label xml:lang="en">livestock farming system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000015 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000015">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000014"/>
+        <rdfs:label xml:lang="en">product oriented farming type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000016 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000016">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000017 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000017">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000018 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000018">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000019 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000019">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000015"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#HSO_0000057 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000057">
@@ -2339,6 +2389,77 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000016 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000016">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000017 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000017">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000018 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000018">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000018"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000019 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000019">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000019"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000020 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000020">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
+        <rdfs:label xml:lang="en">broiler chickens</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A0C78</HSO_0000003>
+        <HSO_0000004 xml:lang="en">Gallus gallus broiler</HSO_0000004>
+        <HSO_0000005 xml:lang="en">Gallus gallus animals raised for meat production purposes. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Broiler</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000021 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000021">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000018"/>
+        <rdfs:label xml:lang="en">dairy cattle</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A0C9L</HSO_0000003>
+        <HSO_0000004 xml:lang="en">Dairy cows</HSO_0000004>
+        <HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for milk production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Dairy_cattle</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000022 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000022">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
+        <rdfs:label xml:lang="en">beef cattle</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A0C9Q</HSO_0000003>
+        <HSO_0000004 xml:lang="en">Meat production cattle</HSO_0000004>
+        <HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#HSO_0000268 -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000268">
@@ -3491,6 +3612,31 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000003>A057E</HSO_0000003>
         <HSO_0000002>MTX</HSO_0000002>
         <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000016">
+        <HSO_0000003 xml:lang="en">A0C7P</HSO_0000003>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <rdfs:label xml:lang="en">egg production</rdfs:label>
+        <HSO_0000005 xml:lang="en">Animals farmed for egg production purposes</HSO_0000005>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000017">
+        <HSO_0000003 xml:lang="en">A0C7G</HSO_0000003>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <rdfs:label xml:lang="en">meat production</rdfs:label>
+        <HSO_0000005 xml:lang="en">Animals farmed for meat production purposes</HSO_0000005>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000018">
+        <HSO_0000005 xml:lang="en">milk production</HSO_0000005>
+        <HSO_0000003 xml:lang="en">A0C7N</HSO_0000003>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <rdfs:label xml:lang="en">milk production</rdfs:label>
+        <HSO_0000005 xml:lang="en">Animals farmed for milk production purposes</HSO_0000005>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000019">
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A0C7G</HSO_0000003>
+        <HSO_0000005 xml:lang="en">Animals farmed for breeding purposes</HSO_0000005>
+        <rdfs:label xml:lang="en">reproducer</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
