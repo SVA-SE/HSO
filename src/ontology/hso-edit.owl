@@ -7,6 +7,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/"
@@ -18,6 +20,7 @@
         <owl:imports rdf:resource="https://w3id.org/hso/imports/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_organism.owl"/>
         <owl:imports rdf:resource="https://w3id.org/hso/imports/obi_plannedprocess.owl"/>
+        <owl:imports rdf:resource="https://w3id.org/hso/imports/uberon_spcimen1.owl"/>
         <dc:contributor>Ann Lindberg</dc:contributor>
         <dc:contributor>Crawford Revie</dc:contributor>
         <dc:contributor>Eva Blomqvist</dc:contributor>
@@ -210,6 +213,24 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000417 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417">
@@ -243,6 +264,95 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:IAO_0000111 xml:lang="en">bearer of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this apple is bearer of this red color</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this vase is bearer of this fragility</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">bearer of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000081 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000112 xml:lang="en">this person has role this investigator role (more colloquially: this person has this role of investigator)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001001"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001001"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this cell derives from this parent cell (cell division)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this nucleus derives from this parent nucleus (nuclear division)</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is a very general relation. More specific relations are preferred when applicable, such as &apos;directly develops from&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">derives_from</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">derives from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025"/>
@@ -265,6 +375,159 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:label xml:lang="en">isSerotypeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000067 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000067">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">has datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000068 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000068">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <rdfs:label xml:lang="en">has specimen datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000069 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000069">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000068"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000069"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000069"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000069"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">has matrix type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000242 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000242">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">sampled from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000243 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000243">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000242"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000243"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000243"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000243"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">sampled from anatomical entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000244 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000244">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000242"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000244"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000244"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000244"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">sampled from organism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000251 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000251">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000068"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000251"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000251"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000251"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">has specimen from organism type</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -699,6 +962,33 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000308 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000308">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000282"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000258"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000288"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000308"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">sampled specimen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1090,6 +1380,30 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent material continuant that is self-connected and retains its identity over time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000993"/>
+        <obo:GENEPIO_0000006 xml:lang="en">specimen extraction matrix</obo:GENEPIO_0000006>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Those components of a sample that are not measured by an experiment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+        <rdfs:comment xml:lang="en">&quot;This observable is important where process of capturing sample can affect dna extraction.&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">matrix</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000004">
@@ -1296,6 +1610,37 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0001790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">This is a catch-all category for listing specimen related terms</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">specimen datum</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0000027"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001196"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001429"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001532"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001724"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001808"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0002094"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0001884"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0001889"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0001903"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/GENEPIO_0002105</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/OBI_0001616</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0001886 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001886">
@@ -1331,6 +1676,7 @@ JAR: A data item is an approximately justified approximately true approximate be
         <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON: Jonathan Rees</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">data</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">data item</rdfs:label>
     </owl:Class>
     
@@ -1587,6 +1933,45 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen role</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver section; a portion of a culture of cells; a nemotode or other animal once no longer a subject (generally killed); portion of blood from a patient.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a role borne by a material entity that is gained during a specimen collection process and that can be realized by use of the specimen in an investigation</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22Jun09.  The definition includes whole organisms, and can include a human.  The link between specimen role and study subject role has been removed.  A specimen taken as part of a case study is not considered to be a population representative, while a specimen taken as representing a population, e.g. person taken from a cohort, blood specimen taken from an animal) would be considered a population representative and would also bear material sample role.</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">blood taken from animal: animal continues in study, whereas blood has role specimen.
+something taken from study subject, leaves the study and becomes the specimen.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">parasite example
+- when parasite in people we study people, people are subjects and parasites are specimen
+- when parasite extracted, they become subject in the following study
+specimen can later be subject.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP:  Role Branch</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">specimen role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
@@ -1648,6 +2033,66 @@ for now.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000659">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>specimen collection process</obo:IAO_0000111>
+        <obo:IAO_0000112>drawing blood from a patient for analysis, collecting a piece of a plant for depositing in a herbarium, buying meat from a butcher in order to measure its protein content in an investigation</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process with the objective of collecting a specimen.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation.</obo:IAO_0000116>
+        <obo:IAO_0000116>Philly2013: A specimen collection can have as part a material entity acquisition, such as ordering from a bank. The distinction is that specimen collection necessarily involves the creation of a specimen role. However ordering cell lines cells from ATCC for use in an investigation is NOT a specimen collection, because the cell lines already have a specimen role.</obo:IAO_0000116>
+        <obo:IAO_0000116>Philly2013: The specimen_role for the specimen is created during the specimen collection process.</obo:IAO_0000116>
+        <obo:IAO_0000116>label  changed to &apos;specimen collection process&apos; on 10/27/2014, details see tracker:
+http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000118>specimen collection</obo:IAO_0000118>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/31/2012: This process is not necessarily an acquisition, as specimens may be collected from materials already in posession</obo:IAO_0000232>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6/9/09: used at workshop</obo:IAO_0000232>
+        <rdfs:label>specimen collection process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000111>specimen collection objective</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The objective to collect bits of excrement in the rainforest. The objective to obtain a blood sample from a patient.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A objective specification to obtain a material entity for potential use as an input during an investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000119>
+        <rdfs:label>specimen collection objective</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000844">
@@ -1670,6 +2115,42 @@ for now.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100051">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000112"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">specimen</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biobanking of blood taken and stored in a freezer for potential future investigations stores specimen.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A material entity that has the specimen role.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note: definition is in specimen creation objective which is defined as an objective to obtain and store a material entity for potential use as an input during an investigation.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP: OBI Biomaterial Branch</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </rdf:Description>
     
@@ -1801,6 +2282,117 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000060 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <rdfs:label xml:lang="en">matrix type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000061 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000061">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000246"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">whole organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000062 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000062">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000242"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label xml:lang="en">matrix from organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000063 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000063">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000247"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">fluid specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000064 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000064">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">organ/tissue specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000065 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000065">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000250"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">swab specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000066 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000066">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000174"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000249"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
+        <rdfs:label xml:lang="en">excreta specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#HSO_0000070 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000070">
@@ -1834,6 +2426,75 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:label xml:lang="en">sampling unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000245 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <rdfs:label xml:lang="en">specimen from organism type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000252 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000252">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000069"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#ZOO_CAT_SMPTYP_S027A"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label xml:lang="en">specimen by origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000253 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000253">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000069"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
+        <rdfs:label xml:lang="en">animal sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000254 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000254">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000069"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#MTXTYP_S019A"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
+        <rdfs:label xml:lang="en">food sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000255 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000255">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000069"/>
+                <owl:hasValue rdf:resource="https://w3id.org/hso#ZOO_CAT_SMPTYP_S027A"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
+        <rdfs:label xml:lang="en">environmental sample</rdfs:label>
     </owl:Class>
     
 
@@ -3791,6 +4452,334 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000017 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000017">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000017"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000029 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000029"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000059 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000059">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000059"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000160 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000160">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000160"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000912 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000912">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000912"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000922 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000922">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000945 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000945">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000945"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000955 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001043 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001043">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001043"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001052 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001052">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001052"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001090 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001090">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001153 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001153">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001155 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001155">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001155"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001173 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001173">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001173"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001264 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001264">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001484 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001484">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001484"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001911 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001911">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001913 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001913"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001969 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001969">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001969"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001970 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001970">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001970"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001987 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001987">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001987"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001988 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0001988">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002107 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002108 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002108">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002108"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002114 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002114">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002115 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002115">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002115"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002116 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002116">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002116"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002268 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002268">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002268"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002391 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002391">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002391"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0004176">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004176"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006562 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0006562">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006562"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007364 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0007364">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007364"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007379 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0007379">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007379"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008861 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0008861">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008861"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009708 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0009708">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009708"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009709 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0009709">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009709"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015410 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0015410">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015410"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0034874 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0034874">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0034874"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#COUNTRY_EU -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#COUNTRY_EU">
@@ -3876,6 +4865,51 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000003 xml:lang="en">A0C9Q</HSO_0000003>
         <HSO_0000004 xml:lang="en">Meat production cattle</HSO_0000004>
         <HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000246 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000246">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000247 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000247">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000248 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000248">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000249 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000249">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000250 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000250">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">swab sample</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4430,6 +5464,82 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANG</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZH</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTXTYP_S000A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S000A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">animal sample</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTXTYP</HSO_0000002>
+        <HSO_0000003 xml:lang="en">S000A</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTXTYP_S019A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S019A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">food sample</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTXTYP</HSO_0000002>
+        <HSO_0000003 xml:lang="en">S019A</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTXTYP_S023A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S023A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">food stimulant</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTXTYP</HSO_0000002>
+        <HSO_0000003 xml:lang="en">S023A</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTXTYP_S026A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S026A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">feed sample</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTXTYP</HSO_0000002>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTXTYP_S027A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S027A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">Environmental sample</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTXTYP</HSO_0000002>
+        <HSO_0000003 xml:lang="en">S027A</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTXTYP_S030A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S030A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">unknown</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTXTYP</HSO_0000002>
+        <HSO_0000003 xml:lang="en">S030A</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTXTYP_S031A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTXTYP_S031A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000060"/>
+        <rdfs:label xml:lang="en">Contact material</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTXTYP</HSO_0000002>
+        <HSO_0000003 xml:lang="en">S031A</HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -5126,6 +6236,462 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G243A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pen</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S000A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S000A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S000A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S001A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S001A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - blood</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S001A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - blood</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S002A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S002A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - caecum</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S002A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - caecum</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S003A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S003A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - ear</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S003A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - ear</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S004A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S004A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggs</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S004A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggs</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S005A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S005A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - faeces</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S005A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - faeces</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S006A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S006A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - fleece</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S006A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - fleece</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S007A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S007A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - foetus/stillbirth</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S007A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - foetus/stillbirth</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S008A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S008A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - lymph nodes</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S008A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - lymph nodes</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S009A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S009A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - meat juice</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S009A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - meat juice</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S010A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S010A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - milk</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S010A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - milk</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S012A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S012A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - rectum-anal swab</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S012A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - rectum-anal swab</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S013A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S013A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - vaginal swab</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S013A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - vaginal swab</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S014A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S014A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - placental swab</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S014A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - placental swab</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S015A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S015A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - nasal swab</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S015A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - nasal swab</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S017A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S017A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - organ/tissue</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S017A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - organ/tissue</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S018A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S018A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - tonsil</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S018A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - tonsil</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S019A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S019A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S019A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S020A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S020A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - blood</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S020A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - blood</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S021A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S021A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - carcase swabs</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S021A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - carcase swabs</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S022A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S022A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - meat</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S022A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - meat</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S023A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S023A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - milk</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S023A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - milk</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S024A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S024A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - neck skin</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S024A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - neck skin</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S025A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S025A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - tonsil</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S025A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food sample - tonsil</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S026A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S026A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feed sample</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S026A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feed sample</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S027A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S027A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S027A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S028A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S028A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S028A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S029A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S029A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - dust</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S029A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - dust</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S030A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S030A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unknown</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S030A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unknown</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S031A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S031A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - cloacal swab</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S031A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - cloacal swab</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S032A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S032A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggshells</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S032A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - eggshells</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S033A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S033A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - air</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S033A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - air</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S034A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S034A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - fabric swab</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S034A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - fabric swab</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S035A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S035A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - hatcher basket liner</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S035A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - hatcher basket liner</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S036A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S036A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - brain</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S036A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - brain</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S037A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S037A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - delivery box liner</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S037A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - delivery box liner</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S038A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S038A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - hide</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S038A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal sample - hide</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_SMPTYP_S039A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_SMPTYP_S039A">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs and dust</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_SMPTYP</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S039A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental sample - boot swabs and dust</HSO_0000004>
     </owl:NamedIndividual>
     
 
