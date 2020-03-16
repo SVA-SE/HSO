@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"instances","startColumn":"A","endColumn":"E","startRow":"2","endRow":"82","comment":"","rule":"Class: @A* SubClassOf: organization \nAnnotations: SSD_termCode @B*\nAnnotations: label @C*\nAnnotations: SSD_catalogue @D*\nAnnotations: SSD_termExtendedName @E*","active":true}]}

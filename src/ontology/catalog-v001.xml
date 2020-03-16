@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/obi_plannedprocess.owl" uri="imports/obi_plannedprocess.owl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/obi_planspec.owl" uri="imports/OBI_planspec.owl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/tax-rank.owl" uri="imports/NCBI_tax-rank.owl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/NCBI_campy_salm_ecoli.owl" uri="imports/NCBI_campy_salm_ecoli.owl"/>
+    <uri id="Imports Wizard Entry" name="http://opendata.inra.fr/EOL/eol_ontology" uri="imports/eol.owl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/hso" uri="imports/NUTS_instances.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="imports/BFO_IAO_top.owl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/obi_assay.owl" uri="imports/OBI_assay.owl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/obi_mass.owl" uri="imports/obi_mass.owl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/matrix.owl" uri="imports/matrix.owl"/>
     <uri id="Imports Wizard Entry" name="https://w3id.org/hso/imports/obi_specimen.owl" uri="imports/OBI_specimen.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="http://opendata.inra.fr/EOL/" uri="imports/eol.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/BFO_IAO_top.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl" uri="imports/campy.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="https://w3id.org/ahso" uri="hso-edit.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="https://w3id.org/hso/imports/NCBITaxon_import.owl" uri="imports/NCBI_bos_sus_gallus.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="https://w3id.org/hso/imports/matrix.owl" uri="imports/matrix.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="https://w3id.org/hso/imports/obi_mass.owl" uri="imports/obi_mass.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="https://w3id.org/hso/imports/obi_specimen.owl" uri="imports/OBI_specimen.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="https://w3id.org/hso/imports/uberon_spcimen1.owl" uri="imports/UBERON_specimen1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1556309911637" name="shadowed:https://w3id.org/ahso" uri="imports/NUTS_instances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="http://opendata.inra.fr/EOL/" uri="imports/old%20imports/eol.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/BFO_IAO_top.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://github.com/nandadorea/HSO/tree/master/src/ontology/imports/Campy.owl" uri="imports/old%20imports/campy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/ahso" uri="hso-edit_archived20200226.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso" uri="hso-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/NCBITaxon_import.owl" uri="imports/old%20imports/NCBI_bos_sus_gallus.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/NCBI_campy_salm_ecoli.owl" uri="imports/old%20imports/NCBI_campy_salm_ecoli.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/matrix.owl" uri="imports/old%20imports/matrix.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/obi_assay.owl" uri="imports/old%20imports/OBI_assay.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/obi_mass.owl" uri="imports/old%20imports/obi_mass.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/obi_plannedprocess.owl" uri="imports/obi_plannedprocess.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/obi_planspec.owl" uri="imports/old%20imports/OBI_planspec.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/obi_specimen.owl" uri="imports/old%20imports/OBI_specimen.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/tax-rank.owl" uri="imports/old%20imports/NCBI_tax-rank.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/uberon_spcimen1.owl" uri="imports/old%20imports/UBERON_specimen1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://w3id.org/hso/imports/uberon_spcimen2.owl" uri="imports/old%20imports/uberon_spcimen2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="https://www.w3id.org/hso" uri="hso-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="shadowed:https://w3id.org/ahso" uri="imports/old%20imports/NUTS_instances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1582729499678" name="shadowed:https://w3id.org/hso/imports/obi_plannedprocess.owl" uri="imports/original%20import%20files/obi_plannedprocess.owl"/>
     </group>
 </catalog>
