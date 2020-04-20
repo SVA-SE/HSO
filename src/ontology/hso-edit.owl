@@ -16,7 +16,6 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://w3id.org/hso">
-        <owl:imports rdf:resource="file:/C:/Users/fernanda.dorea/SVA/EJP_ORION%20-%20Documents/WP3/EXCEL%20TEMPLATES/data%20samples%20to%20RDF/Campy%20SE%202017_2013%20first%20template.rdf"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <dc:contributor>Crawford Revie</dc:contributor>
         <dc:contributor>Eva Blomqvist</dc:contributor>
@@ -10318,11 +10317,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F164A">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#ANLYMD_PRVAM_F099A"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</rdfs:label>
-        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
-        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F164A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</HSO_0000004>
-        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 2: Colony-count technique</HSO_0000005>
     </owl:Class>
     
 
@@ -16264,6 +16258,12 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#ANLYMD_PRVAM_F164A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F164A"/>
+    
+
+
     <!-- https://w3id.org/hso#ANLYMD_PRVAM_F617A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F617A">
@@ -18357,6 +18357,348 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#SAMPLR%20_CX03A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPLR%20_CX03A"/>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR%20_ST30A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR%20_ST30A"/>
+    
+
+
+    <!-- https://w3id.org/hso#SAMPSTR%20_ST50A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR%20_ST50A"/>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20people%202013&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20people%202013&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000249"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000268"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000278"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K020A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST30A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G199A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E210A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20people%202014&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20people%202014&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000249"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000268"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000278"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K020A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST30A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G199A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E210A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20people%202015&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20people%202015&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000249"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000268"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000278"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K020A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST30A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G199A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E210A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20people%202016&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20people%202016&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000249"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000268"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000278"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K020A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST30A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G199A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E210A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20people%202017&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20people%202017&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000249"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000268"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000278"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K020A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST30A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G199A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E210A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20people%202018&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20people%202018&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000249"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000268"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000278"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K020A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST30A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G199A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E210A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20slaughterhouses%202013&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20slaughterhouses%202013&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000271"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000277"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K023A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000300 rdf:resource="https://w3id.org/hso#HSO_0000020"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST50A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G200A"/>
+        <HSO_0000306 rdf:resource="https://w3id.org/hso#SAMPLR%20_CX03A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E311A"/>
+        <HSO_0000309 rdf:resource="https://w3id.org/hso#ANLYMD_PRVAM_F164A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20slaughterhouses%202014&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20slaughterhouses%202014&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000271"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000277"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K023A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000300 rdf:resource="https://w3id.org/hso#HSO_0000020"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST50A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G200A"/>
+        <HSO_0000306 rdf:resource="https://w3id.org/hso#SAMPLR%20_CX03A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E311A"/>
+        <HSO_0000309 rdf:resource="https://w3id.org/hso#ANLYMD_PRVAM_F164A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20slaughterhouses%202015&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20slaughterhouses%202015&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000271"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000277"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K023A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000300 rdf:resource="https://w3id.org/hso#HSO_0000020"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST50A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G200A"/>
+        <HSO_0000306 rdf:resource="https://w3id.org/hso#SAMPLR%20_CX03A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E311A"/>
+        <HSO_0000309 rdf:resource="https://w3id.org/hso#ANLYMD_PRVAM_F164A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20slaughterhouses%202016&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20slaughterhouses%202016&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000271"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000277"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K023A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000300 rdf:resource="https://w3id.org/hso#HSO_0000020"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST50A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G200A"/>
+        <HSO_0000306 rdf:resource="https://w3id.org/hso#SAMPLR%20_CX03A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E311A"/>
+        <HSO_0000309 rdf:resource="https://w3id.org/hso#ANLYMD_PRVAM_F164A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20slaughterhouses%202017&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20slaughterhouses%202017&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000271"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000277"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K023A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000300 rdf:resource="https://w3id.org/hso#HSO_0000020"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST50A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G200A"/>
+        <HSO_0000306 rdf:resource="https://w3id.org/hso#SAMPLR%20_CX03A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E311A"/>
+        <HSO_0000309 rdf:resource="https://w3id.org/hso#ANLYMD_PRVAM_F164A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#campy%20sweden%20slaughterhouses%202018&apos; -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#campy%20sweden%20slaughterhouses%202018&apos;">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <HSO_0000069 rdf:resource="https://w3id.org/hso#MTXTYP_S000A"/>
+        <HSO_0000243 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <HSO_0000244 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000251 rdf:resource="https://w3id.org/hso#HSO_0000248"/>
+        <HSO_0000266 rdf:resource="https://w3id.org/hso#HSO_0000271"/>
+        <HSO_0000267 rdf:resource="https://w3id.org/hso#HSO_0000277"/>
+        <HSO_0000295 rdf:resource="https://w3id.org/hso#PRGTYP_K023A"/>
+        <HSO_0000298 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+        <HSO_0000299 rdf:resource="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000300 rdf:resource="https://w3id.org/hso#HSO_0000020"/>
+        <HSO_0000304 rdf:resource="https://w3id.org/hso#SAMPSTR%20_ST50A"/>
+        <HSO_0000305 rdf:resource="https://w3id.org/hso#SAMPUNTYP_G200A"/>
+        <HSO_0000306 rdf:resource="https://w3id.org/hso#SAMPLR%20_CX03A"/>
+        <HSO_0000307 rdf:resource="https://w3id.org/hso#SAMPNT_E311A"/>
+        <HSO_0000309 rdf:resource="https://w3id.org/hso#ANLYMD_PRVAM_F164A"/>
+        <HSO_0000310 rdf:resource="https://w3id.org/hso#ANLYTYP_AT01A"/>
+        <HSO_0000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</HSO_0000213>
+        <HSO_0000260 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</HSO_0000260>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#http://purl.obolibrary.org/obo/GAZ_00002729"/>
+    
+
+
+    <!-- https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+    
+
+
+    <!-- https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001153"/>
+    
+
+
+    <!-- https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#http://purl.obolibrary.org/obo/UBERON_0001988"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -18385,8 +18727,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/081-003"/>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E. coli</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia/Shigella coli</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli</obo:IAO_0000111>
@@ -18412,8 +18754,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home sapiens</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
@@ -18437,12 +18779,12 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
-        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sus scrofus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <HSO_0000005 xml:lang="en">Live animals of the taxonomic species Sus domestica L., Sus scrofa domesticus L. The animals are commonly known as Pig or swine. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Domestic_pig</HSO_0000005>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <HSO_0000005 xml:lang="en">Live animals of the taxonomic species Sus domestica L., Sus scrofa domesticus L. The animals are commonly known as Pig or swine. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Domestic_pig</HSO_0000005>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wild boar</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pig</oboInOwl:hasExactSynonym>
         <HSO_0000002 xml:lang="en">A057F</HSO_0000002>
@@ -18455,16 +18797,16 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dairy cow</oboInOwl:hasExactSynonym>
         <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</HSO_0000005>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <HSO_0000003>A057E</HSO_0000003>
         <HSO_0000002>MTX</HSO_0000002>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:272461</oboInOwl:hasAlternativeId>
-        <HSO_0000003>A057E</HSO_0000003>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic cattle</oboInOwl:hasExactSynonym>
         <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos taurus</rdfs:label>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bovine</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos primigenius taurus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cattle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bovine</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos taurus</rdfs:label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos Tauurus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
@@ -18479,8 +18821,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0553695</oboInOwl:hasDbXref>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the hagfish and lampreys (our most primitive vertebrate species of today), the first sign of &apos;a new organ&apos; is found as collections of endocrine cells around the area of the bile duct connection with the duodenum. These endocrine organs are composed of 99% beta cells and 1% somatostatin-producing delta cells. Compared to the more primitive protochordates (e.g. amphioxus), this represents a stage where all previously scattered insulin-producing cells of the intestinal tissue have now quantitatively migrated to found a new organ involved in sensing blood glucose rather than gut glucose. Only later in evolution, the beta cells are joined by exocrine tissue and alpha cells (exemplified by the rat-, rabbit- and elephant-fishes). Finally, from sharks and onwards in evolution, we have the islet PP-cell entering to complete the pancreas.[well established][VHOG]</obo:UBPROP_0000003>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000048</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000137</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Exocrine_component_of_pancreas"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0553695"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -18494,32 +18836,32 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001249</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/248202004"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000017</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/248202004"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exocrine pancreas is composed of acinar epithelial cells and ductal epithelium that manufacture the proteolytic enzymes and bicarbonate required for digestion.[TAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000434</oboInOwl:hasDbXref>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the pancreas that acts as an exocrine gland, consisting of the pancreatic acini, which produce pancreatic juice and secrete it into the intestine to aid in protein digestion. [TFD][VHOG]</obo:UBPROP_0000001>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exocrine part of pancreas</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:16017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010407</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001249</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C32546</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:16017</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exocrine pancreas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C32546</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA_RETIRED:0005318</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000029</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA_RETIRED:0005318</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:947</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodus lymphaticus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000139</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C33027</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph gland</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C33027</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0024204</oboInOwl:hasDbXref>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/b/b8/Illu_lymph_node_structure.png"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000872</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181756000"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0024204"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181756000"/>
         <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/issues/650"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100050</oboInOwl:hasDbXref>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymph nodes that are associated with the lymphatic system have evolved in mammals.[well established][VHOG]</obo:UBPROP_0000003>
@@ -18534,8 +18876,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Lymph_node"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008198</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the rounded masses of lymphoid tissue that are surrounded by a capsule of connective tissue, are distributed along the lymphatic vessels, and contain numerous lymphocytes which filter the flow of lymph.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12745</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO_RETIRED:0005318</oboInOwl:hasDbXref>
@@ -18570,8 +18912,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:19252</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-1306</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000333</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000840</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000059</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000840</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinum crassum</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large intestine</rdfs:label>
     </rdf:Description>
@@ -18614,32 +18956,32 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Intestine</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:295</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0490</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0001524</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0001524</oboInOwl:hasDbXref>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class is probably too inclusive</obo:IAO_0000116>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000328</oboInOwl:hasDbXref>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinal</obo:UBPROP_0000007>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7199</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSA:0000093</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100071</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSA:0000093</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001338</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000160</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000648</oboInOwl:hasDbXref>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In zebrafish, No stomach, small intestine, or large intestine can be distinguished. However, differences can be found in the morphology of the mucosa columnar epithelial cells and the number of goblet cells, suggesting functional differentiation. The intestine has numerous folds that become progressively shorter in a rostral-to-caudal direction. Proportionally, these folds are significantly larger than the finger-like intestinal villi of mammals and other amniotes (Wallace et al. 2005). Columnar-shaped absorptive enterocytes are the most numerous in the zebrafish intestinal epithelium. Goblet cells are the second most populous epithelial cell type.</obo:UBPROP_0000008>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The tract of the alimentary canal. [Dorian_AF, Elsevier&apos;s_encyclopaedic_dictionary_of_medicine, Part_B:_Anatomy_(1988)_Amsterdam_etc.:_Elsevier][VHOG]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANISEED:1235303</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/256876008"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinal tract</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/256876008"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0021853</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000246</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12736</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005772</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12736</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bowel</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestine</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000834</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestine</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of the alimentary canal bounded anteriorly by the pyloric sphincter and posteriorly by the cloacal sphincter.[AAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Intestine"/>
@@ -18685,15 +19027,15 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:965</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of blood</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000046</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
-        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]</obo:UBPROP_0000001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0005767</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:418</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:02000027</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000296</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000224</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole blood</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000224</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrate blood</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000315</oboInOwl:hasDbXref>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -18711,9 +19053,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12434</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005767"/>
         <obo:UBPROP_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship loss: subclass specialized connective tissue (AAO:0000571)[AAO]</obo:UBPROP_0000002>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000007</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000124</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000007</oboInOwl:hasDbXref>
         <dc:contributor rdf:resource="https://github.com/cmungall"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001769</oboInOwl:hasDbXref>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent findings strongly suggest that the molecular pathways involved in the development and function of blood cells are highly conserved among vertebrates and various invertebrates phyla. (...) There is now good reason to believe that, in vertebrates and invertebrates alike, blood cell lineages diverge from a common type of progenitor cell, the hemocytoblast.[well established][VHOG]</obo:UBPROP_0000003>
@@ -18724,11 +19066,11 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000912">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D009093</oboInOwl:hasDbXref>
-        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucous</obo:UBPROP_0000007>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2144</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucous</obo:UBPROP_0000007>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucus</rdfs:label>
-        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0026727"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13259</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0026727"/>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucoid</obo:UBPROP_0000007>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0026727</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
@@ -18751,40 +19093,40 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmental tissue</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C28147</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000169</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001367</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0011035</oboInOwl:hasDbXref>
-        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/issues/503"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001367</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0000002</oboInOwl:hasDbXref>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/issues/503"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0013935"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developing organism</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:69068</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Embryo"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:69068</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:963</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2_RETIRED:0003236</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000379</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0229</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000019</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D004622</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000922</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGEM:000001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:38</oboInOwl:hasDbXref>
-        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic</obo:UBPROP_0000007>
-        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obsoleted in ZFA. Note that embryo is not classified as an embryonic structure - an embryonic structure is only the parts of an embryo</obo:UBPROP_0000012>
         <oboInOwl:hasDbXref rdf:resource="http://neurolex.org/wiki/Category:Embryonic_organism"/>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obsoleted in ZFA. Note that embryo is not classified as an embryonic structure - an embryonic structure is only the parts of an embryo</obo:UBPROP_0000012>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic</obo:UBPROP_0000007>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rwP1ceZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001766</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/57991002"/>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/2d/Wrinkledfrog_embryos.jpg"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001766</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00000052</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSA:0000039</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000103</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic organism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic organism</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0013935</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000056</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -18793,20 +19135,20 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17021</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gaster</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0002121</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenteron</oboInOwl:hasRelatedSynonym>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It appears that the stomach has an ancient origin. The stomach first appears in the fish lineage. The prevertebrate chordates do not have a true stomach, whereas the cartilaginous and bony fish do. Although most fish do have a true stomach, some fish species appear to have lost the stomach secondarily. The remaining vertebrate lineages do have a true stomach (at least in the adult animal), although there is great variation in the size and shape of the stomach.[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenteron</oboInOwl:hasRelatedSynonym>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/e0/Stomach_diagram.svg"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7148</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A03.492.766</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100070</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Stomach</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach chamber</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000408</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000579</oboInOwl:hasDbXref>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach chamber</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000353</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Stomach"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000051</oboInOwl:hasDbXref>
@@ -18816,8 +19158,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001307</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2993</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#organ_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANISEED:1235297</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#organ_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12391</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0038351"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventriculus</oboInOwl:hasRelatedSynonym>
@@ -18896,9 +19238,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
         <oboInOwl:hasDbXref rdf:resource="http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0006104"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001921</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:50801</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:50801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001921</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAMS:Brain</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0006104</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000302</oboInOwl:hasDbXref>
@@ -18913,37 +19255,37 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_796"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
-        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0000183</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00005095</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)</obo:UBPROP_0000001>
         <dc:contributor rdf:resource="https://github.com/cmungall"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/258335003"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0095</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/258335003"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:571</oboInOwl:hasDbXref>
-        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0095</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000955</oboInOwl:id>
-        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1269537"/>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12439</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBA:4005</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synganglion</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABA:Brain</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#cumbo"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16894</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#cumbo"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100164</oboInOwl:hasDbXref>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires review for applicability to invertebrate structures, e.g. synganglion</obo:IAO_0000116>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010478</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjT65wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the brain</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1269537</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjT65wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010478</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">encephalon</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBA:3999</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1269537</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000098</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suprasegmental structures</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBA:3999</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000008</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suprasegmental structures</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000142</oboInOwl:hasDbXref>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cavitated compound organ which is comprised of gray and white matter and surrounds the cerebral ventricular system.[TAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000098</oboInOwl:hasDbXref>
@@ -18962,8 +19304,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/d/d4/Illu01_head_neck.jpg"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0014876</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVj9Q5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0700</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000127</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16833</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gullet</oboInOwl:hasExactSynonym>
@@ -18973,12 +19315,12 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The few structural specializations in (adult lampreys) pharynx include complex valves on the external gill openings that direct the tidal flow, and the division of the ancestral pharynx into an oesophagus and a respiratory pharynx.[well established][VHOG]</obo:UBPROP_0000003>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior end of the alimentary canal lined with smooth muscle. Bounded anteriorly by a constriction in the pharynx. Bounded posteriorly by and increase in circular and/or longitudinal smooth muscle associated with the stomach.[AAO]</obo:UBPROP_0000001>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000145</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0014876"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000145</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANISEED:1235301</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oesophagus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000204</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esophagus</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000204</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000835</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000048</oboInOwl:hasDbXref>
         <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">esophagus NOT part of gut in MA. part of gut in ZFA. part_of gut (via UGIT) in FMA. Consider splitting. Interspecies: The human oesophagus is 25 cm long and has a diameter of ca. 2 cm. Only little information was found on the oesophagus in rat, rabbit and pig. The oesophagus of rat (75 x 2 mm) and rabbit has no mucous glands and the cardia of the stomach has a well-developed sphincter, which prevents them from vomiting (Hebel and Stromberg, 1988; Manning et al., 1994). Morphologically the oesophagus is similar in man and pig; both are omnivores and have a non-keratinised epithelium, submucous glands and similar membrane enzymes. Like in humans, pigs can suffer from reflux oesophagitis and stress ulceration of the oesophagus. The pig oesophagus may therefore be a good model for investigation compared to the human oesophagus (Christie et al., 1995)</obo:UBPROP_0000012>
@@ -18987,8 +19329,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Esophagus"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Esophagus</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000352</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12389</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000352</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tube that connects the pharynx to the stomach. In mammals, the oesophagus connects the buccal cavity with the stomach. The stratified squamous non-keratinised epithelium lining the buccal cavity is continued through the pharynx down into the oesophagus. The lowest part of the oesophagus (ca. 2 cm) is lined with gastric mucosa and covered by peritoneum. The main body of the oesophagus is lined with small, simple mucous glands. Each gland opens into the lumen by a long duct which pierces the muscularis mucosae (Wilson and Washington, 1989). A sphincter is situated at the point where the oesophagus enters the stomach to prevent gastro-oesophageal reflux, i.e. to prevent acidic gastric contents from reaching stratified epithelia of the oesophagus, where they can cause inflammation and irritation (Wilson and Washington, 1989; Brown et al., 1993).</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100069</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181245004"/>
@@ -19045,8 +19387,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000336</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000050</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000050</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0034896</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000050</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001158</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjaU5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181261002"/>
@@ -19054,16 +19396,16 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinum rectum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:5836</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17896</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terminal portion of intestine</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terminal portion of intestine</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Rectum</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Rectum"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A03.492.411.495.767</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001592</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the terminal portion of the intestinal tube, terminating with the anus</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0034896"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:311</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0034896"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000848</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001052</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rectum</rdfs:label>
@@ -19105,29 +19447,29 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001090">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0002544</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Synovial_fluid"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of organism substance that is a clear fluid that occupies the space in synovial joints.[TAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Synovial_fluid"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:265</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001090</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:SynovialFluid</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0039097</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:02000039</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0039097</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joint fluid</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0039097"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synovial fluid</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint fluid is a transudate of plasma that is actively secreted by synovial cells.</obo:IAO_0000115>
         <obo:UBPROP_0000010 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The fluid contains hyaluronan secreted by fibroblast-like cells in the synovial membrane, lubricin (proteoglycan 4; PRG4) secreted by the surface chondrocytes of the articular cartilage and interstitial fluid filtered from the blood plasma</obo:UBPROP_0000010>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0005154</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It provides nutrients and lubrication for articular cartilage</obo:UBPROP_0000009>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001339</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C33718</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0005154</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0996</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D013582</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D013582</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:12277</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001153">
@@ -19147,23 +19489,23 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12381</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caecum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000334</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kardong: in some herbivorous lizards, a cecum is present between small and large intestines</rdfs:comment>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007531"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kardong: in some herbivorous lizards, a cecum is present between small and large intestines</rdfs:comment>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blindgut</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:307</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinum crassum caecum</oboInOwl:hasExactSynonym>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caecal</obo:UBPROP_0000007>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0122</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0000206</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0122</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0007531</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:35197</oboInOwl:hasDbXref>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/8/82/Stomach_colon_rectum_diagram.svg"/>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cecum is present in most amniote species, and also in lungfish, but not in any living species of amphibian. In reptiles, it is usually a single median structure, arising from the dorsal side of the large intestine. Birds typically have two paired ceca, as, unlike other mammals, do hyraxes. Most mammalian herbivores have a relatively large cecum, hosting a large number of bacteria, which aid in the enzymatic breakdown of plant materials such as cellulose; in many species, it is considerably wider than the colon. In contrast, obligatory carnivores, whose diets contain little or no plant material, have a reduced cecum, which is often partially or wholly replaced by the vermiform appendix. Many fish have a number of small outpocketings, called pyloric ceca, along their intestine; despite the name they are not homologous with the cecum of amniotes, and their purpose is to increase the overall area of the digestive epithelium.[2] Some invertebrates, such as squid,[3] may also have structures with the same name, but these have no relationship with those of vertebrates.</obo:UBPROP_0000008>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Cecum"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rve6u4JwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181256004"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rve6u4JwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cecum</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pouch in the digestive tract that connects the ileum with the ascending colon of the large intestine. It is separated from the ileum by the ileocecal valve, and is the beginning of the large intestine. It is also separated from the colon by the cecocolic junction.</obo:IAO_0000115>
@@ -19244,8 +19586,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000269</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindgut</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0009368"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:14543</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior intestine</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:14543</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Colon_(anatomy)"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvgLEM5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO - abstract this such that it legitimately covers all vertebrates</obo:IAO_0000116>
@@ -19259,14 +19601,14 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The posterior intestine has short longitudinally arranged epithelial folds which are similar to the colon of higher vertebrates. Wallace et al, 2005.[TAO]</obo:UBPROP_0000001>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Last portion of the large intestine before it becomes the rectum.</obo:IAO_0000115>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Although all vertebrates have a digestive tract and accessory glands, various parts of this system are not necessarily homologous, analogous, or even present in all species. Therefore, broad comparisons can be best made under the listings of headgut, foregut, midgut, pancreas and biliary system, hindgut.[uncertain][VHOG]</obo:UBPROP_0000003>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001155</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon</rdfs:label>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic</obo:UBPROP_0000007>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000706</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000706</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000243</oboInOwl:hasDbXref>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In mammals, the colon consists of four sections: the ascending colon, the transverse colon, the descending colon, and the sigmoid colon[WP]</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000243</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000526</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0158</oboInOwl:hasDbXref>
@@ -19277,8 +19619,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/302508007"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000335</oboInOwl:hasDbXref>
-        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The last portion of the digestive system, it extracts water and salt from solid wastes before they are eliminated from the body.[AAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Colon</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The last portion of the digestive system, it extracts water and salt from solid wastes before they are eliminated from the body.[AAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000361</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12382</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A03.492.411.495.356</oboInOwl:hasDbXref>
@@ -19340,16 +19682,16 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000455</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181267003"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005423"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The path in many species is as follows: Bile canaliculi -&gt; Canals of Hering (intralobar bile duct) -&gt; interlobular bile ducts -&gt; intrahepatic bile ducts -&gt; left and right hepatic ducts merge to form -&gt; common hepatic duct *exits liver* and joins -&gt; cystic duct (from gall bladder) forming -&gt; common bile duct -&gt; joins with pancreatic duct -&gt; forming ampulla of Vater -&gt; enters duodenum [WP]</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The path in many species is as follows: Bile canaliculi -&gt; Canals of Hering (intralobar bile duct) -&gt; interlobular bile ducts -&gt; intrahepatic bile ducts -&gt; left and right hepatic ducts merge to form -&gt; common hepatic duct *exits liver* and joins -&gt; cystic duct (from gall bladder) forming -&gt; common bile duct -&gt; joins with pancreatic duct -&gt; forming ampulla of Vater -&gt; enters duodenum [WP]</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0005423</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0011020</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001264">
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7198</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic</obo:UBPROP_0000007>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:6893</oboInOwl:hasDbXref>
@@ -19358,39 +19700,39 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100092</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000988</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D010179</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D010179</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000120</oboInOwl:hasDbXref>
-        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ which secretes a fluid containing enzymes that aid in the digestion of food.[AAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181277001"/>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ which secretes a fluid containing enzymes that aid in the digestion of food.[AAO]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12393</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17503</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:334</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000855</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0030274</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0736</oboInOwl:hasDbXref>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a secretory organ serving exocrine and endocrine functions, the pancreas is specific to the vertebrates[PMID:16417468] Hagfishes and lampreys are unique in the complete separation of their endocrine pancreas (islet or- gan) and their exocrine pancreas (50). The endocrine and exocrine pancreas are coassociated in crown gnathostomes (50). In Branchiostoma and Ciona, there is no diverticulum as there is in hagfishes, lampreys, and gnathostomes, only dispersed insulin-secreting cells in the walls of the gastrointestinal tract (51, 52)</obo:UBPROP_0000008>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000140</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000075</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000075</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000136</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO].</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000140</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010112</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVimZZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000140</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0030274"/>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the hagfish and lampreys (our most primitive vertebrate species of today), the first sign of &apos;a new organ&apos; is found as collections of endocrine cells around the area of the bile duct connection with the duodenum. These endocrine organs are composed of 99% beta cells and 1% somatostatin-producing delta cells. Compared to the more primitive protochordates (e.g. amphioxus), this represents a stage where all previously scattered insulin-producing cells of the intestinal tissue have now quantitatively migrated to found a new organ involved in sensing blood glucose rather than gut glucose. Only later in evolution, the beta cells are joined by exocrine tissue and alpha cells (exemplified by the rat-, rabbit- and elephant-fishes). Finally, from sharks and onwards in evolution, we have the islet PP-cell entering to complete the pancreas.[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVimZZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <foaf:depicted_by rdf:resource="https://upload.wikimedia.org/wikipedia/commons/7/7e/Blausen_0699_PancreasAnatomy2.png"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000075</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas</rdfs:label>
         <obo:UBPROP_0000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mature pancreas of higher vertebrates and mammals comprises two major functional units: the exocrine pancreas, which is responsible for the production of digestive enzymes to be secreted into the gut lumen, and the endocrine pancreas, which has its role in the synthesis of several hormones with key regulatory functions in food uptake and metabolism. The exocrine portion constitutes the majority of the mass of the pancreas, and contains only two different cell types, the secretory acinar cells and the ductular cells. The endocrine portion, which comprises only 1-2% of the total mass, contains five different cell types, which are organized into mixed functional assemblies referred to as the islets of Langerhans</obo:UBPROP_0000009>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas</rdfs:label>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The zebrafish does not have a discrete pancreas. Exocrine pancreatic tissue can be found scattered along the intestinal tract. The acinar structure of the exocrine pancreas is very similar to that of mammals and comprises cells with a very dark, basophilic cytoplasm</obo:UBPROP_0000008>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001367</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Pancreas</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001367</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001484">
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capsulae articulares</oboInOwl:hasRelatedSynonym>
@@ -19398,8 +19740,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">check ncita</obo:UBPROP_0000012>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An articular capsule (or joint capsule) is an envelope surrounding a synovial joint. [WP,unvetted].</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:JointCapsule</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001484</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:JointCapsule</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:37621</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C84388</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joint fibrous capsule</oboInOwl:hasExactSynonym>
@@ -19425,12 +19767,12 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0595</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjVq5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the milk-producing apocrine glands typically occurring in pairs in female mammals and consisting of lobes containing clusters of alveoli with a system of ducts to convey the milk to an external nipple or teat. [TFD][VHOG]</obo:UBPROP_0000001>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dug</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula mammaria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dug</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0929301</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
-        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The FMA class represents an individule lobe. The nipple is not a part</obo:UBPROP_0000012>
         <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The BTO class represents the combination of nipple plus lobe</obo:UBPROP_0000012>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The FMA class represents an individule lobe. The nipple is not a part</obo:UBPROP_0000012>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mamma</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Originally this was classified as a female reproductive structure, as it was in the MP in 2011</obo:IAO_0000116>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000817</oboInOwl:hasDbXref>
@@ -19442,8 +19784,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000145</oboInOwl:hasDbXref>
         <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The MA class represents a composite structure, including the nipple, fat, connective tissue, smooth muscle as parts</obo:UBPROP_0000012>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000073</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008321</oboInOwl:hasDbXref>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/64/Illu_breast_anatomy.jpg"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008321</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000073</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brustdruese</oboInOwl:hasRelatedSynonym>
@@ -19453,15 +19795,15 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:286452</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000398</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk patch</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000398</oboInOwl:hasDbXref>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The detailed similarities of mammary glands in living monotremes, marsupials, and eutherians argue for a monophyletic origin of these glands, perhaps by the combination of parts of preexisting sebaceous and sweat glands.[well established][VHOG]</obo:UBPROP_0000003>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17759</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lobe of breast</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17759</oboInOwl:hasDbXref>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The male Dayak fruit bat has lactating mammary glands</obo:UBPROP_0000008>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula mammaria</oboInOwl:hasRelatedSynonym>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mouse mammary gland contains a single duct or sinus, forming 5-10 secondary ducts</obo:UBPROP_0000008>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula mammaria</oboInOwl:hasRelatedSynonym>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mammary glands of humans are in the thoracid/breast region. In other mammals they may be located elsewhere on the mammary ridges.</obo:UBPROP_0000008>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactiferous gland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/361720005"/>
@@ -19482,8 +19824,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1511310"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13401</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Breast_milk"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13401</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjGZJwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An emulsion of fat globules within a fluid that is secreted by the mammary gland during lactation.</obo:IAO_0000115>
@@ -19491,8 +19833,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Milk</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001913</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000868</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001913</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A13.622</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001263</oboInOwl:hasDbXref>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The detailed similarities of mammary glands in living monotremes, marsupials, and eutherians argue for a monophyletic origin of these glands, perhaps by the combination of parts of preexisting sebaceous and sweat glands.[well established][VHOG]</obo:UBPROP_0000003>
@@ -19504,8 +19846,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001969">
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood plasm</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62970</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62970</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood plasma</rdfs:label>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Blood_plasma"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13356</oboInOwl:hasDbXref>
@@ -19524,15 +19866,15 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0032105"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:1178</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000052</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0032105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000052</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001969</oboInOwl:id>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000052</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001970">
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fel</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fel</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Bile</oboInOwl:hasDbXref>
@@ -19566,13 +19908,13 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:379</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100119</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marsupials possess only a rudimentary yolk-type placenta, with reduced nutrient and oxygen exchanging capabilities.</rdfs:comment>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
-        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eutherians: In eutherians, the chorioallantoic membrane of the fetus establishes intimate contact with the adjacent vascular wall of the mother&apos;s uterus to produce the placenta, a composite structure formed in part from tissues of the fetus and in part from tissues of the mother [ISBN10:0073040584 (Vertebrates, Kardong)]. TODO - is taxon restriction too strict, even if we restrict def to allantoic placenta? - WP says: also found in some snakes and lizards with varying levels of development up to mammalian levels. Pough et al. 1992. Herpetology: Third Edition. Pearson Prentice Hall:Pearson Education, Inc., 2002. // See also: http://dx.doi.org/10.1002/jmor.11011</obo:UBPROP_0000008>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eutherians: In eutherians, the chorioallantoic membrane of the fetus establishes intimate contact with the adjacent vascular wall of the mother&apos;s uterus to produce the placenta, a composite structure formed in part from tissues of the fetus and in part from tissues of the mother [ISBN10:0073040584 (Vertebrates, Kardong)]. TODO - is taxon restriction too strict, even if we restrict def to allantoic placenta? - WP says: also found in some snakes and lizards with varying levels of development up to mammalian levels. Pough et al. 1992. Herpetology: Third Edition. Pearson Prentice Hall:Pearson Education, Inc., 2002. // See also: http://dx.doi.org/10.1002/jmor.11011</obo:UBPROP_0000008>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181455002"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0032043</oboInOwl:hasDbXref>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A16.759</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:35689</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvv4zZ5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placental</obo:UBPROP_0000007>
@@ -19604,17 +19946,17 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Feces</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teil der fäkalien@de</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ordure</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partie de la merde@fr</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partie de la merde@fr</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stool</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">faeces</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:1199</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001988</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:64183</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of faeces</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000053</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of excrement</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000440</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000053</oboInOwl:hasDbXref>
@@ -19622,8 +19964,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0002509</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of scat</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frass</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frass</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">excreta</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of feces</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of fecal matter</oboInOwl:hasExactSynonym>
@@ -19632,12 +19974,12 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excretion in semisolid state processed by the intestine.[FMA]</obo:UBPROP_0000001>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0015733"/>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scat</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0015733</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fecal material</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0015733</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cow dung</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2345</oboInOwl:hasDbXref>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of dung</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D005243</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of dung</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of fecal material</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guano</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portionem cacas</oboInOwl:hasExactSynonym>
@@ -19663,8 +20005,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Lung</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7195</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000763</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0568</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0024109"/>
@@ -19678,8 +20020,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/issues/701"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16728</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181216001"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181216001"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2205</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjKy5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:1554</oboInOwl:hasDbXref>
@@ -19689,14 +20031,14 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000135</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000135</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000934</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12468</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010567</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12468</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000415</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008168</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ that develops as an oupocketing of the esophagus.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000275</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002048</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000275</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
     </rdf:Description>
@@ -19711,13 +20053,13 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integumental organ</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entire skin</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002097</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entire skin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1123023"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFMO:0000099</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin organ</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFMO:0000099</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjX3ZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consider &apos;integumentary system&apos; for invertebrates</obo:IAO_0000232>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001253</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entire integument</oboInOwl:hasRelatedSynonym>
@@ -19730,24 +20072,24 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integument</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12470</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001844</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelt</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7163</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelt</oboInOwl:hasRelatedSynonym>
         <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA uses the term skin to refer to what is called here: zone of skin</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7163</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0934</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The organ covering the body that consists of the dermis and epidermis.</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000759</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver</rdfs:label>
-        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All vertebrates possess a liver (reference 1); Later in craniate evolution, an anterior gill arch was transformed into jaws, and many new types of feeding subsequently evolved.(...) A liver evolved that, among its many functions, stores considerable energy as glycogen or lipid (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7197</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All vertebrates possess a liver (reference 1); Later in craniate evolution, an anterior gill arch was transformed into jaws, and many new types of feeding subsequently evolved.(...) A liver evolved that, among its many functions, stores considerable energy as glycogen or lipid (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2197</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000097</oboInOwl:hasDbXref>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ sometimes referred to as a liver is found associated with the digestive tract of the primitive chordate Amphioxus. However, this is an enzyme secreting gland, not a metabolic organ, and it is unclear how truly homologous it is to the vertebrate liver. The zebrafish liver differs from the mammalian liver in that the hepatocytes are not clearly organized in cords or lobules and the typical portal triads are not apparent. In addition, the zebrafish liver does not have Kuppfer cells. Furthermore, a clear distinction can be made between the male and female liver in the adult zebrafish. The female hepatocytes are very basophilic (Figure 15c) as a result of the production of vitellogenin (Van der Ven et al. 2003).</obo:UBPROP_0000008>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000097</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0564</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0000997</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Liver"/>
@@ -19756,8 +20098,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:UBPROP_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship type change: differentiates_from endoderm (AAO:0000139) CHANGED TO: develops_from endoderm (UBERON:0000925)[AAO]</obo:UBPROP_0000002>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0023884</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVimppwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jecur</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jecur</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Liver</oboInOwl:hasDbXref>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12392</oboInOwl:hasDbXref>
@@ -19766,9 +20108,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000133</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000123</oboInOwl:hasDbXref>
         <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Only ZFA considers this part_of immune system - we weaken this to an overlaps relation, as in general it&apos;s only a subset of cells that have clear immune function.</obo:UBPROP_0000012>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002107</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002107</oboInOwl:id>
         <obo:UBPROP_0000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:UBPROP_0000009>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The liver is found in all vertebrates, and is typically the largest visceral organ. Its form varies considerably in different species, and is largely determined by the shape and arrangement of the surrounding organs. Nonetheless, in most species it is divided into right and left lobes; exceptions to this general rule include snakes, where the shape of the body necessitates a simple cigar-like form. The internal structure of the liver is broadly similar in all vertebrates.</obo:UBPROP_0000008>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000358</oboInOwl:hasDbXref>
@@ -19776,13 +20118,13 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008099</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000123</oboInOwl:hasDbXref>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/64/Leber_Schaf.jpg"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000887</oboInOwl:hasDbXref>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic</obo:UBPROP_0000007>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000887</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100089</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010111</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iecur</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000257</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iecur</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16846</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
     </rdf:Description>
@@ -19794,8 +20136,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small intestine</rdfs:label>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#major_organ"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001323</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small intestine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001323</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:32834</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000841</oboInOwl:hasDbXref>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intestinal surface area also is increased in amphibians and reptiles by internal folds and occasionally by a few villi. The intestine can be divided into a small intestine and a slightly wider large intestine.[well established][VHOG]</obo:UBPROP_0000003>
@@ -19809,17 +20151,17 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000055</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7200</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000130</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002108</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000130</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000047</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small bowel</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Small_intestine"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000047</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0942</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000047</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000337</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:313</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:313</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior intestine</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181250005"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subdivision of digestive tract that connects the stomach to the large intestine and is where much of the digestion and absorption of food takes place (with the exception of ruminants). The mammalian small intestine is long and coiled and can be differentiated histologically into: duodenum, jejunem, ileum[WP,cjm,Kardong].</obo:IAO_0000115>
@@ -19891,24 +20233,24 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proximal intestine</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0214</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000044</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000338</oboInOwl:hasDbXref>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The fixed portion of the small intestine deeply lodged in the posterior wall of the abdomen and extending from the pylorus to the beginning of the jejunum. [Dorian_AF, Elsevier&apos;s_encyclopaedic_dictionary_of_medicine, Part_B:_Anatomy_(1988)_Amsterdam_etc.:_Elsevier][VHOG]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000044</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000851</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181247007"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Duodenum</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010402</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010402</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rv4LJDpwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/b/b3/Tractus_intestinalis_duodenum.svg"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:18852</oboInOwl:hasDbXref>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In humans, the duodenum is a hollow jointed tube about 10-15 inches (25-38 centimetres) long connecting the stomach to the jejunum. It begins with the duodenal bulb and ends at the ligament of Treitz.</obo:UBPROP_0000008>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7206</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100073</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The first part of the small intestine. At the junction of the stomach and the duodenum the alimentary canal is inflected. The duodenum first goes anteriorly for a short distance, turns dorsally, and eventually caudally, thus it is a U-shaped structure with two horizontal sections (a ventral and a dorsal one).</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper intestine</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002114</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The first part of the small intestine. At the junction of the stomach and the duodenum the alimentary canal is inflected. The duodenum first goes anteriorly for a short distance, turns dorsally, and eventually caudally, thus it is a U-shaped structure with two horizontal sections (a ventral and a dorsal one).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100073</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000365</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002114</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In fish, the divisions of the small intestine are not as clear, and the terms anterior intestine or proximal intestine may be used instead of duodenum.</obo:UBPROP_0000008>
     </rdf:Description>
@@ -19942,16 +20284,16 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper intestine</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000365</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002114"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The first part of the small intestine. At the junction of the stomach and the duodenum the alimentary canal is inflected. The duodenum first goes anteriorly for a short distance, turns dorsally, and eventually caudally, thus it is a U-shaped structure with two horizontal sections (a ventral and a dorsal one).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Duodenum"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0815318960</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002114"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper intestine</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000365</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002114"/>
@@ -19965,8 +20307,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A03.492.411.620.625</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Jejunum"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:18666</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinum jejunum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000053</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinum jejunum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid-intestine</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO consider ZFA:0001323 mid intestine, see also small intestine</obo:IAO_0000116>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000045</oboInOwl:hasDbXref>
@@ -19979,8 +20321,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle intestine</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000045</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12388</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001333</oboInOwl:hasDbXref>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jejunal</obo:UBPROP_0000007>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001333</oboInOwl:hasDbXref>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The first two fifth of the small intestine beyond the duodenum. It extends from the end of the duodenum to the ileum. [Dorian_AF, Elsevier&apos;s_encyclopaedic_dictionary_of_medicine, Part_B:_Anatomy_(1988)_Amsterdam_etc.:_Elsevier][VHOG]</obo:UBPROP_0000001>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
@@ -20057,8 +20399,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvdcLHZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0472</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001334</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the portion of the small intestine that extends from the jejunum to the colon</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12387</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the portion of the small intestine that extends from the jejunum to the colon</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000647</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000237</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7208</oboInOwl:hasDbXref>
@@ -20066,8 +20408,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower intestine</oboInOwl:hasRelatedSynonym>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Although all vertebrates have a digestive tract and accessory glands, various parts of this system are not necessarily homologous, analogous, or even present in all species. Therefore, broad comparisons can be best made under the listings of headgut, foregut, midgut, pancreas and biliary system, hindgut.[uncertain][VHOG]</obo:UBPROP_0000003>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0020885"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002116</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000620</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002116</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0020885</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:315</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
@@ -20150,16 +20492,16 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002391">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:02000041</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9671</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Lymph</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Lymph</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000855</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lympha</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvpDOU5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0024202"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000871</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100049</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0002520</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100049</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0005658</oboInOwl:hasDbXref>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/1/19/Illu_lymph_capillary.png"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000055</oboInOwl:hasDbXref>
@@ -20172,20 +20514,20 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13252</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0580</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0024202</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymph is the fluid that is formed when interstitial fluid enters the conduits of the lymphatic system through lymph capillaries[WP].</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002391</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymph is the fluid that is formed when interstitial fluid enters the conduits of the lymphatic system through lymph capillaries[WP].</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000055</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004176">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO: make a subdivision of reproductive system. Relabel. See https://github.com/obophenotype/uberon/issues/547</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO: make a subdivision of reproductive system. Relabel. See https://github.com/obophenotype/uberon/issues/547</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external genitalia</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external genitalia</rdfs:label>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external sex organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external reproductive organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external sex organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/362207005"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:45643</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0004176</oboInOwl:id>
@@ -20197,11 +20539,11 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngeal tube</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pharynx is the part of the digestive system immediately posterior to the mouth[GO].</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000049</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0006562</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharynx</rdfs:label>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0006562</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#grouping_class"/>
         <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branchial</obo:UBPROP_0000007>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#grouping_class"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000049</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00005380</oboInOwl:hasDbXref>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">currently this is an extremely generic class, encompassing both protostomes and deuterostomes.</obo:IAO_0000232>
@@ -20254,8 +20596,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula pylorica</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0227239"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Pyloric_gland"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0008861</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyloric gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0008861</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyloric antrum gland</oboInOwl:hasExactSynonym>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">check relationship to pylorus vs antrum</obo:IAO_0000116>
@@ -20299,6 +20641,13 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0034874</oboInOwl:id>
     </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F164A">
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</HSO_0000004>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 2: Colony-count technique</HSO_0000005>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F164A</HSO_0000003>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F617A">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2017 Campylobacter</rdfs:label>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F617A</HSO_0000003>
@@ -20326,8 +20675,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000005 xml:lang="en">Animals farmed for milk production purposes</HSO_0000005>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000019">
-        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
         <HSO_0000005 xml:lang="en">Animals farmed for breeding purposes</HSO_0000005>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
         <HSO_0000003 xml:lang="en">A0C7G</HSO_0000003>
         <rdfs:label xml:lang="en">reproducer</rdfs:label>
     </rdf:Description>
@@ -20344,8 +20693,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial insemination station</HSO_0000004>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/hso#SAMPNT_E191A">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural habitat</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</HSO_0000002>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural habitat</rdfs:label>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural habitat</HSO_0000004>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E191A</HSO_0000003>
     </rdf:Description>
