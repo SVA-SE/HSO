@@ -11808,7 +11808,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000314">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">census</rdfs:label>
+        <rdfs:label xml:lang="en">census  sampling</rdfs:label>
     </owl:Class>
     
 
@@ -11818,7 +11818,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000315">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">convenience</rdfs:label>
+        <rdfs:label xml:lang="en">convenience sampling</rdfs:label>
     </owl:Class>
     
 
@@ -11826,7 +11826,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000316 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000316">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000320"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">simple random</rdfs:label>
     </owl:Class>
@@ -11836,7 +11836,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000317 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000317">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000320"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">systematic random</rdfs:label>
     </owl:Class>
@@ -11848,7 +11848,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000318">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">risk-based</rdfs:label>
+        <rdfs:label xml:lang="en">risk-based  sampling</rdfs:label>
     </owl:Class>
     
 
@@ -11858,7 +11858,17 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000319">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">purposeful</rdfs:label>
+        <rdfs:label xml:lang="en">purposeful  sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000320 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000320">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">objective sampling</rdfs:label>
     </owl:Class>
     
 
@@ -17571,7 +17581,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#PRGTYP_K029A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K029A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000314"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K029A</HSO_0000003>
@@ -17769,7 +17779,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#SAMPSTR_ST10A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST10A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000320"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objective sampling</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST10A</HSO_0000003>
@@ -17782,7 +17792,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#SAMPSTR_ST20A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST20A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000318"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selective sampling</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST20A</HSO_0000003>
@@ -17795,7 +17805,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#SAMPSTR_ST30A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST30A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000319"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suspect sampling</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST30A</HSO_0000003>
@@ -17808,7 +17818,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#SAMPSTR_ST40A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST40A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000315"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convenient sampling</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST40A</HSO_0000003>
@@ -17821,7 +17831,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#SAMPSTR_ST50A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#SAMPSTR_ST50A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000314"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Census</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPSTR</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST50A</HSO_0000003>
