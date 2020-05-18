@@ -11757,6 +11757,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000290">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Continuous data collection</rdfs:label>
     </owl:Class>
     
@@ -11766,6 +11767,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000291">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Sentinel surveillance</rdfs:label>
     </owl:Class>
     
@@ -11775,6 +11777,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000292">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Participatory surveillance</rdfs:label>
     </owl:Class>
     
@@ -11784,6 +11787,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000293">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Indicator−based surveillance</rdfs:label>
     </owl:Class>
     
@@ -11793,7 +11797,68 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000294">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Syndromic surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000314 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000314">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">census</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000315 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000315">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">convenience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000316 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000316">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">simple random</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000317 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000317">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">systematic random</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000318 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000318">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">risk-based</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000319 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000319">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">purposeful</rdfs:label>
     </owl:Class>
     
 
@@ -20370,6 +20435,28 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slaughterhouse</HSO_0000004>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slaughterhouse</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPNT</HSO_0000002>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000314"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000315"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000316"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000317"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000318"/>
+            <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000319"/>
+        </owl:members>
     </rdf:Description>
 </rdf:RDF>
 
