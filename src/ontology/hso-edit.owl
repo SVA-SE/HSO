@@ -15755,37 +15755,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
-    <!-- https://w3id.org/hso#HSO_0000016 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000016">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000016"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000017 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000017">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000017"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000018 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000018">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000018"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000019 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000019">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000019"/>
-    </owl:NamedIndividual>
-    
-
 
     <!-- https://w3id.org/hso#HSO_0000020 -->
 
