@@ -6503,3 +6503,2448 @@ Individual: ANLYMD_PRVAM_F651A  # Generated from value "ANLYMD_PRVAM_F651A" loca
          SSD_termExtendedName "Slide agglutination followed by molecular serotyping (PCR or WGS)"
 
 ===========================================================================================================
+Date: 2020-05-27 21:24:54
+Ontology source: /C:/Users/fernanda.dorea/Documents/GitHub/HSO/src/ontology/hso-edit.owl
+Worksheet source: C:\Users\fernanda.dorea\Documents\GitHub\HSO\docs\SAMPNT_import.xlsx
+Transformation rules: C:\Users\fernanda.dorea\Documents\GitHub\HSO\docs\SAMPNT.json
+
+# Cell range: (instances!A2:E82) Comment: ""
+# Individual: @A*(mm:namespace="https://w3id.org/hso#") 
+# Types: organization
+# Annotations: rdfs:label @C*
+# Annotations: SSD_termCode @B*
+# Annotations: SSD_catalogue @D*
+# Annotations: SSD_termExtendedName @E*
+
+Individual: SAMPNT_E010A  # Generated from value "SAMPNT_E010A" located at cell 'instances'!A2.
+   Types: organization
+   Annotations: rdfs:label "Border inspection activities",
+         SSD_termCode "E010A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Border inspection activities"
+Individual: SAMPNT_E011A  # Generated from value "SAMPNT_E011A" located at cell 'instances'!A3.
+   Types: organization
+   Annotations: rdfs:label "Veterinary activities",
+         SSD_termCode "E011A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary activities"
+Individual: SAMPNT_E012A  # Generated from value "SAMPNT_E012A" located at cell 'instances'!A4.
+   Types: organization
+   Annotations: rdfs:label "Zoo",
+         SSD_termCode "E012A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Zoo"
+Individual: SAMPNT_E013A  # Generated from value "SAMPNT_E013A" located at cell 'instances'!A5.
+   Types: organization
+   Annotations: rdfs:label "Veterinary clinics",
+         SSD_termCode "E013A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary clinics"
+Individual: SAMPNT_E098A  # Generated from value "SAMPNT_E098A" located at cell 'instances'!A6.
+   Types: organization
+   Annotations: rdfs:label "Unspecified",
+         SSD_termCode "E098A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unspecified"
+Individual: SAMPNT_E099A  # Generated from value "SAMPNT_E099A" located at cell 'instances'!A7.
+   Types: organization
+   Annotations: rdfs:label "Others",
+         SSD_termCode "E099A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Others"
+Individual: SAMPNT_E100A  # Generated from value "SAMPNT_E100A" located at cell 'instances'!A8.
+   Types: organization
+   Annotations: rdfs:label "Primary production",
+         SSD_termCode "E100A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Primary production"
+Individual: SAMPNT_E101A  # Generated from value "SAMPNT_E101A" located at cell 'instances'!A9.
+   Types: organization
+   Annotations: rdfs:label "Farm",
+         SSD_termCode "E101A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Farm"
+Individual: SAMPNT_E110A  # Generated from value "SAMPNT_E110A" located at cell 'instances'!A10.
+   Types: organization
+   Annotations: rdfs:label "Growing crops",
+         SSD_termCode "E110A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Growing crops"
+Individual: SAMPNT_E112A  # Generated from value "SAMPNT_E112A" located at cell 'instances'!A11.
+   Types: organization
+   Annotations: rdfs:label "Bee hives",
+         SSD_termCode "E112A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Bee hives"
+Individual: SAMPNT_E120A  # Generated from value "SAMPNT_E120A" located at cell 'instances'!A12.
+   Types: organization
+   Annotations: rdfs:label "Rearing of animals",
+         SSD_termCode "E120A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rearing of animals"
+Individual: SAMPNT_E121A  # Generated from value "SAMPNT_E121A" located at cell 'instances'!A13.
+   Types: organization
+   Annotations: rdfs:label "Breeding",
+         SSD_termCode "E121A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Breeding"
+Individual: SAMPNT_E130A  # Generated from value "SAMPNT_E130A" located at cell 'instances'!A14.
+   Types: organization
+   Annotations: rdfs:label "Support activities to agriculture",
+         SSD_termCode "E130A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities to agriculture"
+Individual: SAMPNT_E131A  # Generated from value "SAMPNT_E131A" located at cell 'instances'!A15.
+   Types: organization
+   Annotations: rdfs:label "Support activities for crop production",
+         SSD_termCode "E131A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities for crop production"
+Individual: SAMPNT_E132A  # Generated from value "SAMPNT_E132A" located at cell 'instances'!A16.
+   Types: organization
+   Annotations: rdfs:label "Artificial insemination station",
+         SSD_termCode "E132A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Artificial insemination station"
+Individual: SAMPNT_E139A  # Generated from value "SAMPNT_E139A" located at cell 'instances'!A17.
+   Types: organization
+   Annotations: rdfs:label "Other animal production support activity",
+         SSD_termCode "E139A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other animal production support activity"
+Individual: SAMPNT_E150A  # Generated from value "SAMPNT_E150A" located at cell 'instances'!A18.
+   Types: organization
+   Annotations: rdfs:label "Fishery activities",
+         SSD_termCode "E150A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishery activities"
+Individual: SAMPNT_E151A  # Generated from value "SAMPNT_E151A" located at cell 'instances'!A19.
+   Types: organization
+   Annotations: rdfs:label "Fishing and fish processing",
+         SSD_termCode "E151A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing and fish processing"
+Individual: SAMPNT_E152A  # Generated from value "SAMPNT_E152A" located at cell 'instances'!A20.
+   Types: organization
+   Annotations: rdfs:label "Aquaculture",
+         SSD_termCode "E152A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Aquaculture"
+Individual: SAMPNT_E153A  # Generated from value "SAMPNT_E153A" located at cell 'instances'!A21.
+   Types: organization
+   Annotations: rdfs:label "Fishing",
+         SSD_termCode "E153A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing"
+Individual: SAMPNT_E160A  # Generated from value "SAMPNT_E160A" located at cell 'instances'!A22.
+   Types: organization
+   Annotations: rdfs:label "Hatchery",
+         SSD_termCode "E160A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hatchery"
+Individual: SAMPNT_E170A  # Generated from value "SAMPNT_E170A" located at cell 'instances'!A23.
+   Types: organization
+   Annotations: rdfs:label "Game handling estabilishment",
+         SSD_termCode "E170A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Game handling estabilishment"
+Individual: SAMPNT_E180A  # Generated from value "SAMPNT_E180A" located at cell 'instances'!A24.
+   Types: organization
+   Annotations: rdfs:label "Hunting",
+         SSD_termCode "E180A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hunting"
+Individual: SAMPNT_E190A  # Generated from value "SAMPNT_E190A" located at cell 'instances'!A25.
+   Types: organization
+   Annotations: rdfs:label "Wildlife research station",
+         SSD_termCode "E190A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wildlife research station"
+Individual: SAMPNT_E191A  # Generated from value "SAMPNT_E191A" located at cell 'instances'!A26.
+   Types: organization
+   Annotations: rdfs:label "Natural habitat",
+         SSD_termCode "E191A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Natural habitat"
+Individual: SAMPNT_E210A  # Generated from value "SAMPNT_E210A" located at cell 'instances'!A27.
+   Types: organization
+   Annotations: rdfs:label "Hospital or medical care facility",
+         SSD_termCode "E210A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hospital or medical care facility"
+Individual: SAMPNT_E220A  # Generated from value "SAMPNT_E220A" located at cell 'instances'!A28.
+   Types: organization
+   Annotations: rdfs:label "Residential institution (nursing home or prison or boarding school)",
+         SSD_termCode "E220A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Residential institution (nursing home or prison or boarding school)"
+Individual: SAMPNT_E230A  # Generated from value "SAMPNT_E230A" located at cell 'instances'!A29.
+   Types: organization
+   Annotations: rdfs:label "Household",
+         SSD_termCode "E230A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Household"
+Individual: SAMPNT_E240A  # Generated from value "SAMPNT_E240A" located at cell 'instances'!A30.
+   Types: organization
+   Annotations: rdfs:label "School or kindergarten",
+         SSD_termCode "E240A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "School or kindergarten"
+Individual: SAMPNT_E300A  # Generated from value "SAMPNT_E300A" located at cell 'instances'!A31.
+   Types: organization
+   Annotations: rdfs:label "Manufacturing",
+         SSD_termCode "E300A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacturing"
+Individual: SAMPNT_E301A  # Generated from value "SAMPNT_E301A" located at cell 'instances'!A32.
+   Types: organization
+   Annotations: rdfs:label "Processing plant",
+         SSD_termCode "E301A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Processing plant"
+Individual: SAMPNT_E310A  # Generated from value "SAMPNT_E310A" located at cell 'instances'!A33.
+   Types: organization
+   Annotations: rdfs:label "Meat processing",
+         SSD_termCode "E310A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat processing"
+Individual: SAMPNT_E311A  # Generated from value "SAMPNT_E311A" located at cell 'instances'!A34.
+   Types: organization
+   Annotations: rdfs:label "Slaughterhouse",
+         SSD_termCode "E311A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Slaughterhouse"
+Individual: SAMPNT_E312A  # Generated from value "SAMPNT_E312A" located at cell 'instances'!A35.
+   Types: organization
+   Annotations: rdfs:label "Cutting plant",
+         SSD_termCode "E312A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cutting plant"
+Individual: SAMPNT_E313A  # Generated from value "SAMPNT_E313A" located at cell 'instances'!A36.
+   Types: organization
+   Annotations: rdfs:label "Meat mincing",
+         SSD_termCode "E313A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat mincing"
+Individual: SAMPNT_E314A  # Generated from value "SAMPNT_E314A" located at cell 'instances'!A37.
+   Types: organization
+   Annotations: rdfs:label "Meat preparing",
+         SSD_termCode "E314A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat preparing"
+Individual: SAMPNT_E315A  # Generated from value "SAMPNT_E315A" located at cell 'instances'!A38.
+   Types: organization
+   Annotations: rdfs:label "Mechanical separation of meat",
+         SSD_termCode "E315A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mechanical separation of meat"
+Individual: SAMPNT_E319A  # Generated from value "SAMPNT_E319A" located at cell 'instances'!A39.
+   Types: organization
+   Annotations: rdfs:label "Other meat processing activities",
+         SSD_termCode "E319A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other meat processing activities"
+Individual: SAMPNT_E320A  # Generated from value "SAMPNT_E320A" located at cell 'instances'!A40.
+   Types: organization
+   Annotations: rdfs:label "Fish processing",
+         SSD_termCode "E320A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing"
+Individual: SAMPNT_E321A  # Generated from value "SAMPNT_E321A" located at cell 'instances'!A41.
+   Types: organization
+   Annotations: rdfs:label "Fish freezing",
+         SSD_termCode "E321A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish freezing"
+Individual: SAMPNT_E329A  # Generated from value "SAMPNT_E329A" located at cell 'instances'!A42.
+   Types: organization
+   Annotations: rdfs:label "Fish processing activities, other than freezing",
+         SSD_termCode "E329A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing activities, other than freezing"
+Individual: SAMPNT_E350A  # Generated from value "SAMPNT_E350A" located at cell 'instances'!A43.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared animal feeds",
+         SSD_termCode "E350A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared animal feeds"
+Individual: SAMPNT_E351A  # Generated from value "SAMPNT_E351A" located at cell 'instances'!A44.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of compound feedingstuffs",
+         SSD_termCode "E351A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of compound feedingstuffs"
+Individual: SAMPNT_E352A  # Generated from value "SAMPNT_E352A" located at cell 'instances'!A45.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of feed additives and pre-mixtures",
+         SSD_termCode "E352A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of feed additives and pre-mixtures"
+Individual: SAMPNT_E353A  # Generated from value "SAMPNT_E353A" located at cell 'instances'!A46.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared pet foods",
+         SSD_termCode "E353A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared pet foods"
+Individual: SAMPNT_E354A  # Generated from value "SAMPNT_E354A" located at cell 'instances'!A47.
+   Types: organization
+   Annotations: rdfs:label "Feed mill",
+         SSD_termCode "E354A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Feed mill"
+Individual: SAMPNT_E355A  # Generated from value "SAMPNT_E355A" located at cell 'instances'!A48.
+   Types: organization
+   Annotations: rdfs:label "Other processing activities",
+         SSD_termCode "E355A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other processing activities"
+Individual: SAMPNT_E400A  # Generated from value "SAMPNT_E400A" located at cell 'instances'!A49.
+   Types: organization
+   Annotations: rdfs:label "Water collection or treatment or supply",
+         SSD_termCode "E400A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water collection or treatment or supply"
+Individual: SAMPNT_E410A  # Generated from value "SAMPNT_E410A" located at cell 'instances'!A50.
+   Types: organization
+   Annotations: rdfs:label "Water distribution system",
+         SSD_termCode "E410A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water distribution system"
+Individual: SAMPNT_E420A  # Generated from value "SAMPNT_E420A" located at cell 'instances'!A51.
+   Types: organization
+   Annotations: rdfs:label "Water source",
+         SSD_termCode "E420A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water source"
+Individual: SAMPNT_E430A  # Generated from value "SAMPNT_E430A" located at cell 'instances'!A52.
+   Types: organization
+   Annotations: rdfs:label "Water treatment plant",
+         SSD_termCode "E430A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water treatment plant"
+Individual: SAMPNT_E500A  # Generated from value "SAMPNT_E500A" located at cell 'instances'!A53.
+   Types: organization
+   Annotations: rdfs:label "Distribution: wholesale and retail sale",
+         SSD_termCode "E500A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Distribution: wholesale and retail sale"
+Individual: SAMPNT_E510A  # Generated from value "SAMPNT_E510A" located at cell 'instances'!A54.
+   Types: organization
+   Annotations: rdfs:label "Wholesale",
+         SSD_termCode "E510A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wholesale"
+Individual: SAMPNT_E520A  # Generated from value "SAMPNT_E520A" located at cell 'instances'!A55.
+   Types: organization
+   Annotations: rdfs:label "Retail",
+         SSD_termCode "E520A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Retail"
+Individual: SAMPNT_E530A  # Generated from value "SAMPNT_E530A" located at cell 'instances'!A56.
+   Types: organization
+   Annotations: rdfs:label "Import activities",
+         SSD_termCode "E530A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Import activities"
+Individual: SAMPNT_E600A  # Generated from value "SAMPNT_E600A" located at cell 'instances'!A57.
+   Types: organization
+   Annotations: rdfs:label "Packing centre",
+         SSD_termCode "E600A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Packing centre"
+Individual: SAMPNT_E610A  # Generated from value "SAMPNT_E610A" located at cell 'instances'!A58.
+   Types: organization
+   Annotations: rdfs:label "Re-wrapping centre",
+         SSD_termCode "E610A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Re-wrapping centre"
+Individual: SAMPNT_E700A  # Generated from value "SAMPNT_E700A" located at cell 'instances'!A59.
+   Types: organization
+   Annotations: rdfs:label "Storage",
+         SSD_termCode "E700A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Storage"
+Individual: SAMPNT_E710A  # Generated from value "SAMPNT_E710A" located at cell 'instances'!A60.
+   Types: organization
+   Annotations: rdfs:label "Cold storage",
+         SSD_termCode "E710A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cold storage"
+Individual: SAMPNT_E720A  # Generated from value "SAMPNT_E720A" located at cell 'instances'!A61.
+   Types: organization
+   Annotations: rdfs:label "Conservation facilities",
+         SSD_termCode "E720A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Conservation facilities"
+Individual: SAMPNT_E800A  # Generated from value "SAMPNT_E800A" located at cell 'instances'!A62.
+   Types: organization
+   Annotations: rdfs:label "Transport",
+         SSD_termCode "E800A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Transport"
+Individual: SAMPNT_E810A  # Generated from value "SAMPNT_E810A" located at cell 'instances'!A63.
+   Types: organization
+   Annotations: rdfs:label "Road transport",
+         SSD_termCode "E810A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Road transport"
+Individual: SAMPNT_E820A  # Generated from value "SAMPNT_E820A" located at cell 'instances'!A64.
+   Types: organization
+   Annotations: rdfs:label "Rail transport",
+         SSD_termCode "E820A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rail transport"
+Individual: SAMPNT_E830A  # Generated from value "SAMPNT_E830A" located at cell 'instances'!A65.
+   Types: organization
+   Annotations: rdfs:label "Water transport",
+         SSD_termCode "E830A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water transport"
+Individual: SAMPNT_E840A  # Generated from value "SAMPNT_E840A" located at cell 'instances'!A66.
+   Types: organization
+   Annotations: rdfs:label "Air transport",
+         SSD_termCode "E840A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Air transport"
+Individual: SAMPNT_E850A  # Generated from value "SAMPNT_E850A" located at cell 'instances'!A67.
+   Types: organization
+   Annotations: rdfs:label "Travel abroad",
+         SSD_termCode "E850A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Travel abroad"
+Individual: SAMPNT_E900A  # Generated from value "SAMPNT_E900A" located at cell 'instances'!A68.
+   Types: organization
+   Annotations: rdfs:label "Catering",
+         SSD_termCode "E900A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering"
+Individual: SAMPNT_E910A  # Generated from value "SAMPNT_E910A" located at cell 'instances'!A69.
+   Types: organization
+   Annotations: rdfs:label "Restaurant or Cafe or Pub or Bar or Hotel or Catering service",
+         SSD_termCode "E910A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Restaurant or Cafe or Pub or Bar or Hotel or Catering service"
+Individual: SAMPNT_E920A  # Generated from value "SAMPNT_E920A" located at cell 'instances'!A70.
+   Types: organization
+   Annotations: rdfs:label "Mobile retailer or market/street vendor",
+         SSD_termCode "E920A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mobile retailer or market/street vendor"
+Individual: SAMPNT_E930A  # Generated from value "SAMPNT_E930A" located at cell 'instances'!A71.
+   Types: organization
+   Annotations: rdfs:label "Take-away or fast-food outlet",
+         SSD_termCode "E930A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Take-away or fast-food outlet"
+Individual: SAMPNT_E940A  # Generated from value "SAMPNT_E940A" located at cell 'instances'!A72.
+   Types: organization
+   Annotations: rdfs:label "Canteen or workplace catering",
+         SSD_termCode "E940A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Canteen or workplace catering"
+Individual: SAMPNT_E950A  # Generated from value "SAMPNT_E950A" located at cell 'instances'!A73.
+   Types: organization
+   Annotations: rdfs:label "Temporary mass catering (fairs or festivals)",
+         SSD_termCode "E950A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Temporary mass catering (fairs or festivals)"
+Individual: SAMPNT_E960A  # Generated from value "SAMPNT_E960A" located at cell 'instances'!A74.
+   Types: organization
+   Annotations: rdfs:label "Camp or picnic",
+         SSD_termCode "E960A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Camp or picnic"
+Individual: SAMPNT_E970A  # Generated from value "SAMPNT_E970A" located at cell 'instances'!A75.
+   Types: organization
+   Annotations: rdfs:label "Disseminated cases",
+         SSD_termCode "E970A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Disseminated cases"
+Individual: SAMPNT_E971A  # Generated from value "SAMPNT_E971A" located at cell 'instances'!A76.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in one country",
+         SSD_termCode "E971A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in one country"
+Individual: SAMPNT_E972A  # Generated from value "SAMPNT_E972A" located at cell 'instances'!A77.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in more than one country",
+         SSD_termCode "E972A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in more than one country"
+Individual: SAMPNT_E980A  # Generated from value "SAMPNT_E980A" located at cell 'instances'!A78.
+   Types: organization
+   Annotations: rdfs:label "Unknown",
+         SSD_termCode "E980A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unknown"
+Individual: SAMPNT_E981A  # Generated from value "SAMPNT_E981A" located at cell 'instances'!A79.
+   Types: organization
+   Annotations: rdfs:label "Nursery",
+         SSD_termCode "E981A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Nursery"
+Individual: SAMPNT_E982A  # Generated from value "SAMPNT_E982A" located at cell 'instances'!A80.
+   Types: organization
+   Annotations: rdfs:label "Automatic distribution system for raw milk",
+         SSD_termCode "E982A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Automatic distribution system for raw milk"
+Individual: SAMPNT_E983A  # Generated from value "SAMPNT_E983A" located at cell 'instances'!A81.
+   Types: organization
+   Annotations: rdfs:label "Official kennel",
+         SSD_termCode "E983A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Official kennel"
+Individual: SAMPNT_E990A  # Generated from value "SAMPNT_E990A" located at cell 'instances'!A82.
+   Types: organization
+   Annotations: rdfs:label "Catering on aircraft or ship or train",
+         SSD_termCode "E990A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering on aircraft or ship or train"
+Individual: SAMPNT_E010A  # Generated from value "SAMPNT_E010A" located at cell 'instances'!A2.
+   Types: organization
+   Annotations: rdfs:label "Border inspection activities",
+         SSD_termCode "E010A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Border inspection activities"
+Individual: SAMPNT_E011A  # Generated from value "SAMPNT_E011A" located at cell 'instances'!A3.
+   Types: organization
+   Annotations: rdfs:label "Veterinary activities",
+         SSD_termCode "E011A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary activities"
+Individual: SAMPNT_E012A  # Generated from value "SAMPNT_E012A" located at cell 'instances'!A4.
+   Types: organization
+   Annotations: rdfs:label "Zoo",
+         SSD_termCode "E012A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Zoo"
+Individual: SAMPNT_E013A  # Generated from value "SAMPNT_E013A" located at cell 'instances'!A5.
+   Types: organization
+   Annotations: rdfs:label "Veterinary clinics",
+         SSD_termCode "E013A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary clinics"
+Individual: SAMPNT_E098A  # Generated from value "SAMPNT_E098A" located at cell 'instances'!A6.
+   Types: organization
+   Annotations: rdfs:label "Unspecified",
+         SSD_termCode "E098A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unspecified"
+Individual: SAMPNT_E099A  # Generated from value "SAMPNT_E099A" located at cell 'instances'!A7.
+   Types: organization
+   Annotations: rdfs:label "Others",
+         SSD_termCode "E099A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Others"
+Individual: SAMPNT_E100A  # Generated from value "SAMPNT_E100A" located at cell 'instances'!A8.
+   Types: organization
+   Annotations: rdfs:label "Primary production",
+         SSD_termCode "E100A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Primary production"
+Individual: SAMPNT_E101A  # Generated from value "SAMPNT_E101A" located at cell 'instances'!A9.
+   Types: organization
+   Annotations: rdfs:label "Farm",
+         SSD_termCode "E101A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Farm"
+Individual: SAMPNT_E110A  # Generated from value "SAMPNT_E110A" located at cell 'instances'!A10.
+   Types: organization
+   Annotations: rdfs:label "Growing crops",
+         SSD_termCode "E110A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Growing crops"
+Individual: SAMPNT_E112A  # Generated from value "SAMPNT_E112A" located at cell 'instances'!A11.
+   Types: organization
+   Annotations: rdfs:label "Bee hives",
+         SSD_termCode "E112A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Bee hives"
+Individual: SAMPNT_E120A  # Generated from value "SAMPNT_E120A" located at cell 'instances'!A12.
+   Types: organization
+   Annotations: rdfs:label "Rearing of animals",
+         SSD_termCode "E120A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rearing of animals"
+Individual: SAMPNT_E121A  # Generated from value "SAMPNT_E121A" located at cell 'instances'!A13.
+   Types: organization
+   Annotations: rdfs:label "Breeding",
+         SSD_termCode "E121A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Breeding"
+Individual: SAMPNT_E130A  # Generated from value "SAMPNT_E130A" located at cell 'instances'!A14.
+   Types: organization
+   Annotations: rdfs:label "Support activities to agriculture",
+         SSD_termCode "E130A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities to agriculture"
+Individual: SAMPNT_E131A  # Generated from value "SAMPNT_E131A" located at cell 'instances'!A15.
+   Types: organization
+   Annotations: rdfs:label "Support activities for crop production",
+         SSD_termCode "E131A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities for crop production"
+Individual: SAMPNT_E132A  # Generated from value "SAMPNT_E132A" located at cell 'instances'!A16.
+   Types: organization
+   Annotations: rdfs:label "Artificial insemination station",
+         SSD_termCode "E132A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Artificial insemination station"
+Individual: SAMPNT_E139A  # Generated from value "SAMPNT_E139A" located at cell 'instances'!A17.
+   Types: organization
+   Annotations: rdfs:label "Other animal production support activity",
+         SSD_termCode "E139A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other animal production support activity"
+Individual: SAMPNT_E150A  # Generated from value "SAMPNT_E150A" located at cell 'instances'!A18.
+   Types: organization
+   Annotations: rdfs:label "Fishery activities",
+         SSD_termCode "E150A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishery activities"
+Individual: SAMPNT_E151A  # Generated from value "SAMPNT_E151A" located at cell 'instances'!A19.
+   Types: organization
+   Annotations: rdfs:label "Fishing and fish processing",
+         SSD_termCode "E151A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing and fish processing"
+Individual: SAMPNT_E152A  # Generated from value "SAMPNT_E152A" located at cell 'instances'!A20.
+   Types: organization
+   Annotations: rdfs:label "Aquaculture",
+         SSD_termCode "E152A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Aquaculture"
+Individual: SAMPNT_E153A  # Generated from value "SAMPNT_E153A" located at cell 'instances'!A21.
+   Types: organization
+   Annotations: rdfs:label "Fishing",
+         SSD_termCode "E153A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing"
+Individual: SAMPNT_E160A  # Generated from value "SAMPNT_E160A" located at cell 'instances'!A22.
+   Types: organization
+   Annotations: rdfs:label "Hatchery",
+         SSD_termCode "E160A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hatchery"
+Individual: SAMPNT_E170A  # Generated from value "SAMPNT_E170A" located at cell 'instances'!A23.
+   Types: organization
+   Annotations: rdfs:label "Game handling estabilishment",
+         SSD_termCode "E170A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Game handling estabilishment"
+Individual: SAMPNT_E180A  # Generated from value "SAMPNT_E180A" located at cell 'instances'!A24.
+   Types: organization
+   Annotations: rdfs:label "Hunting",
+         SSD_termCode "E180A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hunting"
+Individual: SAMPNT_E190A  # Generated from value "SAMPNT_E190A" located at cell 'instances'!A25.
+   Types: organization
+   Annotations: rdfs:label "Wildlife research station",
+         SSD_termCode "E190A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wildlife research station"
+Individual: SAMPNT_E191A  # Generated from value "SAMPNT_E191A" located at cell 'instances'!A26.
+   Types: organization
+   Annotations: rdfs:label "Natural habitat",
+         SSD_termCode "E191A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Natural habitat"
+Individual: SAMPNT_E210A  # Generated from value "SAMPNT_E210A" located at cell 'instances'!A27.
+   Types: organization
+   Annotations: rdfs:label "Hospital or medical care facility",
+         SSD_termCode "E210A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hospital or medical care facility"
+Individual: SAMPNT_E220A  # Generated from value "SAMPNT_E220A" located at cell 'instances'!A28.
+   Types: organization
+   Annotations: rdfs:label "Residential institution (nursing home or prison or boarding school)",
+         SSD_termCode "E220A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Residential institution (nursing home or prison or boarding school)"
+Individual: SAMPNT_E230A  # Generated from value "SAMPNT_E230A" located at cell 'instances'!A29.
+   Types: organization
+   Annotations: rdfs:label "Household",
+         SSD_termCode "E230A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Household"
+Individual: SAMPNT_E240A  # Generated from value "SAMPNT_E240A" located at cell 'instances'!A30.
+   Types: organization
+   Annotations: rdfs:label "School or kindergarten",
+         SSD_termCode "E240A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "School or kindergarten"
+Individual: SAMPNT_E300A  # Generated from value "SAMPNT_E300A" located at cell 'instances'!A31.
+   Types: organization
+   Annotations: rdfs:label "Manufacturing",
+         SSD_termCode "E300A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacturing"
+Individual: SAMPNT_E301A  # Generated from value "SAMPNT_E301A" located at cell 'instances'!A32.
+   Types: organization
+   Annotations: rdfs:label "Processing plant",
+         SSD_termCode "E301A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Processing plant"
+Individual: SAMPNT_E310A  # Generated from value "SAMPNT_E310A" located at cell 'instances'!A33.
+   Types: organization
+   Annotations: rdfs:label "Meat processing",
+         SSD_termCode "E310A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat processing"
+Individual: SAMPNT_E311A  # Generated from value "SAMPNT_E311A" located at cell 'instances'!A34.
+   Types: organization
+   Annotations: rdfs:label "Slaughterhouse",
+         SSD_termCode "E311A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Slaughterhouse"
+Individual: SAMPNT_E312A  # Generated from value "SAMPNT_E312A" located at cell 'instances'!A35.
+   Types: organization
+   Annotations: rdfs:label "Cutting plant",
+         SSD_termCode "E312A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cutting plant"
+Individual: SAMPNT_E313A  # Generated from value "SAMPNT_E313A" located at cell 'instances'!A36.
+   Types: organization
+   Annotations: rdfs:label "Meat mincing",
+         SSD_termCode "E313A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat mincing"
+Individual: SAMPNT_E314A  # Generated from value "SAMPNT_E314A" located at cell 'instances'!A37.
+   Types: organization
+   Annotations: rdfs:label "Meat preparing",
+         SSD_termCode "E314A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat preparing"
+Individual: SAMPNT_E315A  # Generated from value "SAMPNT_E315A" located at cell 'instances'!A38.
+   Types: organization
+   Annotations: rdfs:label "Mechanical separation of meat",
+         SSD_termCode "E315A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mechanical separation of meat"
+Individual: SAMPNT_E319A  # Generated from value "SAMPNT_E319A" located at cell 'instances'!A39.
+   Types: organization
+   Annotations: rdfs:label "Other meat processing activities",
+         SSD_termCode "E319A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other meat processing activities"
+Individual: SAMPNT_E320A  # Generated from value "SAMPNT_E320A" located at cell 'instances'!A40.
+   Types: organization
+   Annotations: rdfs:label "Fish processing",
+         SSD_termCode "E320A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing"
+Individual: SAMPNT_E321A  # Generated from value "SAMPNT_E321A" located at cell 'instances'!A41.
+   Types: organization
+   Annotations: rdfs:label "Fish freezing",
+         SSD_termCode "E321A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish freezing"
+Individual: SAMPNT_E329A  # Generated from value "SAMPNT_E329A" located at cell 'instances'!A42.
+   Types: organization
+   Annotations: rdfs:label "Fish processing activities, other than freezing",
+         SSD_termCode "E329A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing activities, other than freezing"
+Individual: SAMPNT_E350A  # Generated from value "SAMPNT_E350A" located at cell 'instances'!A43.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared animal feeds",
+         SSD_termCode "E350A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared animal feeds"
+Individual: SAMPNT_E351A  # Generated from value "SAMPNT_E351A" located at cell 'instances'!A44.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of compound feedingstuffs",
+         SSD_termCode "E351A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of compound feedingstuffs"
+Individual: SAMPNT_E352A  # Generated from value "SAMPNT_E352A" located at cell 'instances'!A45.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of feed additives and pre-mixtures",
+         SSD_termCode "E352A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of feed additives and pre-mixtures"
+Individual: SAMPNT_E353A  # Generated from value "SAMPNT_E353A" located at cell 'instances'!A46.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared pet foods",
+         SSD_termCode "E353A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared pet foods"
+Individual: SAMPNT_E354A  # Generated from value "SAMPNT_E354A" located at cell 'instances'!A47.
+   Types: organization
+   Annotations: rdfs:label "Feed mill",
+         SSD_termCode "E354A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Feed mill"
+Individual: SAMPNT_E355A  # Generated from value "SAMPNT_E355A" located at cell 'instances'!A48.
+   Types: organization
+   Annotations: rdfs:label "Other processing activities",
+         SSD_termCode "E355A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other processing activities"
+Individual: SAMPNT_E400A  # Generated from value "SAMPNT_E400A" located at cell 'instances'!A49.
+   Types: organization
+   Annotations: rdfs:label "Water collection or treatment or supply",
+         SSD_termCode "E400A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water collection or treatment or supply"
+Individual: SAMPNT_E410A  # Generated from value "SAMPNT_E410A" located at cell 'instances'!A50.
+   Types: organization
+   Annotations: rdfs:label "Water distribution system",
+         SSD_termCode "E410A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water distribution system"
+Individual: SAMPNT_E420A  # Generated from value "SAMPNT_E420A" located at cell 'instances'!A51.
+   Types: organization
+   Annotations: rdfs:label "Water source",
+         SSD_termCode "E420A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water source"
+Individual: SAMPNT_E430A  # Generated from value "SAMPNT_E430A" located at cell 'instances'!A52.
+   Types: organization
+   Annotations: rdfs:label "Water treatment plant",
+         SSD_termCode "E430A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water treatment plant"
+Individual: SAMPNT_E500A  # Generated from value "SAMPNT_E500A" located at cell 'instances'!A53.
+   Types: organization
+   Annotations: rdfs:label "Distribution: wholesale and retail sale",
+         SSD_termCode "E500A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Distribution: wholesale and retail sale"
+Individual: SAMPNT_E510A  # Generated from value "SAMPNT_E510A" located at cell 'instances'!A54.
+   Types: organization
+   Annotations: rdfs:label "Wholesale",
+         SSD_termCode "E510A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wholesale"
+Individual: SAMPNT_E520A  # Generated from value "SAMPNT_E520A" located at cell 'instances'!A55.
+   Types: organization
+   Annotations: rdfs:label "Retail",
+         SSD_termCode "E520A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Retail"
+Individual: SAMPNT_E530A  # Generated from value "SAMPNT_E530A" located at cell 'instances'!A56.
+   Types: organization
+   Annotations: rdfs:label "Import activities",
+         SSD_termCode "E530A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Import activities"
+Individual: SAMPNT_E600A  # Generated from value "SAMPNT_E600A" located at cell 'instances'!A57.
+   Types: organization
+   Annotations: rdfs:label "Packing centre",
+         SSD_termCode "E600A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Packing centre"
+Individual: SAMPNT_E610A  # Generated from value "SAMPNT_E610A" located at cell 'instances'!A58.
+   Types: organization
+   Annotations: rdfs:label "Re-wrapping centre",
+         SSD_termCode "E610A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Re-wrapping centre"
+Individual: SAMPNT_E700A  # Generated from value "SAMPNT_E700A" located at cell 'instances'!A59.
+   Types: organization
+   Annotations: rdfs:label "Storage",
+         SSD_termCode "E700A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Storage"
+Individual: SAMPNT_E710A  # Generated from value "SAMPNT_E710A" located at cell 'instances'!A60.
+   Types: organization
+   Annotations: rdfs:label "Cold storage",
+         SSD_termCode "E710A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cold storage"
+Individual: SAMPNT_E720A  # Generated from value "SAMPNT_E720A" located at cell 'instances'!A61.
+   Types: organization
+   Annotations: rdfs:label "Conservation facilities",
+         SSD_termCode "E720A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Conservation facilities"
+Individual: SAMPNT_E800A  # Generated from value "SAMPNT_E800A" located at cell 'instances'!A62.
+   Types: organization
+   Annotations: rdfs:label "Transport",
+         SSD_termCode "E800A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Transport"
+Individual: SAMPNT_E810A  # Generated from value "SAMPNT_E810A" located at cell 'instances'!A63.
+   Types: organization
+   Annotations: rdfs:label "Road transport",
+         SSD_termCode "E810A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Road transport"
+Individual: SAMPNT_E820A  # Generated from value "SAMPNT_E820A" located at cell 'instances'!A64.
+   Types: organization
+   Annotations: rdfs:label "Rail transport",
+         SSD_termCode "E820A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rail transport"
+Individual: SAMPNT_E830A  # Generated from value "SAMPNT_E830A" located at cell 'instances'!A65.
+   Types: organization
+   Annotations: rdfs:label "Water transport",
+         SSD_termCode "E830A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water transport"
+Individual: SAMPNT_E840A  # Generated from value "SAMPNT_E840A" located at cell 'instances'!A66.
+   Types: organization
+   Annotations: rdfs:label "Air transport",
+         SSD_termCode "E840A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Air transport"
+Individual: SAMPNT_E850A  # Generated from value "SAMPNT_E850A" located at cell 'instances'!A67.
+   Types: organization
+   Annotations: rdfs:label "Travel abroad",
+         SSD_termCode "E850A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Travel abroad"
+Individual: SAMPNT_E900A  # Generated from value "SAMPNT_E900A" located at cell 'instances'!A68.
+   Types: organization
+   Annotations: rdfs:label "Catering",
+         SSD_termCode "E900A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering"
+Individual: SAMPNT_E910A  # Generated from value "SAMPNT_E910A" located at cell 'instances'!A69.
+   Types: organization
+   Annotations: rdfs:label "Restaurant or Cafe or Pub or Bar or Hotel or Catering service",
+         SSD_termCode "E910A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Restaurant or Cafe or Pub or Bar or Hotel or Catering service"
+Individual: SAMPNT_E920A  # Generated from value "SAMPNT_E920A" located at cell 'instances'!A70.
+   Types: organization
+   Annotations: rdfs:label "Mobile retailer or market/street vendor",
+         SSD_termCode "E920A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mobile retailer or market/street vendor"
+Individual: SAMPNT_E930A  # Generated from value "SAMPNT_E930A" located at cell 'instances'!A71.
+   Types: organization
+   Annotations: rdfs:label "Take-away or fast-food outlet",
+         SSD_termCode "E930A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Take-away or fast-food outlet"
+Individual: SAMPNT_E940A  # Generated from value "SAMPNT_E940A" located at cell 'instances'!A72.
+   Types: organization
+   Annotations: rdfs:label "Canteen or workplace catering",
+         SSD_termCode "E940A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Canteen or workplace catering"
+Individual: SAMPNT_E950A  # Generated from value "SAMPNT_E950A" located at cell 'instances'!A73.
+   Types: organization
+   Annotations: rdfs:label "Temporary mass catering (fairs or festivals)",
+         SSD_termCode "E950A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Temporary mass catering (fairs or festivals)"
+Individual: SAMPNT_E960A  # Generated from value "SAMPNT_E960A" located at cell 'instances'!A74.
+   Types: organization
+   Annotations: rdfs:label "Camp or picnic",
+         SSD_termCode "E960A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Camp or picnic"
+Individual: SAMPNT_E970A  # Generated from value "SAMPNT_E970A" located at cell 'instances'!A75.
+   Types: organization
+   Annotations: rdfs:label "Disseminated cases",
+         SSD_termCode "E970A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Disseminated cases"
+Individual: SAMPNT_E971A  # Generated from value "SAMPNT_E971A" located at cell 'instances'!A76.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in one country",
+         SSD_termCode "E971A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in one country"
+Individual: SAMPNT_E972A  # Generated from value "SAMPNT_E972A" located at cell 'instances'!A77.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in more than one country",
+         SSD_termCode "E972A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in more than one country"
+Individual: SAMPNT_E980A  # Generated from value "SAMPNT_E980A" located at cell 'instances'!A78.
+   Types: organization
+   Annotations: rdfs:label "Unknown",
+         SSD_termCode "E980A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unknown"
+Individual: SAMPNT_E981A  # Generated from value "SAMPNT_E981A" located at cell 'instances'!A79.
+   Types: organization
+   Annotations: rdfs:label "Nursery",
+         SSD_termCode "E981A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Nursery"
+Individual: SAMPNT_E982A  # Generated from value "SAMPNT_E982A" located at cell 'instances'!A80.
+   Types: organization
+   Annotations: rdfs:label "Automatic distribution system for raw milk",
+         SSD_termCode "E982A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Automatic distribution system for raw milk"
+Individual: SAMPNT_E983A  # Generated from value "SAMPNT_E983A" located at cell 'instances'!A81.
+   Types: organization
+   Annotations: rdfs:label "Official kennel",
+         SSD_termCode "E983A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Official kennel"
+Individual: SAMPNT_E990A  # Generated from value "SAMPNT_E990A" located at cell 'instances'!A82.
+   Types: organization
+   Annotations: rdfs:label "Catering on aircraft or ship or train",
+         SSD_termCode "E990A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering on aircraft or ship or train"
+Individual: SAMPNT_E010A  # Generated from value "SAMPNT_E010A" located at cell 'instances'!A2.
+   Types: organization
+   Annotations: rdfs:label "Border inspection activities",
+         SSD_termCode "E010A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Border inspection activities"
+Individual: SAMPNT_E011A  # Generated from value "SAMPNT_E011A" located at cell 'instances'!A3.
+   Types: organization
+   Annotations: rdfs:label "Veterinary activities",
+         SSD_termCode "E011A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary activities"
+Individual: SAMPNT_E012A  # Generated from value "SAMPNT_E012A" located at cell 'instances'!A4.
+   Types: organization
+   Annotations: rdfs:label "Zoo",
+         SSD_termCode "E012A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Zoo"
+Individual: SAMPNT_E013A  # Generated from value "SAMPNT_E013A" located at cell 'instances'!A5.
+   Types: organization
+   Annotations: rdfs:label "Veterinary clinics",
+         SSD_termCode "E013A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary clinics"
+Individual: SAMPNT_E098A  # Generated from value "SAMPNT_E098A" located at cell 'instances'!A6.
+   Types: organization
+   Annotations: rdfs:label "Unspecified",
+         SSD_termCode "E098A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unspecified"
+Individual: SAMPNT_E099A  # Generated from value "SAMPNT_E099A" located at cell 'instances'!A7.
+   Types: organization
+   Annotations: rdfs:label "Others",
+         SSD_termCode "E099A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Others"
+Individual: SAMPNT_E100A  # Generated from value "SAMPNT_E100A" located at cell 'instances'!A8.
+   Types: organization
+   Annotations: rdfs:label "Primary production",
+         SSD_termCode "E100A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Primary production"
+Individual: SAMPNT_E101A  # Generated from value "SAMPNT_E101A" located at cell 'instances'!A9.
+   Types: organization
+   Annotations: rdfs:label "Farm",
+         SSD_termCode "E101A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Farm"
+Individual: SAMPNT_E110A  # Generated from value "SAMPNT_E110A" located at cell 'instances'!A10.
+   Types: organization
+   Annotations: rdfs:label "Growing crops",
+         SSD_termCode "E110A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Growing crops"
+Individual: SAMPNT_E112A  # Generated from value "SAMPNT_E112A" located at cell 'instances'!A11.
+   Types: organization
+   Annotations: rdfs:label "Bee hives",
+         SSD_termCode "E112A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Bee hives"
+Individual: SAMPNT_E120A  # Generated from value "SAMPNT_E120A" located at cell 'instances'!A12.
+   Types: organization
+   Annotations: rdfs:label "Rearing of animals",
+         SSD_termCode "E120A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rearing of animals"
+Individual: SAMPNT_E121A  # Generated from value "SAMPNT_E121A" located at cell 'instances'!A13.
+   Types: organization
+   Annotations: rdfs:label "Breeding",
+         SSD_termCode "E121A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Breeding"
+Individual: SAMPNT_E130A  # Generated from value "SAMPNT_E130A" located at cell 'instances'!A14.
+   Types: organization
+   Annotations: rdfs:label "Support activities to agriculture",
+         SSD_termCode "E130A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities to agriculture"
+Individual: SAMPNT_E131A  # Generated from value "SAMPNT_E131A" located at cell 'instances'!A15.
+   Types: organization
+   Annotations: rdfs:label "Support activities for crop production",
+         SSD_termCode "E131A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities for crop production"
+Individual: SAMPNT_E132A  # Generated from value "SAMPNT_E132A" located at cell 'instances'!A16.
+   Types: organization
+   Annotations: rdfs:label "Artificial insemination station",
+         SSD_termCode "E132A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Artificial insemination station"
+Individual: SAMPNT_E139A  # Generated from value "SAMPNT_E139A" located at cell 'instances'!A17.
+   Types: organization
+   Annotations: rdfs:label "Other animal production support activity",
+         SSD_termCode "E139A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other animal production support activity"
+Individual: SAMPNT_E150A  # Generated from value "SAMPNT_E150A" located at cell 'instances'!A18.
+   Types: organization
+   Annotations: rdfs:label "Fishery activities",
+         SSD_termCode "E150A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishery activities"
+Individual: SAMPNT_E151A  # Generated from value "SAMPNT_E151A" located at cell 'instances'!A19.
+   Types: organization
+   Annotations: rdfs:label "Fishing and fish processing",
+         SSD_termCode "E151A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing and fish processing"
+Individual: SAMPNT_E152A  # Generated from value "SAMPNT_E152A" located at cell 'instances'!A20.
+   Types: organization
+   Annotations: rdfs:label "Aquaculture",
+         SSD_termCode "E152A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Aquaculture"
+Individual: SAMPNT_E153A  # Generated from value "SAMPNT_E153A" located at cell 'instances'!A21.
+   Types: organization
+   Annotations: rdfs:label "Fishing",
+         SSD_termCode "E153A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing"
+Individual: SAMPNT_E160A  # Generated from value "SAMPNT_E160A" located at cell 'instances'!A22.
+   Types: organization
+   Annotations: rdfs:label "Hatchery",
+         SSD_termCode "E160A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hatchery"
+Individual: SAMPNT_E170A  # Generated from value "SAMPNT_E170A" located at cell 'instances'!A23.
+   Types: organization
+   Annotations: rdfs:label "Game handling estabilishment",
+         SSD_termCode "E170A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Game handling estabilishment"
+Individual: SAMPNT_E180A  # Generated from value "SAMPNT_E180A" located at cell 'instances'!A24.
+   Types: organization
+   Annotations: rdfs:label "Hunting",
+         SSD_termCode "E180A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hunting"
+Individual: SAMPNT_E190A  # Generated from value "SAMPNT_E190A" located at cell 'instances'!A25.
+   Types: organization
+   Annotations: rdfs:label "Wildlife research station",
+         SSD_termCode "E190A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wildlife research station"
+Individual: SAMPNT_E191A  # Generated from value "SAMPNT_E191A" located at cell 'instances'!A26.
+   Types: organization
+   Annotations: rdfs:label "Natural habitat",
+         SSD_termCode "E191A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Natural habitat"
+Individual: SAMPNT_E210A  # Generated from value "SAMPNT_E210A" located at cell 'instances'!A27.
+   Types: organization
+   Annotations: rdfs:label "Hospital or medical care facility",
+         SSD_termCode "E210A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hospital or medical care facility"
+Individual: SAMPNT_E220A  # Generated from value "SAMPNT_E220A" located at cell 'instances'!A28.
+   Types: organization
+   Annotations: rdfs:label "Residential institution (nursing home or prison or boarding school)",
+         SSD_termCode "E220A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Residential institution (nursing home or prison or boarding school)"
+Individual: SAMPNT_E230A  # Generated from value "SAMPNT_E230A" located at cell 'instances'!A29.
+   Types: organization
+   Annotations: rdfs:label "Household",
+         SSD_termCode "E230A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Household"
+Individual: SAMPNT_E240A  # Generated from value "SAMPNT_E240A" located at cell 'instances'!A30.
+   Types: organization
+   Annotations: rdfs:label "School or kindergarten",
+         SSD_termCode "E240A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "School or kindergarten"
+Individual: SAMPNT_E300A  # Generated from value "SAMPNT_E300A" located at cell 'instances'!A31.
+   Types: organization
+   Annotations: rdfs:label "Manufacturing",
+         SSD_termCode "E300A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacturing"
+Individual: SAMPNT_E301A  # Generated from value "SAMPNT_E301A" located at cell 'instances'!A32.
+   Types: organization
+   Annotations: rdfs:label "Processing plant",
+         SSD_termCode "E301A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Processing plant"
+Individual: SAMPNT_E310A  # Generated from value "SAMPNT_E310A" located at cell 'instances'!A33.
+   Types: organization
+   Annotations: rdfs:label "Meat processing",
+         SSD_termCode "E310A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat processing"
+Individual: SAMPNT_E311A  # Generated from value "SAMPNT_E311A" located at cell 'instances'!A34.
+   Types: organization
+   Annotations: rdfs:label "Slaughterhouse",
+         SSD_termCode "E311A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Slaughterhouse"
+Individual: SAMPNT_E312A  # Generated from value "SAMPNT_E312A" located at cell 'instances'!A35.
+   Types: organization
+   Annotations: rdfs:label "Cutting plant",
+         SSD_termCode "E312A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cutting plant"
+Individual: SAMPNT_E313A  # Generated from value "SAMPNT_E313A" located at cell 'instances'!A36.
+   Types: organization
+   Annotations: rdfs:label "Meat mincing",
+         SSD_termCode "E313A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat mincing"
+Individual: SAMPNT_E314A  # Generated from value "SAMPNT_E314A" located at cell 'instances'!A37.
+   Types: organization
+   Annotations: rdfs:label "Meat preparing",
+         SSD_termCode "E314A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat preparing"
+Individual: SAMPNT_E315A  # Generated from value "SAMPNT_E315A" located at cell 'instances'!A38.
+   Types: organization
+   Annotations: rdfs:label "Mechanical separation of meat",
+         SSD_termCode "E315A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mechanical separation of meat"
+Individual: SAMPNT_E319A  # Generated from value "SAMPNT_E319A" located at cell 'instances'!A39.
+   Types: organization
+   Annotations: rdfs:label "Other meat processing activities",
+         SSD_termCode "E319A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other meat processing activities"
+Individual: SAMPNT_E320A  # Generated from value "SAMPNT_E320A" located at cell 'instances'!A40.
+   Types: organization
+   Annotations: rdfs:label "Fish processing",
+         SSD_termCode "E320A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing"
+Individual: SAMPNT_E321A  # Generated from value "SAMPNT_E321A" located at cell 'instances'!A41.
+   Types: organization
+   Annotations: rdfs:label "Fish freezing",
+         SSD_termCode "E321A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish freezing"
+Individual: SAMPNT_E329A  # Generated from value "SAMPNT_E329A" located at cell 'instances'!A42.
+   Types: organization
+   Annotations: rdfs:label "Fish processing activities, other than freezing",
+         SSD_termCode "E329A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing activities, other than freezing"
+Individual: SAMPNT_E350A  # Generated from value "SAMPNT_E350A" located at cell 'instances'!A43.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared animal feeds",
+         SSD_termCode "E350A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared animal feeds"
+Individual: SAMPNT_E351A  # Generated from value "SAMPNT_E351A" located at cell 'instances'!A44.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of compound feedingstuffs",
+         SSD_termCode "E351A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of compound feedingstuffs"
+Individual: SAMPNT_E352A  # Generated from value "SAMPNT_E352A" located at cell 'instances'!A45.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of feed additives and pre-mixtures",
+         SSD_termCode "E352A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of feed additives and pre-mixtures"
+Individual: SAMPNT_E353A  # Generated from value "SAMPNT_E353A" located at cell 'instances'!A46.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared pet foods",
+         SSD_termCode "E353A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared pet foods"
+Individual: SAMPNT_E354A  # Generated from value "SAMPNT_E354A" located at cell 'instances'!A47.
+   Types: organization
+   Annotations: rdfs:label "Feed mill",
+         SSD_termCode "E354A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Feed mill"
+Individual: SAMPNT_E355A  # Generated from value "SAMPNT_E355A" located at cell 'instances'!A48.
+   Types: organization
+   Annotations: rdfs:label "Other processing activities",
+         SSD_termCode "E355A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other processing activities"
+Individual: SAMPNT_E400A  # Generated from value "SAMPNT_E400A" located at cell 'instances'!A49.
+   Types: organization
+   Annotations: rdfs:label "Water collection or treatment or supply",
+         SSD_termCode "E400A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water collection or treatment or supply"
+Individual: SAMPNT_E410A  # Generated from value "SAMPNT_E410A" located at cell 'instances'!A50.
+   Types: organization
+   Annotations: rdfs:label "Water distribution system",
+         SSD_termCode "E410A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water distribution system"
+Individual: SAMPNT_E420A  # Generated from value "SAMPNT_E420A" located at cell 'instances'!A51.
+   Types: organization
+   Annotations: rdfs:label "Water source",
+         SSD_termCode "E420A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water source"
+Individual: SAMPNT_E430A  # Generated from value "SAMPNT_E430A" located at cell 'instances'!A52.
+   Types: organization
+   Annotations: rdfs:label "Water treatment plant",
+         SSD_termCode "E430A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water treatment plant"
+Individual: SAMPNT_E500A  # Generated from value "SAMPNT_E500A" located at cell 'instances'!A53.
+   Types: organization
+   Annotations: rdfs:label "Distribution: wholesale and retail sale",
+         SSD_termCode "E500A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Distribution: wholesale and retail sale"
+Individual: SAMPNT_E510A  # Generated from value "SAMPNT_E510A" located at cell 'instances'!A54.
+   Types: organization
+   Annotations: rdfs:label "Wholesale",
+         SSD_termCode "E510A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wholesale"
+Individual: SAMPNT_E520A  # Generated from value "SAMPNT_E520A" located at cell 'instances'!A55.
+   Types: organization
+   Annotations: rdfs:label "Retail",
+         SSD_termCode "E520A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Retail"
+Individual: SAMPNT_E530A  # Generated from value "SAMPNT_E530A" located at cell 'instances'!A56.
+   Types: organization
+   Annotations: rdfs:label "Import activities",
+         SSD_termCode "E530A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Import activities"
+Individual: SAMPNT_E600A  # Generated from value "SAMPNT_E600A" located at cell 'instances'!A57.
+   Types: organization
+   Annotations: rdfs:label "Packing centre",
+         SSD_termCode "E600A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Packing centre"
+Individual: SAMPNT_E610A  # Generated from value "SAMPNT_E610A" located at cell 'instances'!A58.
+   Types: organization
+   Annotations: rdfs:label "Re-wrapping centre",
+         SSD_termCode "E610A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Re-wrapping centre"
+Individual: SAMPNT_E700A  # Generated from value "SAMPNT_E700A" located at cell 'instances'!A59.
+   Types: organization
+   Annotations: rdfs:label "Storage",
+         SSD_termCode "E700A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Storage"
+Individual: SAMPNT_E710A  # Generated from value "SAMPNT_E710A" located at cell 'instances'!A60.
+   Types: organization
+   Annotations: rdfs:label "Cold storage",
+         SSD_termCode "E710A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cold storage"
+Individual: SAMPNT_E720A  # Generated from value "SAMPNT_E720A" located at cell 'instances'!A61.
+   Types: organization
+   Annotations: rdfs:label "Conservation facilities",
+         SSD_termCode "E720A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Conservation facilities"
+Individual: SAMPNT_E800A  # Generated from value "SAMPNT_E800A" located at cell 'instances'!A62.
+   Types: organization
+   Annotations: rdfs:label "Transport",
+         SSD_termCode "E800A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Transport"
+Individual: SAMPNT_E810A  # Generated from value "SAMPNT_E810A" located at cell 'instances'!A63.
+   Types: organization
+   Annotations: rdfs:label "Road transport",
+         SSD_termCode "E810A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Road transport"
+Individual: SAMPNT_E820A  # Generated from value "SAMPNT_E820A" located at cell 'instances'!A64.
+   Types: organization
+   Annotations: rdfs:label "Rail transport",
+         SSD_termCode "E820A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rail transport"
+Individual: SAMPNT_E830A  # Generated from value "SAMPNT_E830A" located at cell 'instances'!A65.
+   Types: organization
+   Annotations: rdfs:label "Water transport",
+         SSD_termCode "E830A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water transport"
+Individual: SAMPNT_E840A  # Generated from value "SAMPNT_E840A" located at cell 'instances'!A66.
+   Types: organization
+   Annotations: rdfs:label "Air transport",
+         SSD_termCode "E840A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Air transport"
+Individual: SAMPNT_E850A  # Generated from value "SAMPNT_E850A" located at cell 'instances'!A67.
+   Types: organization
+   Annotations: rdfs:label "Travel abroad",
+         SSD_termCode "E850A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Travel abroad"
+Individual: SAMPNT_E900A  # Generated from value "SAMPNT_E900A" located at cell 'instances'!A68.
+   Types: organization
+   Annotations: rdfs:label "Catering",
+         SSD_termCode "E900A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering"
+Individual: SAMPNT_E910A  # Generated from value "SAMPNT_E910A" located at cell 'instances'!A69.
+   Types: organization
+   Annotations: rdfs:label "Restaurant or Cafe or Pub or Bar or Hotel or Catering service",
+         SSD_termCode "E910A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Restaurant or Cafe or Pub or Bar or Hotel or Catering service"
+Individual: SAMPNT_E920A  # Generated from value "SAMPNT_E920A" located at cell 'instances'!A70.
+   Types: organization
+   Annotations: rdfs:label "Mobile retailer or market/street vendor",
+         SSD_termCode "E920A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mobile retailer or market/street vendor"
+Individual: SAMPNT_E930A  # Generated from value "SAMPNT_E930A" located at cell 'instances'!A71.
+   Types: organization
+   Annotations: rdfs:label "Take-away or fast-food outlet",
+         SSD_termCode "E930A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Take-away or fast-food outlet"
+Individual: SAMPNT_E940A  # Generated from value "SAMPNT_E940A" located at cell 'instances'!A72.
+   Types: organization
+   Annotations: rdfs:label "Canteen or workplace catering",
+         SSD_termCode "E940A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Canteen or workplace catering"
+Individual: SAMPNT_E950A  # Generated from value "SAMPNT_E950A" located at cell 'instances'!A73.
+   Types: organization
+   Annotations: rdfs:label "Temporary mass catering (fairs or festivals)",
+         SSD_termCode "E950A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Temporary mass catering (fairs or festivals)"
+Individual: SAMPNT_E960A  # Generated from value "SAMPNT_E960A" located at cell 'instances'!A74.
+   Types: organization
+   Annotations: rdfs:label "Camp or picnic",
+         SSD_termCode "E960A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Camp or picnic"
+Individual: SAMPNT_E970A  # Generated from value "SAMPNT_E970A" located at cell 'instances'!A75.
+   Types: organization
+   Annotations: rdfs:label "Disseminated cases",
+         SSD_termCode "E970A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Disseminated cases"
+Individual: SAMPNT_E971A  # Generated from value "SAMPNT_E971A" located at cell 'instances'!A76.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in one country",
+         SSD_termCode "E971A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in one country"
+Individual: SAMPNT_E972A  # Generated from value "SAMPNT_E972A" located at cell 'instances'!A77.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in more than one country",
+         SSD_termCode "E972A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in more than one country"
+Individual: SAMPNT_E980A  # Generated from value "SAMPNT_E980A" located at cell 'instances'!A78.
+   Types: organization
+   Annotations: rdfs:label "Unknown",
+         SSD_termCode "E980A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unknown"
+Individual: SAMPNT_E981A  # Generated from value "SAMPNT_E981A" located at cell 'instances'!A79.
+   Types: organization
+   Annotations: rdfs:label "Nursery",
+         SSD_termCode "E981A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Nursery"
+Individual: SAMPNT_E982A  # Generated from value "SAMPNT_E982A" located at cell 'instances'!A80.
+   Types: organization
+   Annotations: rdfs:label "Automatic distribution system for raw milk",
+         SSD_termCode "E982A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Automatic distribution system for raw milk"
+Individual: SAMPNT_E983A  # Generated from value "SAMPNT_E983A" located at cell 'instances'!A81.
+   Types: organization
+   Annotations: rdfs:label "Official kennel",
+         SSD_termCode "E983A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Official kennel"
+Individual: SAMPNT_E990A  # Generated from value "SAMPNT_E990A" located at cell 'instances'!A82.
+   Types: organization
+   Annotations: rdfs:label "Catering on aircraft or ship or train",
+         SSD_termCode "E990A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering on aircraft or ship or train"
+Individual: SAMPNT_E010A  # Generated from value "SAMPNT_E010A" located at cell 'instances'!A2.
+   Types: organization
+   Annotations: rdfs:label "Border inspection activities",
+         SSD_termCode "E010A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Border inspection activities"
+Individual: SAMPNT_E011A  # Generated from value "SAMPNT_E011A" located at cell 'instances'!A3.
+   Types: organization
+   Annotations: rdfs:label "Veterinary activities",
+         SSD_termCode "E011A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary activities"
+Individual: SAMPNT_E012A  # Generated from value "SAMPNT_E012A" located at cell 'instances'!A4.
+   Types: organization
+   Annotations: rdfs:label "Zoo",
+         SSD_termCode "E012A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Zoo"
+Individual: SAMPNT_E013A  # Generated from value "SAMPNT_E013A" located at cell 'instances'!A5.
+   Types: organization
+   Annotations: rdfs:label "Veterinary clinics",
+         SSD_termCode "E013A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary clinics"
+Individual: SAMPNT_E098A  # Generated from value "SAMPNT_E098A" located at cell 'instances'!A6.
+   Types: organization
+   Annotations: rdfs:label "Unspecified",
+         SSD_termCode "E098A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unspecified"
+Individual: SAMPNT_E099A  # Generated from value "SAMPNT_E099A" located at cell 'instances'!A7.
+   Types: organization
+   Annotations: rdfs:label "Others",
+         SSD_termCode "E099A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Others"
+Individual: SAMPNT_E100A  # Generated from value "SAMPNT_E100A" located at cell 'instances'!A8.
+   Types: organization
+   Annotations: rdfs:label "Primary production",
+         SSD_termCode "E100A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Primary production"
+Individual: SAMPNT_E101A  # Generated from value "SAMPNT_E101A" located at cell 'instances'!A9.
+   Types: organization
+   Annotations: rdfs:label "Farm",
+         SSD_termCode "E101A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Farm"
+Individual: SAMPNT_E110A  # Generated from value "SAMPNT_E110A" located at cell 'instances'!A10.
+   Types: organization
+   Annotations: rdfs:label "Growing crops",
+         SSD_termCode "E110A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Growing crops"
+Individual: SAMPNT_E112A  # Generated from value "SAMPNT_E112A" located at cell 'instances'!A11.
+   Types: organization
+   Annotations: rdfs:label "Bee hives",
+         SSD_termCode "E112A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Bee hives"
+Individual: SAMPNT_E120A  # Generated from value "SAMPNT_E120A" located at cell 'instances'!A12.
+   Types: organization
+   Annotations: rdfs:label "Rearing of animals",
+         SSD_termCode "E120A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rearing of animals"
+Individual: SAMPNT_E121A  # Generated from value "SAMPNT_E121A" located at cell 'instances'!A13.
+   Types: organization
+   Annotations: rdfs:label "Breeding",
+         SSD_termCode "E121A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Breeding"
+Individual: SAMPNT_E130A  # Generated from value "SAMPNT_E130A" located at cell 'instances'!A14.
+   Types: organization
+   Annotations: rdfs:label "Support activities to agriculture",
+         SSD_termCode "E130A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities to agriculture"
+Individual: SAMPNT_E131A  # Generated from value "SAMPNT_E131A" located at cell 'instances'!A15.
+   Types: organization
+   Annotations: rdfs:label "Support activities for crop production",
+         SSD_termCode "E131A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities for crop production"
+Individual: SAMPNT_E132A  # Generated from value "SAMPNT_E132A" located at cell 'instances'!A16.
+   Types: organization
+   Annotations: rdfs:label "Artificial insemination station",
+         SSD_termCode "E132A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Artificial insemination station"
+Individual: SAMPNT_E139A  # Generated from value "SAMPNT_E139A" located at cell 'instances'!A17.
+   Types: organization
+   Annotations: rdfs:label "Other animal production support activity",
+         SSD_termCode "E139A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other animal production support activity"
+Individual: SAMPNT_E150A  # Generated from value "SAMPNT_E150A" located at cell 'instances'!A18.
+   Types: organization
+   Annotations: rdfs:label "Fishery activities",
+         SSD_termCode "E150A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishery activities"
+Individual: SAMPNT_E151A  # Generated from value "SAMPNT_E151A" located at cell 'instances'!A19.
+   Types: organization
+   Annotations: rdfs:label "Fishing and fish processing",
+         SSD_termCode "E151A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing and fish processing"
+Individual: SAMPNT_E152A  # Generated from value "SAMPNT_E152A" located at cell 'instances'!A20.
+   Types: organization
+   Annotations: rdfs:label "Aquaculture",
+         SSD_termCode "E152A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Aquaculture"
+Individual: SAMPNT_E153A  # Generated from value "SAMPNT_E153A" located at cell 'instances'!A21.
+   Types: organization
+   Annotations: rdfs:label "Fishing",
+         SSD_termCode "E153A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing"
+Individual: SAMPNT_E160A  # Generated from value "SAMPNT_E160A" located at cell 'instances'!A22.
+   Types: organization
+   Annotations: rdfs:label "Hatchery",
+         SSD_termCode "E160A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hatchery"
+Individual: SAMPNT_E170A  # Generated from value "SAMPNT_E170A" located at cell 'instances'!A23.
+   Types: organization
+   Annotations: rdfs:label "Game handling estabilishment",
+         SSD_termCode "E170A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Game handling estabilishment"
+Individual: SAMPNT_E180A  # Generated from value "SAMPNT_E180A" located at cell 'instances'!A24.
+   Types: organization
+   Annotations: rdfs:label "Hunting",
+         SSD_termCode "E180A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hunting"
+Individual: SAMPNT_E190A  # Generated from value "SAMPNT_E190A" located at cell 'instances'!A25.
+   Types: organization
+   Annotations: rdfs:label "Wildlife research station",
+         SSD_termCode "E190A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wildlife research station"
+Individual: SAMPNT_E191A  # Generated from value "SAMPNT_E191A" located at cell 'instances'!A26.
+   Types: organization
+   Annotations: rdfs:label "Natural habitat",
+         SSD_termCode "E191A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Natural habitat"
+Individual: SAMPNT_E210A  # Generated from value "SAMPNT_E210A" located at cell 'instances'!A27.
+   Types: organization
+   Annotations: rdfs:label "Hospital or medical care facility",
+         SSD_termCode "E210A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hospital or medical care facility"
+Individual: SAMPNT_E220A  # Generated from value "SAMPNT_E220A" located at cell 'instances'!A28.
+   Types: organization
+   Annotations: rdfs:label "Residential institution (nursing home or prison or boarding school)",
+         SSD_termCode "E220A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Residential institution (nursing home or prison or boarding school)"
+Individual: SAMPNT_E230A  # Generated from value "SAMPNT_E230A" located at cell 'instances'!A29.
+   Types: organization
+   Annotations: rdfs:label "Household",
+         SSD_termCode "E230A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Household"
+Individual: SAMPNT_E240A  # Generated from value "SAMPNT_E240A" located at cell 'instances'!A30.
+   Types: organization
+   Annotations: rdfs:label "School or kindergarten",
+         SSD_termCode "E240A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "School or kindergarten"
+Individual: SAMPNT_E300A  # Generated from value "SAMPNT_E300A" located at cell 'instances'!A31.
+   Types: organization
+   Annotations: rdfs:label "Manufacturing",
+         SSD_termCode "E300A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacturing"
+Individual: SAMPNT_E301A  # Generated from value "SAMPNT_E301A" located at cell 'instances'!A32.
+   Types: organization
+   Annotations: rdfs:label "Processing plant",
+         SSD_termCode "E301A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Processing plant"
+Individual: SAMPNT_E310A  # Generated from value "SAMPNT_E310A" located at cell 'instances'!A33.
+   Types: organization
+   Annotations: rdfs:label "Meat processing",
+         SSD_termCode "E310A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat processing"
+Individual: SAMPNT_E311A  # Generated from value "SAMPNT_E311A" located at cell 'instances'!A34.
+   Types: organization
+   Annotations: rdfs:label "Slaughterhouse",
+         SSD_termCode "E311A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Slaughterhouse"
+Individual: SAMPNT_E312A  # Generated from value "SAMPNT_E312A" located at cell 'instances'!A35.
+   Types: organization
+   Annotations: rdfs:label "Cutting plant",
+         SSD_termCode "E312A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cutting plant"
+Individual: SAMPNT_E313A  # Generated from value "SAMPNT_E313A" located at cell 'instances'!A36.
+   Types: organization
+   Annotations: rdfs:label "Meat mincing",
+         SSD_termCode "E313A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat mincing"
+Individual: SAMPNT_E314A  # Generated from value "SAMPNT_E314A" located at cell 'instances'!A37.
+   Types: organization
+   Annotations: rdfs:label "Meat preparing",
+         SSD_termCode "E314A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat preparing"
+Individual: SAMPNT_E315A  # Generated from value "SAMPNT_E315A" located at cell 'instances'!A38.
+   Types: organization
+   Annotations: rdfs:label "Mechanical separation of meat",
+         SSD_termCode "E315A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mechanical separation of meat"
+Individual: SAMPNT_E319A  # Generated from value "SAMPNT_E319A" located at cell 'instances'!A39.
+   Types: organization
+   Annotations: rdfs:label "Other meat processing activities",
+         SSD_termCode "E319A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other meat processing activities"
+Individual: SAMPNT_E320A  # Generated from value "SAMPNT_E320A" located at cell 'instances'!A40.
+   Types: organization
+   Annotations: rdfs:label "Fish processing",
+         SSD_termCode "E320A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing"
+Individual: SAMPNT_E321A  # Generated from value "SAMPNT_E321A" located at cell 'instances'!A41.
+   Types: organization
+   Annotations: rdfs:label "Fish freezing",
+         SSD_termCode "E321A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish freezing"
+Individual: SAMPNT_E329A  # Generated from value "SAMPNT_E329A" located at cell 'instances'!A42.
+   Types: organization
+   Annotations: rdfs:label "Fish processing activities, other than freezing",
+         SSD_termCode "E329A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing activities, other than freezing"
+Individual: SAMPNT_E350A  # Generated from value "SAMPNT_E350A" located at cell 'instances'!A43.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared animal feeds",
+         SSD_termCode "E350A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared animal feeds"
+Individual: SAMPNT_E351A  # Generated from value "SAMPNT_E351A" located at cell 'instances'!A44.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of compound feedingstuffs",
+         SSD_termCode "E351A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of compound feedingstuffs"
+Individual: SAMPNT_E352A  # Generated from value "SAMPNT_E352A" located at cell 'instances'!A45.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of feed additives and pre-mixtures",
+         SSD_termCode "E352A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of feed additives and pre-mixtures"
+Individual: SAMPNT_E353A  # Generated from value "SAMPNT_E353A" located at cell 'instances'!A46.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared pet foods",
+         SSD_termCode "E353A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared pet foods"
+Individual: SAMPNT_E354A  # Generated from value "SAMPNT_E354A" located at cell 'instances'!A47.
+   Types: organization
+   Annotations: rdfs:label "Feed mill",
+         SSD_termCode "E354A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Feed mill"
+Individual: SAMPNT_E355A  # Generated from value "SAMPNT_E355A" located at cell 'instances'!A48.
+   Types: organization
+   Annotations: rdfs:label "Other processing activities",
+         SSD_termCode "E355A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other processing activities"
+Individual: SAMPNT_E400A  # Generated from value "SAMPNT_E400A" located at cell 'instances'!A49.
+   Types: organization
+   Annotations: rdfs:label "Water collection or treatment or supply",
+         SSD_termCode "E400A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water collection or treatment or supply"
+Individual: SAMPNT_E410A  # Generated from value "SAMPNT_E410A" located at cell 'instances'!A50.
+   Types: organization
+   Annotations: rdfs:label "Water distribution system",
+         SSD_termCode "E410A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water distribution system"
+Individual: SAMPNT_E420A  # Generated from value "SAMPNT_E420A" located at cell 'instances'!A51.
+   Types: organization
+   Annotations: rdfs:label "Water source",
+         SSD_termCode "E420A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water source"
+Individual: SAMPNT_E430A  # Generated from value "SAMPNT_E430A" located at cell 'instances'!A52.
+   Types: organization
+   Annotations: rdfs:label "Water treatment plant",
+         SSD_termCode "E430A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water treatment plant"
+Individual: SAMPNT_E500A  # Generated from value "SAMPNT_E500A" located at cell 'instances'!A53.
+   Types: organization
+   Annotations: rdfs:label "Distribution: wholesale and retail sale",
+         SSD_termCode "E500A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Distribution: wholesale and retail sale"
+Individual: SAMPNT_E510A  # Generated from value "SAMPNT_E510A" located at cell 'instances'!A54.
+   Types: organization
+   Annotations: rdfs:label "Wholesale",
+         SSD_termCode "E510A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wholesale"
+Individual: SAMPNT_E520A  # Generated from value "SAMPNT_E520A" located at cell 'instances'!A55.
+   Types: organization
+   Annotations: rdfs:label "Retail",
+         SSD_termCode "E520A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Retail"
+Individual: SAMPNT_E530A  # Generated from value "SAMPNT_E530A" located at cell 'instances'!A56.
+   Types: organization
+   Annotations: rdfs:label "Import activities",
+         SSD_termCode "E530A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Import activities"
+Individual: SAMPNT_E600A  # Generated from value "SAMPNT_E600A" located at cell 'instances'!A57.
+   Types: organization
+   Annotations: rdfs:label "Packing centre",
+         SSD_termCode "E600A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Packing centre"
+Individual: SAMPNT_E610A  # Generated from value "SAMPNT_E610A" located at cell 'instances'!A58.
+   Types: organization
+   Annotations: rdfs:label "Re-wrapping centre",
+         SSD_termCode "E610A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Re-wrapping centre"
+Individual: SAMPNT_E700A  # Generated from value "SAMPNT_E700A" located at cell 'instances'!A59.
+   Types: organization
+   Annotations: rdfs:label "Storage",
+         SSD_termCode "E700A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Storage"
+Individual: SAMPNT_E710A  # Generated from value "SAMPNT_E710A" located at cell 'instances'!A60.
+   Types: organization
+   Annotations: rdfs:label "Cold storage",
+         SSD_termCode "E710A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cold storage"
+Individual: SAMPNT_E720A  # Generated from value "SAMPNT_E720A" located at cell 'instances'!A61.
+   Types: organization
+   Annotations: rdfs:label "Conservation facilities",
+         SSD_termCode "E720A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Conservation facilities"
+Individual: SAMPNT_E800A  # Generated from value "SAMPNT_E800A" located at cell 'instances'!A62.
+   Types: organization
+   Annotations: rdfs:label "Transport",
+         SSD_termCode "E800A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Transport"
+Individual: SAMPNT_E810A  # Generated from value "SAMPNT_E810A" located at cell 'instances'!A63.
+   Types: organization
+   Annotations: rdfs:label "Road transport",
+         SSD_termCode "E810A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Road transport"
+Individual: SAMPNT_E820A  # Generated from value "SAMPNT_E820A" located at cell 'instances'!A64.
+   Types: organization
+   Annotations: rdfs:label "Rail transport",
+         SSD_termCode "E820A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rail transport"
+Individual: SAMPNT_E830A  # Generated from value "SAMPNT_E830A" located at cell 'instances'!A65.
+   Types: organization
+   Annotations: rdfs:label "Water transport",
+         SSD_termCode "E830A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water transport"
+Individual: SAMPNT_E840A  # Generated from value "SAMPNT_E840A" located at cell 'instances'!A66.
+   Types: organization
+   Annotations: rdfs:label "Air transport",
+         SSD_termCode "E840A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Air transport"
+Individual: SAMPNT_E850A  # Generated from value "SAMPNT_E850A" located at cell 'instances'!A67.
+   Types: organization
+   Annotations: rdfs:label "Travel abroad",
+         SSD_termCode "E850A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Travel abroad"
+Individual: SAMPNT_E900A  # Generated from value "SAMPNT_E900A" located at cell 'instances'!A68.
+   Types: organization
+   Annotations: rdfs:label "Catering",
+         SSD_termCode "E900A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering"
+Individual: SAMPNT_E910A  # Generated from value "SAMPNT_E910A" located at cell 'instances'!A69.
+   Types: organization
+   Annotations: rdfs:label "Restaurant or Cafe or Pub or Bar or Hotel or Catering service",
+         SSD_termCode "E910A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Restaurant or Cafe or Pub or Bar or Hotel or Catering service"
+Individual: SAMPNT_E920A  # Generated from value "SAMPNT_E920A" located at cell 'instances'!A70.
+   Types: organization
+   Annotations: rdfs:label "Mobile retailer or market/street vendor",
+         SSD_termCode "E920A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mobile retailer or market/street vendor"
+Individual: SAMPNT_E930A  # Generated from value "SAMPNT_E930A" located at cell 'instances'!A71.
+   Types: organization
+   Annotations: rdfs:label "Take-away or fast-food outlet",
+         SSD_termCode "E930A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Take-away or fast-food outlet"
+Individual: SAMPNT_E940A  # Generated from value "SAMPNT_E940A" located at cell 'instances'!A72.
+   Types: organization
+   Annotations: rdfs:label "Canteen or workplace catering",
+         SSD_termCode "E940A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Canteen or workplace catering"
+Individual: SAMPNT_E950A  # Generated from value "SAMPNT_E950A" located at cell 'instances'!A73.
+   Types: organization
+   Annotations: rdfs:label "Temporary mass catering (fairs or festivals)",
+         SSD_termCode "E950A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Temporary mass catering (fairs or festivals)"
+Individual: SAMPNT_E960A  # Generated from value "SAMPNT_E960A" located at cell 'instances'!A74.
+   Types: organization
+   Annotations: rdfs:label "Camp or picnic",
+         SSD_termCode "E960A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Camp or picnic"
+Individual: SAMPNT_E970A  # Generated from value "SAMPNT_E970A" located at cell 'instances'!A75.
+   Types: organization
+   Annotations: rdfs:label "Disseminated cases",
+         SSD_termCode "E970A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Disseminated cases"
+Individual: SAMPNT_E971A  # Generated from value "SAMPNT_E971A" located at cell 'instances'!A76.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in one country",
+         SSD_termCode "E971A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in one country"
+Individual: SAMPNT_E972A  # Generated from value "SAMPNT_E972A" located at cell 'instances'!A77.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in more than one country",
+         SSD_termCode "E972A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in more than one country"
+Individual: SAMPNT_E980A  # Generated from value "SAMPNT_E980A" located at cell 'instances'!A78.
+   Types: organization
+   Annotations: rdfs:label "Unknown",
+         SSD_termCode "E980A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unknown"
+Individual: SAMPNT_E981A  # Generated from value "SAMPNT_E981A" located at cell 'instances'!A79.
+   Types: organization
+   Annotations: rdfs:label "Nursery",
+         SSD_termCode "E981A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Nursery"
+Individual: SAMPNT_E982A  # Generated from value "SAMPNT_E982A" located at cell 'instances'!A80.
+   Types: organization
+   Annotations: rdfs:label "Automatic distribution system for raw milk",
+         SSD_termCode "E982A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Automatic distribution system for raw milk"
+Individual: SAMPNT_E983A  # Generated from value "SAMPNT_E983A" located at cell 'instances'!A81.
+   Types: organization
+   Annotations: rdfs:label "Official kennel",
+         SSD_termCode "E983A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Official kennel"
+Individual: SAMPNT_E990A  # Generated from value "SAMPNT_E990A" located at cell 'instances'!A82.
+   Types: organization
+   Annotations: rdfs:label "Catering on aircraft or ship or train",
+         SSD_termCode "E990A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering on aircraft or ship or train"
+Individual: SAMPNT_E010A  # Generated from value "SAMPNT_E010A" located at cell 'instances'!A2.
+   Types: organization
+   Annotations: rdfs:label "Border inspection activities",
+         SSD_termCode "E010A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Border inspection activities"
+Individual: SAMPNT_E011A  # Generated from value "SAMPNT_E011A" located at cell 'instances'!A3.
+   Types: organization
+   Annotations: rdfs:label "Veterinary activities",
+         SSD_termCode "E011A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary activities"
+Individual: SAMPNT_E012A  # Generated from value "SAMPNT_E012A" located at cell 'instances'!A4.
+   Types: organization
+   Annotations: rdfs:label "Zoo",
+         SSD_termCode "E012A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Zoo"
+Individual: SAMPNT_E013A  # Generated from value "SAMPNT_E013A" located at cell 'instances'!A5.
+   Types: organization
+   Annotations: rdfs:label "Veterinary clinics",
+         SSD_termCode "E013A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Veterinary clinics"
+Individual: SAMPNT_E098A  # Generated from value "SAMPNT_E098A" located at cell 'instances'!A6.
+   Types: organization
+   Annotations: rdfs:label "Unspecified",
+         SSD_termCode "E098A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unspecified"
+Individual: SAMPNT_E099A  # Generated from value "SAMPNT_E099A" located at cell 'instances'!A7.
+   Types: organization
+   Annotations: rdfs:label "Others",
+         SSD_termCode "E099A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Others"
+Individual: SAMPNT_E100A  # Generated from value "SAMPNT_E100A" located at cell 'instances'!A8.
+   Types: organization
+   Annotations: rdfs:label "Primary production",
+         SSD_termCode "E100A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Primary production"
+Individual: SAMPNT_E101A  # Generated from value "SAMPNT_E101A" located at cell 'instances'!A9.
+   Types: organization
+   Annotations: rdfs:label "Farm",
+         SSD_termCode "E101A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Farm"
+Individual: SAMPNT_E110A  # Generated from value "SAMPNT_E110A" located at cell 'instances'!A10.
+   Types: organization
+   Annotations: rdfs:label "Growing crops",
+         SSD_termCode "E110A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Growing crops"
+Individual: SAMPNT_E112A  # Generated from value "SAMPNT_E112A" located at cell 'instances'!A11.
+   Types: organization
+   Annotations: rdfs:label "Bee hives",
+         SSD_termCode "E112A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Bee hives"
+Individual: SAMPNT_E120A  # Generated from value "SAMPNT_E120A" located at cell 'instances'!A12.
+   Types: organization
+   Annotations: rdfs:label "Rearing of animals",
+         SSD_termCode "E120A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rearing of animals"
+Individual: SAMPNT_E121A  # Generated from value "SAMPNT_E121A" located at cell 'instances'!A13.
+   Types: organization
+   Annotations: rdfs:label "Breeding",
+         SSD_termCode "E121A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Breeding"
+Individual: SAMPNT_E130A  # Generated from value "SAMPNT_E130A" located at cell 'instances'!A14.
+   Types: organization
+   Annotations: rdfs:label "Support activities to agriculture",
+         SSD_termCode "E130A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities to agriculture"
+Individual: SAMPNT_E131A  # Generated from value "SAMPNT_E131A" located at cell 'instances'!A15.
+   Types: organization
+   Annotations: rdfs:label "Support activities for crop production",
+         SSD_termCode "E131A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Support activities for crop production"
+Individual: SAMPNT_E132A  # Generated from value "SAMPNT_E132A" located at cell 'instances'!A16.
+   Types: organization
+   Annotations: rdfs:label "Artificial insemination station",
+         SSD_termCode "E132A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Artificial insemination station"
+Individual: SAMPNT_E139A  # Generated from value "SAMPNT_E139A" located at cell 'instances'!A17.
+   Types: organization
+   Annotations: rdfs:label "Other animal production support activity",
+         SSD_termCode "E139A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other animal production support activity"
+Individual: SAMPNT_E150A  # Generated from value "SAMPNT_E150A" located at cell 'instances'!A18.
+   Types: organization
+   Annotations: rdfs:label "Fishery activities",
+         SSD_termCode "E150A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishery activities"
+Individual: SAMPNT_E151A  # Generated from value "SAMPNT_E151A" located at cell 'instances'!A19.
+   Types: organization
+   Annotations: rdfs:label "Fishing and fish processing",
+         SSD_termCode "E151A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing and fish processing"
+Individual: SAMPNT_E152A  # Generated from value "SAMPNT_E152A" located at cell 'instances'!A20.
+   Types: organization
+   Annotations: rdfs:label "Aquaculture",
+         SSD_termCode "E152A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Aquaculture"
+Individual: SAMPNT_E153A  # Generated from value "SAMPNT_E153A" located at cell 'instances'!A21.
+   Types: organization
+   Annotations: rdfs:label "Fishing",
+         SSD_termCode "E153A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fishing"
+Individual: SAMPNT_E160A  # Generated from value "SAMPNT_E160A" located at cell 'instances'!A22.
+   Types: organization
+   Annotations: rdfs:label "Hatchery",
+         SSD_termCode "E160A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hatchery"
+Individual: SAMPNT_E170A  # Generated from value "SAMPNT_E170A" located at cell 'instances'!A23.
+   Types: organization
+   Annotations: rdfs:label "Game handling estabilishment",
+         SSD_termCode "E170A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Game handling estabilishment"
+Individual: SAMPNT_E180A  # Generated from value "SAMPNT_E180A" located at cell 'instances'!A24.
+   Types: organization
+   Annotations: rdfs:label "Hunting",
+         SSD_termCode "E180A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hunting"
+Individual: SAMPNT_E190A  # Generated from value "SAMPNT_E190A" located at cell 'instances'!A25.
+   Types: organization
+   Annotations: rdfs:label "Wildlife research station",
+         SSD_termCode "E190A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wildlife research station"
+Individual: SAMPNT_E191A  # Generated from value "SAMPNT_E191A" located at cell 'instances'!A26.
+   Types: organization
+   Annotations: rdfs:label "Natural habitat",
+         SSD_termCode "E191A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Natural habitat"
+Individual: SAMPNT_E210A  # Generated from value "SAMPNT_E210A" located at cell 'instances'!A27.
+   Types: organization
+   Annotations: rdfs:label "Hospital or medical care facility",
+         SSD_termCode "E210A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Hospital or medical care facility"
+Individual: SAMPNT_E220A  # Generated from value "SAMPNT_E220A" located at cell 'instances'!A28.
+   Types: organization
+   Annotations: rdfs:label "Residential institution (nursing home or prison or boarding school)",
+         SSD_termCode "E220A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Residential institution (nursing home or prison or boarding school)"
+Individual: SAMPNT_E230A  # Generated from value "SAMPNT_E230A" located at cell 'instances'!A29.
+   Types: organization
+   Annotations: rdfs:label "Household",
+         SSD_termCode "E230A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Household"
+Individual: SAMPNT_E240A  # Generated from value "SAMPNT_E240A" located at cell 'instances'!A30.
+   Types: organization
+   Annotations: rdfs:label "School or kindergarten",
+         SSD_termCode "E240A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "School or kindergarten"
+Individual: SAMPNT_E300A  # Generated from value "SAMPNT_E300A" located at cell 'instances'!A31.
+   Types: organization
+   Annotations: rdfs:label "Manufacturing",
+         SSD_termCode "E300A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacturing"
+Individual: SAMPNT_E301A  # Generated from value "SAMPNT_E301A" located at cell 'instances'!A32.
+   Types: organization
+   Annotations: rdfs:label "Processing plant",
+         SSD_termCode "E301A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Processing plant"
+Individual: SAMPNT_E310A  # Generated from value "SAMPNT_E310A" located at cell 'instances'!A33.
+   Types: organization
+   Annotations: rdfs:label "Meat processing",
+         SSD_termCode "E310A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat processing"
+Individual: SAMPNT_E311A  # Generated from value "SAMPNT_E311A" located at cell 'instances'!A34.
+   Types: organization
+   Annotations: rdfs:label "Slaughterhouse",
+         SSD_termCode "E311A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Slaughterhouse"
+Individual: SAMPNT_E312A  # Generated from value "SAMPNT_E312A" located at cell 'instances'!A35.
+   Types: organization
+   Annotations: rdfs:label "Cutting plant",
+         SSD_termCode "E312A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cutting plant"
+Individual: SAMPNT_E313A  # Generated from value "SAMPNT_E313A" located at cell 'instances'!A36.
+   Types: organization
+   Annotations: rdfs:label "Meat mincing",
+         SSD_termCode "E313A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat mincing"
+Individual: SAMPNT_E314A  # Generated from value "SAMPNT_E314A" located at cell 'instances'!A37.
+   Types: organization
+   Annotations: rdfs:label "Meat preparing",
+         SSD_termCode "E314A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Meat preparing"
+Individual: SAMPNT_E315A  # Generated from value "SAMPNT_E315A" located at cell 'instances'!A38.
+   Types: organization
+   Annotations: rdfs:label "Mechanical separation of meat",
+         SSD_termCode "E315A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mechanical separation of meat"
+Individual: SAMPNT_E319A  # Generated from value "SAMPNT_E319A" located at cell 'instances'!A39.
+   Types: organization
+   Annotations: rdfs:label "Other meat processing activities",
+         SSD_termCode "E319A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other meat processing activities"
+Individual: SAMPNT_E320A  # Generated from value "SAMPNT_E320A" located at cell 'instances'!A40.
+   Types: organization
+   Annotations: rdfs:label "Fish processing",
+         SSD_termCode "E320A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing"
+Individual: SAMPNT_E321A  # Generated from value "SAMPNT_E321A" located at cell 'instances'!A41.
+   Types: organization
+   Annotations: rdfs:label "Fish freezing",
+         SSD_termCode "E321A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish freezing"
+Individual: SAMPNT_E329A  # Generated from value "SAMPNT_E329A" located at cell 'instances'!A42.
+   Types: organization
+   Annotations: rdfs:label "Fish processing activities, other than freezing",
+         SSD_termCode "E329A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Fish processing activities, other than freezing"
+Individual: SAMPNT_E350A  # Generated from value "SAMPNT_E350A" located at cell 'instances'!A43.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared animal feeds",
+         SSD_termCode "E350A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared animal feeds"
+Individual: SAMPNT_E351A  # Generated from value "SAMPNT_E351A" located at cell 'instances'!A44.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of compound feedingstuffs",
+         SSD_termCode "E351A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of compound feedingstuffs"
+Individual: SAMPNT_E352A  # Generated from value "SAMPNT_E352A" located at cell 'instances'!A45.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of feed additives and pre-mixtures",
+         SSD_termCode "E352A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of feed additives and pre-mixtures"
+Individual: SAMPNT_E353A  # Generated from value "SAMPNT_E353A" located at cell 'instances'!A46.
+   Types: organization
+   Annotations: rdfs:label "Manufacture of prepared pet foods",
+         SSD_termCode "E353A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Manufacture of prepared pet foods"
+Individual: SAMPNT_E354A  # Generated from value "SAMPNT_E354A" located at cell 'instances'!A47.
+   Types: organization
+   Annotations: rdfs:label "Feed mill",
+         SSD_termCode "E354A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Feed mill"
+Individual: SAMPNT_E355A  # Generated from value "SAMPNT_E355A" located at cell 'instances'!A48.
+   Types: organization
+   Annotations: rdfs:label "Other processing activities",
+         SSD_termCode "E355A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Other processing activities"
+Individual: SAMPNT_E400A  # Generated from value "SAMPNT_E400A" located at cell 'instances'!A49.
+   Types: organization
+   Annotations: rdfs:label "Water collection or treatment or supply",
+         SSD_termCode "E400A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water collection or treatment or supply"
+Individual: SAMPNT_E410A  # Generated from value "SAMPNT_E410A" located at cell 'instances'!A50.
+   Types: organization
+   Annotations: rdfs:label "Water distribution system",
+         SSD_termCode "E410A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water distribution system"
+Individual: SAMPNT_E420A  # Generated from value "SAMPNT_E420A" located at cell 'instances'!A51.
+   Types: organization
+   Annotations: rdfs:label "Water source",
+         SSD_termCode "E420A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water source"
+Individual: SAMPNT_E430A  # Generated from value "SAMPNT_E430A" located at cell 'instances'!A52.
+   Types: organization
+   Annotations: rdfs:label "Water treatment plant",
+         SSD_termCode "E430A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water treatment plant"
+Individual: SAMPNT_E500A  # Generated from value "SAMPNT_E500A" located at cell 'instances'!A53.
+   Types: organization
+   Annotations: rdfs:label "Distribution: wholesale and retail sale",
+         SSD_termCode "E500A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Distribution: wholesale and retail sale"
+Individual: SAMPNT_E510A  # Generated from value "SAMPNT_E510A" located at cell 'instances'!A54.
+   Types: organization
+   Annotations: rdfs:label "Wholesale",
+         SSD_termCode "E510A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Wholesale"
+Individual: SAMPNT_E520A  # Generated from value "SAMPNT_E520A" located at cell 'instances'!A55.
+   Types: organization
+   Annotations: rdfs:label "Retail",
+         SSD_termCode "E520A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Retail"
+Individual: SAMPNT_E530A  # Generated from value "SAMPNT_E530A" located at cell 'instances'!A56.
+   Types: organization
+   Annotations: rdfs:label "Import activities",
+         SSD_termCode "E530A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Import activities"
+Individual: SAMPNT_E600A  # Generated from value "SAMPNT_E600A" located at cell 'instances'!A57.
+   Types: organization
+   Annotations: rdfs:label "Packing centre",
+         SSD_termCode "E600A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Packing centre"
+Individual: SAMPNT_E610A  # Generated from value "SAMPNT_E610A" located at cell 'instances'!A58.
+   Types: organization
+   Annotations: rdfs:label "Re-wrapping centre",
+         SSD_termCode "E610A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Re-wrapping centre"
+Individual: SAMPNT_E700A  # Generated from value "SAMPNT_E700A" located at cell 'instances'!A59.
+   Types: organization
+   Annotations: rdfs:label "Storage",
+         SSD_termCode "E700A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Storage"
+Individual: SAMPNT_E710A  # Generated from value "SAMPNT_E710A" located at cell 'instances'!A60.
+   Types: organization
+   Annotations: rdfs:label "Cold storage",
+         SSD_termCode "E710A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Cold storage"
+Individual: SAMPNT_E720A  # Generated from value "SAMPNT_E720A" located at cell 'instances'!A61.
+   Types: organization
+   Annotations: rdfs:label "Conservation facilities",
+         SSD_termCode "E720A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Conservation facilities"
+Individual: SAMPNT_E800A  # Generated from value "SAMPNT_E800A" located at cell 'instances'!A62.
+   Types: organization
+   Annotations: rdfs:label "Transport",
+         SSD_termCode "E800A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Transport"
+Individual: SAMPNT_E810A  # Generated from value "SAMPNT_E810A" located at cell 'instances'!A63.
+   Types: organization
+   Annotations: rdfs:label "Road transport",
+         SSD_termCode "E810A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Road transport"
+Individual: SAMPNT_E820A  # Generated from value "SAMPNT_E820A" located at cell 'instances'!A64.
+   Types: organization
+   Annotations: rdfs:label "Rail transport",
+         SSD_termCode "E820A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Rail transport"
+Individual: SAMPNT_E830A  # Generated from value "SAMPNT_E830A" located at cell 'instances'!A65.
+   Types: organization
+   Annotations: rdfs:label "Water transport",
+         SSD_termCode "E830A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Water transport"
+Individual: SAMPNT_E840A  # Generated from value "SAMPNT_E840A" located at cell 'instances'!A66.
+   Types: organization
+   Annotations: rdfs:label "Air transport",
+         SSD_termCode "E840A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Air transport"
+Individual: SAMPNT_E850A  # Generated from value "SAMPNT_E850A" located at cell 'instances'!A67.
+   Types: organization
+   Annotations: rdfs:label "Travel abroad",
+         SSD_termCode "E850A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Travel abroad"
+Individual: SAMPNT_E900A  # Generated from value "SAMPNT_E900A" located at cell 'instances'!A68.
+   Types: organization
+   Annotations: rdfs:label "Catering",
+         SSD_termCode "E900A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering"
+Individual: SAMPNT_E910A  # Generated from value "SAMPNT_E910A" located at cell 'instances'!A69.
+   Types: organization
+   Annotations: rdfs:label "Restaurant or Cafe or Pub or Bar or Hotel or Catering service",
+         SSD_termCode "E910A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Restaurant or Cafe or Pub or Bar or Hotel or Catering service"
+Individual: SAMPNT_E920A  # Generated from value "SAMPNT_E920A" located at cell 'instances'!A70.
+   Types: organization
+   Annotations: rdfs:label "Mobile retailer or market/street vendor",
+         SSD_termCode "E920A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Mobile retailer or market/street vendor"
+Individual: SAMPNT_E930A  # Generated from value "SAMPNT_E930A" located at cell 'instances'!A71.
+   Types: organization
+   Annotations: rdfs:label "Take-away or fast-food outlet",
+         SSD_termCode "E930A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Take-away or fast-food outlet"
+Individual: SAMPNT_E940A  # Generated from value "SAMPNT_E940A" located at cell 'instances'!A72.
+   Types: organization
+   Annotations: rdfs:label "Canteen or workplace catering",
+         SSD_termCode "E940A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Canteen or workplace catering"
+Individual: SAMPNT_E950A  # Generated from value "SAMPNT_E950A" located at cell 'instances'!A73.
+   Types: organization
+   Annotations: rdfs:label "Temporary mass catering (fairs or festivals)",
+         SSD_termCode "E950A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Temporary mass catering (fairs or festivals)"
+Individual: SAMPNT_E960A  # Generated from value "SAMPNT_E960A" located at cell 'instances'!A74.
+   Types: organization
+   Annotations: rdfs:label "Camp or picnic",
+         SSD_termCode "E960A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Camp or picnic"
+Individual: SAMPNT_E970A  # Generated from value "SAMPNT_E970A" located at cell 'instances'!A75.
+   Types: organization
+   Annotations: rdfs:label "Disseminated cases",
+         SSD_termCode "E970A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Disseminated cases"
+Individual: SAMPNT_E971A  # Generated from value "SAMPNT_E971A" located at cell 'instances'!A76.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in one country",
+         SSD_termCode "E971A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in one country"
+Individual: SAMPNT_E972A  # Generated from value "SAMPNT_E972A" located at cell 'instances'!A77.
+   Types: organization
+   Annotations: rdfs:label "Multiple places of exposure in more than one country",
+         SSD_termCode "E972A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Multiple places of exposure in more than one country"
+Individual: SAMPNT_E980A  # Generated from value "SAMPNT_E980A" located at cell 'instances'!A78.
+   Types: organization
+   Annotations: rdfs:label "Unknown",
+         SSD_termCode "E980A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Unknown"
+Individual: SAMPNT_E981A  # Generated from value "SAMPNT_E981A" located at cell 'instances'!A79.
+   Types: organization
+   Annotations: rdfs:label "Nursery",
+         SSD_termCode "E981A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Nursery"
+Individual: SAMPNT_E982A  # Generated from value "SAMPNT_E982A" located at cell 'instances'!A80.
+   Types: organization
+   Annotations: rdfs:label "Automatic distribution system for raw milk",
+         SSD_termCode "E982A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Automatic distribution system for raw milk"
+Individual: SAMPNT_E983A  # Generated from value "SAMPNT_E983A" located at cell 'instances'!A81.
+   Types: organization
+   Annotations: rdfs:label "Official kennel",
+         SSD_termCode "E983A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Official kennel"
+Individual: SAMPNT_E990A  # Generated from value "SAMPNT_E990A" located at cell 'instances'!A82.
+   Types: organization
+   Annotations: rdfs:label "Catering on aircraft or ship or train",
+         SSD_termCode "E990A",
+         SSD_catalogue "SAMPNT",
+         SSD_termExtendedName "Catering on aircraft or ship or train"
+
+===========================================================================================================
