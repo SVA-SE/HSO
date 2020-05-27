@@ -16659,6 +16659,56 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#MTX_A056J -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTX_A056J">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A056J</HSO_0000003>
+        <HSO_0000004 xml:lang="en">Human (as organism)</HSO_0000004>
+        <HSO_0000005 xml:lang="en">Humans as living organisms of the taxonomic group Homo sapiens (family Hominidae). The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Human</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTX_A057E -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTX_A057E">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:label xml:lang="en">Cattle (as animal)</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A057E</HSO_0000003>
+        <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
+        <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Bos taurus Bojanus. The animals are commonly known as Cattle. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Cattle</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTX_A057F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTX_A057F">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
+        <rdfs:label xml:lang="en">Pig (as animal)</rdfs:label>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A057F</HSO_0000003>
+        <HSO_0000004 xml:lang="en">Pig (as animal)</HSO_0000004>
+        <HSO_0000005 xml:lang="en">Live animals of the taxonomic species Sus domestica L., Sus scrofa domesticus L. The animals are commonly known as Pig or swine. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Domestic_pig</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#MTX_A057Z -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#MTX_A057Z">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <HSO_0000002 xml:lang="en">MTX</HSO_0000002>
+        <HSO_0000003 xml:lang="en">A057Z</HSO_0000003>
+        <HSO_0000004 xml:lang="en">Gallus gallus (chicken) (as animal)</HSO_0000004>
+        <HSO_0000005 xml:lang="en">Live animal of the taxonomic species Gallus gallus domesticus L. The animals are commonly known as Gallus gallus (chicken) or Fowl or Chicken. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Chicken</HSO_0000005>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#PARAM_RF-00000043-MCG -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000043-MCG">
