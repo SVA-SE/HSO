@@ -1,9 +1,0 @@
-Individual: @A*(rdf:ID) 
-Types: 'Escherichia coli'
-Annotations: label @B*
-Annotations: SSD_temExtendedName @C*
-Annotations: SSD_catalogue @D*
-Annotations: SSD_termCode @E*
-Annotations: hasAlternativeId @F*
-Facts: isSerotypeOf @G*
-
