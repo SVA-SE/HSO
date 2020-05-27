@@ -1,1 +1,0 @@
-{"Collections":[{"sheetName":"subclasses","startColumn":"A","endColumn":"F","startRow":"2","endRow":"57","comment":"","rule":"Class: @A*\nSubClassOf: @F*\nAnnotations: label @B*\nAnnotations: SSD_catalogue @C*\nAnnotations: SSD_termCode @D*\nAnnotations: SSD_termScopeNote @E*\nAnnotations: SSD_termExtendedName @B*","active":true}]}
