@@ -17014,6 +17014,127 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#PARAM_RF-00000304-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000304-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella spp</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000304-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00000895-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000895-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_363569"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Javiana</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000895-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00000960-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00000960-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_108619"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Newport</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00000960-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00001152-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00001152-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_48409"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Virchow</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001152-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00001316-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00001316-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_192953"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Stanley</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001316-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00001328-PAR -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00001328-PAR">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_54736"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella bongori</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001328-PAR</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00001843-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00001843-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_149385"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Hadar</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001843-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00001894-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00001894-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_595"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Infantis</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001894-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00001957-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00001957-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_611"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Heidelberg</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00001957-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00002135-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00002135-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_149539"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Enteritidis</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002135-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00002265-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00002265-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_90371"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00002265-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#PARAM_RF-00002684-PAR -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00002684-PAR">
@@ -17026,6 +17147,17 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     
 
 
+    <!-- https://w3id.org/hso#PARAM_RF-00003052-MCG -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00003052-MCG">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003052-MCG</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/hso#PARAM_RF-00003072-PAR -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00003072-PAR">
@@ -17033,6 +17165,17 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003072-PAR</HSO_0000003>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#PARAM_RF-00003200-PAR -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#PARAM_RF-00003200-PAR">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28901"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARAM</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF-00003200-PAR</HSO_0000003>
     </owl:NamedIndividual>
     
 
@@ -18232,9 +18375,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic cattle</oboInOwl:hasExactSynonym>
         <HSO_0000004 xml:lang="en">Cattle (as animal)</HSO_0000004>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bovine</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos taurus</rdfs:label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos primigenius taurus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bovine</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos Tauurus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cow</oboInOwl:hasExactSynonym>
