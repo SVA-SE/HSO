@@ -12100,12 +12100,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000061 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000061">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000246"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">whole organism</rdfs:label>
     </owl:Class>
@@ -12130,12 +12124,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000063 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000063">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000247"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">fluid specimen</rdfs:label>
     </owl:Class>
@@ -12151,12 +12139,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000248"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">organ/tissue specimen</rdfs:label>
     </owl:Class>
@@ -12166,12 +12148,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000065 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000065">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000250"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">swab specimen</rdfs:label>
     </owl:Class>
@@ -12185,12 +12161,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000174"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000249"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
@@ -12259,6 +12229,51 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
         <rdfs:label xml:lang="en">specimen from organism type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000246 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000246">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000247 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000247">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000248 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000248">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000249 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000249">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000250 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000250">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">swab sample</rdfs:label>
     </owl:Class>
     
 
@@ -16715,51 +16730,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000003 xml:lang="en">A0C9Q</HSO_0000003>
         <HSO_0000004 xml:lang="en">Meat production cattle</HSO_0000004>
         <HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</HSO_0000005>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000246 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000246">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000247 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000247">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000248 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000248">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000249 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000249">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000250 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000250">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">swab sample</rdfs:label>
     </owl:NamedIndividual>
     
 
