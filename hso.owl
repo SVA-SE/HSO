@@ -21,11 +21,12 @@
         <dc:contributor>Eva Blomqvist</dc:contributor>
         <dc:contributor>Karl Hammar</dc:contributor>
         <dc:contributor>Patrick Lambrix</dc:contributor>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dcterms:creator>Fernanda Dórea</dcterms:creator>
         <dcterms:description xml:lang="en">An ontology to support semantic interoperability among domains involved in health surveillance (animal health, public health and food safety). More details at http://datadrivensurveillance.org.</dcterms:description>
         <dcterms:title xml:lang="en">Health Surveillance Ontology (HSO)</dcterms:title>
         <rdfs:comment xml:lang="en">This is an ontology to support (one) health surveillance, focused on &quot;surveillance system level data&quot;, that is, data outputs from surveillance activities, such as number of samples collected, cases observed, etc.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">3.1.0</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">3.2.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -523,6 +524,7 @@ The SSD2 file contains the controlled terminologies based on the standard descri
 
 This annotation points to the specific catalague, within SSD2, form which terms were imported.</dc:description>
         <rdfs:label xml:lang="en">SSD_catalogue</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000353"/>
     </owl:AnnotationProperty>
     
 
@@ -534,6 +536,7 @@ This annotation points to the specific catalague, within SSD2, form which terms 
 
 Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quot;.&quot;</dc:description>
         <rdfs:label xml:lang="en">SSD_termCode</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000353"/>
     </owl:AnnotationProperty>
     
 
@@ -543,6 +546,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000004">
         <dc:description xml:lang="en">This annotation gives the specific term name for the concept include din the ontology. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</dc:description>
         <rdfs:label xml:lang="en">SSD_termExtendedName</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000353"/>
     </owl:AnnotationProperty>
     
 
@@ -552,6 +556,294 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000005">
         <dc:description xml:lang="en">This annotation gives any additional notes. Look for this name in the specific catalogue via the annotation property &quot;SSD_catalogue&quot;. Codes are stored in the property &quot;SSD_termCode&quot;.</dc:description>
         <rdfs:label xml:lang="en">SSD_termScopeNote</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000353"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000324 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000324">
+        <rdfs:label xml:lang="en">One-Health Consensus Reference Annotation Checklist (OH-CRAC)</rdfs:label>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000325 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000325">
+        <rdfs:label xml:lang="en">CRAC 1.1 Motivation / cause</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000326 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000326">
+        <rdfs:label xml:lang="en">CRAC 1.2. Requirement analysis</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000327 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000327">
+        <rdfs:label xml:lang="en">CRAC 1.3. Surveillance objective and constraints</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000328 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000328">
+        <rdfs:label xml:lang="en">CRAC 2.1. Framework design</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000329 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000329">
+        <rdfs:label xml:lang="en">CRAC 2.2. Variable specifications</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000330 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000330">
+        <rdfs:label xml:lang="en">CRAC 2.3. Surveillance methods/strategy</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000331 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000331">
+        <rdfs:label xml:lang="en">CRAC 2.4. Sampling plan</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000332 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000332">
+        <rdfs:label xml:lang="en">CRAC 2.4.1. Sampled population</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000333 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000333">
+        <rdfs:label xml:lang="en">CRAC 2.4.2. Sampling schema</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000334 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000334">
+        <rdfs:label xml:lang="en">CRAC 2.4.3. Sample collection</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000335 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000335">
+        <rdfs:label xml:lang="en">CRAC 2.4.4. Sample preparation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000336 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000336">
+        <rdfs:label xml:lang="en">CRAC 2.4.5. Analytical procedures</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000337 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000337">
+        <rdfs:label xml:lang="en">CRAC 2.5. Data processing/analysis</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000338 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000338">
+        <rdfs:label xml:lang="en">CRAC 3.1. Practical aspects on sample selection</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000339 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000339">
+        <rdfs:label xml:lang="en">CRAC 3.2. Practical support activities</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000340 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000340">
+        <rdfs:label xml:lang="en">CRAC 3.3. Practical aspects on field and lab work</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000341 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000341">
+        <rdfs:label xml:lang="en">CRAC 3.4. Practical aspects on information handling</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000342 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000342">
+        <rdfs:label xml:lang="en">CRAC 4.1. Data integration</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000343 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000343">
+        <rdfs:label xml:lang="en">CRAC 4.2. Data classification / encoding</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000344 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000344">
+        <rdfs:label xml:lang="en">CRAC 4.3. Data validation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000345 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000345">
+        <rdfs:label xml:lang="en">CRAC 4.4. Data cleansing and correction</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000346 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000346">
+        <rdfs:label xml:lang="en">CRAC 4.5. New variable/unit derivation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000347 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000347">
+        <rdfs:label xml:lang="en">CRAC 4.6. Weighing of records</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000348 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000348">
+        <rdfs:label xml:lang="en">CRAC 4.7. Data aggregation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000349 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000349">
+        <rdfs:label xml:lang="en">CRAC 5.1. Surveillance output generation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000350 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000350">
+        <rdfs:label xml:lang="en">CRAC 5.2. Surveillance output validation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000351 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000351">
+        <rdfs:label xml:lang="en">CRAC 5.3. Surveillance output statistical analysis</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000352 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000352">
+        <rdfs:label xml:lang="en">CRAC 5.4. Surveillance disclosure control</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000353 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000353">
+        <rdfs:label xml:lang="en">European Food Safety Agency Standard Sample Description Framework - EFSA SSD</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000354 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000354">
+        <rdfs:label xml:lang="en">surveillance output</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000355 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000355">
+        <rdfs:label xml:lang="en">discussion</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
     
 
@@ -3074,6 +3366,17 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000323 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000323">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000321"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">Number of imported cases</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4772,7 +5075,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0001790 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0001790">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -13011,12 +13314,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000061 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000061">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000246"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">whole organism</rdfs:label>
     </owl:Class>
@@ -13041,12 +13338,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000063 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000063">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000247"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">fluid specimen</rdfs:label>
     </owl:Class>
@@ -13062,12 +13353,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000248"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">organ/tissue specimen</rdfs:label>
     </owl:Class>
@@ -13077,12 +13362,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000065 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000065">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000250"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
         <rdfs:label xml:lang="en">swab specimen</rdfs:label>
     </owl:Class>
@@ -13096,12 +13375,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000174"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000251"/>
-                <owl:hasValue rdf:resource="https://w3id.org/hso#HSO_0000249"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000062"/>
@@ -13170,6 +13443,51 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
         <rdfs:label xml:lang="en">specimen from organism type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000246 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000246">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000247 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000247">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000248 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000248">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000249 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000249">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000250 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000250">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
+        <rdfs:label xml:lang="en">swab sample</rdfs:label>
     </owl:Class>
     
 
@@ -17626,51 +17944,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <HSO_0000003 xml:lang="en">A0C9Q</HSO_0000003>
         <HSO_0000004 xml:lang="en">Meat production cattle</HSO_0000004>
         <HSO_0000005 xml:lang="en">Cattle having reached the physical maturity, for meat production. The part considered is by default the whole living organism.£https://en.wikipedia.org/wiki/Beef_cattle</HSO_0000005>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000246 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000246">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000247 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000247">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000248 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000248">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000249 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000249">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/hso#HSO_0000250 -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/hso#HSO_0000250">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">swab sample</rdfs:label>
     </owl:NamedIndividual>
     
 
