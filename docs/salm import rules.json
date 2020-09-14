@@ -1,1 +1,0 @@
-{"Collections":[{"sheetName":"Salm1","startColumn":"A","endColumn":"F","startRow":"2","endRow":"3","comment":"","rule":"Individual: @A*(mm:namespace\u003d\"http://purl.obolibrary.org/obo/\") \nTypes: Salmonella\nAnnotations: label @B*\nAnnotations: SSD_catalogue @C*\nAnnotations: SSD_termCode @D*\nAnnotations: has_alternative_id @E*\nFacts: isSubSpeciesOf @F*","active":true}]}
