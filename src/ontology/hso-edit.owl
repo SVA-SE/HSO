@@ -2973,6 +2973,28 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000359 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000359">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label xml:lang="en">reporting country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000360 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000360">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label xml:lang="en">origin country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3389,10 +3411,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000356"/>
         <rdfs:domain>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
+                <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
                     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                </owl:intersectionOf>
+                </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -3407,10 +3429,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000356"/>
         <rdfs:domain>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
+                <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
                     <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
-                </owl:intersectionOf>
+                </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
