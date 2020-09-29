@@ -3452,6 +3452,51 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000361 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000361">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:label xml:lang="en">Case fatality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000362 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000362">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:label xml:lang="en">Hospitalized cases</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000363 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000363">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:label xml:lang="en">Notification rate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000364 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000364">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000363"/>
+        <rdfs:label xml:lang="en">Notification rate in domestic cases</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000365 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000365">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:label xml:lang="en">Number of deaths</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
