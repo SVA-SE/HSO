@@ -1,0 +1,44 @@
+﻿Information level;Information;Content;
+Dataset;Publisher (Agent);https://data.sva.se/dcat/main/svaAgent;
+Dataset;Catalog;https://data.sva.se/dcat/main/svaCat;
+Dataset;Contact point;https://data.sva.se/dcat/main/svaOrg;
+Dataset;Unique identifier;https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_sweden.rdf;
+Dataset;title;Campylobacter surveillance in Sweden;english
+Dataset;description;"Campylobacter surveillance in Sweden is carried out in humans by the Public Health Agency of Sweden (Folkhälsomyndigheten - FoHM), in slaughterhouses executed by Svensk Fågel, and analysed by the National Veterinary Institute (Statens veterinärmedicinska Anstalt - SVA), and in retailers by the Swedish Food Agency (Livsmedelsverket - SLV). Results are consolidated yearly by SVA, and published in the Surveillance of infectious diseases in animals and humans in Sweden
+(see related resources). This dataset is updated annualy with the number published in that report.";english
+Dataset;Category;Agriculture, fisheries, forestry and food;
+Dataset;Category;Government and public sector;
+Dataset;Category;Health;
+Dataset;Keyword;surveillance;english
+Dataset;Keyword;disease;english
+Dataset;Keyword;övervakning;swedish
+Dataset;Keyword;sjukdom;swedish
+Dataset;Release date;2020-06-16;
+Dataset;Release year;2020;
+Dataset;Access rights;Public;
+Dataset;Language;English;
+Dataset;Landing Page;http://datadrivensurveillance.org/campylobacter-surveillance-in-sweden/;
+Dataset;Frequency of update;annual;
+Distribution1;Unique identifier;https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_swedenRDF.rdf;
+Distribution1;AccessURL;https://data.sva.se/opendata/surveillance/campy/campylobacter_surveillance_sweden.rdf;
+Distribution1;description;Numbers from the campylobacter surveillance in Sweden, annotated with the Health Surveillance Ontology;
+Distribution1;Common mediatypes;application/rdf+xml;
+Distribution1;availability;available;
+Distribution1;License - Creative Commons;CC BY 4.0 (Attribution);
+Distribution1;title;Campylobacter surveillance in Sweden;
+Distribution1;Language;English;
+Distribution1;Release date;2020-06-16;
+Distribution1;Release year;2020;
+Distribution1;status;underDevelopment;
+Distribution1;Linked schemas;https://w3id.org/hso;
+Distribution2;Unique identifier;https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_swedenCSV.rdf;
+Distribution2;AccessURL;https://data.sva.se/opendata/surveillance/campy/campylobacter_surveillance_sweden.csv;
+Distribution2;description;Numbers from the campylobacter surveillance in Sweden;
+Distribution2;Common mediatypes;text/csv;
+Distribution2;availability;available;
+Distribution2;License - Creative Commons;CC BY 4.0 (Attribution);
+Distribution2;title;Campylobacter surveillance in Sweden;
+Distribution2;Language;English;
+Distribution2;Release date;2020-06-16;
+Distribution2;Release year;2020;
+Distribution2;status;underDevelopment;

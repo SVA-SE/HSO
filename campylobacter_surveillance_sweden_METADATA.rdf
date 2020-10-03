@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:adms="http://www.w3.org/ns/adms#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:odrs="http://schema.theodi.org/odrs#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+	xmlns:store="https://registrera.oppnadata.se/store/"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:es="http://entrystore.org/terms/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dcat:Dataset rdf:about="https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_sweden.rdf">
+	<dcterms:title xml:lang="en">Campylobacter surveillance in Sweden</dcterms:title>
+	<dcterms:description xml:lang="en">"Campylobacter surveillance in Sweden is carried out in humans by the Public Health Agency of Sweden (Folkhälsomyndigheten - FoHM), in slaughterhouses executed by Svensk Fågel, and analysed by the National Veterinary Institute (Statens veterinärmedicinska Anstalt - SVA), and in retailers by the Swedish Food Agency (Livsmedelsverket - SLV). Results are consolidated yearly by SVA, and published in the Surveillance of infectious diseases in animals and humans in Sweden (see related resources). This dataset is updated annualy with the number published in that report."</dcterms:description>
+	<dcterms:publisher rdf:resource="https://data.sva.se/dcat/main/svaAgent.rdf"/>
+	<dcterms:format>text/csv</dcterms:format>
+	<dcterms:format>application/rdf+xml</dcterms:format>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcat:distribution rdf:resource="https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_swedenRDF.rdf"/>
+	<dcat:distribution rdf:resource="https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_swedenCSV.rdf"/>
+	<dcat:keyword>Statens veterinärmedicinska anstalt</dcat:keyword>
+	<dcat:keyword xml:lang="sv">sjukdom</dcat:keyword>
+	<dcat:keyword xml:lang="en">surveillance</dcat:keyword>
+	<dcat:keyword xml:lang="en">disease</dcat:keyword>
+	<dcat:keyword xml:lang="sv">övervakning</dcat:keyword>
+	<dcat:keyword xml:lang="en">campylobacter</dcat:keyword>
+	<dcat:keyword xml:lang="en">campylobacteriosis</dcat:keyword>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+	<dcat:landingPage rdf:resource="http://datadrivensurveillance.org/campylobacter-surveillance-in-sweden/"/>
+	<dcat:contactPoint rdf:resource="https://data.sva.se/dcat/main/svaOrg.rdf"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-05</dcterms:issued>
+	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+	<dcterms:relation rdf:resource="https://old.sva.se/en/reports-and-publications-in-english/disease-surveillance/disease-surveillance-reports"/>
+</dcat:Dataset>
+<foaf:Agent rdf:about="https://data.sva.se/dcat/main/svaAgent.rdf">
+	<foaf:name xml:lang="sv">Statens veterinärmedicinska anstalt</foaf:name>
+	<dcterms:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+	<foaf:homepage rdf:resource="http://www.sva.se"/>
+</foaf:Agent>
+<dcat:Distribution rdf:about="https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_swedenRDF.rdf">
+	<dcterms:title xml:lang="en">RDF</dcterms:title>
+	<dcterms:description xml:lang="en">Numbers from the campylobacter surveillance in Sweden</dcterms:description>
+	<dcterms:format>application/rdf+xml</dcterms:format>
+	<dcat:accessURL rdf:resource="https://data.sva.se/opendata/surveillance/campy/campylobacter_surveillance_sweden.rdf"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+</dcat:Distribution>
+<vcard:Organization rdf:about="https://data.sva.se/dcat/main/svaOrg.rdf">
+	<vcard:fn>Statens veterinärmedicinska anstalt</vcard:fn>
+	<vcard:hasEmail rdf:resource="mailto:sva@sva.se"/>
+</vcard:Organization>
+<dcat:Distribution rdf:about="https://data.sva.se/dcat/surveillancereport/campylobacter_surveillance_swedenCSV.rdf">
+	<dcterms:title xml:lang="en">CSV</dcterms:title>
+	<dcterms:description xml:lang="en">Numbers from the campylobacter surveillance in Sweden</dcterms:description>
+	<dcterms:format>text/csv</dcterms:format>
+	<dcat:accessURL rdf:resource="https://data.sva.se/opendata/surveillance/campy/campylobacter_surveillance_sweden.csv"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+</dcat:Distribution>
+
+</rdf:RDF>
