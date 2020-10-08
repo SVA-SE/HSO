@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/hso#"
      xml:base="https://w3id.org/hso"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -560,6 +560,7 @@
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#keyword">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:AnnotationProperty>
     
 
@@ -4022,9 +4023,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <!-- http://www.w3.org/ns/dcat#keyword -->
 
-    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/dcat#keyword">
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/dcat#keyword"/>
     
 
 
@@ -8510,6 +8509,7 @@ The following are NOT conclusions based on data: data themselves; results from p
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002897">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000001"/>
         <obo:IAO_0000111>surveillance process</obo:IAO_0000111>
         <obo:IAO_0000115>An investigation in which some entity is monitored, and data concerning that entity collected, interpreted, and disseminated, for the purpose of managing, directing, or protecting that entity, or some other entity.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
@@ -15669,8 +15669,6 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <rdfs:label xml:lang="en">objective sampling</rdfs:label>
     </owl:Class>
     
-
-   
 
 
     <!-- https://w3id.org/hso#HSO_0000367 -->
@@ -22870,9 +22868,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
         <skos:definition xml:lang="es">Una palabra clave o etiqueta que describe un recurso.</skos:definition>
         <rdfs:label xml:lang="it">parola chiave</rdfs:label>
         <rdfs:comment xml:lang="cs">Klíčové slovo nebo značka popisující zdroj.</rdfs:comment>
+        <rdfs:label xml:lang="ja">キーワード/タグ</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
         <rdfs:label xml:lang="en">keyword</rdfs:label>
-        <rdfs:label xml:lang="ja">キーワード/タグ</rdfs:label>
         <rdfs:comment xml:lang="es">Una palabra clave o etiqueta que describe un recurso.</rdfs:comment>
         <rdfs:label xml:lang="fr">mot-clés </rdfs:label>
         <rdfs:label xml:lang="es">palabra clave</rdfs:label>
