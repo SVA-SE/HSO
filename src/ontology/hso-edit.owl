@@ -13889,6 +13889,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Role given to a specific herd of domesticated animals, specifying that they are raised in an agricultural setting with a specific purpose. Details about this purpose can be used to classify livestock farming system in further sub-categories.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">livestock farming system</rdfs:label>
     </owl:Class>
     
@@ -13898,6 +13899,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000015">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000014"/>
+        <obo:IAO_0000115 xml:lang="en">Classification of livstock farming systems based on the type of commodity produced. Sub-classes are not mutually exclusive.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">product oriented farming type</rdfs:label>
     </owl:Class>
     
@@ -13983,6 +13985,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <obo:IAO_0000115 xml:lang="en">Information used to qualify/classify specimens. Can be inferred if enough information about the specimen is given, but can also be assigned directly when the source of information only specifies the type of speciment (for instance when using the SSD2 terminology, catalog MTXTYP).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">matrix type</rdfs:label>
     </owl:Class>
     
@@ -14007,6 +14010,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <obo:IAO_0000115 xml:lang="en">inferred categorization of specimens based on the informaiton provided in matrix type and/or regarding the anatomical entity targetted</obo:IAO_0000115>
         <rdfs:label xml:lang="en">matrix from organism</rdfs:label>
     </owl:Class>
     
@@ -14064,6 +14068,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance context</rdfs:label>
     </owl:Class>
     
@@ -14073,7 +14078,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label xml:lang="en">surveillance sampler type</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The type of agent who carries out the data collection in a surveillance activity</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">surveillance executor type</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">surveillance sampler type</obo:IAO_0000118>
         <HSO_0000002 xml:lang="en">SAMPLR</HSO_0000002>
     </owl:Class>
     
@@ -14083,6 +14090,14 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">Describe how units have been planned to be sampled
+Sampling at the primary sampling unit (PSU) level
+Describe the information used to calculate sample size at the PSU level, e.g. the number of PSU in the population (see section 6 also), (between−herd) design prevalence, desired confidence, desired power, sensitivity, specificity.
+If recommended parameters from international standards are used, indicate the source of such standards (e.g. OIE)
+Sampling at the secondary sampling unit (SSU) level
+Describe the information used to calculate sample size at the SSU level, e.g. the number of SSU in the population (see section 6 also), (within−herd) design prevalence, desired confidence, desired power, sensitivity, specificity.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/Description-of-surveillance-items-in-the-checklist</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">sampling strategy</rdfs:label>
     </owl:Class>
     
@@ -14092,6 +14107,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A sampling unit is one of the units into which an aggregate is divided for the purpose of sampling, each unit being regarded as individual and indivisible when the selection is made.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://stats.oecd.org/glossary/index.htm</obo:IAO_0000119>
         <rdfs:label xml:lang="en">sampling unit</rdfs:label>
     </owl:Class>
     
@@ -14101,6 +14118,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Information about an assay which can be used to find of qualify/classify assays.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">assay datum</rdfs:label>
     </owl:Class>
     
@@ -14110,6 +14128,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000202">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000201"/>
+        <obo:IAO_0000112 xml:lang="en">Known diagnostic tests can be classified into groups here so that information such as whether they are an antibody detection or pathogen identification information can be associated to the test, even if this information is not detailed in the data source. As an example, diagnostic tests classifications contained in existing terminologies (such as EFSA SSD2, https://www.efsa.europa.eu/en/efsajournal/pub/3424) can be used to create specific test catehories here.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">Categorization of diagnostic tests used in health surveillance. This information can be assigned to a test, or inferred from test characteristics if enough information is given about it.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">diagnostic test type</rdfs:label>
     </owl:Class>
     
@@ -14119,6 +14139,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <obo:IAO_0000115 xml:lang="en">Categorization of specimen used in conjunction with information about the target sampled anatomical location in order to specify _how_ the anatomical entity was sampled, for instance a fecal swab versus a fecal specimen.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">specimen from organism type</rdfs:label>
     </owl:Class>
     
@@ -14128,7 +14149,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000246">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
+        <rdfs:label xml:lang="en">whole organism specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14137,7 +14158,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000247">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
+        <rdfs:label xml:lang="en">fluid specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14146,7 +14167,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000248">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
+        <rdfs:label xml:lang="en">organ/tissue specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14155,7 +14176,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000249">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
+        <rdfs:label xml:lang="en">excreta specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14164,7 +14185,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000250">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">swab sample</rdfs:label>
+        <rdfs:label xml:lang="en">swab specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14179,6 +14200,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <obo:IAO_0000115 xml:lang="en">inferred categorization of specimens based on the matrix type informaiton provided regarding their source</obo:IAO_0000115>
         <rdfs:label xml:lang="en">specimen by origin</rdfs:label>
     </owl:Class>
     
@@ -14233,6 +14255,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of all directive information associated with a surveillance activity, such as the surveillance objectives, the action specifications and legislative specification. Everything about a surveillance activity that is related to its planning and methodology. A surveillance activity is then a specific execution of a surveillance protocol, which generates specific results. A surveillance protocol exists efore a surveillance activity is carried out, and can exist even in the absence of a surveillance activity - for instance there cna be a surveillance protocol for outbreak investigations, but the exucition of a surveillance activity and associated results will only be available if an outbreak is detected.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">surveillance protocol</rdfs:label>
     </owl:Class>
     
@@ -14242,6 +14265,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">The legislative support to a specific surveillance activity, that is, all the laws or regulations of a country or region which are related to the obligations or permissions associated with a specific surveillance activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">legislative specification</rdfs:label>
     </owl:Class>
     
@@ -14251,6 +14275,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">states those goal(s) that when met will result in the collection and analysis of data in order to achieve the purpose of the system</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">OIE (2014a). Guide to terrestrial animal health surveillance. Paris, France, OIE.</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance objective</rdfs:label>
     </owl:Class>
     
@@ -14260,6 +14287,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">describes why surveillance is necessary and what it will accomplish</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance purpose</rdfs:label>
     </owl:Class>
     
@@ -14269,6 +14299,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000268">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Case detection refers to the search for any animals affected, clinically or not, by the hazard under surveillance. This objective is appropriate if the hazard is present, regardless of whether the hazard occurrence is endemic, epidemic or sporadic, and action will be taken to control disease whenever it is detected.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">case detection</rdfs:label>
     </owl:Class>
@@ -14279,6 +14310,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000269">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Disease freedom: This objective is appropriate if the target hazard is thought to be absent in the territory to be covered and the aim is to demonstrate disease freedom for trade or non−trade purposes (e.g. improve public health, to decide when to stop an eradication programme and to eliminate production losses and control costs due to endemic disease). This may apply to diseases which a) have been historically absent, b) have been eradicated and official freedom has been confirmed or c) are thought to be eradicated, but official freedom has not yet been confirmed.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">demonstration of disease freedom</rdfs:label>
     </owl:Class>
@@ -14289,6 +14321,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000270">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Early detection: This objective is appropriate for a situation where the disease is currently absent in the country or region. It may be applied to surveillance for an unknown disease or a known disease considered to pose a non−negligible risk of incursion or emergence. It may also apply to the early stages of an outbreak.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">early detection</rdfs:label>
     </owl:Class>
@@ -14299,6 +14332,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000271">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Prevalence estimation: This objective is appropriate if the target hazard is (thought to be) present in the territory to be covered, and an assessment of the prevalence and or changes in prevalence over time is needed.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">prevalence estimation</rdfs:label>
     </owl:Class>
@@ -14389,6 +14423,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000280">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
+        <obo:IAO_0000115 xml:lang="en">The sampling scheme design to meet the specific surveillance objective and/or purpose of a surveillance activity. This inclused for instance the calculated sample size (which can include primary and secondary sampling units in case of clustered units), the frequency of sampling, etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sampling design protocol</rdfs:label>
     </owl:Class>
     
@@ -14398,6 +14433,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000281">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
+        <obo:IAO_0000115 xml:lang="en">The reporting protocol of a surveillance activity, detailing what are the reporting obligations associated with a specific surveillance target in a specific area, the reporting chain (who is obliged to report and how is the information flow from reporting), and any eventual incentives for reporting.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">reporting protocol</rdfs:label>
     </owl:Class>
     
@@ -14407,7 +14443,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000282">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
-        <rdfs:label xml:lang="en">sample collection protocol</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The protocol detailing how specimens will be collected as part of the data gathering phase of a  surveillance activity. This does not include the definition of how many samples will collected, but specifically how they will be collected - where, by whom, etc.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">sample collection protocol</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">specimen collection protocol</rdfs:label>
     </owl:Class>
     
 
@@ -14416,6 +14454,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000283">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
+        <obo:IAO_0000115 xml:lang="en">The protocol that describes which diagnostic test or tests will be used to identify animals (or another epidemiological unit) infected with a specific pathogen, possibly in more than one round of screening.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The protocol to be used within a surveillance activity to classify epidemiological units according to a specific outcome.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">diagnostic protocol</rdfs:label>
     </owl:Class>
     
@@ -14425,6 +14465,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
+        <obo:IAO_0000115 xml:lang="en">An action specification for specific actions to be taken as part of a health surveillance activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">surveillance methods specification</rdfs:label>
     </owl:Class>
     
@@ -14434,6 +14475,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000290">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Type of surveillance activity in which sampling in done continuously, triggered by the existing of cases of interest,  for instance reporting of confirmed cases or collection of samples from every slaughter batch.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Continuous data collection</rdfs:label>
     </owl:Class>
@@ -14444,7 +14486,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000291">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">The repeated collection of information from the same selected sites or groups of animals (e.g. veterinary practices, laboratories, herds or animals) to identify changes in the health status of a specified population over time. These sentinels should act as a proxy for the larger population of interest; they may be selected on the basis of risk but can also be selected randomly or on the basis of convenience or compliance.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Sentinel surveillance</rdfs:label>
     </owl:Class>
     
@@ -14454,7 +14498,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000292">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Participatory surveillance explores traditional information networks by using participatory rural appraisal methods such as ranking, scoring and visualisation techniques to conduct risk-based, hazard-specific surveillance. The approach uses semi-structured interviews with key informants. This enables communities to provide their knowledge regarding health events, risks, impacts and control opportunities by gathering qualitative health data from defined populations. The analysis of participatory data emphasises the comparison of information obtained from multiple informants; the method uses a variety of techniques to obtain the most likely interpretation of events. The objective is to enhance sensitivity by identifying cases based on a clinical case definition; these may then be evaluated and confirmed using either rapid tests in the field or laboratory diagnostics. Conventional epidemiological investigation techniques can be used to evaluate and confirm outbreaks detected by participatory surveillance as part of trace-back and trace-forwards activities.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Participatory surveillance</rdfs:label>
     </owl:Class>
     
@@ -14464,7 +14510,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000293">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Traditional disease surveillance which relies on the collection of data about the occurrence of pre-defined diseases or conditions and which uses agreed-upon case definitions; these data are analysed to produce indicators that point towards the existence of a threat. Indicator-based surveillance may be hazard-specific or general and includes the use of clinical or other data for syndromic surveillance</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Indicator−based surveillance</rdfs:label>
     </owl:Class>
     
@@ -14474,7 +14522,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000294">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Surveillance that uses health-related information (clinical signs or other data) that might precede or substitute for formal diagnosis. This information may be used to indicate a sufficient probability of a change in the health of the population to deserve further investigation or to enable a timely assessment of the impact of health threats which may require action. This type of surveillance is not usually focused on a particular hazard so can be used to detect a variety of diseases or pathogens including new (emerging) diseases. This type of surveillance is particularly applicable for early warning surveillance.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary#group-S</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Syndromic surveillance</rdfs:label>
     </owl:Class>
     
