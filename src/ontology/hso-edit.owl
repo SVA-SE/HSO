@@ -11,13 +11,13 @@
      xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://w3id.org/hso">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
-        <owl:imports rdf:resource="https://w3id.org/hso/imports/campy.owl"/>
         <dc:contributor>Crawford Revie</dc:contributor>
         <dc:contributor>Eva Blomqvist</dc:contributor>
         <dc:contributor>Karl Hammar</dc:contributor>
@@ -107,6 +107,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -153,6 +154,18 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234"/>
     
 
 
@@ -293,7 +306,12 @@
 
     <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A metadata relation between a class and its taxonomic rank (eg species, family)</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is an abstract class for use with the NCBI taxonomy to name the depth of the node within the tree. The link between the node term and the rank is only visible if you are using an obo 1.3 aware browser/editor; otherwise this can be ignored</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_rank</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -312,6 +330,12 @@
     <!-- http://purl.org/dc/elements/1.1/member -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/member"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
     
 
 
@@ -383,7 +407,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -409,13 +435,17 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -487,6 +517,24 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#changeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#changeNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/depicted_by -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by"/>
@@ -553,6 +601,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000324 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000324">
+        <obo:IAO_0000115 xml:lang="en">A collection of annotations which refer to all the annotation steps in the One Health Consensus Reporting Annotation Checklist (OH-CRAC). OH-CRAC is part of the One Health Codex - https://oh-surveillance-codex.readthedocs.io/en/latest/5-the-reporting-principle.html.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">One-Health Consensus Reference Annotation Checklist (OH-CRAC)</rdfs:label>
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
     </owl:AnnotationProperty>
@@ -562,6 +611,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000325 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000325">
+        <obo:IAO_0000115 xml:lang="en">This section provides information on what &quot;caused&quot; the surveillance activity and what is expected from the surveillance activity. It may be triggered by a new law or feedback from previous surveillance activities. It might even be initiated by practices in other (national and international) organisations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 1.1 Motivation / cause</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -571,6 +621,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000326 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000326">
+        <obo:IAO_0000115 xml:lang="en">This section documents the results of consultation activities between the surveillance &quot;actor&quot; with its customers / stakeholders to identify/confirm the needs of the surveillance activity. Specifically, it documents what is agreed to be delivered by this surveillance activity, when, how and why. It also documents whether previously identified needs have changed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 1.2. Requirement analysis</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -580,6 +631,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000327 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000327">
+        <obo:IAO_0000115 xml:lang="en">This section documents what surveillance objectives (e.g. prevalence estimation, case detection, early detection, disease freedom) and their quality criteria are defined to meet the needs of the end-users / stakeholders. It also describes existing legal or practical constraints, e.g. confidentiality, resources etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 1.3. Surveillance objective and constraints</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -589,6 +641,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000328 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000328">
+        <obo:IAO_0000115 xml:lang="en">This section gives an overview on all designed outputs, products and services related to the surveillance activity. This includes the output of the surveillance activity, but also related work, as e.g. preparation of systems and tools for dissemination, disclosure control methods etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.1. Framework design</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -598,6 +651,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000329 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000329">
+        <obo:IAO_0000115 xml:lang="en">This section describes which variables / measurements were planned to be collected / taken and which metadata set / standard were used. It further specifies if measured values were planned to be grouped or classified, how this was planned to be done. It also specifies if new variables derive from the original ones (see section 4.5, New variable/unit derivation). It may overlap with the description requested for section 2.3 (Surveillance methods/strategy)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.2. Variable specifications</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -607,6 +661,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000330 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000330">
+        <obo:IAO_0000115 xml:lang="en">This section describes the developed &quot;collection strategy&quot; (collection strategy in this context means, e.g. active or passive surveillance). It also describes the collection instruments (survey, data extraction methods etc.) and collection units (e.g. individuals, herds, food batch etc.). It may overlap with the surveillance variables specification described in section 2.2 (Variable specifications)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.3. Surveillance methods/strategy</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -625,6 +680,8 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000332 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000332">
+        <obo:IAO_0000115 xml:lang="en">&quot;This sub-section specifies the population(s) that were sampled.
+&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.1. Sampled population</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -634,6 +691,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000333 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000333">
+        <obo:IAO_0000115 xml:lang="en">This sub-section describes the design process followed for the sampling plan generation and the sampling criteria.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.2. Sampling schema</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -643,6 +701,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000334 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000334">
+        <obo:IAO_0000115 xml:lang="en">This sub-section describes the sample collection approach carried out including information on the practical handling, storage and labeling of taken samples by different actors (e.g. storage temperature, labeling with unique IDs).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.3. Sample collection</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -652,6 +711,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000335 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000335">
+        <obo:IAO_0000115 xml:lang="en">This sub-section details the processing of the samples prior to the analytical processing.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.4. Sample preparation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -661,6 +721,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000336 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000336">
+        <obo:IAO_0000115 xml:lang="en">This sub-section reports on the analytical procedures applied to the different sets of samples.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.5. Analytical procedures</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -670,6 +731,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000337 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000337">
+        <obo:IAO_0000115 xml:lang="en">This section describes the methods used for the data processing including analysis of bioinformatics, trends, modelling, statistical tests, etc. This section also includes design of specifications for data integration from multiple data sources, validation of data and estimation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.5. Data processing/analysis</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -679,6 +741,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000338 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000338">
+        <obo:IAO_0000115 xml:lang="en">This section describes how the specific sampling units were chosen based on the sampling plan that is described in section 2.4 (Sampling plan). In contrast to the information given in 2.4, this section should describe how the real &quot;implementation&quot; of the sampling plan took place, as sometimes the &quot;field work&quot; is done by other actors than the planning.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.1. Practical aspects on sample selection</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -688,6 +751,13 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000339 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000339">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes the activies undertaken to ensure that the people, processes and technology (e.g. web-based applications, GPS system) were ready to collect data and metadata. It includes the strategy, planning and training activities in preparation for the specific sampling activity. This description might include information on:
+- Preparing a sample storage and / or shipment strategy;
+- Training staff how to collect samples, e.g. physician;
+- Training staff how to analyze selected samples in the lab, e.g. perform ring trials 
+- Provisioning of collection resources (e.g. laptops, collection apps, central data or sample repositories, questionnaires, information leaflets or letters, required lab material);
+- Agreements with intermediate collection bodies, (e.g. sub-contractors);
+- How security and confidentiality of data to be collected and data transmission was guaranteed&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.2. Practical support activities</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -697,6 +767,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000340 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000340">
+        <obo:IAO_0000115 xml:lang="en">This section describes how the execution / implementation of the sample collection worked out, e.g. if there were corrective actions taken along the sampling period. This should include reports on quality control activities carried out by labs and actors involved in sample collection.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.3. Practical aspects on field and lab work</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -706,6 +777,8 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000341 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000341">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes how the collected lab data and metadata were loaded into a suitable electronic environment for further processing. 
+It may include a description of manual or automatic data capture processes that were applied to extract e.g. metadata from paper questionnaires, or converting the formats of files or encoding the variables received. It may also include analysis of the metadata and paradata associated with collection to ensure the collection activities have met requirements. It might also describe how physical samples or related material (questionnaires) will be archived. When software is used for data collection the version and software archiving should be described.&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.4. Practical aspects on information handling</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -715,6 +788,11 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000342 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000342">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes any activity related to data integration or data fusion. The data collection could be a combination of new and historical data, from external or internal sources, from a variety of collection instruments etc. For example the data collection could be enriched by information from official (governmental) or non-official sources. It could further include a description on:
+- Data pooling, with the aim of increasing the effective number of observations of some phenomena;
+- Mapping or record linkage routines, with the aim of linking different data sources that use different encoding schemas;
+- Prioritising, when two or more sources contain data for the same variable, with potentially different values.
+- Data anonymization, e.g. if identifiers such as name and address are stripped to help to protect confidentiality.&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.1. Data integration</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -724,6 +802,9 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000343 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000343">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes if data/variables were classified and/or encoded. Examples:
+- Automatic coding routines that assign numeric codes to text responses according to a pre-determined statistical classification. 
+- Classification based on analytical results (e.g. MLST pattern), bioinformatics analysis (e.g. phylogenetic trees) or mathematical models (PCA, SVM / ANN)&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.2. Data classification / encoding</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -733,6 +814,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000344 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000344">
+        <obo:IAO_0000115 xml:lang="en">This section describes activities carried out to detect and localise actual or potential errors and discrepancies such as outliers, item non-response and miscoding (input data validation).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.3. Data validation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -742,6 +824,8 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000345 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000345">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes what action was taken for incorrect, missing, unreliable or outdated data. For example new values may have been inserted or outdated data may have been removed. It should describe whether data were added or changed, the method used, and the flags used to mark them as changed.
+&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.4. Data cleansing and correction</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -751,6 +835,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000346 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000346">
+        <obo:IAO_0000115 xml:lang="en">This section describes if new data were derived from variables/units that were not explicitly provided in the data collection but were needed to deliver the required outputs. Examples include deriving variables on households where the collection units are persons or deriving variables on enterprises where the collection units are legal units.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.5. New variable/unit derivation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -760,6 +845,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000347 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000347">
+        <obo:IAO_0000115 xml:lang="en">This section describes if weights for unit data records were created according to the methodology developed in sub-process 2.5 (Data processing/analysis). For example, weights might have been used to &quot;gross-up&quot; data to make them representative of the target population (e.g. for sample surveys or extracts from scanner data), or to adjust for non-response in total enumerations. In other situations, variables might have needed weighting for normalisation purpose or for benchmarking indicators (e.g. known population totals).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.6. Weighing of records</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -769,6 +855,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000348 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000348">
+        <obo:IAO_0000115 xml:lang="en">This section describes how aggregate data and population totals were generated from the data collection or lower-level aggregates. It includes summing data for records sharing certain characteristics (e.g. aggregation of data by demographic or geographic classifications), determining measures of average and dispersion, and applying weights from sub-process 4.6 (Weighting of records) to derive appropriate totals. In the case of statistical outputs, which use sample surveys, sampling errors corresponding to relevant aggregates may also be calculated in this section.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.7. Data aggregation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -778,6 +865,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000349 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000349">
+        <obo:IAO_0000115 xml:lang="en">This section describes how data from section 4.7 (Data aggregation) were transformed into surveillance statistics outputs such as indexes, seasonally adjusted statistics, e.g. trend, cycle, seasonal and irregular components, accessibility measures, etc., as well as the recording of quality characteristics such as coefficients of variation. The preparation of maps, GIS outputs and geo-statistical services can be included to maximise the value and capacity to analyse the statistical information.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.1. Surveillance output generation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -787,6 +875,15 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000350 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000350">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes how the quality of the generated surveillance statistical outputs were validated, in accordance with a general quality framework and with expectations. Validation activities can include:
+- Checking that the population coverage and response rates are as required;
+- Comparing the statistics with previous cycles (if applicable);
+- Checking that the associated metadata, paradata and quality indicators are present and in line with expectations;
+- Checking geospatial consistency of the data;
+- Confronting the statistics against other relevant data (both internal and external);
+- Investigating inconsistencies in the statistics;
+- Performing macro editing;
+- Validating the statistics against expectations and domain intelligence.&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.2. Surveillance output validation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -796,6 +893,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000351 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000351">
+        <obo:IAO_0000115 xml:lang="en">This section describes performed in-depth statistical analyses such as time-series analysis, consistency and comparability analysis, revision analysis (analysis of the differences between preliminary and revised estimates), analysis of asymmetries (discrepancies in mirror statistics) etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.3. Surveillance output statistical analysis</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -805,6 +903,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000352 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000352">
+        <obo:IAO_0000115 xml:lang="en">This section describes activities carried out to ensure that the data (and metadata) to be disseminated do not breach the appropriate rules on confidentiality according to either organisation policies and rules, or to the process-specific methodology created in section 2.5 (Data processing/analysis plan). This may include checks for primary and secondary disclosure, as well as the application of data suppression or perturbation techniques and output checking. The degree and method of statistical disclosure control may vary for different types of outputs. For example, the approach used for microdata sets for research purposes will be different to that for published tables, finalised outputs of geospatial statistics or visualisations on maps.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.4. Surveillance disclosure control</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -814,6 +913,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000353 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000353">
+        <obo:IAO_0000115 xml:lang="en">annotations created to map specific entities to their origin in the Standard Sample Description, a terminology catalogue maintained by the European Foos Safety Agency (EFSA).  https://www.efsa.europa.eu/en/efsajournal/pub/3424</obo:IAO_0000115>
         <rdfs:label xml:lang="en">European Food Safety Agency Standard Sample Description Framework - EFSA SSD</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -1283,21 +1383,109 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000124 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000124">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relation between the conclusion &quot;Gene tpbA is involved in EPS production&quot; and the data items produced using two sets of organisms, one being a tpbA knockout, the other being tpbA wildtype tested in polysacharide production assays and analyzed using an ANOVA. </obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relation between a data item and a conclusion where the conclusion is the output of a data interpreting process and the data item is used as an input to that process</obo:IAO_0000115>
+        <obo:IAO_0000117>OBI</obo:IAO_0000117>
+        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philly 2011 workshop</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_supported_by_data</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 xml:lang="en">has_specified_input</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_specified_input</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">see is_input_of example_of_usage</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how &apos;has participant&apos; works.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Larry Hunter</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melanie Coutot</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">has_specified_input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000295 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000295">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_specified_input_of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bjoern Peters</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">is_specified_input_of</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 xml:lang="en">has_specified_output</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_specified_output</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Larry Hunter</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">has_specified_output</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 xml:lang="en">is_specified_output_of</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_specified_output_of</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">is_specified_output_of</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -1338,6 +1526,14 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <obo:IAO_0000111 xml:lang="en">inheres in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this fragility inheres in this vase</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this red color inheres in this apple</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A dependent inheres in its bearer at all times for which the dependent exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">inheres_in</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">inheres in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1360,6 +1556,41 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <rdfs:label xml:lang="en">bearer of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000111 xml:lang="en">has participant</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this blood coagulation has participant this blood clot</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigation has participant this investigator</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this process has participant this input material (or this output material)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
+        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</dc:source>
+        <rdfs:label xml:lang="en">has participant</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1401,11 +1632,61 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000079 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000079">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <obo:IAO_0000112 xml:lang="en">this catalysis function is a function of this enzyme</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">function_of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">is function of</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">function of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000080 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000080">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <obo:IAO_0000112 xml:lang="en">this red color is a quality of this apple</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A quality inheres in its bearer at all times for which the quality exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">is quality of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">quality_of</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">quality of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000081 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+        <obo:IAO_0000112 xml:lang="en">this investigator role is a role of this person</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">is role of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">role_of</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">role of</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000085 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000085"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
     
 
 
@@ -1425,6 +1706,23 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000116 xml:lang="en">A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
         <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000091 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000091">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000092"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000092 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000092">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <rdfs:label xml:lang="en">disposition of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2779,6 +3077,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000304"/>
         </owl:propertyChainAxiom>
+        <obo:IAO_0000115>Specification of the type of sampling strategy planned within a surveillance protocol, and ultimately executed in a surveillance activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">applies sampling strategy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -2949,6 +3248,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000309"/>
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000310"/>
         </owl:propertyChainAxiom>
+        <obo:IAO_0000115>property assigning specific datum to diagnostic tests which allows identification of their type</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has diagnostic test type</rdfs:label>
     </owl:ObjectProperty>
     
@@ -2968,7 +3268,30 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000201"/>
+        <obo:IAO_0000115>assignment of data available as information content to assays</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has assay datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000359 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000359">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label xml:lang="en">reporting country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000360 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000360">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000296"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <rdfs:label xml:lang="en">origin country</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3156,6 +3479,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115 xml:lang="en">The sample size calculated for a surveillance activity in order to achieve its specific surveillance purpose or goal, and considering its declared epidemiological unit.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">calculated sample size</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3175,6 +3499,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000112 xml:lang="en">The number of herds to be sampled in a survey targetting livestock animals, which are kept in herds.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">In a sampling process targetting clustered units, this refers to the number of PRIMARY SAMPLING UNITS to be sampled, according to the plan designed for a surveillance activity in order to achieve its specific surveillance purpose or goal.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">calculated number of PSU</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3194,6 +3520,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000112 xml:lang="en">The number of animals to be sampled within each herd.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">In a sampling process targetting clustered units, this refers to the number of SECONDARY SAMPLING UNITS to be sampled, according to the plan designed for a surveillance activity in order to achieve its specific surveillance purpose or goal.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">calculated number of SSU</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3306,6 +3634,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000212">
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">a collection of properties used to assign numeric results to a surveillance activity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">surveillance activity aggregated results</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3362,6 +3691,109 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">Number of imported cases</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000356 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000356">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000115 xml:lang="en">the weight of a specific collected specimen. use sub-properties to specify weight units</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">specimen weight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000357 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000357">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000356"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000115 xml:lang="en">the weight of a specific collected specimen, in grams</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">sampling weight in grams</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000358 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000358">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000356"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000115 xml:lang="en">the weight of a specific collected specimen, in mililitres</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">sampling weight in millilitre</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000361 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000361">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <obo:IAO_0000115 xml:lang="en">The case-fatality rate is the proportion of persons with a particular condition (cases) who die from that condition. It is a measure of the severity of the condition.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Case fatality rate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000362 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000362">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:label xml:lang="en">Hospitalized cases</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000363 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000363">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:label xml:lang="en">Notification rate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000364 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000364">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000363"/>
+        <rdfs:label xml:lang="en">Notification rate in domestic cases</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000365 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000365">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
+        <rdfs:label xml:lang="en">Number of deaths</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -5320,6 +5752,20 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111 xml:lang="en">document</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">A journal article, patent application, laboratory notebook, or a book</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Lawrence Hunter</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">document</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416">
@@ -5329,6 +5775,33 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000116 xml:lang="en">2009/09/28 Alan Ruttenberg. Fucoidan-use-case</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">time measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000112 xml:lang="en">Recording the current temperature in a laboratory notebook. Writing a journal article. Updating a patient record in a database.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which a document is created or added to by including the specified input in it.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">6/11/9: Edited at OBI workshop. We need to be able identify a child form of information artifact which corresponds to something enduring (not brain like). This used to be restricted to physical document or digital entity as the output, but that excludes e.g. an audio cassette tape</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">wikipedia http://en.wikipedia.org/wiki/Documenting</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">documenting</rdfs:label>
     </owl:Class>
     
 
@@ -5353,6 +5826,37 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <rdfs:label xml:lang="en">time stamped measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1031542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1031542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:580032</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:580034</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19767353</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter volucris</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1031919 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1031919">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum bv. faecalis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar fecalis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum bv. fecalis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar faecalis</rdfs:label>
     </owl:Class>
     
 
@@ -5434,6 +5938,20 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_119231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Campylobacter faecalis&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter faecalis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1224">
@@ -5461,6 +5979,24 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1244531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1244531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1244530</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1442825</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1442826</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1442827</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25574036</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter iguaniorum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1365258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1365258">
@@ -5468,6 +6004,18 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli 151_06</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli 151_06</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1381117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1381117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni X</rdfs:label>
     </owl:Class>
     
 
@@ -5483,6 +6031,26 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boreotheria</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boreoeutheria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1448857 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1448857">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1448858</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1448859</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24744327</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24876239</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sp. CIT045</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sp. CIT056</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sp. CIT058</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter corcagiensis</rdfs:label>
     </owl:Class>
     
 
@@ -5509,6 +6077,102 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1507806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1507806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24336365</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24899653</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. testudinum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1660067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1660067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1965231"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1660068</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1660069</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1886620</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1886621</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1886668</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1886669</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1886671</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28629508</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter pinnipediorum subsp. pinnipediorum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1780362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1780362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1780361</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1780363</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27266587</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter geochelonis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1813019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1813019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27498969</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hepaticus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1848766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1848766">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28126040</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ornithocola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1874362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1874362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1965231"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1660070</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1660071</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28629508</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter pinnipediorum subsp. caledonicus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_192953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_192953">
@@ -5526,7 +6190,139 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11542086</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12361288</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16627635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1704793</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19801389</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29034857</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ampylobacter</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2172530</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2340791</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:28078</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11411703</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7857809</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8590689</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9336905</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyoilei</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio coli</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter coli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1354478</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirillum fetus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio fetus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1965231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1965231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28629508</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter pinnipediorum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2172531</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2182326</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2201165</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2211407</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2211408</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2211409</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2293848</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2293849</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2293850</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2303571</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305452</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305453</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305454</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305455</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305456</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305457</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305458</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2305459</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2340789</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2478524</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ampylobacter jejuni</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. jejuni</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio hepaticus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio jejuni</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10425776</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:3998100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7547297</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28729281</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter concisus</rdfs:label>
     </owl:Class>
     
 
@@ -5539,6 +6335,142 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eubacteria</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1704793</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1854636</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolinella curva</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter curvus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19406805</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2223613</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter laridis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lari</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:4614347</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum mucosalis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. mucosalis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1704793</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1854636</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolinella recta</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter rectus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7694633</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter showae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2042961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2042961">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2044588</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29624164</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter blaseri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2593542"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sp.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9542089</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio sputorum</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni-like bacterium</rdfs:label>
     </owl:Class>
     
 
@@ -5565,6 +6497,32 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2593542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2593542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unclassified Campylobacter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_260714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_260714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15545485</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter insulaenigrae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
@@ -5586,6 +6544,49 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis-like sp.</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter mucosalis-like bacterium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNW group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalase-negative or weak group of campylobacteria</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter upsaliensis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1479353</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter helveticus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28901 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28901">
@@ -5593,6 +6594,119 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_303118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_303118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lawrenci</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Campylobacter lawrenceae &apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lawrenceae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12508904</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus fetus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio fetus subsp. intestinalis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. fetus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. venereus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus venerealis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio foetus venerealis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio fetus subsp. venerealis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter fetus subsp. venerealis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni doylei</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni subsp. doylei</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni jejuni</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni subsp. jejuni</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum bubulus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter bubulus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio bubulus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. bubulus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9542089</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum bv. sputorum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum sputorum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum subsp. sputorum</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar sputorum</rdfs:label>
     </owl:Class>
     
 
@@ -5617,6 +6731,27 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Javiana</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Javiana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_374106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_374106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525139</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525140</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525141</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525142</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525143</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525144</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:525145</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19542108</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cuniculorum</rdfs:label>
     </owl:Class>
     
 
@@ -5665,6 +6800,21 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_449520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_449520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2703845</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17978232</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter canadensis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_48409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_48409">
@@ -5672,6 +6822,63 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Virchow</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Virchow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_488545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_488545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19406805</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lari subsp. concheus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_488546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_488546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19406805</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter peloridis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_497724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_497724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19661523</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter subantarcticus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_522485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_522485">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:522483</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19620353</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter avium</rdfs:label>
     </owl:Class>
     
 
@@ -5733,6 +6940,19 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_593874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_593874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum bv. paraureolyticus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter sputorum biovar paraureolyticus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_595">
@@ -5751,6 +6971,104 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Heidelberg</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Heidelberg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_650054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_650054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19406805</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lari subsp. lari</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_654363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_654363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:535089</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:654364</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:654365</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21278267</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter troglodytis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_75658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_75658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10758898</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter lanienae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_76517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321111</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7857801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8123559</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9720027</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Campylobacter hominis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hominis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1854636</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26383656</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7857794</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides gracilis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter gracilis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1854636</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19801389</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7857794</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides corrodens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides ureolyticus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter ureolyticus</rdfs:label>
     </owl:Class>
     
 
@@ -5780,6 +7098,36 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Typhimurium</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10425776</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7547297</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. hyointestinalis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10425776</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7547297</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter hyointestinalis subsp. lawsonii</rdfs:label>
     </owl:Class>
     
 
@@ -5840,6 +7188,32 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sus scrofus</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sus scrofa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_98333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_98333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cf. lanienae UB 992</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_98336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_98336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter cf. lanienae UB 994</rdfs:label>
     </owl:Class>
     
 
@@ -6008,10 +7382,65 @@ objectives is a planned process.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000572"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000339"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">investigation</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lung cancer investigation using expression profiling, a stem cell transplant investigation, biobanking is not an investigation, though it may be part of an investigation</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Could add specific objective specification</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Following OBI call November 2012,26th: it was decided there was no need for adding &quot;achieves objective of drawing conclusion&quot; as existing relations were providing equivalent ability. this note closes the issue and validates the class definition to be part of the OBI core
+editor = PRS</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:OBI_0001847 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study</obo:OBI_0001847>
+        <rdfs:label xml:lang="en">investigation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0000339"/>
         <obo:IAO_0000111 xml:lang="en">assay</obo:IAO_0000111>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -6129,6 +7558,110 @@ for now.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000111 xml:lang="en">protocol</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PCR protocol, has objective specification, amplify DNA fragment of interest, and has action specification describes the amounts of experimental reagents used (e..g. buffers, dNTPS, enzyme), and the temperature and cycle time settings for running the PCR.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived + wikipedia (http://en.wikipedia.org/wiki/Protocol_%28natural_sciences%29)</obo:IAO_0000119>
+        <obo:OBI_0001847 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study protocol</obo:OBI_0001847>
+        <rdfs:label xml:lang="en">protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpreting data</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concluding that a gene is upregulated in a tissue sample based on the band intensity in a western blot.  Concluding that a patient has a infection based on measurement of an elevated body temperature and reported headache. Concluding that there were problems in an investigation because data from PCR and microarray are conflicting. Concluding that &apos;defects in gene XYZ cause cancer due to improper DNA repair&apos; based on data from experiments in that study that gene XYZ is involved in DNA repair, and the conclusion of a previous study that cancer patients have an increased number of mutations in this gene. </obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which data gathered in an investigation is evaluated in the context of existing knowledge with the objective to generate more general conclusions or to conclude that the data does not allow one to draw general conclusion</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jennifer Fostel</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">drawing a conclusion based on data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000339">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planning</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of a scientist thinking about and deciding what reagents to use as part of a protocol for an experiment. Note that the scientist could be human or a &quot;robot scientist&quot; executing software.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a process of creating or modifying a plan specification</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7/18/2011 BP: planning used to itself be a planned process. Barry Smith pointed out that this would lead to an infinite regression, as there would have to be a plan to conduct a planning process, which in itself would be the result of planning etc. Therefore, the restrictions on &apos;planning&apos; were loosened to allow for informal processes that result in an &apos;ad hoc plan &apos;. This required changing from &apos;has_specified_output some plan specifiction&apos; to &apos;has_participant some plan specification&apos;. </obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plans and Planned Processes Branch</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">planning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000471">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study design execution</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injecting a mouse with PBS solution, weighing it, and recording the weight according to a study design.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a planned process that carries out a study design</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removed axiom has_part some (assay or &apos;data transformation&apos;) per discussion on protocol application mailing list to improve reasoner performance. The axiom is still desired.</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branch derived</obo:IAO_0000119>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6/11/9: edited at workshop. Used to be: study design execution is a process with the objective to generate data according to a concretized study design. The execution of a study design is part of an investigation, and minimally consists of an assay or data transformation.</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study design execution</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000659">
@@ -6207,6 +7740,50 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000112>The conclusion that a gene is upregulated in a tissue sample based on the band intensity in a western blot. The conclusion that a patient has a infection based on measurement of an elevated body temperature and reported headache. The conclusion that there were problems in an investigation because data from PCR and microarray are conflicting.
+The following are NOT conclusions based on data: data themselves; results from pure mathematics, e.g. &quot;13 is prime&quot;.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>An information content entity that is inferred from data.</obo:IAO_0000115>
+        <obo:IAO_0000116>In the Philly 2013 workshop, we recognized the limitations of &quot;conclusion textual entity&quot;, and we introduced this as more general. The need for the &apos;textual entity&apos; term going forward is up for future debate. </obo:IAO_0000116>
+        <obo:IAO_0000117>Group:2013 Philly Workshop group</obo:IAO_0000117>
+        <obo:IAO_0000119>Group:2013 Philly Workshop group</obo:IAO_0000119>
+        <rdfs:label>conclusion based on data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <obo:IAO_0000111>surveillance process</obo:IAO_0000111>
+        <obo:IAO_0000115>An investigation in which some entity is monitored, and data concerning that entity collected, interpreted, and disseminated, for the purpose of managing, directing, or protecting that entity, or some other entity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Shane Babcock, OBI</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1181</obo:IAO_0000233>
+        <obo:IAO_0000234>IDO, VEuPathDB</obo:IAO_0000234>
+        <rdfs:label>surveillance process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
@@ -6254,6 +7831,30 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP: OBI Biomaterial Branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">study design</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">a matched pairs study design describes criteria by which subjects are identified as pairs which then undergo the same protocols, and the data generated is analyzed by comparing the differences between the paired subjects, which constitute the results of the executed study design.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Editor note: there is at least an implicit restriction on the kind of data transformations that can be done based on the measured data available.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">experimental design</obo:IAO_0000118>
+        <obo:IAO_0000232 xml:lang="en">rediscussed at length (MC/JF/BP). 12/9/08). The definition was clarified to differentiate it from protocol.</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">study design</rdfs:label>
     </owl:Class>
     
 
@@ -12270,6 +13871,60 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+        <rdfs:comment xml:lang="ja">1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。</rdfs:comment>
+        <rdfs:comment xml:lang="en">A collection of data, published or curated by a single source, and available for access or download in one or more represenations.</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Raccolta di dati, pubblicati o curati da un&apos;unica fonte, disponibili per l&apos;accesso o il download in uno o più formati.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una colección de datos, publicados o conservados por una única fuente, y disponibles para ser accedidos o descargados en uno o más formatos.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une collection de données, publiée ou élaborée par une seule source, et disponible pour accès ou téléchargement dans un ou plusieurs formats.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Μία συλλογή από δεδομένα, δημοσιευμένη ή επιμελημένη από μία και μόνο πηγή, διαθέσιμη δε προς πρόσβαση ή μεταφόρτωση σε μία ή περισσότερες μορφές.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">قائمة بيانات منشورة أو مجموعة من قبل مصدر ما و متاح الوصول إليها أو تحميلها</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/vocab-dcat/"/>
+        <rdfs:label xml:lang="es">Conjunto de datos</rdfs:label>
+        <rdfs:label xml:lang="en">Dataset</rdfs:label>
+        <rdfs:label xml:lang="it">Dataset</rdfs:label>
+        <rdfs:label xml:lang="cs">Datová sada</rdfs:label>
+        <rdfs:label xml:lang="fr">Jeu de données</rdfs:label>
+        <rdfs:label xml:lang="el">Σύνολο Δεδομένων</rdfs:label>
+        <rdfs:label xml:lang="ar">قائمة بيانات</rdfs:label>
+        <rdfs:label xml:lang="ja">データセット</rdfs:label>
+        <skos:changeNote xml:lang="cs">2018-02 - odstraněno tvrzení o podtřídě dctype:Dataset, jelikož rozsah dcat:Dataset zahrnuje několik dalších typů ze slovníku dctype.</skos:changeNote>
+        <skos:changeNote xml:lang="es">2018-02 - se eliminó el axioma de subclase con dctype:Dataset porque el alcance de dcat:Dataset incluye muchos otros tipos del vocabulario dctype.</skos:changeNote>
+        <skos:changeNote xml:lang="it">2018-02 - sottoclasse di dctype:Dataset rimosso perché l&apos;ambito di dcat:Dataset include diversi altri tipi dal vocabolario dctype.</skos:changeNote>
+        <skos:changeNote xml:lang="en">2018-02 - subclass of dctype:Dataset removed because scope of dcat:Dataset includes several other types from the dctype vocabulary.</skos:changeNote>
+        <skos:definition xml:lang="ja">1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。</skos:definition>
+        <skos:definition xml:lang="en">A collection of data, published or curated by a single source, and available for access or download in one or more represenations.</skos:definition>
+        <skos:definition xml:lang="cs">Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.</skos:definition>
+        <skos:definition xml:lang="it">Raccolta di dati, pubblicati o curati da un&apos;unica fonte, disponibili per l&apos;accesso o il download in uno o più formati.</skos:definition>
+        <skos:definition xml:lang="es">Una colección de datos, publicados o conservados por una única fuente, y disponibles para ser accedidos o descargados en uno o más formatos.</skos:definition>
+        <skos:definition xml:lang="fr">Une collection de données, publiée ou élaborée par une seule source, et disponible pour accès ou téléchargement dans un ou plusieurs formats.</skos:definition>
+        <skos:definition xml:lang="el">Μία συλλογή από δεδομένα, δημοσιευμένη ή επιμελημένη από μία και μόνο πηγή, διαθέσιμη δε προς πρόσβαση ή μεταφόρτωση σε μία ή περισσότερες μορφές.</skos:definition>
+        <skos:definition xml:lang="ar">قائمة بيانات منشورة أو مجموعة من قبل مصدر ما و متاح الوصول إليها أو تحميلها</skos:definition>
+        <skos:scopeNote xml:lang="fr">Cette classe représente le jeu de données publié par le fournisseur de données. Dans les cas où une distinction est nécessaire entre le jeu de donénes et son entrée dans le catalogue, la classe registre de données peut être utilisée pour ce dernier.</skos:scopeNote>
+        <skos:scopeNote xml:lang="es">Esta clase representa el conjunto de datos publicados. En los casos donde es necesario distinguir entre el conjunto de datos y su entrada en el catálogo de datos, se debe utilizar la clase &apos;registro del catálogo&apos;.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Questa classe descrive il dataset dal punto di vista concettuale. Possono essere disponibili una o più rappresentazioni, con diversi layout e formati schematici o serializzazioni.</skos:scopeNote>
+        <skos:scopeNote xml:lang="it">Questa classe rappresenta il dataset come pubblicato dall’editore. Nel caso in cui sia necessario operare  una distinzione fra i metadati originali del dataset e il record dei metadati ad esso associato nel catalogo (ad esempio, per distinguere la data di modifica del dataset da quella del dataset nel catalogo) si può impiegare la classe catalog record.</skos:scopeNote>
+        <skos:scopeNote xml:lang="cs">Tato třída reprezentuje datovou sadu tak, jak je publikována poskytovatelem dat. V případě potřeby rozlišení datové sady a jejího katalogizačního záznamu (jelikož metadata jako datum modifikace se mohou lišit) pro něj může být použita třída &quot;katalogizační záznam&quot;.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">This class describes the conceptual dataset. One or more representations might be available, with differing schematic layouts and formats or serializations.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">This class represents the actual dataset as published by the dataset provider. In cases where a distinction between the actual dataset and its entry in the catalog is necessary (because metadata such as modification date and maintainer might differ), the catalog record class can be used for the latter.</skos:scopeNote>
+        <skos:scopeNote xml:lang="el">Η κλάση αυτή αναπαριστά το σύνολο δεδομένων αυτό καθ&apos;εαυτό, όπως έχει δημοσιευθεί από τον εκδότη. Σε περιπτώσεις όπου είναι απαραίτητος ο διαχωρισμός μεταξύ του συνόλου δεδομένων και της καταγραφής αυτού στον κατάλογο (γιατί μεταδεδομένα όπως η ημερομηνία αλλαγής και ο συντηρητής μπορεί να διαφέρουν) η κλάση της καταγραφής καταλόγου μπορεί να χρησιμοποιηθεί για το τελευταίο.</skos:scopeNote>
+        <skos:scopeNote xml:lang="ja">このクラスは、データセットの公開者が公開する実際のデータセットを表わします。カタログ内の実際のデータセットとそのエントリーとの区別が必要な場合（修正日と維持者などのメタデータが異なるかもしれないので）は、後者にcatalog recordというクラスを使用できます。</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Resource -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Resource">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#HSO_0000001 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000001">
@@ -12300,6 +13955,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Role given to a specific herd of domesticated animals, specifying that they are raised in an agricultural setting with a specific purpose. Details about this purpose can be used to classify livestock farming system in further sub-categories.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">livestock farming system</rdfs:label>
     </owl:Class>
     
@@ -12309,6 +13965,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000015">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000014"/>
+        <obo:IAO_0000115 xml:lang="en">Classification of livstock farming systems based on the type of commodity produced. Sub-classes are not mutually exclusive.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">product oriented farming type</rdfs:label>
     </owl:Class>
     
@@ -12394,6 +14051,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <obo:IAO_0000115 xml:lang="en">Information used to qualify/classify specimens. Can be inferred if enough information about the specimen is given, but can also be assigned directly when the source of information only specifies the type of speciment (for instance when using the SSD2 terminology, catalog MTXTYP).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">matrix type</rdfs:label>
     </owl:Class>
     
@@ -12418,6 +14076,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <obo:IAO_0000115 xml:lang="en">inferred categorization of specimens based on the informaiton provided in matrix type and/or regarding the anatomical entity targetted</obo:IAO_0000115>
         <rdfs:label xml:lang="en">matrix from organism</rdfs:label>
     </owl:Class>
     
@@ -12475,6 +14134,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance context</rdfs:label>
     </owl:Class>
     
@@ -12484,7 +14144,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label xml:lang="en">surveillance sampler type</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The type of agent who carries out the data collection in a surveillance activity</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">surveillance executor type</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">surveillance sampler type</obo:IAO_0000118>
         <HSO_0000002 xml:lang="en">SAMPLR</HSO_0000002>
     </owl:Class>
     
@@ -12494,6 +14156,14 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">Describe how units have been planned to be sampled
+Sampling at the primary sampling unit (PSU) level
+Describe the information used to calculate sample size at the PSU level, e.g. the number of PSU in the population (see section 6 also), (between−herd) design prevalence, desired confidence, desired power, sensitivity, specificity.
+If recommended parameters from international standards are used, indicate the source of such standards (e.g. OIE)
+Sampling at the secondary sampling unit (SSU) level
+Describe the information used to calculate sample size at the SSU level, e.g. the number of SSU in the population (see section 6 also), (within−herd) design prevalence, desired confidence, desired power, sensitivity, specificity.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/Description-of-surveillance-items-in-the-checklist</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">sampling strategy</rdfs:label>
     </owl:Class>
     
@@ -12503,6 +14173,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A sampling unit is one of the units into which an aggregate is divided for the purpose of sampling, each unit being regarded as individual and indivisible when the selection is made.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://stats.oecd.org/glossary/index.htm</obo:IAO_0000119>
         <rdfs:label xml:lang="en">sampling unit</rdfs:label>
     </owl:Class>
     
@@ -12512,6 +14184,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Information about an assay which can be used to find of qualify/classify assays.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">assay datum</rdfs:label>
     </owl:Class>
     
@@ -12521,6 +14194,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000202">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000201"/>
+        <obo:IAO_0000112 xml:lang="en">Known diagnostic tests can be classified into groups here so that information such as whether they are an antibody detection or pathogen identification information can be associated to the test, even if this information is not detailed in the data source. As an example, diagnostic tests classifications contained in existing terminologies (such as EFSA SSD2, https://www.efsa.europa.eu/en/efsajournal/pub/3424) can be used to create specific test catehories here.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">Categorization of diagnostic tests used in health surveillance. This information can be assigned to a test, or inferred from test characteristics if enough information is given about it.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">diagnostic test type</rdfs:label>
     </owl:Class>
     
@@ -12530,6 +14205,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
+        <obo:IAO_0000115 xml:lang="en">Categorization of specimen used in conjunction with information about the target sampled anatomical location in order to specify _how_ the anatomical entity was sampled, for instance a fecal swab versus a fecal specimen.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">specimen from organism type</rdfs:label>
     </owl:Class>
     
@@ -12539,7 +14215,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000246">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">whole organism sample</rdfs:label>
+        <rdfs:label xml:lang="en">whole organism specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12548,7 +14224,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000247">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">fluid sample</rdfs:label>
+        <rdfs:label xml:lang="en">fluid specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12557,7 +14233,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000248">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">organ/tissue sample</rdfs:label>
+        <rdfs:label xml:lang="en">organ/tissue specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12566,7 +14242,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000249">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">excreta sample</rdfs:label>
+        <rdfs:label xml:lang="en">excreta specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12575,7 +14251,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000250">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000245"/>
-        <rdfs:label xml:lang="en">swab sample</rdfs:label>
+        <rdfs:label xml:lang="en">swab specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12590,6 +14266,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <obo:IAO_0000115 xml:lang="en">inferred categorization of specimens based on the matrix type informaiton provided regarding their source</obo:IAO_0000115>
         <rdfs:label xml:lang="en">specimen by origin</rdfs:label>
     </owl:Class>
     
@@ -12605,7 +14282,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
-        <rdfs:label xml:lang="en">animal sample</rdfs:label>
+        <rdfs:label xml:lang="en">animal specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12620,7 +14297,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
-        <rdfs:label xml:lang="en">food sample</rdfs:label>
+        <rdfs:label xml:lang="en">food specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12635,7 +14312,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
-        <rdfs:label xml:lang="en">environmental sample</rdfs:label>
+        <rdfs:label xml:lang="en">environmental specimen</rdfs:label>
     </owl:Class>
     
 
@@ -12644,6 +14321,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of all directive information associated with a surveillance activity, such as the surveillance objectives, the action specifications and legislative specification. Everything about a surveillance activity that is related to its planning and methodology. A surveillance activity is then a specific execution of a surveillance protocol, which generates specific results. A surveillance protocol exists efore a surveillance activity is carried out, and can exist even in the absence of a surveillance activity - for instance there cna be a surveillance protocol for outbreak investigations, but the exucition of a surveillance activity and associated results will only be available if an outbreak is detected.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">surveillance protocol</rdfs:label>
     </owl:Class>
     
@@ -12653,6 +14331,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">The legislative support to a specific surveillance activity, that is, all the laws or regulations of a country or region which are related to the obligations or permissions associated with a specific surveillance activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">legislative specification</rdfs:label>
     </owl:Class>
     
@@ -12662,6 +14341,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">states those goal(s) that when met will result in the collection and analysis of data in order to achieve the purpose of the system</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">OIE (2014a). Guide to terrestrial animal health surveillance. Paris, France, OIE.</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance objective</rdfs:label>
     </owl:Class>
     
@@ -12671,6 +14353,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">describes why surveillance is necessary and what it will accomplish</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance purpose</rdfs:label>
     </owl:Class>
     
@@ -12680,6 +14365,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000268">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Case detection refers to the search for any animals affected, clinically or not, by the hazard under surveillance. This objective is appropriate if the hazard is present, regardless of whether the hazard occurrence is endemic, epidemic or sporadic, and action will be taken to control disease whenever it is detected.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">case detection</rdfs:label>
     </owl:Class>
@@ -12690,6 +14376,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000269">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Disease freedom: This objective is appropriate if the target hazard is thought to be absent in the territory to be covered and the aim is to demonstrate disease freedom for trade or non−trade purposes (e.g. improve public health, to decide when to stop an eradication programme and to eliminate production losses and control costs due to endemic disease). This may apply to diseases which a) have been historically absent, b) have been eradicated and official freedom has been confirmed or c) are thought to be eradicated, but official freedom has not yet been confirmed.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">demonstration of disease freedom</rdfs:label>
     </owl:Class>
@@ -12700,6 +14387,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000270">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Early detection: This objective is appropriate for a situation where the disease is currently absent in the country or region. It may be applied to surveillance for an unknown disease or a known disease considered to pose a non−negligible risk of incursion or emergence. It may also apply to the early stages of an outbreak.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">early detection</rdfs:label>
     </owl:Class>
@@ -12710,6 +14398,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000271">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
+        <obo:IAO_0000115 xml:lang="en">Prevalence estimation: This objective is appropriate if the target hazard is (thought to be) present in the territory to be covered, and an assessment of the prevalence and or changes in prevalence over time is needed.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">prevalence estimation</rdfs:label>
     </owl:Class>
@@ -12800,6 +14489,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000280">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
+        <obo:IAO_0000115 xml:lang="en">The sampling scheme design to meet the specific surveillance objective and/or purpose of a surveillance activity. This inclused for instance the calculated sample size (which can include primary and secondary sampling units in case of clustered units), the frequency of sampling, etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sampling design protocol</rdfs:label>
     </owl:Class>
     
@@ -12809,6 +14499,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000281">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
+        <obo:IAO_0000115 xml:lang="en">The reporting protocol of a surveillance activity, detailing what are the reporting obligations associated with a specific surveillance target in a specific area, the reporting chain (who is obliged to report and how is the information flow from reporting), and any eventual incentives for reporting.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">reporting protocol</rdfs:label>
     </owl:Class>
     
@@ -12818,7 +14509,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000282">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
-        <rdfs:label xml:lang="en">sample collection protocol</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The protocol detailing how specimens will be collected as part of the data gathering phase of a  surveillance activity. This does not include the definition of how many samples will collected, but specifically how they will be collected - where, by whom, etc.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">sample collection protocol</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">specimen collection protocol</rdfs:label>
     </owl:Class>
     
 
@@ -12827,6 +14520,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000283">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
+        <obo:IAO_0000115 xml:lang="en">The protocol that describes which diagnostic test or tests will be used to identify animals (or another epidemiological unit) infected with a specific pathogen, possibly in more than one round of screening.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The protocol to be used within a surveillance activity to classify epidemiological units according to a specific outcome.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">diagnostic protocol</rdfs:label>
     </owl:Class>
     
@@ -12836,6 +14531,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
+        <obo:IAO_0000115 xml:lang="en">An action specification for specific actions to be taken as part of a health surveillance activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">surveillance methods specification</rdfs:label>
     </owl:Class>
     
@@ -12845,6 +14541,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000290">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Type of surveillance activity in which sampling in done continuously, triggered by the existing of cases of interest,  for instance reporting of confirmed cases or collection of samples from every slaughter batch.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Continuous data collection</rdfs:label>
     </owl:Class>
@@ -12855,7 +14552,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000291">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">The repeated collection of information from the same selected sites or groups of animals (e.g. veterinary practices, laboratories, herds or animals) to identify changes in the health status of a specified population over time. These sentinels should act as a proxy for the larger population of interest; they may be selected on the basis of risk but can also be selected randomly or on the basis of convenience or compliance.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Sentinel surveillance</rdfs:label>
     </owl:Class>
     
@@ -12865,7 +14564,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000292">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Participatory surveillance explores traditional information networks by using participatory rural appraisal methods such as ranking, scoring and visualisation techniques to conduct risk-based, hazard-specific surveillance. The approach uses semi-structured interviews with key informants. This enables communities to provide their knowledge regarding health events, risks, impacts and control opportunities by gathering qualitative health data from defined populations. The analysis of participatory data emphasises the comparison of information obtained from multiple informants; the method uses a variety of techniques to obtain the most likely interpretation of events. The objective is to enhance sensitivity by identifying cases based on a clinical case definition; these may then be evaluated and confirmed using either rapid tests in the field or laboratory diagnostics. Conventional epidemiological investigation techniques can be used to evaluate and confirm outbreaks detected by participatory surveillance as part of trace-back and trace-forwards activities.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Participatory surveillance</rdfs:label>
     </owl:Class>
     
@@ -12875,7 +14576,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000293">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Traditional disease surveillance which relies on the collection of data about the occurrence of pre-defined diseases or conditions and which uses agreed-upon case definitions; these data are analysed to produce indicators that point towards the existence of a threat. Indicator-based surveillance may be hazard-specific or general and includes the use of clinical or other data for syndromic surveillance</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Indicator−based surveillance</rdfs:label>
     </owl:Class>
     
@@ -12885,7 +14588,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000294">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">Surveillance that uses health-related information (clinical signs or other data) that might precede or substitute for formal diagnosis. This information may be used to indicate a sufficient probability of a change in the health of the population to deserve further investigation or to enable a timely assessment of the impact of health threats which may require action. This type of surveillance is not usually focused on a particular hazard so can be used to detect a variety of diseases or pathogens including new (emerging) diseases. This type of surveillance is particularly applicable for early warning surveillance.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary#group-S</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Syndromic surveillance</rdfs:label>
     </owl:Class>
     
