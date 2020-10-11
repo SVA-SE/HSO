@@ -601,6 +601,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000324 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000324">
+        <obo:IAO_0000115 xml:lang="en">A collection of annotations which refer to all the annotation steps in the One Health Consensus Reporting Annotation Checklist (OH-CRAC). OH-CRAC is part of the One Health Codex - https://oh-surveillance-codex.readthedocs.io/en/latest/5-the-reporting-principle.html.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">One-Health Consensus Reference Annotation Checklist (OH-CRAC)</rdfs:label>
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
     </owl:AnnotationProperty>
@@ -610,6 +611,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000325 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000325">
+        <obo:IAO_0000115 xml:lang="en">This section provides information on what &quot;caused&quot; the surveillance activity and what is expected from the surveillance activity. It may be triggered by a new law or feedback from previous surveillance activities. It might even be initiated by practices in other (national and international) organisations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 1.1 Motivation / cause</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -619,6 +621,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000326 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000326">
+        <obo:IAO_0000115 xml:lang="en">This section documents the results of consultation activities between the surveillance &quot;actor&quot; with its customers / stakeholders to identify/confirm the needs of the surveillance activity. Specifically, it documents what is agreed to be delivered by this surveillance activity, when, how and why. It also documents whether previously identified needs have changed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 1.2. Requirement analysis</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -628,6 +631,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000327 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000327">
+        <obo:IAO_0000115 xml:lang="en">This section documents what surveillance objectives (e.g. prevalence estimation, case detection, early detection, disease freedom) and their quality criteria are defined to meet the needs of the end-users / stakeholders. It also describes existing legal or practical constraints, e.g. confidentiality, resources etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 1.3. Surveillance objective and constraints</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -637,6 +641,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000328 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000328">
+        <obo:IAO_0000115 xml:lang="en">This section gives an overview on all designed outputs, products and services related to the surveillance activity. This includes the output of the surveillance activity, but also related work, as e.g. preparation of systems and tools for dissemination, disclosure control methods etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.1. Framework design</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -646,6 +651,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000329 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000329">
+        <obo:IAO_0000115 xml:lang="en">This section describes which variables / measurements were planned to be collected / taken and which metadata set / standard were used. It further specifies if measured values were planned to be grouped or classified, how this was planned to be done. It also specifies if new variables derive from the original ones (see section 4.5, New variable/unit derivation). It may overlap with the description requested for section 2.3 (Surveillance methods/strategy)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.2. Variable specifications</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -655,6 +661,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000330 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000330">
+        <obo:IAO_0000115 xml:lang="en">This section describes the developed &quot;collection strategy&quot; (collection strategy in this context means, e.g. active or passive surveillance). It also describes the collection instruments (survey, data extraction methods etc.) and collection units (e.g. individuals, herds, food batch etc.). It may overlap with the surveillance variables specification described in section 2.2 (Variable specifications)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.3. Surveillance methods/strategy</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -673,6 +680,8 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000332 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000332">
+        <obo:IAO_0000115 xml:lang="en">&quot;This sub-section specifies the population(s) that were sampled.
+&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.1. Sampled population</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -682,6 +691,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000333 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000333">
+        <obo:IAO_0000115 xml:lang="en">This sub-section describes the design process followed for the sampling plan generation and the sampling criteria.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.2. Sampling schema</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -691,6 +701,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000334 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000334">
+        <obo:IAO_0000115 xml:lang="en">This sub-section describes the sample collection approach carried out including information on the practical handling, storage and labeling of taken samples by different actors (e.g. storage temperature, labeling with unique IDs).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.3. Sample collection</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -700,6 +711,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000335 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000335">
+        <obo:IAO_0000115 xml:lang="en">This sub-section details the processing of the samples prior to the analytical processing.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.4. Sample preparation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -709,6 +721,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000336 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000336">
+        <obo:IAO_0000115 xml:lang="en">This sub-section reports on the analytical procedures applied to the different sets of samples.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.4.5. Analytical procedures</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -718,6 +731,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000337 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000337">
+        <obo:IAO_0000115 xml:lang="en">This section describes the methods used for the data processing including analysis of bioinformatics, trends, modelling, statistical tests, etc. This section also includes design of specifications for data integration from multiple data sources, validation of data and estimation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 2.5. Data processing/analysis</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -727,6 +741,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000338 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000338">
+        <obo:IAO_0000115 xml:lang="en">This section describes how the specific sampling units were chosen based on the sampling plan that is described in section 2.4 (Sampling plan). In contrast to the information given in 2.4, this section should describe how the real &quot;implementation&quot; of the sampling plan took place, as sometimes the &quot;field work&quot; is done by other actors than the planning.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.1. Practical aspects on sample selection</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -736,6 +751,13 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000339 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000339">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes the activies undertaken to ensure that the people, processes and technology (e.g. web-based applications, GPS system) were ready to collect data and metadata. It includes the strategy, planning and training activities in preparation for the specific sampling activity. This description might include information on:
+- Preparing a sample storage and / or shipment strategy;
+- Training staff how to collect samples, e.g. physician;
+- Training staff how to analyze selected samples in the lab, e.g. perform ring trials 
+- Provisioning of collection resources (e.g. laptops, collection apps, central data or sample repositories, questionnaires, information leaflets or letters, required lab material);
+- Agreements with intermediate collection bodies, (e.g. sub-contractors);
+- How security and confidentiality of data to be collected and data transmission was guaranteed&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.2. Practical support activities</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -745,6 +767,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000340 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000340">
+        <obo:IAO_0000115 xml:lang="en">This section describes how the execution / implementation of the sample collection worked out, e.g. if there were corrective actions taken along the sampling period. This should include reports on quality control activities carried out by labs and actors involved in sample collection.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.3. Practical aspects on field and lab work</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -754,6 +777,8 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000341 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000341">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes how the collected lab data and metadata were loaded into a suitable electronic environment for further processing. 
+It may include a description of manual or automatic data capture processes that were applied to extract e.g. metadata from paper questionnaires, or converting the formats of files or encoding the variables received. It may also include analysis of the metadata and paradata associated with collection to ensure the collection activities have met requirements. It might also describe how physical samples or related material (questionnaires) will be archived. When software is used for data collection the version and software archiving should be described.&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 3.4. Practical aspects on information handling</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -763,6 +788,11 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000342 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000342">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes any activity related to data integration or data fusion. The data collection could be a combination of new and historical data, from external or internal sources, from a variety of collection instruments etc. For example the data collection could be enriched by information from official (governmental) or non-official sources. It could further include a description on:
+- Data pooling, with the aim of increasing the effective number of observations of some phenomena;
+- Mapping or record linkage routines, with the aim of linking different data sources that use different encoding schemas;
+- Prioritising, when two or more sources contain data for the same variable, with potentially different values.
+- Data anonymization, e.g. if identifiers such as name and address are stripped to help to protect confidentiality.&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.1. Data integration</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -772,6 +802,9 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000343 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000343">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes if data/variables were classified and/or encoded. Examples:
+- Automatic coding routines that assign numeric codes to text responses according to a pre-determined statistical classification. 
+- Classification based on analytical results (e.g. MLST pattern), bioinformatics analysis (e.g. phylogenetic trees) or mathematical models (PCA, SVM / ANN)&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.2. Data classification / encoding</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -781,6 +814,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000344 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000344">
+        <obo:IAO_0000115 xml:lang="en">This section describes activities carried out to detect and localise actual or potential errors and discrepancies such as outliers, item non-response and miscoding (input data validation).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.3. Data validation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -790,6 +824,8 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000345 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000345">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes what action was taken for incorrect, missing, unreliable or outdated data. For example new values may have been inserted or outdated data may have been removed. It should describe whether data were added or changed, the method used, and the flags used to mark them as changed.
+&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.4. Data cleansing and correction</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -799,6 +835,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000346 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000346">
+        <obo:IAO_0000115 xml:lang="en">This section describes if new data were derived from variables/units that were not explicitly provided in the data collection but were needed to deliver the required outputs. Examples include deriving variables on households where the collection units are persons or deriving variables on enterprises where the collection units are legal units.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.5. New variable/unit derivation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -808,6 +845,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000347 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000347">
+        <obo:IAO_0000115 xml:lang="en">This section describes if weights for unit data records were created according to the methodology developed in sub-process 2.5 (Data processing/analysis). For example, weights might have been used to &quot;gross-up&quot; data to make them representative of the target population (e.g. for sample surveys or extracts from scanner data), or to adjust for non-response in total enumerations. In other situations, variables might have needed weighting for normalisation purpose or for benchmarking indicators (e.g. known population totals).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.6. Weighing of records</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -817,6 +855,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000348 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000348">
+        <obo:IAO_0000115 xml:lang="en">This section describes how aggregate data and population totals were generated from the data collection or lower-level aggregates. It includes summing data for records sharing certain characteristics (e.g. aggregation of data by demographic or geographic classifications), determining measures of average and dispersion, and applying weights from sub-process 4.6 (Weighting of records) to derive appropriate totals. In the case of statistical outputs, which use sample surveys, sampling errors corresponding to relevant aggregates may also be calculated in this section.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 4.7. Data aggregation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -826,6 +865,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000349 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000349">
+        <obo:IAO_0000115 xml:lang="en">This section describes how data from section 4.7 (Data aggregation) were transformed into surveillance statistics outputs such as indexes, seasonally adjusted statistics, e.g. trend, cycle, seasonal and irregular components, accessibility measures, etc., as well as the recording of quality characteristics such as coefficients of variation. The preparation of maps, GIS outputs and geo-statistical services can be included to maximise the value and capacity to analyse the statistical information.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.1. Surveillance output generation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -835,6 +875,15 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000350 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000350">
+        <obo:IAO_0000115 xml:lang="en">&quot;This section describes how the quality of the generated surveillance statistical outputs were validated, in accordance with a general quality framework and with expectations. Validation activities can include:
+- Checking that the population coverage and response rates are as required;
+- Comparing the statistics with previous cycles (if applicable);
+- Checking that the associated metadata, paradata and quality indicators are present and in line with expectations;
+- Checking geospatial consistency of the data;
+- Confronting the statistics against other relevant data (both internal and external);
+- Investigating inconsistencies in the statistics;
+- Performing macro editing;
+- Validating the statistics against expectations and domain intelligence.&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.2. Surveillance output validation</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -844,6 +893,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000351 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000351">
+        <obo:IAO_0000115 xml:lang="en">This section describes performed in-depth statistical analyses such as time-series analysis, consistency and comparability analysis, revision analysis (analysis of the differences between preliminary and revised estimates), analysis of asymmetries (discrepancies in mirror statistics) etc.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.3. Surveillance output statistical analysis</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -853,6 +903,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000352 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000352">
+        <obo:IAO_0000115 xml:lang="en">This section describes activities carried out to ensure that the data (and metadata) to be disseminated do not breach the appropriate rules on confidentiality according to either organisation policies and rules, or to the process-specific methodology created in section 2.5 (Data processing/analysis plan). This may include checks for primary and secondary disclosure, as well as the application of data suppression or perturbation techniques and output checking. The degree and method of statistical disclosure control may vary for different types of outputs. For example, the approach used for microdata sets for research purposes will be different to that for published tables, finalised outputs of geospatial statistics or visualisations on maps.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">CRAC 5.4. Surveillance disclosure control</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
     </owl:AnnotationProperty>
@@ -862,6 +913,7 @@ Full names are stored in the property &quot;&quot;SSD_termExtendedName&quot;&quo
     <!-- https://w3id.org/hso#HSO_0000353 -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000353">
+        <obo:IAO_0000115 xml:lang="en">annotations created to map specific entities to their origin in the Standard Sample Description, a terminology catalogue maintained by the European Foos Safety Agency (EFSA).  https://www.efsa.europa.eu/en/efsajournal/pub/3424</obo:IAO_0000115>
         <rdfs:label xml:lang="en">European Food Safety Agency Standard Sample Description Framework - EFSA SSD</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -3025,6 +3077,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000286"/>
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000304"/>
         </owl:propertyChainAxiom>
+        <obo:IAO_0000115>Specification of the type of sampling strategy planned within a surveillance protocol, and ultimately executed in a surveillance activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">applies sampling strategy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -3195,6 +3248,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000309"/>
             <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000310"/>
         </owl:propertyChainAxiom>
+        <obo:IAO_0000115>property assigning specific datum to diagnostic tests which allows identification of their type</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has diagnostic test type</rdfs:label>
     </owl:ObjectProperty>
     
@@ -3214,6 +3268,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000201"/>
+        <obo:IAO_0000115>assignment of data available as information content to assays</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has assay datum</rdfs:label>
     </owl:ObjectProperty>
     
@@ -3424,6 +3479,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115 xml:lang="en">The sample size calculated for a surveillance activity in order to achieve its specific surveillance purpose or goal, and considering its declared epidemiological unit.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">calculated sample size</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3443,6 +3499,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000112 xml:lang="en">The number of herds to be sampled in a survey targetting livestock animals, which are kept in herds.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">In a sampling process targetting clustered units, this refers to the number of PRIMARY SAMPLING UNITS to be sampled, according to the plan designed for a surveillance activity in order to achieve its specific surveillance purpose or goal.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">calculated number of PSU</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3462,6 +3520,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000112 xml:lang="en">The number of animals to be sampled within each herd.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">In a sampling process targetting clustered units, this refers to the number of SECONDARY SAMPLING UNITS to be sampled, according to the plan designed for a surveillance activity in order to achieve its specific surveillance purpose or goal.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">calculated number of SSU</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3574,6 +3634,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000212">
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">a collection of properties used to assign numeric results to a surveillance activity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">surveillance activity aggregated results</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3646,7 +3707,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label xml:lang="en">sampling weight</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the weight of a specific collected specimen. use sub-properties to specify weight units</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">specimen weight</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3664,6 +3726,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000115 xml:lang="en">the weight of a specific collected specimen, in grams</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sampling weight in grams</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3682,6 +3745,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000115 xml:lang="en">the weight of a specific collected specimen, in mililitres</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sampling weight in millilitre</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -3691,7 +3755,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000361">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
-        <rdfs:label xml:lang="en">Case fatality</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The case-fatality rate is the proportion of persons with a particular condition (cases) who die from that condition. It is a measure of the severity of the condition.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Case fatality rate</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -14216,7 +14282,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
-        <rdfs:label xml:lang="en">animal sample</rdfs:label>
+        <rdfs:label xml:lang="en">animal specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14231,7 +14297,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
-        <rdfs:label xml:lang="en">food sample</rdfs:label>
+        <rdfs:label xml:lang="en">food specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14246,7 +14312,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000252"/>
-        <rdfs:label xml:lang="en">environmental sample</rdfs:label>
+        <rdfs:label xml:lang="en">environmental specimen</rdfs:label>
     </owl:Class>
     
 
