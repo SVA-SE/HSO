@@ -3049,6 +3049,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000301">
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 xml:lang="en">Causative agent</obo:IAO_0000118>
         <rdfs:label xml:lang="en">target pathogen</rdfs:label>
     </owl:ObjectProperty>
     
@@ -3324,6 +3325,48 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000112 xml:lang="en">this property allows metadata documentation to link a dataset to specific entities within each and vice-versa, as long as these entitites ave unique URI, even when the dataset is not itself available as  linked data</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Links an entityt to a specific dataset that contains information about it.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">documented in dataset</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000375 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000375">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <obo:IAO_0000115 xml:lang="en">this property specifies specifically whic country is responsible for the documentation about a specific surveillance activity</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">reporting country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000376 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000376">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label xml:lang="en">available in language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000377 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000377">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label xml:lang="en">place of exposure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000378 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000378">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label xml:lang="en">place of origin of the problem</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -14073,7 +14116,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000059 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000059">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:label xml:lang="en">language</rdfs:label>
     </owl:Class>
     
@@ -14694,6 +14737,113 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000072"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">objective sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000371 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000371">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">surveillance activity specifically triggered by the detection of an outbreak</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000372 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000372">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000371"/>
+        <obo:IAO_0000115 xml:lang="en">a type of outbreak investigation that focus specifically on foodborne agents/vehicles</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food-borne outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000373 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000373">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000295"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/hso#HSO_0000372"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000374"/>
+        <obo:IAO_0000115 xml:lang="en">a surveillance activity with the specific surveillance context of investigating a foodborne outbreak</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">FBO investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000374 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000374">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000295"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/hso#HSO_0000371"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">a specific type of surveillance activity which has as surveillance context an outbreak investigation</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000379 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">outbreak investigation datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000380 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000380">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Food vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000381 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000381">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Nature of evidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000382 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000382">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Contributory factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000383 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000383">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Extent of outbreak</rdfs:label>
     </owl:Class>
     
 
@@ -20118,7 +20268,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <!-- https://w3id.org/hso#PRGTYP_K032A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K032A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000371"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outbreak investigation</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K032A</HSO_0000003>
