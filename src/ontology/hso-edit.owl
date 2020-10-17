@@ -937,6 +937,15 @@ It may include a description of manual or automatic data capture processes that 
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000368 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000368">
+        <obo:IAO_0000115 xml:lang="en">Annotation property created to be a &quot;catch all&quot; property for information given about a surveillance activity, and not recognized as any specific entity in the ontology when using automated RDF conversion/import tools.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">additional information</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
