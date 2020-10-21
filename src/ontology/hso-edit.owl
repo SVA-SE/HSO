@@ -3378,6 +3378,23 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000394 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000394">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">hazard status context</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3876,6 +3893,16 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000365">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000212"/>
         <rdfs:label xml:lang="en">Number of deaths</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000384 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000384">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">case definition</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -14851,6 +14878,91 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000383">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
         <rdfs:label xml:lang="en">Extent of outbreak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000385 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000385">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000261"/>
+        <rdfs:label xml:lang="en">reporting obligations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000386 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000386">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000385"/>
+        <obo:IAO_0000115 xml:lang="en">A disease that, by law, must be reported to public health authorities upon diagnosis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">notifiable upon diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000387 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000387">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000385"/>
+        <obo:IAO_0000115 xml:lang="en">A disease that, by law, must be reported to public health authorities upon suspicion</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">notifiable upon suspicion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000388 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label xml:lang="en">status of hazard presence in a geographical region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000389 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000389">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">historically absent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000390 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000390">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">absent (eradicated)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000391 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000391">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <obo:IAO_0000115 xml:lang="en">Single cases without a specific temporal pattern, but also without geographical pattern or other associations and where import to location is related to travel.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">sporadic travel-related cases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000392 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000392">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <obo:IAO_0000115 xml:lang="en">The state of a disease, infection or other condition being maintained in a population without the need of external outputs. The population involved and their geographical location should be specified when defining an endemic state. Present in a community or common among a group of people; said of a disease prevailing continually in a region</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">endemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000393 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000393">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">unknown status</rdfs:label>
     </owl:Class>
     
 
