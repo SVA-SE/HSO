@@ -529,6 +529,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
@@ -933,6 +939,15 @@ It may include a description of manual or automatic data capture processes that 
     <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000355">
         <rdfs:label xml:lang="en">discussion</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/hso#HSO_0000324"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000368 -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/hso#HSO_0000368">
+        <obo:IAO_0000115 xml:lang="en">Annotation property created to be a &quot;catch all&quot; property for information given about a surveillance activity, and not recognized as any specific entity in the ontology when using automated RDF conversion/import tools.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">additional information</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -3040,7 +3055,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000301">
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 xml:lang="en">Mixed outbreaks</obo:IAO_0000118>
         <rdfs:label xml:lang="en">target pathogen</rdfs:label>
+        <skos:prefLabel xml:lang="en">causative agent</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -3292,6 +3309,88 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
         <rdfs:label xml:lang="en">origin country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000369 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000369">
+        <owl:inverseOf rdf:resource="https://w3id.org/hso#HSO_0000370"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <obo:IAO_0000112 xml:lang="en">this property allows metadata documentation to link a dataset to specific entities within each and vice-versa, as long as these entitites ave unique URI, even when the dataset is not itself available as  linked data</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">this property allows a dataset to be explictly linked to any entities within it which can be referred to with an unique ID.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">contains information about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000370 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000370">
+        <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <obo:IAO_0000112 xml:lang="en">this property allows metadata documentation to link a dataset to specific entities within each and vice-versa, as long as these entitites ave unique URI, even when the dataset is not itself available as  linked data</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">Links an entityt to a specific dataset that contains information about it.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">documented in dataset</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000375 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000375">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <obo:IAO_0000115 xml:lang="en">this property specifies specifically whic country is responsible for the documentation about a specific surveillance activity</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">reporting country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000376 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000376">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000059"/>
+        <rdfs:label xml:lang="en">available in language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000377 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000377">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label xml:lang="en">place of exposure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000378 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000378">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:label xml:lang="en">place of origin of the problem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000394 -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/hso#HSO_0000394">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000256"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">hazard status context</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3798,6 +3897,16 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000384 -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/hso#HSO_0000384">
+        <rdfs:domain rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">case definition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4062,7 +4171,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Spatial regions do not participate in processes.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Spatial region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the union of a spatial point and a spatial line that doesn&apos;t overlap the point, or two spatial lines that intersect at a single point. In both cases the resultant spatial region is neither 0-dimensional, 1-dimensional, 2-dimensional, or 3-dimensional.</obo:IAO_0000116>
         <obo:IAO_0000600 xml:lang="en">A spatial region is a continuant entity that is a continuant_part_of spaceR as defined relative to some frame R. (axiom label in BFO2 Reference: [035-001])</obo:IAO_0000600>
-        <obo:IAO_0000601 xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</obo:IAO_0000601>
         <obo:IAO_0000602>(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
@@ -4084,7 +4193,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <owl:annotatedTarget xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/036-001"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -4113,7 +4222,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:BFO_0000180>TemporalRegion</obo:BFO_0000180>
         <obo:IAO_0000116 xml:lang="en">Temporal region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the mereological sum of a temporal instant and a temporal interval that doesn&apos;t overlap the instant. In this case the resultant temporal region is neither 0-dimensional nor 1-dimensional</obo:IAO_0000116>
         <obo:IAO_0000600 xml:lang="en">A temporal region is an occurrent entity that is part of time as defined relative to some reference frame. (axiom label in BFO2 Reference: [100-001])</obo:IAO_0000600>
-        <obo:IAO_0000601 xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Every temporal region t is such that t occupies_temporal_region t. (axiom label in BFO2 Reference: [119-002])</obo:IAO_0000601>
         <obo:IAO_0000602>(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] </obo:IAO_0000602>
@@ -4137,7 +4246,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <owl:annotatedTarget xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/101-001"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -4206,7 +4315,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000112 xml:lang="en">the spatiotemporal region occupied by a process of cellular meiosis.</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the spatiotemporal region occupied by the development of a cancer tumor</obo:IAO_0000112>
         <obo:IAO_0000600 xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</obo:IAO_0000600>
-        <obo:IAO_0000601 xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Each spatiotemporal region at any time t projects_onto some spatial region at t. (axiom label in BFO2 Reference: [099-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Each spatiotemporal region projects_onto some temporal region. (axiom label in BFO2 Reference: [098-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Every spatiotemporal region occupies_spatiotemporal_region itself.</obo:IAO_0000601>
@@ -4228,7 +4337,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/096-001"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -13940,6 +14049,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">a planned process which systematically, continuously or repeatedly measures, collected, collates, analyses, interprets and disseminates  health and welfare related data from defined populations.</obo:IAO_0000115>
         <dc:description xml:lang="en">A specific surveillance activity that is planned and has (or will have) associated results. A surveillance component or a surveillance system could both be a surveillance activity. 
 Ideally, every activity would have unique attributes for methods - for instance, only one sampling stage. If samples are collected in a slaughterhouse AND in farms, these would ideally be modeled as two different activities, and the appropriate properties used to declare them as linked. But since activities are not defined the same in every health surveillance sector, nor do all data support such a granularity, the class is able to model methods and results for any surveillance activity declared.
 
@@ -13955,7 +14065,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">Role given to a specific herd of domesticated animals, specifying that they are raised in an agricultural setting with a specific purpose. Details about this purpose can be used to classify livestock farming system in further sub-categories.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a role given to a specific herd of domesticated animals, specifying that they are raised in an agricultural setting with a specific purpose.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">livestock farming system</rdfs:label>
     </owl:Class>
     
@@ -14041,7 +14151,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
     <!-- https://w3id.org/hso#HSO_0000059 -->
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000059">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#waiting_placement"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:label xml:lang="en">language</rdfs:label>
     </owl:Class>
     
@@ -14051,7 +14161,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
-        <obo:IAO_0000115 xml:lang="en">Information used to qualify/classify specimens. Can be inferred if enough information about the specimen is given, but can also be assigned directly when the source of information only specifies the type of speciment (for instance when using the SSD2 terminology, catalog MTXTYP).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A directive information that qualifies/classifies specimens.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Can be inferred if enough information about the specimen is given, but can also be assigned directly when the source of information only specifies the type of speciment (for instance when using the SSD2 terminology, catalog MTXTYP).</rdfs:comment>
         <rdfs:label xml:lang="en">matrix type</rdfs:label>
     </owl:Class>
     
@@ -14076,7 +14187,8 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <obo:IAO_0000115 xml:lang="en">inferred categorization of specimens based on the informaiton provided in matrix type and/or regarding the anatomical entity targetted</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a specimen collected from an organism.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">inferred categorization of specimens based on the informaiton provided in matrix type and/or regarding the anatomical entity targetted</rdfs:comment>
         <rdfs:label xml:lang="en">matrix from organism</rdfs:label>
     </owl:Class>
     
@@ -14134,6 +14246,7 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information that describes the context for data collection in support to a specificsurveillance objective.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance context</rdfs:label>
     </owl:Class>
@@ -14144,9 +14257,9 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">The type of agent who carries out the data collection in a surveillance activity</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">surveillance executor type</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">A directive information used to describe the type of agent who carries out the data collection in a surveillance activity</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">surveillance sampler type</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">surveillance executor type</rdfs:label>
         <HSO_0000002 xml:lang="en">SAMPLR</HSO_0000002>
     </owl:Class>
     
@@ -14156,14 +14269,15 @@ The act of being a &quot;planned activity&quot; is used in the context of OBI, w
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">Describe how units have been planned to be sampled
+        <obo:IAO_0000115 xml:lang="en">A directive information that describes how population units will be chosen for sample/data collection in a surveillance activity.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/Description-of-surveillance-items-in-the-checklist</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Describe how units have been planned to be sampled
 Sampling at the primary sampling unit (PSU) level
 Describe the information used to calculate sample size at the PSU level, e.g. the number of PSU in the population (see section 6 also), (between−herd) design prevalence, desired confidence, desired power, sensitivity, specificity.
 If recommended parameters from international standards are used, indicate the source of such standards (e.g. OIE)
 Sampling at the secondary sampling unit (SSU) level
-Describe the information used to calculate sample size at the SSU level, e.g. the number of SSU in the population (see section 6 also), (within−herd) design prevalence, desired confidence, desired power, sensitivity, specificity.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/Description-of-surveillance-items-in-the-checklist</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
+Describe the information used to calculate sample size at the SSU level, e.g. the number of SSU in the population (see section 6 also), (within−herd) design prevalence, desired confidence, desired power, sensitivity, specificity.</rdfs:comment>
         <rdfs:label xml:lang="en">sampling strategy</rdfs:label>
     </owl:Class>
     
@@ -14195,7 +14309,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000202">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000201"/>
         <obo:IAO_0000112 xml:lang="en">Known diagnostic tests can be classified into groups here so that information such as whether they are an antibody detection or pathogen identification information can be associated to the test, even if this information is not detailed in the data source. As an example, diagnostic tests classifications contained in existing terminologies (such as EFSA SSD2, https://www.efsa.europa.eu/en/efsajournal/pub/3424) can be used to create specific test catehories here.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">Categorization of diagnostic tests used in health surveillance. This information can be assigned to a test, or inferred from test characteristics if enough information is given about it.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A test category used to group diagnostic tests based on generla characteristics, such as the target for detection (antigen or antibody).</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Categorization of diagnostic tests used in health surveillance. This information can be assigned to a test, or inferred from test characteristics if enough information is given about it.</rdfs:comment>
         <rdfs:label xml:lang="en">diagnostic test type</rdfs:label>
     </owl:Class>
     
@@ -14205,7 +14320,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0001790"/>
-        <obo:IAO_0000115 xml:lang="en">Categorization of specimen used in conjunction with information about the target sampled anatomical location in order to specify _how_ the anatomical entity was sampled, for instance a fecal swab versus a fecal specimen.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">fecal swab versus a fecal specimen will both have anatomical entity feces, but one will be a swab specimen and the other will be a excreta specimen.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A specimen datum used, in conjunction with information about the target sampled anatomical location, in order to specify _how_ the anatomical entity was sampled</obo:IAO_0000115>
         <rdfs:label xml:lang="en">specimen from organism type</rdfs:label>
     </owl:Class>
     
@@ -14266,7 +14382,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <obo:IAO_0000115 xml:lang="en">inferred categorization of specimens based on the matrix type informaiton provided regarding their source</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">s specimen categorization which described the type of entity from which the specimen was collected</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">inferred categorization of specimens based on the matrix type informaiton provided regarding their source</rdfs:comment>
         <rdfs:label xml:lang="en">specimen by origin</rdfs:label>
     </owl:Class>
     
@@ -14321,7 +14438,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A collection of all directive information associated with a surveillance activity, such as the surveillance objectives, the action specifications and legislative specification. Everything about a surveillance activity that is related to its planning and methodology. A surveillance activity is then a specific execution of a surveillance protocol, which generates specific results. A surveillance protocol exists efore a surveillance activity is carried out, and can exist even in the absence of a surveillance activity - for instance there cna be a surveillance protocol for outbreak investigations, but the exucition of a surveillance activity and associated results will only be available if an outbreak is detected.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of all directive information associated with a surveillance activity, such as the surveillance objectives, the action specifications and legislative specification. Everything about a surveillance activity that is related to its planning and methodology.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">A surveillance activity is then a specific execution of a surveillance protocol, which generates specific results. A surveillance protocol exists efore a surveillance activity is carried out, and can exist even in the absence of a surveillance activity - for instance there cna be a surveillance protocol for outbreak investigations, but the exucition of a surveillance activity and associated results will only be available if an outbreak is detected.</rdfs:comment>
         <rdfs:label xml:lang="en">surveillance protocol</rdfs:label>
     </owl:Class>
     
@@ -14331,7 +14449,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">The legislative support to a specific surveillance activity, that is, all the laws or regulations of a country or region which are related to the obligations or permissions associated with a specific surveillance activity.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A directive information that details the legislative body that supports a specific surveillance activity, or the specific obligations prescried in these legislation.</obo:IAO_0000115>
+        <obo:IAO_0000600 xml:lang="en">All the laws or regulations of a country or region which are related to the obligations or permissions associated with a specific surveillance activity.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">legislative specification</rdfs:label>
     </owl:Class>
     
@@ -14341,7 +14460,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-        <obo:IAO_0000115 xml:lang="en">states those goal(s) that when met will result in the collection and analysis of data in order to achieve the purpose of the system</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A directive information that described those goal(s) that when met will result in the collection and analysis of data in order to achieve the purpose of the system</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">OIE (2014a). Guide to terrestrial animal health surveillance. Paris, France, OIE.</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance objective</rdfs:label>
@@ -14353,7 +14472,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-        <obo:IAO_0000115 xml:lang="en">describes why surveillance is necessary and what it will accomplish</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A directive information that describes why surveillance is necessary and what it will accomplish.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki/</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
         <rdfs:label xml:lang="en">surveillance purpose</rdfs:label>
@@ -14365,8 +14484,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000268">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
-        <obo:IAO_0000115 xml:lang="en">Case detection refers to the search for any animals affected, clinically or not, by the hazard under surveillance. This objective is appropriate if the hazard is present, regardless of whether the hazard occurrence is endemic, epidemic or sporadic, and action will be taken to control disease whenever it is detected.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance objective to search for any animals affected, clinically or not, by the hazard under surveillance.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">This objective is appropriate if the hazard is present, regardless of whether the hazard occurrence is endemic, epidemic or sporadic, and action will be taken to control disease whenever it is detected.</rdfs:comment>
         <rdfs:label xml:lang="en">case detection</rdfs:label>
     </owl:Class>
     
@@ -14376,8 +14496,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000269">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
-        <obo:IAO_0000115 xml:lang="en">Disease freedom: This objective is appropriate if the target hazard is thought to be absent in the territory to be covered and the aim is to demonstrate disease freedom for trade or non−trade purposes (e.g. improve public health, to decide when to stop an eradication programme and to eliminate production losses and control costs due to endemic disease). This may apply to diseases which a) have been historically absent, b) have been eradicated and official freedom has been confirmed or c) are thought to be eradicated, but official freedom has not yet been confirmed.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance objective to gather evidence that can demonstrate, with a given confidence level, that a specific hazard is not present in a given population.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">This objective is appropriate if the target hazard is thought to be absent in the territory to be covered and the aim is to demonstrate disease freedom for trade or non−trade purposes (e.g. improve public health, to decide when to stop an eradication programme and to eliminate production losses and control costs due to endemic disease). This may apply to diseases which a) have been historically absent, b) have been eradicated and official freedom has been confirmed or c) are thought to be eradicated, but official freedom has not yet been confirmed.</rdfs:comment>
         <rdfs:label xml:lang="en">demonstration of disease freedom</rdfs:label>
     </owl:Class>
     
@@ -14387,8 +14508,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000270">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
-        <obo:IAO_0000115 xml:lang="en">Early detection: This objective is appropriate for a situation where the disease is currently absent in the country or region. It may be applied to surveillance for an unknown disease or a known disease considered to pose a non−negligible risk of incursion or emergence. It may also apply to the early stages of an outbreak.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance objective to detect any hazard cases as soon as possible.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">This objective is appropriate for a situation where the disease is currently absent in the country or region. It may be applied to surveillance for an unknown disease or a known disease considered to pose a non−negligible risk of incursion or emergence. It may also apply to the early stages of an outbreak.</rdfs:comment>
         <rdfs:label xml:lang="en">early detection</rdfs:label>
     </owl:Class>
     
@@ -14398,8 +14520,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000271">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000264"/>
-        <obo:IAO_0000115 xml:lang="en">Prevalence estimation: This objective is appropriate if the target hazard is (thought to be) present in the territory to be covered, and an assessment of the prevalence and or changes in prevalence over time is needed.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance objective focusedon gathering data to estimate the true or apparent prevalence of a hazard in a given population.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">This objective is appropriate if the target hazard is (thought to be) present in the territory to be covered, and an assessment of the prevalence and or changes in prevalence over time is needed.</rdfs:comment>
         <rdfs:label xml:lang="en">prevalence estimation</rdfs:label>
     </owl:Class>
     
@@ -14410,7 +14533,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000272">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">verify success</rdfs:label>
+        <rdfs:label xml:lang="en">verify health intervention success purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">verify success</skos:prefLabel>
     </owl:Class>
     
 
@@ -14420,7 +14544,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000273">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">maintain freedom</rdfs:label>
+        <rdfs:label xml:lang="en">maintaining hazard freedom purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">maintain freedom</skos:prefLabel>
     </owl:Class>
     
 
@@ -14430,7 +14555,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000274">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">detect introduction</rdfs:label>
+        <rdfs:label xml:lang="en">detect hazard introduction purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">detect introduction</skos:prefLabel>
     </owl:Class>
     
 
@@ -14440,7 +14566,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000275">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">control outbreak</rdfs:label>
+        <rdfs:label xml:lang="en">outbreak control purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">control outbreak</skos:prefLabel>
     </owl:Class>
     
 
@@ -14450,7 +14577,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000276">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">inform intervention</rdfs:label>
+        <rdfs:label xml:lang="en">informing health intervention purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">inform intervention</skos:prefLabel>
     </owl:Class>
     
 
@@ -14460,7 +14588,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000277">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">detect changes</rdfs:label>
+        <rdfs:label xml:lang="en">detect changes in hazard occurrence purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">detect changes</skos:prefLabel>
     </owl:Class>
     
 
@@ -14470,7 +14599,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000278">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">control</rdfs:label>
+        <rdfs:label xml:lang="en">hazard control purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">control</skos:prefLabel>
     </owl:Class>
     
 
@@ -14480,7 +14610,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000279">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000265"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">eradicate</rdfs:label>
+        <rdfs:label xml:lang="en">hazard erradication purpose</rdfs:label>
+        <skos:prefLabel xml:lang="en">eradicate</skos:prefLabel>
     </owl:Class>
     
 
@@ -14489,7 +14620,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000280">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
-        <obo:IAO_0000115 xml:lang="en">The sampling scheme design to meet the specific surveillance objective and/or purpose of a surveillance activity. This inclused for instance the calculated sample size (which can include primary and secondary sampling units in case of clustered units), the frequency of sampling, etc.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">This includes for instance the calculated sample size (which can include primary and secondary sampling units in case of clustered units), the frequency of sampling, etc.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A sampling scheme design to meet a specific surveillance objective and/or purpose of a surveillance activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sampling design protocol</rdfs:label>
     </owl:Class>
     
@@ -14499,7 +14631,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000281">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
-        <obo:IAO_0000115 xml:lang="en">The reporting protocol of a surveillance activity, detailing what are the reporting obligations associated with a specific surveillance target in a specific area, the reporting chain (who is obliged to report and how is the information flow from reporting), and any eventual incentives for reporting.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A reporting protocol, generally used within a surveillance activity, detailing what are the reporting obligations associated with a specific surveillance target in a specific area, the reporting chain (who is obliged to report and how is the information flow from reporting), and any eventual incentives for reporting.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">reporting protocol</rdfs:label>
     </owl:Class>
     
@@ -14509,8 +14641,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000282">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
-        <obo:IAO_0000115 xml:lang="en">The protocol detailing how specimens will be collected as part of the data gathering phase of a  surveillance activity. This does not include the definition of how many samples will collected, but specifically how they will be collected - where, by whom, etc.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A protocol detailing how specimens will be collected as part of the data gathering phase of a  surveillance activity.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">sample collection protocol</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">This does not include the definition of how many samples will collected, but specifically how they will be collected - where, by whom, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">specimen collection protocol</rdfs:label>
     </owl:Class>
     
@@ -14520,8 +14653,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000283">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000284"/>
-        <obo:IAO_0000115 xml:lang="en">The protocol that describes which diagnostic test or tests will be used to identify animals (or another epidemiological unit) infected with a specific pathogen, possibly in more than one round of screening.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">The protocol to be used within a surveillance activity to classify epidemiological units according to a specific outcome.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A protocol that describes which diagnostic test or tests will be used to identify animals (or another epidemiological unit) infected with a specific pathogen, possibly in more than one round of screening.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A protocol to be used within a surveillance activity to classify epidemiological units according to a specific outcome.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">diagnostic protocol</rdfs:label>
     </owl:Class>
     
@@ -14541,7 +14674,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000290">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">Type of surveillance activity in which sampling in done continuously, triggered by the existing of cases of interest,  for instance reporting of confirmed cases or collection of samples from every slaughter batch.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance context in which sampling in done continuously, triggered by the existing of cases of interest,  for instance reporting of confirmed cases or collection of samples from every slaughter batch.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Continuous data collection</rdfs:label>
     </owl:Class>
@@ -14552,9 +14685,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000291">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">The repeated collection of information from the same selected sites or groups of animals (e.g. veterinary practices, laboratories, herds or animals) to identify changes in the health status of a specified population over time. These sentinels should act as a proxy for the larger population of interest; they may be selected on the basis of risk but can also be selected randomly or on the basis of convenience or compliance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance context in which data are repeated collected from the same selected sites or groups of animals to identify changes in the health status of a specified population over time.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Surveillance sentinels should act as a proxy for the larger population of interest; they may be selected on the basis of risk but can also be selected randomly or on the basis of convenience or compliance.</rdfs:comment>
         <rdfs:label xml:lang="en">Sentinel surveillance</rdfs:label>
     </owl:Class>
     
@@ -14564,9 +14698,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000292">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">Participatory surveillance explores traditional information networks by using participatory rural appraisal methods such as ranking, scoring and visualisation techniques to conduct risk-based, hazard-specific surveillance. The approach uses semi-structured interviews with key informants. This enables communities to provide their knowledge regarding health events, risks, impacts and control opportunities by gathering qualitative health data from defined populations. The analysis of participatory data emphasises the comparison of information obtained from multiple informants; the method uses a variety of techniques to obtain the most likely interpretation of events. The objective is to enhance sensitivity by identifying cases based on a clinical case definition; these may then be evaluated and confirmed using either rapid tests in the field or laboratory diagnostics. Conventional epidemiological investigation techniques can be used to evaluate and confirm outbreaks detected by participatory surveillance as part of trace-back and trace-forwards activities.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance context which explores traditional information networks by using participatory rural appraisal methods.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Participatory surveillance explores traditional information networks by using participatory rural appraisal methods such as ranking, scoring and visualisation techniques to conduct risk-based, hazard-specific surveillance. The approach uses semi-structured interviews with key informants. This enables communities to provide their knowledge regarding health events, risks, impacts and control opportunities by gathering qualitative health data from defined populations. The analysis of participatory data emphasises the comparison of information obtained from multiple informants; the method uses a variety of techniques to obtain the most likely interpretation of events. The objective is to enhance sensitivity by identifying cases based on a clinical case definition; these may then be evaluated and confirmed using either rapid tests in the field or laboratory diagnostics. Conventional epidemiological investigation techniques can be used to evaluate and confirm outbreaks detected by participatory surveillance as part of trace-back and trace-forwards activities.</rdfs:comment>
         <rdfs:label xml:lang="en">Participatory surveillance</rdfs:label>
     </owl:Class>
     
@@ -14576,9 +14711,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000293">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">Traditional disease surveillance which relies on the collection of data about the occurrence of pre-defined diseases or conditions and which uses agreed-upon case definitions; these data are analysed to produce indicators that point towards the existence of a threat. Indicator-based surveillance may be hazard-specific or general and includes the use of clinical or other data for syndromic surveillance</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance context in which data are generated through the identification of cases based on agreed-upon definitions.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Traditional disease surveillance which relies on the collection of data about the occurrence of pre-defined diseases or conditions and which uses agreed-upon case definitions; these data are analysed to produce indicators that point towards the existence of a threat. Indicator-based surveillance may be hazard-specific or general and includes the use of clinical or other data for syndromic surveillance</rdfs:comment>
         <rdfs:label xml:lang="en">Indicator−based surveillance</rdfs:label>
     </owl:Class>
     
@@ -14588,9 +14724,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000294">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">Surveillance that uses health-related information (clinical signs or other data) that might precede or substitute for formal diagnosis. This information may be used to indicate a sufficient probability of a change in the health of the population to deserve further investigation or to enable a timely assessment of the impact of health threats which may require action. This type of surveillance is not usually focused on a particular hazard so can be used to detect a variety of diseases or pathogens including new (emerging) diseases. This type of surveillance is particularly applicable for early warning surveillance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surveillance context in which health-related information (clinical signs or other data) that might precede or substitute for formal diagnosis are used as indicators of spatio-temporal trends in hazard occurrence.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.fp7-risksur.eu/terminology/glossary#group-S</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Information collected through syndromic surveillance may be used to indicate a sufficient probability of a change in the health of the population to deserve further investigation or to enable a timely assessment of the impact of health threats which may require action. This type of surveillance is not usually focused on a particular hazard so can be used to detect a variety of diseases or pathogens including new (emerging) diseases. This type of surveillance is particularly applicable for early warning surveillance.</rdfs:comment>
         <rdfs:label xml:lang="en">Syndromic surveillance</rdfs:label>
     </owl:Class>
     
@@ -14621,7 +14758,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000316">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000320"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">simple random</rdfs:label>
+        <rdfs:label xml:lang="en">simple random sampling</rdfs:label>
+        <skos:prefLabel xml:lang="en">simple random</skos:prefLabel>
     </owl:Class>
     
 
@@ -14631,7 +14769,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="https://w3id.org/hso#HSO_0000317">
         <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000320"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">systematic random</rdfs:label>
+        <rdfs:label xml:lang="en">systematic random sampling</rdfs:label>
+        <skos:prefLabel xml:lang="en">systematic random</skos:prefLabel>
     </owl:Class>
     
 
@@ -14666,6 +14805,204 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     
 
 
+    <!-- https://w3id.org/hso#HSO_0000371 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000371">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">A surveillance context in which activities are specifically triggered by the detection of an outbreak</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000372 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000372">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000371"/>
+        <obo:IAO_0000115 xml:lang="en">a type of outbreak investigation that focus specifically on foodborne agents/vehicles</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food-borne outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000373 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000373">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000295"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/hso#HSO_0000372"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000374"/>
+        <obo:IAO_0000115 xml:lang="en">a surveillance activity with the specific surveillance context of investigating a foodborne outbreak</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">FBO investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000374 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000374">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/hso#HSO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/hso#HSO_0000295"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/hso#HSO_0000371"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">a specific type of surveillance activity which has as surveillance context an outbreak investigation</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000379 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information that described specific detailsgathered during an outbreak investigation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">outbreak investigation datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000380 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000380">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Food vehicle of outbreak</rdfs:label>
+        <skos:prefLabel xml:lang="en">Food vehicle</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000381 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000381">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Nature of evidence in an outbreak</rdfs:label>
+        <skos:prefLabel xml:lang="en">Nature of evidence</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000382 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000382">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Outbreak contributory factors</rdfs:label>
+        <skos:prefLabel xml:lang="en">Contributory factors</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000383 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000383">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000379"/>
+        <rdfs:label xml:lang="en">Extent of outbreak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000385 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000385">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000261"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information that described the manadatory actions that follow on specific agents upon suspicion or confirmation of specific hazards under surveillance.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">reporting obligations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000386 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000386">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000385"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information used to identify diseases which, by law, must be reported to public health authorities upon diagnosis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">notifiable upon diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000387 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000387">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000385"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information used to identify diseases which, by law, must be reported to public health authorities upon suspicion</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">notifiable upon suspicion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000388 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 xml:lang="en">a quality that specifies the known status of a hazard occurrence in a given geograhial region.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">status of hazard presence in a geographical region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000389 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000389">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">historically absent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000390 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000390">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">absent (eradicated)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000391 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000391">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <obo:IAO_0000115 xml:lang="en">Single cases without a specific temporal pattern, but also without geographical pattern or other associations and where import to location is related to travel.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">sporadic travel-related cases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000392 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000392">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <obo:IAO_0000115 xml:lang="en">The state of a disease, infection or other condition being maintained in a population without the need of external outputs. The population involved and their geographical location should be specified when defining an endemic state. Present in a community or common among a group of people; said of a disease prevailing continually in a region</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">endemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/hso#HSO_0000393 -->
+
+    <owl:Class rdf:about="https://w3id.org/hso#HSO_0000393">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/hso#HSO_0000388"/>
+        <rdfs:label xml:lang="en">unknown status</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/hso#waiting_placement -->
 
     <owl:Class rdf:about="https://w3id.org/hso#waiting_placement">
@@ -14693,7 +15030,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AU	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Australia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Commonwealth of Australia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Commonwealth of Australia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14719,7 +15056,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	TR	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Turkey	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Turkey	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Turkey	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14745,7 +15082,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	TN	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Tunisia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Tunisia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Tunisia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14758,7 +15095,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	DZ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Algeria	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	People’s Democratic Republic of Algeria	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	People’s Democratic Republic of Algeria	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14771,7 +15108,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	MA	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Morocco	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Morocco	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Morocco	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14797,7 +15134,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	ET	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Ethiopia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Federal Democratic Republic of Ethiopia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Federal Democratic Republic of Ethiopia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14823,7 +15160,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	DJ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Djibouti	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Djibouti	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Djibouti	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14914,7 +15251,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BJ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Benin	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Benin	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Benin	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14953,7 +15290,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	GM	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	The Gambia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of The Gambia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of The Gambia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14966,7 +15303,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	GH	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Ghana	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Ghana	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Ghana	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14979,7 +15316,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	GN	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Guinea	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Guinea	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Guinea	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -14992,7 +15329,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	GW	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Guinea-Bissau	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Guinea-Bissau	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Guinea-Bissau	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15005,7 +15342,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	LR	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Liberia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Liberia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Liberia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15031,7 +15368,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	SN	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Senegal	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Senegal	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Senegal	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15070,7 +15407,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	CG	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Congo	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of the Congo	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of the Congo	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15083,7 +15420,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	RW	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Rwanda	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Rwanda	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Rwanda	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15096,7 +15433,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	CD	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Democratic Republic of the Congo	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Democratic Republic of the Congo	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Democratic Republic of the Congo	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15109,7 +15446,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BI	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Burundi	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Burundi	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Burundi	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15148,7 +15485,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	CM	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Cameroon	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Cameroon	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Cameroon	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15174,7 +15511,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AO	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Angola	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Angola	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Angola	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15187,7 +15524,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	NA	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Namibia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Namibia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Namibia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15200,7 +15537,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BW	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Botswana	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Botswana	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Botswana	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15213,7 +15550,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	LS	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Lesotho	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Lesotho	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Lesotho	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15226,7 +15563,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	SZ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Swaziland	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Swaziland	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Swaziland	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15239,7 +15576,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	MZ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Mozambique	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Mozambique	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Mozambique	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15252,7 +15589,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	KE	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Kenya	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Kenya	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Kenya	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15265,7 +15602,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	UG	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Uganda	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Uganda	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Uganda	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15304,7 +15641,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	MW	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Malawi	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Malawi	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Malawi	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15317,7 +15654,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	ZW	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Zimbabwe	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Zimbabwe	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Zimbabwe	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15330,7 +15667,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	ZM	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Zambia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Zambia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Zambia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15343,7 +15680,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	CV	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Cape Verde	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Cape Verde	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Cape Verde	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15369,7 +15706,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	JO	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Jordan	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Hashemite Kingdom of Jordan	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Hashemite Kingdom of Jordan	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15421,7 +15758,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BO	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Bolivia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Plurinational State of Bolivia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Plurinational State of Bolivia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15434,7 +15771,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	GY	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Guyana	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Cooperative Republic of Guyana	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Cooperative Republic of Guyana	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15447,7 +15784,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	SR	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Suriname	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Suriname	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Suriname	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15540,7 +15877,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	NO	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Norway	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Norway	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Norway	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15553,7 +15890,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	HR	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Croatia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Croatia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Croatia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15593,7 +15930,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	SE	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Sweden	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Sweden	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Sweden	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15606,7 +15943,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BS	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Bahamas	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Commonwealth of the Bahamas	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Commonwealth of the Bahamas	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15706,7 +16043,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	PA	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Panama	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Panama	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Panama	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15719,7 +16056,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	HN	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Honduras	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Honduras	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Honduras	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15745,7 +16082,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	EC	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Ecuador	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Ecuador	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Ecuador	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15771,7 +16108,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	CO	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Colombia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Colombia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Colombia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15797,7 +16134,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	VE	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Venezuela	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Bolivarian Republic of Venezuela	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Bolivarian Republic of Venezuela	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15862,7 +16199,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	GT	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Guatemala	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Guatemala	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Guatemala	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15875,7 +16212,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	FI	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Finland	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Finland	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Finland	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15888,7 +16225,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BE	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Belgium	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Belgium	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Belgium	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15901,7 +16238,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	PL	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Poland	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Poland	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Poland	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15940,7 +16277,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AT	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Austria	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Austria	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Austria	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -15992,7 +16329,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	LU	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Luxembourg	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Grand Duchy of Luxembourg	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Grand Duchy of Luxembourg	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16005,7 +16342,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AD	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Andorra	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Principality of Andorra	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Principality of Andorra	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16018,7 +16355,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BG	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Bulgaria	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Bulgaria	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Bulgaria	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16057,7 +16394,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AL	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Albania	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Albania	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Albania	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16083,7 +16420,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	SI	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Slovenia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Slovenia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Slovenia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16136,7 +16473,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	EE	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Estonia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Estonia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Estonia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16149,7 +16486,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	LT	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Lithuania	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Lithuania	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Lithuania	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16162,7 +16499,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	NI	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Nicaragua	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Nicaragua	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Nicaragua	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16201,7 +16538,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	ID	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Indonesia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Indonesia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Indonesia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16214,7 +16551,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	TH	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Thailand	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Thailand	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Thailand	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16240,7 +16577,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	VN	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Vietnam	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Socialist Republic of Vietnam	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Socialist Republic of Vietnam	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16266,7 +16603,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	TT	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Trinidad and Tobago	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Trinidad and Tobago	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Trinidad and Tobago	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16292,7 +16629,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	MC	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Monaco	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Principality of Monaco	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Principality of Monaco	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16305,7 +16642,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	LI	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Liechtenstein	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Principality of Liechtenstein	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Principality of Liechtenstein	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16318,7 +16655,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	MD	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Moldova	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Moldova	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Moldova	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16357,7 +16694,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BT	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Bhutan	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Bhutan	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Bhutan	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16383,7 +16720,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	SG	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Singapore	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Singapore	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Singapore	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16423,7 +16760,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	EG	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Egypt	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Arab Republic of Egypt	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Arab Republic of Egypt	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16462,7 +16799,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AM	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Armenia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Armenia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Armenia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16527,7 +16864,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AZ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Azerbaijan	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Azerbaijan	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Azerbaijan	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16555,7 +16892,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	UZ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Uzbekistan	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Uzbekistan	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Uzbekistan	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16569,7 +16906,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	KZ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Kazakhstan	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Kazakhstan	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Kazakhstan	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16621,7 +16958,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BH	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Bahrain	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Bahrain	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Bahrain	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16660,7 +16997,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	YE	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Yemen	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Yemen	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Yemen	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16712,7 +17049,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	KM	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Comoros	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Union of the Comoros	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Union of the Comoros	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16738,7 +17075,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	AG	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Antigua and Barbuda	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Antigua and Barbuda	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Antigua and Barbuda	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16752,7 +17089,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	BY	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Belarus	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Belarus	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Belarus	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16778,7 +17115,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	KH	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Cambodia	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Cambodia	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Cambodia	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16804,7 +17141,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	DM	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Dominica	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Commonwealth of Dominica	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Commonwealth of Dominica	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16930,7 +17267,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	KN	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Saint Kitts and Nevis	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Federation of Saint Kitts and Nevis	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Federation of Saint Kitts and Nevis	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16969,7 +17306,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	TJ	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Tajikistan	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Tajikistan	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Tajikistan	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16982,7 +17319,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	TO	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Tonga	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Kingdom of Tonga	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Kingdom of Tonga	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -16995,7 +17332,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">	COUNTRY	</HSO_0000002>
         <HSO_0000003 xml:lang="en">	VU	</HSO_0000003>
         <HSO_0000004 xml:lang="en">	Vanuatu	</HSO_0000004>
-        <HSO_0000005 xml:lang="en">	Republic of Vanuatu	</HSO_0000005>
+        <HSO_0000005 xml:lang="en">	Republic of Vanuatu	</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -17336,7 +17673,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F137A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002</HSO_0000004>
-        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horizontal method for the detection of Salmonella spp. </HSO_0000005>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horizontal method for the detection of Salmonella spp. </HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -17349,7 +17686,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F138A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 6579:2002/Amd 1:2007</HSO_0000004>
-        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annex D: Detection of Salmonella spp. in animal faeces and in environmental samples from the primary production stage </HSO_0000005>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annex D: Detection of Salmonella spp. in animal faeces and in environmental samples from the primary production stage </HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -17358,10 +17695,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F139A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 164, 2005, 2nd Ed. Escherichia coli O157</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 164, 2005, 2nd Ed. Escherichia coli O157</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F139A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 164, 2005, 2nd Ed. Escherichia coli O157</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 164, 2005, 2nd Ed. Escherichia coli O157</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of Escherichia coli serogroup O157 in foods and feeding stuffs</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17371,10 +17708,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F140A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 71, 1999, 5th Ed. Salmonella</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 71, 1999, 5th Ed. Salmonella</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F140A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 71, 1999, 5th Ed. Salmonella</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 71, 1999, 5th Ed. Salmonella</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of Salmonella in food</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17388,7 +17725,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F141A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumeration method</HSO_0000004>
-        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998 (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 2: Enumeration method) and ISO 11290-2:1998/Amd 1:2004 (Modification of the enumeration medium )</HSO_0000005>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998 (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 2: Enumeration method) and ISO 11290-2:1998/Amd 1:2004 (Modification of the enumeration medium )</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -17401,7 +17738,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F144A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection method of microorganisms</HSO_0000004>
-        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996  (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 1: Detection method) and ISO 11290-1:1996/Amd 1:2004 (Modification of the isolation media and the haemolysis test, and inclusion of precision data )</HSO_0000005>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996  (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 1: Detection method) and ISO 11290-1:1996/Amd 1:2004 (Modification of the isolation media and the haemolysis test, and inclusion of precision data )</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -17414,7 +17751,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F145A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection method presence in x g</HSO_0000004>
-        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996  (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 1: Detection method) and ISO 11290-1:1996/Amd 1:2004 (Modification of the isolation media and the haemolysis test, and inclusion of precision data )</HSO_0000005>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996  (Horizontal method for the detection and enumeration of Listeria monocytogenes -- Part 1: Detection method) and ISO 11290-1:1996/Amd 1:2004 (Modification of the isolation media and the haemolysis test, and inclusion of precision data )</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -17595,10 +17932,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F163A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2006  Campylobacter</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2006  Campylobacter</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F163A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2006  Campylobacter</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 10272-1:2006  Campylobacter</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 1: Detection method</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17608,10 +17945,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F164A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F164A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-2:2006  Campylobacter</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 2: Colony-count technique</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17621,10 +17958,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F165A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010  Campylobacter</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010  Campylobacter</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F165A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010  Campylobacter</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010  Campylobacter</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for detection and enumeration of Campylobacter spp. -- Part 3: Semi-quantitative method</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17634,10 +17971,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F166A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010/Cor 1:2011  Campylobacter</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010/Cor 1:2011  Campylobacter</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F166A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010/Cor 1:2011  Campylobacter</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 10272-3:2010/Cor 1:2011  Campylobacter</HSO_0000004>
     </owl:NamedIndividual>
     
 
@@ -17672,10 +18009,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F169A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996/Amd 1:2004  Listeria</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996/Amd 1:2004  Listeria</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F169A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996/Amd 1:2004  Listeria</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-1:1996/Amd 1:2004  Listeria</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modification of the isolation media and the haemolysis test, and inclusion of precision data</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17685,10 +18022,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F170A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998/Amd 1:2004  Listeria</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998/Amd 1:2004  Listeria</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F170A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998/Amd 1:2004  Listeria</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 11290-2:1998/Amd 1:2004  Listeria</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modification of the enumeration medium</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17711,10 +18048,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F172A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-2:1999/Amdt 1:2003 Coagulase-positives staphylococci</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-2:1999/Amdt 1:2003 Coagulase-positives staphylococci</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F172A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-2:1999/Amdt 1:2003 Coagulase-positives staphylococci</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN ISO 6888-2:1999/Amdt 1:2003 Coagulase-positives staphylococci</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inclusion of precision data</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17737,10 +18074,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F174A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001  E. coli</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001  E. coli</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F174A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001  E. coli</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO 16654:2001  E. coli</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microbiology of food and animal feeding stuffs -- Horizontal method for the detection of Escherichia coli O157</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -17776,10 +18113,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F177A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 22964:2006 (IDF/RM 210: 2006) Cronobacter spp. (Enterobacter sakazakii)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 22964:2006 (IDF/RM 210: 2006) Cronobacter spp. (Enterobacter sakazakii)</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F177A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 22964:2006 (IDF/RM 210: 2006) Cronobacter spp. (Enterobacter sakazakii)</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISO/TS 22964:2006 (IDF/RM 210: 2006) Cronobacter spp. (Enterobacter sakazakii)</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk and milk products -- Detection of Enterobacter sakazakii</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -18250,10 +18587,10 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#ANLYMD_PRVAM_F600A">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 119, 2007, 3rd Ed. Termotolerante Campylobacter</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 119, 2007, 3rd Ed. Termotolerante Campylobacter</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F600A</HSO_0000003>
-        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 119, 2007, 3rd Ed. Termotolerante Campylobacter</HSO_0000004>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL 119, 2007, 3rd Ed. Termotolerante Campylobacter</HSO_0000004>
         <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMKL No. 119, 3rd  ed. 2007, Thermotolerant Campylobacter. Detection, semi-quantitative and quantitative determination in foods and drinking water</HSO_0000005>
     </owl:NamedIndividual>
     
@@ -18280,7 +18617,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANLYMD_PRVAM</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F602A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIE method for E.coli O157 in animal faecal samples</HSO_0000004>
-        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIE recommended method for the detection of E.coli O157 in animal faeces and any other cultural methods based on ISO 16654/2001 adapted to animal samples</HSO_0000005>
+        <HSO_0000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OIE recommended method for the detection of E.coli O157 in animal faeces and any other cultural methods based on ISO 16654/2001 adapted to animal samples</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -18679,7 +19016,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 xml:lang="en">COUNTRY</HSO_0000002>
         <HSO_0000003 xml:lang="en">CY</HSO_0000003>
         <HSO_0000004 xml:lang="en">Cyprus</HSO_0000004>
-        <HSO_0000005 xml:lang="en">Republic of Cyprus</HSO_0000005>
+        <HSO_0000005 xml:lang="en">Republic of Cyprus</HSO_0000005>
     </owl:NamedIndividual>
     
 
@@ -20086,7 +20423,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <!-- https://w3id.org/hso#PRGTYP_K032A -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/hso#PRGTYP_K032A">
-        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000070"/>
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000371"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outbreak investigation</rdfs:label>
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGTYP</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K032A</HSO_0000003>
@@ -21362,6 +21699,643 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPUNTYP</HSO_0000002>
         <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G243A</HSO_0000003>
         <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pen</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF01A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF01A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">Cross-contamination is the contamination occurring during preparation for consumption of a food item by direct or indirect contact with another food item, equipment and work surfaces, including hands. For example, raw fruits and vegetables can contaminate cooked foods if they are not properly cleaned. In addition, juices from raw meat and poultry which come in contact with ready-to-eat foods can contaminate the cooked foods. Unwashed hands, unclean utensils and food contact surfaces result in a cross-contamination of food if that food is handled on these surfaces, with these utensils or processed by unwashed hands.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross-contamination</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF01A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross-contamination</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF02A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF02A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">Chilling is the process of cooling the food. Food is chilled inadequately if the core temperature of the food remains, for example, higher than 2–8°C for too long, which can result in multiplication of microorganisms. Please note that the sufficient chilling temperature is dependent on the type of food. For example, there are slight differences between minced meat and cheese. It is important that the core of the food will reach the appropriate cold temperature as quickly as possible.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inadequate chilling</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF02A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inadequate chilling</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF03A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF03A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">Inadequate heat treatment in terms of cooking can be defined as foods that are cooked at an inappropriate temperature for a suitable period of time or cooked at an appropriate temperature for an unsuitable period of time or cooked at an inappropriate temperature for an unsuitable period of time.Inadequate heat treatment can occur during the cooking or reheating of the incriminated food. This is the case if food is cooked at an inadequate temperature (for example &lt; 70°C) and\/or for an inadequate period of time or the heat treatment of the core of the food is insufficient to kill the pathogenic microorganisms.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inadequate heat treatment</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF03A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inadequate heat treatment</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF04A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF04A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">An infected food handler is defined as cook or kitchen worker with a confirmed infection (regardless of symptomatic or asymptomatic infection) transmitting the causative agent onto food. In practice it is often impossible to differentiate whether the infection of the food handler occurred first and is the source of infection or if the food handler acquired the infection from the food. Please choose this category only if it is likely that the infected food handler is the source of infection.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infected food handler</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF04A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infected food handler</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF05A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF05A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">‘Other’ can be chosen if the contributory factor identified during the outbreak investigation is not listed in the catalogue.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other contributory factor</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF05A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other contributory factor</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF06A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF06A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">When the time\/temperature abuse occurred during the storage of food. This applies to mistakes during hot holding of food or during the cold chain. If the food is held hot at an improper holding temperature (e.g. &lt; 60°C) for an unsuitable period of time the likelihood of multiplication of microorganisms present on\/in the food is high. The cold chain, on the other hand, is the sequence of temperature-controlled operations after initial harvesting, and including chilled transport, cooling during and after production, chilled storage distribution and retailing, through to domestic storage until preparation for final consumption. If there is, for example, an interruption within the cold chain it can lead to a multiplication of microorganisms present on\/in the food. In addition, if food is stored in large containers or stacked too tightly the core of the food may not reach the appropriate cooling temperature.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storage time/temperature abuse</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF06A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storage time/temperature abuse</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF07A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF07A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">This option should chosen if no contributory factor has been identified during the investigation of the outbreak.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF07A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF08A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF08A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">Unprocessed contaminated ingredients are raw ingredients contaminated with the causative agents at the primary production level, during processing or transportation. The contamination occurs before preparation and consumption. Examples are eggs or meats that are contaminated with Salmonella. In addition, herbs that may have been contaminated with microbes during irrigation or by wild animals are often used in salads or added to ready-to-eat meals without further heating.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unprocessed contaminated ingredient</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF08A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unprocessed contaminated ingredient</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF09A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF09A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">A failure in the water treatment system is leading to contamination in the water supply. Drinking water treatment failures can have their origin in different areas like a failure of water treatment or disinfection, contamination of the water supply; or clusters of illness potentially caused by the former.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water treatment failure</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF09A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water treatment failure</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_CONFACT_CF10A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_CONFACT_CF10A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000382"/>
+        <obo:IAO_0000115 xml:lang="en">Untreated drinking water is defined as non-potable water that has not been subjected to any process designed to remove contaminants or organisms.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Untreated drinking water</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_CONFACT</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF10A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Untreated drinking water</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV01A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV01A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Analytical epidemiological evidence: a statistically significant association between consumption of a foodstuff and being a case in an analytical epidemiological study (e.g. cohort or case–control study).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analytical epidemiological evidence</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV01A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analytical epidemiological evidence</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV02A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV02A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Descriptive epidemiological evidence: suspicion of a food vehicle in an outbreak based on the identification of common food exposures, from the systematic evaluation of cases and their characteristics and food histories over the likely incubation period by standardised means (such as standard questionnaires) from all, or an appropriate subset of, cases.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptive epidemiological evidence</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV02A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptive epidemiological evidence</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV03A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV03A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Detection of causative agent in food chain or its environment - Detection of indistinguishable causative agent in humans</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food chain or its environment - Detection of indistinguishable causative agent in humans</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV03A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food chain or its environment - Detection of indistinguishable causative agent in humans</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV04A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV04A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Detection of causative agent in food chain or its environment - Symptoms and onset of illness pathognomonic to causative agent</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food chain or its environment - Symptoms and onset of illness pathognomonic to causative agent</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV04A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food chain or its environment - Symptoms and onset of illness pathognomonic to causative agent</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV05A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV05A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Detection of causative agent in food vehicle or its component - Symptoms and onset of illness pathognomonic to causative agent</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food vehicle or its component - Symptoms and onset of illness pathognomonic to causative agent</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV05A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food vehicle or its component - Symptoms and onset of illness pathognomonic to causative agent</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV06A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV06A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Detection of causative agent in food vehicle or its component - Detection of indistinguishable causative agent in humans</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food vehicle or its component - Detection of indistinguishable causative agent in humans</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV06A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detection of causative agent in food vehicle or its component - Detection of indistinguishable causative agent in humans</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV07A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV07A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Unknown</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV07A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV08A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV08A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Descriptive environmental evidence: e.g. evidence from food hygiene inspections.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptive environmental evidence</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV08A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptive environmental evidence</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_EVDNC_EV09A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_EVDNC_EV09A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000381"/>
+        <obo:IAO_0000115 xml:lang="en">Product-tracing investigation: investigation to follow the movement of a food product and its constituents through the stages of production, processing and distribution, both backward and forward. Trace-back is the ability to trace a food product from the point of sale back to the source (ultimately the farm). Conversely, trace-forward is the ability to trace a food product from the source (ultimately the farm) forward to the point of sale. Product tracing may encompass trace-back and trace-forward.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product-tracing investigations</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_EVDNC</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV09A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product-tracing investigations</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_A01QR -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_A01QR">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Fresh meat is meat that has not undergone any preserving process other than chilling, freezing or quick-freezing, including meat that is vacuum-wrapped or wrapped in a controlled atmosphere (Regulation (EC) No 853\/2004). Meat preparations are defined as fresh meat, including meat that has been reduced to fragments, which has had foodstuffs, seasonings or additives added to it or which has undergone processes insufficient to modify the internal muscle fibre structure of the meat and thus to eliminate the characteristics of fresh meat (Regulation (EC) No 853\/2004). Minced meat is boned meat that has been minced into fragments and contains less than 1 % salt (Regulation (EC) No 853\/2004), for example steak tartare. Meat products are defined as processed products resulting from the processing of meat or from further processing of such processed products, so that the cut surface shows that the product no longer has the characteristics of fresh meat (Regulation (EC) No 853\/2004).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat and meat products</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A01QR</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat and meat products</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B00000B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B00000B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">This category should be chosen if the implicated food is not identified.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B00000B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B07727B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B07727B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">The following products shall be considered as drinking milk: raw milk intended for direct human consumption: milk, which has not been heated above 40°C or subjected to treatment having equivalent effect and intended to consumed raw; pasteurised milk: milk heat treated to destroy disease-causing bacteria; ultra-high temperature (UHT) milk: milk heated for a short time, around 1–2 seconds, at a temperature exceeding 135°C, which is the temperature required to kill spores in milk. Please specify the species of origin of the milk (such as cow, goat, sheep) as well as the treatment of the milk in the free text data element (for example: ‘raw goat milk’, ‘pasteurised cow milk’ or ‘UHT milk’). Please specify the species of origin of the milk (such as cow, goat, sheep) as well as the treatment of the milk in the free text data element (for example: ‘raw goat milk’, ‘pasteurised cow milk’ or ‘UHT milk’).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B07727B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09607B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09607B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Dairy products are defined as processed products resulting from the processing of raw milk or from the further processing of such processed products (Regulation (EC) No 853\/2004). Examples for dairy products are cream, buttermilk, milk powder, butter, yoghurt, ice cream and puddings made from milk.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy products (other than cheeses)</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09607B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy products (other than cheeses)</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09627B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09627B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Cheese is the ripened or unripened soft, semi-soft, hard, or extra-hard product of milk, which may be coated, and in which the whey protein\/casein ratio does not exceed that of milk, obtained by coagulating of milk or protein of milk and\/or products obtained from milk which give an end product with similar characteristics. Please specify the species of origin of the milk (such as cow, goat, sheep) as well as whether the cheese was made from raw, low-heat-treated milk or pasteurised milk. In addition, the main type of cheese (hard, semi-soft or soft) and, if possible, also a detailed type (e.g. Camembert), if possible, in the free text data element. For example: ‘soft cheese made from raw goats’ milk’.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09627B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09647B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09647B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Eggs are defined as eggs in shell that are produced by farmed birds and are fit for direct human consumption or for the preparation of egg products. Egg products are processed products resulting from the processing of eggs or of various components or mixtures of eggs or from the further processing of such processed products (Regulation (EC) No 853\/2004). Examples of egg products include:Liquid egg products: the purified whole egg, egg yolk or egg white is pasteurised and chemically preserved (e.g. by addition of salt). Frozen egg products: the purified whole egg, egg yolk or egg white is pasteurised and frozen. Dried and\/or heat-coagulated egg products: sugars are removed from the purified whole egg, egg yolk or egg white, which is then pasteurised and dried. Preserved eggs, including alkaline, salted and canned eggs: includes traditional Oriental preserved products, such as salt-cured duck eggs and alkaline treated ‘thousand-year-old-eggs’. Egg-based desserts: includes ready-to-eat products and products to be prepared from a dry mix. Examples include: flan and egg custard. This also includes custard fillings for fine bakery wares (e.g. pies).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs and egg products</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09647B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs and egg products</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09667B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09667B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Bovine meat is defined as edible parts of domestic bovine animals (including Bubalus and Bison species), including blood (Regulation (EC) No 853\/2004). Please also note the following related definitions in the EU legislation, which can help to specify the foodstuff implicated in the free text data element. Fresh meat is meat that has not undergone any preserving process other than chilling, freezing or quick-freezing, including meat that is vacuum-wrapped or wrapped in a controlled atmosphere (Regulation (EC) No 853\/2004). Meat preparations are defined as fresh meat, including meat that has been reduced to fragments, which has had foodstuffs, seasonings or additives added to it or which has undergone processes insufficient to modify the internal muscle fibre structure of the meat and thus to eliminate the characteristics of fresh meat (Regulation (EC) No 853\/2004). Minced meat is boned meat that has been minced into fragments and contains less than 1 % salt (Regulation (EC) No 853\/2004), for example steak tartare. Meat products are defined as processed products resulting from the processing of meat or from further processing of such processed products, so that the cut surface shows that the product no longer has the characteristics of fresh meat (Regulation (EC) No 853\/2004). Examples of bovine meat and products thereof include: beef steak, stewing steak, grilled liver, roast beef, sausages and steak tartare.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bovine meat and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09667B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bovine meat and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09687B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09687B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Pig meat is defined as edible parts of domestic porcine animals, including blood (Regulation (EC) No 853\/2004). For the definition of meat products please see ‘Bovine meat and products thereof’.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig meat and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09687B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig meat and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09707B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09707B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Sheep meat is defined as edible parts of domestic ovine animals, including blood (Regulation (EC) No 853\/2004).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheep meat and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09707B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheep meat and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09727B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09727B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Other red meat is meat from species, other than birds, that are not mentioned above, such as wild game and farmed game. Wild game includes wild ungulates and lagomorphs, as well as other land mammals that are hunted for human consumption. Meat from wild boars is classified in this category; it would be desirable to indicate in the comment section that the mean pertains to wild boar.Farmed game includes farmed ratites and farmed land mammals other than those referred to as ‘Domestic ungulates’ (Regulation (EC) No 853\/2004).Mixed red meat is a mix of red meat from different species, e.g. meatballs consisting of bovine and pig meat.For the definition of meat products please see ‘Bovine meat and products thereof’.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other or mixed red meat and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09727B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other or mixed red meat and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09747B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09747B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Broiler meat is defined as edible parts of domestic chicken (Gallus gallus), including blood.For the definition of meat products please see ‘Bovine meat and products thereof’.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broiler meat (Gallus gallus) and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09747B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broiler meat (Gallus gallus) and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09767B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09767B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Turkey meat is defined as edible parts of domestic turkeys, including blood. For the definition of meat products please see ‘Bovine meat and products thereof’.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey meat and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09767B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey meat and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09787B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09787B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Other poultry meat is defined as edible parts of ‘poultry’, including blood. ‘Poultry’ are farmed birds, including birds that are not considered as domestic but which are farmed as domestic animals, with the exception of ratites, which are considered ‘farmed game’ (Regulation (EC) No 853\/2004). In this case, all poultry EXCEPT Gallus and turkey. Examples in this category include duck, goose, pheasant, guinea fowl and ostrich. For the definition of meat products please see ‘Bovine meat and products thereof’.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other, mixed or unspecified poultry meat and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09787B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other, mixed or unspecified poultry meat and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09807B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09807B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Fish, as a food, describes the edible parts of water-dwelling, cold-blooded vertebrates with gills. Examples of edible fish include salmon, trout, tuna, eel, silver carp and anchovy. Examples of fish products include frozen fish fingers, roe and smoked salmon. Please specify the fish species (e.g. salmon, herring) as well as the treatment (e.g. smoked, raw, cooked) in the free text data element (for example: ‘cold-smoked salmon’).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish and fish products</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09807B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish and fish products</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09827B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09827B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Shellfish is a broad term for all aquatic animals that have a shell of some kind. Shellfish are separated into two basic categories: crustaceans and molluscs. However, the EU definition of shellfish includes only bivalve and gastropod molluscs (Council Directive 79\/923\/EEC). Examples of edible shellfish are sea cucumber and sea urchin. Crustaceans are one of two main classifications of shellfish (the other being mollusc). Crustaceans have elongated bodies and jointed, soft (crust-like) shells. Examples of edible crustaceans include shrimp (e.g. Atlantic white shrimp), prawn (e.g. giant river prawn), lobster (e.g. European lobster), crayfish (e.g. European crayfish) and crab (e.g. edible crab). Molluscs are animals with a soft body, internal or external shell, muscular foot and\/or tentacles.  Molluscs are divided into three groups: gastropods (also called univalves), bivalves (including live bivalve molluscs) and cephalopods. Examples of edible molluscs include abalone (sea ear), snail (e.g. vineyard snail) and clam.Examples of edible bivalve molluscs include mussels and oysters. Please specify the species as well as the treatment (e.g. live, cooked) in the free text data element (for example: ‘deep-fried shrimps’).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crustaceans, shellfish, molluscs and products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09827B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crustaceans, shellfish, molluscs and products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09847B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09847B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Vegetables are plants or parts of plants cultivated for food. Some foods that are botanically fruits, such as tomatoes and cucumbers, and seeds, such as peas and beans, are included with the vegetables; some plants, such as rhubarb, are classed as fruit, although they are not botanically fruits. The distinction in popular usage depends on whether they are eaten as savoury (vegetables) or sweet (fruit) dishes. Examples of vegetables include cauliflower, broccoli, pea, cucumber, lentil, avocado and garlic. ‘Sea vegetables’ like sea lettuce and seaweed are also part of this group. Vegetable juice is the juice obtained from vegetables and usually made from carrots, beets, pumpkin or tomatoes. Please specify the plant species or cultivar group as well as the treatment (e.g. raw, cooked juice) in the free text data element (for example: ‘raw iceberg lettuce’).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables and juices and other products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09847B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables and juices and other products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09867B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09867B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Food preserved by canning; the process of preserving food by sterilisation and cooking in a sealed metal can, which destroys bacteria and protects against recontamination.Please specify the canned food product (e.g. meat, fish, vegetable) in the free text data element (for example: ‘baked beans, canned’).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned food products</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09867B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned food products</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09887B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09887B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Cereal is grass whose starchy grains are used as food, for example wheat, rice, rye, oats, maize, buckwheat, millet and grain. Foodstuff prepared from the starchy grains of cereal grasses is also referred to as cereal. Please specify the cereal products (e.g. plant species) and treatment (cut, precut, cooked) in the free text data element.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cereal products including rice and seeds/pulses (nuts, almonds)</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09887B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cereal products including rice and seeds/pulses (nuts, almonds)</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09907B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09907B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Fruit is defined as all fruit. Tomatoes are not regarded as fruit (Council Directive 2001\/112\/EC ). Fruit purée is defined as the fermentable but unfermented product obtained by sieving the edible part of whole or peeled fruit without removing the juice (Council Directive 2001\/112\/EC). Fruit juice is defined as:The fermentable but unfermented product obtained from fruit which is sound and ripe, fresh or preserved by chilling, of one or more kinds mixed together, having the characteristic colour, flavour and taste typical of the juice of the fruit from which it comes. Flavour, pulp and cells from the juice which are separated during processing may be restored to the same juice. In the case of citrus fruits, the fruit juice must come from the endocarp. Lime juice, however, may be obtained from the whole fruit, by suitable production processes whereby the proportion of constituents of the outer part of the fruit is reduced to a minimum.The product obtained from concentrated fruit juice by: – replacing, in the concentrated fruit juice, water extracted from that juice during concentration, restoring the flavours and, if appropriate, pulp and cells lost from the juice but recovered during the process of producing the fruit juice in question or of fruit juice of the same kind. The water added must display appropriate characteristics, particularly from the chemical, microbiological and organoleptic viewpoints, in such a way as to guarantee the essential qualities of the juice. The product thus obtained must display organoleptic and analytical characteristics at least equivalent to those of an average type of juice obtained from fruits of the same kind within the meaning of (a) (Council Directive 2001\/112\/EC). Concentrated fruit juice is the product obtained from fruit juice of one or more kinds by the physical removal of a specific proportion of the water content. Where the product is intended for direct consumption that removal will be of at least 50% (Council Directive 2001\/112\/EC). Fruit nectar is the fermentable but unfermented product obtained by adding water and sugars and\/or honey to the products to fruit purée or to a mixture of those products, that, moreover, meet the requirements of Annex IV (Council Directive 2001\/112\/EC).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit, berries and juices and other products thereof</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09907B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit, berries and juices and other products thereof</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09927B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09927B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Drinks are any liquids suitable for drinking, also called beverages.Juice drinks are drinks made from fruit juice plus other ingredients, such as water, flavourings, artificial sweeteners, colourings and preservatives. Fruit juice drink can contain as little as 5% juice. Soft drinks are non-alcoholic, flavoured, carbonated beverages, usually commercially prepared and sold in bottles or cans. Alcoholic drinks are made by fermenting fruit juices, sugars and fermentable carbohydrates with yeast to form alcohol. These include beer, cider and perry, 4–6% alcohol by volume; wines, 9–13% alcohol; spirits (e.g. brandy, gin, rum, vodka, whisky) made by distilling fermented liquor, 38–45% alcohol; liqueurs made from distilled spirits, sweetened and flavoured, 20–40% alcohol; and fortified wines (aperitif wines, Madeira, port, sherry) made by adding spirit to wine, 18–25% alcohol. In the context of the food-borne outbreak system the category ‘Drinks, including bottled water’ does not include milk, fruit juice, fruit nectar, vegetable juice and tap water, but it includes fruit-flavoured drinks and juice drinks. The definition of drinks also includes hot drinks such as coffee and tea. Bottled water is sold for human consumption. It is sealed in a sanitary container and must meet all regulations for drinking water. Bottled water contains no sweeteners or chemical additives and must be calorie and sugar-free. ‘Natural mineral water’ means microbiologically wholesome water originating in an underground water table or deposit and emerging from a spring tapped at one or more natural or bore exits. Before water is recognised as a natural mineral water, it has to be demonstrated that it: is obtained from an underground source, has a stable composition, is protected from all sources of pollution, meets chemical and microbiological safety standards, is not subject to treatment which affects its characteristic properties. Natural mineral water is bottled at source and is sold under one trade description. The name of the source and its place of exploitation are stated on the label together with a statement of the analytical composition (EC Directives 80\/777, 96\/70 and 80\/778).In contrast, recognition of a spring water underground source is not required. Spring water meets the same chemical and microbiological standards as tap water and, currently, can be subject to treatment. However, like natural mineral water, spring water is bottled at source, sold under one trade description and the name of the source and its place of exploitation are included in labelling (EC Directives 80\/777, 96\/70 and 80\/778). Bottled drinking water, which is not restricted to a particular type of source, comprises bottled water, other than natural mineral water and spring water, and includes water referred to as ‘table water’. Bottled drinking water is required to comply with the same compositional and microbiological standards as tap water (EC Directives 80\/777, 96\/70 and 80\/778).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drinks, including bottled water</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09927B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drinks, including bottled water</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09947B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09947B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Tap water or ordinary drinking water refers to: all water, either in its original state or after treatment, intended for drinking, cooking, food preparation or other domestic purposes, regardless of its origin and whether it is supplied from a distribution network, from a tanker or in bottles or containers (Council Directive 98\/83\/EC). In this context, tap water, including well-water, does not include water in bottles. Water in bottles is included in the item ‘Drinks, including bottled water’. Please specify in the free text data element whether the water was treated or untreated.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tap water, including well water</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09947B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tap water, including well water</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09967B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09967B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Sweets are foods, such as candy, milk-free puddings or preserves, which are high in sugar content and milk-free puddings. Candy, specifically sugar candy, is a confection made from a concentrated solution of sugar in water, to which a variety of flavourings and colorants is added. Some candy, like marshmallows and gummy bears, may contain gelatine. Preserves refer to fruit, or vegetables, that have been prepared, canned or jarred for long-term storage. Examples for preserves are jam and jelly. Chocolate is obtained by an adequate manufacturing process from cocoa materials which may be combined with milk products, sugars and\/or sweeteners and other additives. Other edible foodstuffs, excluding added flour and starch and animal fats other than milk fat, may be added to form various chocolate products (Directive 2000\/36\/EC ).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweets and chocolate</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09967B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweets and chocolate</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B09987B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B09987B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Bakery products includes bread and ordinary bakery wares (all types of non-sweet bakery products and bread-derived products) and sweet, salty and savoury fine bakery wares (ready-to-eat products as well as mixes for preparing fine baked goods). Bread and ordinary bakery wares: The category bread contains the main sub-categories white bread, brown bread and wholemeal bread. Crackers, excluding sweet crackers: the term ‘cracker’ refers to a thin, crisp wafer, usually of unsweetened dough. Flavoured crackers (e.g. cheese flavoured). Examples include: soda crackers, rye crisps and matzahs. Other ordinary bakery products: includes all other ordinary bakery wares, such as bagels, pita, English muffins, cornbread and biscuits. The term ‘biscuit’ in this category refers to a small cake of shortened bread, leavened with baking powder or baking soda. It does not refer to the British ‘biscuit,’ which is a ‘cookie’ or ‘sweet cracker’ included in the category Cakes, cookies and pies. Bread-type products, including bread stuffing and bread crumbs: includes bread-based products, such as croutons, bread stuffing and stuffing mixes and prepared doughs (e.g. for biscuits). Fine bakery wares (sweet, salty and savoury) and mixes: Cakes, cookies and pies (e.g. fruit-filled or custard types): the term ‘sweet cracker’ or ‘sweet biscuit’ used in this category refers to a cookie-like product that may be eaten as a dessert. Examples include: butter cake, cheesecake, fruit-filled cereal bars, pound cake, moist cake, western cakes, moon cakes, sponge cake, fruit-filled pies (e.g. apple pie), oatmeal cookies, sugar cookies and British ‘biscuits’ (cookies or sweet crackers). Other fine bakery products: includes products that may be eaten as a dessert or as breakfast. Examples include: doughnuts, sweet rolls, scones, muffins, pancakes, waffles, filled sweet buns, Danish pastries, wafers or cones for ice cream, flour confectionery and trifles. This category also includes tiramisu. Please specify the sub-category (e.g. fine bakery wares, pies) and, if available, the filling (e.g. fruit, custard, raw eggs) in the free text data element (for example: ‘fine bakery product containing pasteurised dairy products and raw eggs, tiramisu’).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bakery products</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B09987B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bakery products</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B10007B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B10007B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Herbs are the aromatic leaves of plants without woody stems that grow in temperate zones. Spices are seasonings obtained from the bark, buds, fruit or flower parts, roots, seeds or stems of various aromatic plants and trees. Herbs and spices are usually derived from botanical sources, which may be dehydrated and are either ground or whole. Examples of herbs include basil, oregano and thyme. Examples of spices include cumin and caraway seeds. Spices may also be found as blends in powder or paste form. Examples of spice blends include chilli seasoning, chilli paste, curry paste, curry roux and dry cures or rubs that are applied to external surfaces of meat or fish.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs and spices</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B10007B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs and spices</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B10047B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B10047B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">This category should be chosen if the implicated food is none of those mentioned above. In this case, it should be specified in the free text data element.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other foods</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B10047B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other foods</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B29387B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B29387B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">Mixed meals are meals composed of various foods, for example paella, risotto, curries and nasi goreng. This category also includes miscellaneous foodstuffs served on one plate. Please also select this category if it was not possible to narrow the suspected food down to an individual food or ingredient during the investigation of the food-borne outbreak.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed food</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29387B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed food</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_FOODVH_B29407B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_FOODVH_B29407B">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000380"/>
+        <obo:IAO_0000115 xml:lang="en">A buffet meal is a meal at which guests serve themselves from various dishes displayed on a large table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffet meals</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_FOODVH</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B29407B</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffet meals</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_OUTBRK_TB01A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_OUTBRK_TB01A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000383"/>
+        <obo:IAO_0000115 xml:lang="en">General outbreak: outbreak involving human cases from more than one household. Outbreaks in residential homes (e.g. nursing homes), schools and other similar institutions are considered to be general outbreaks.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_OUTBRK</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TB01A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_OUTBRK_TB02A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_OUTBRK_TB02A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000383"/>
+        <obo:IAO_0000115 xml:lang="en">Household outbreak: outbreak where all the human cases live in one single household.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Household</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_OUTBRK</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TB02A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Household / domestic kitchen</HSO_0000004>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/hso#ZOO_CAT_OUTBRK_TB03A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/hso#ZOO_CAT_OUTBRK_TB03A">
+        <rdf:type rdf:resource="https://w3id.org/hso#HSO_0000383"/>
+        <obo:IAO_0000115 xml:lang="en">Unknown</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</rdfs:label>
+        <HSO_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOO_CAT_OUTBRK</HSO_0000002>
+        <HSO_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TB03A</HSO_0000003>
+        <HSO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown</HSO_0000004>
     </owl:NamedIndividual>
     
 
