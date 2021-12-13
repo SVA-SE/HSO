@@ -6745,8 +6745,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A sampling strategy in which population units are chosen for investigation into a disease cluster or outbreak.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">a specific type of surveillance activity which has as surveillance context an outbreak investigation</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Outbreak investigation</rdfs:label>
+        <rdfs:label xml:lang="en">Cluster/Outbreak investigation</rdfs:label>
     </owl:Class>
     
 
@@ -6903,6 +6904,176 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
         <obo:IAO_0000115 xml:lang="en">A surveillance sampling strategy in which an aspired outcome is explicity stated.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;Target&quot; (p.279) in Porta, M. (2014). A Dictionary of Epidemiology (6th ed.). Oxford University Press, Incorporated.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">targeted sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A surveillance sampling strategy in which baseline is established at the beginning of a study or project by the selection of sample units via random sampling.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Baseline surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A surveillance sampling strategy in which an aspired outcome is explicity stated.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Targeted surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A targeted surveillance strategy in which the aim is early detection of variants of concern (VoC) in individuals.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Screening for Variants of Concern (VoC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which subsets of a defined population can be identified who are, have been, or in the future may be exposed or not exposed - or exposed in different degrees - to a disease of interest and are selected to under go repeat sampling over a defined period of time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Longitudinal surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which a population that previously tested positive for a disease of interest, and since confirmed to have recovered via a negative test, are monitored for positive test indication of re-infection with the disease of interest within a defined period of time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Re-infection surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which population units are monitored for investigation into vaccine escape, i.e., identifying variants that contain mutations that counteracted the immunity provided by vaccine(s) of interest.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Vaccine escape surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which population units are selected if they have a travel history outside of the reporting region within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Travel-associated surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000403"/>
+        <obo:IAO_0000115 xml:lang="en">A travel-associated surveillance strategy in which population units are selected if they have an intranational travel history within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Domestic travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000404"/>
+        <obo:IAO_0000115 xml:lang="en">A domestic travel-associated surveillance strategy in which population units are selected if they have a travel history between states or provinces within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Interstate/ interprovincial travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000404"/>
+        <obo:IAO_0000115 xml:lang="en">A domestic travel-associated surveillance strategy in which population units are selected if they have a travel history in a state or province within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Intra-state/ intra-provincial travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000403"/>
+        <obo:IAO_0000115 xml:lang="en">A travel-associated surveillance strategy in which population units are selected if they have a travel history outside of the reporting country in a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">International travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000407"/>
+        <obo:IAO_0000115 xml:lang="en">An international travel-associated surveillance strategy in which population units are selected if they have a travel history of crossing an international border via air travel or ground transport.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance of international border crossing by air travel or ground transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000408"/>
+        <obo:IAO_0000115 xml:lang="en">An international travel-associated surveillance strategy in which population units are selected if they have a travel history of crossing an international border via air travel.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance of international border crossing by air travel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000408"/>
+        <obo:IAO_0000115 xml:lang="en">An international travel-associated surveillance strategy in which population units are selected if they have a travel history of crossing an international border via ground transport.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance of international border crossing by ground transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000407"/>
+        <obo:IAO_0000115 xml:lang="en">A travel-associated surveillance strategy in which population units are selected if they have a travel history outside of the reporting country in a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance from international worker testing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000374"/>
+        <obo:IAO_0000115 xml:lang="en">An outbreak investigation sampling strategy in which population units are chosen for investigation into a disease outbreak that has connections to two or more jurisdictions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Multi-jurisdictional outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000374"/>
+        <obo:IAO_0000115 xml:lang="en">An outbreak investigation sampling strategy in which population units are chosen for investigation into a disease outbreak that only has connections within a single jurisdiction.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Intra-jurisdictional outbreak investigation</rdfs:label>
     </owl:Class>
     
 
