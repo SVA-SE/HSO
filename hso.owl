@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hso.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hso/2020-11-28/hso.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hso/2021-12-13/hso.owl"/>
         <dc:contributor>Crawford Revie</dc:contributor>
         <dc:contributor>Eva Blomqvist</dc:contributor>
         <dc:contributor>Karl Hammar</dc:contributor>
@@ -770,6 +770,12 @@ It may include a description of manual or automatic data capture processes that 
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
@@ -957,6 +963,12 @@ It may include a description of manual or automatic data capture processes that 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -2276,6 +2288,14 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0000664 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000664">
+        <rdfs:label>has material basis in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000124 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000124">
@@ -2667,11 +2687,15 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation between two independent continuants, the target and the location, in which the target is entirely within the location</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0001025</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0001025</oboInOwl:id>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located_in</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located_in</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located in</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located_in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -4210,7 +4234,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000116 xml:lang="en">Spatial region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the union of a spatial point and a spatial line that doesn&apos;t overlap the point, or two spatial lines that intersect at a single point. In both cases the resultant spatial region is neither 0-dimensional, 1-dimensional, 2-dimensional, or 3-dimensional.</obo:IAO_0000116>
         <obo:IAO_0000600 xml:lang="en">A spatial region is a continuant entity that is a continuant_part_of spaceR as defined relative to some frame R. (axiom label in BFO2 Reference: [035-001])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</obo:IAO_0000601>
-        <obo:IAO_0000601 xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</obo:IAO_0000601>
         <obo:IAO_0000602>(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
@@ -4233,12 +4256,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <owl:annotatedTarget xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/036-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <owl:annotatedTarget xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/036-001"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -4268,7 +4285,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000116 xml:lang="en">Temporal region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the mereological sum of a temporal instant and a temporal interval that doesn&apos;t overlap the instant. In this case the resultant temporal region is neither 0-dimensional nor 1-dimensional</obo:IAO_0000116>
         <obo:IAO_0000600 xml:lang="en">A temporal region is an occurrent entity that is part of time as defined relative to some reference frame. (axiom label in BFO2 Reference: [100-001])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</obo:IAO_0000601>
-        <obo:IAO_0000601 xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Every temporal region t is such that t occupies_temporal_region t. (axiom label in BFO2 Reference: [119-002])</obo:IAO_0000601>
         <obo:IAO_0000602>(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] </obo:IAO_0000602>
         <obo:IAO_0000602>(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] </obo:IAO_0000602>
@@ -4293,12 +4309,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <owl:annotatedTarget xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/101-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <owl:annotatedTarget xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/101-001"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -4368,7 +4378,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000112 xml:lang="en">the spatiotemporal region occupied by the development of a cancer tumor</obo:IAO_0000112>
         <obo:IAO_0000600 xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</obo:IAO_0000601>
-        <obo:IAO_0000601 xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Each spatiotemporal region at any time t projects_onto some spatial region at t. (axiom label in BFO2 Reference: [099-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Each spatiotemporal region projects_onto some temporal region. (axiom label in BFO2 Reference: [098-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">Every spatiotemporal region occupies_spatiotemporal_region itself.</obo:IAO_0000601>
@@ -4391,12 +4400,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/096-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/096-001"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -5455,6 +5458,250 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <obo:IAO_0000115>A bacterial infectious disease that results_in infection by bacteria as a result of their presence or activity within the normal, healthy host, and their intrinsic virulence is, in part, a necessary consequence of their need to reproduce and spread.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050338</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <rdfs:label>primary bacterial infectious disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A bacterial infectious disease that results_in infection by bacteria as a result of their presence or activity within the normal, healthy host, and their intrinsic virulence is, in part, a necessary consequence of their need to reproduce and spread.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Infectious_disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060859">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
+        <obo:IAO_0000115>A primary bacterial infectious disease caused by the bacteria of the genus Salmonella. It has sypmtoms diarrhea, fever, vomiting, and abdominal cramps 12 to 72 hours after infection. In most cases, the illness lasts four to seven days, and most people recover without treatment.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10CM:A02.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:003.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Salmonella infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060859</oboInOwl:id>
+        <rdfs:label>salmonellosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060859"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary bacterial infectious disease caused by the bacteria of the genus Salmonella. It has sypmtoms diarrhea, fever, vomiting, and abdominal cramps 12 to 72 hours after infection. In most cases, the illness lasts four to seven days, and most people recover without treatment.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <oboInOwl:hasDbXref>url:https://www.cdc.gov/salmonella/general/index.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.foodsafety.gov/poisoning/causes/bacteriaviruses/salmonella</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_104">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disease by infectious agent that results_in infection, has_material_basis_in Bacteria.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10CM:A49.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2890</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2020_03_01:87628006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0004623</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:104</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label>bacterial infectious disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A disease by infectious agent that results_in infection, has_material_basis_in Bacteria.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Pathogenic_bacteria</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2326"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005409"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A primary bacterial infectious disease that results_in infection located_in intestine, has_material_basis_in Campylobacter jejuni, which is transmitted_by ingestion of contaminated food or water or transmitted_by contact with infected people or animals. The infection has_symptom diarrhea or has_symptom dysentery, has_symptom abdominal cramps and pain, and has_symptom fever.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:13621</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>MESH:D002169</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2020_03_01:86500004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0006818</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Campylobacteriosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:13622</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#gram-negative_bacterial_infectious_disease"/>
+        <rdfs:label>campylobacteriosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_13622"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary bacterial infectious disease that results_in infection located_in intestine, has_material_basis_in Campylobacter jejuni, which is transmitted_by ingestion of contaminated food or water or transmitted_by contact with infected people or animals. The infection has_symptom diarrhea or has_symptom dysentery, has_symptom abdominal cramps and pain, and has_symptom fever.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Campylobacteriosis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.health.state.ny.us/diseases/communicable/campylobacteriosis/fact_sheet.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_77"/>
+        <obo:IAO_0000115>A gastrointestinal system infectious disease that involves inflammation of the lining of the stomach and small and large intestines, which is caused by viruses, bacteria, or parasites. Chemicals and drugs also cause gastroenteritis. The symptoms include diarrhea, loss of appetite, nausea, vomiting, cramps, and discomfort in the abdomen.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:4094</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:5269</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:K52.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005759</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34632</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2020_03_01:154278002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0017160</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">cholera morbus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">infectious colitis, enteritis and gastroenteritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:2326</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label>gastroenteritis</rdfs:label>
+        <skos:exactMatch>MESH:D005759</skos:exactMatch>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_2326"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A gastrointestinal system infectious disease that involves inflammation of the lining of the stomach and small and large intestines, which is caused by viruses, bacteria, or parasites. Chemicals and drugs also cause gastroenteritis. The symptoms include diarrhea, loss of appetite, nausea, vomiting, cramps, and discomfort in the abdomen.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <oboInOwl:hasDbXref>url:http://www.merck.com/mmhe/sec09/ch122/ch122a.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2020_03_01:64572001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0012634</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:4</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label>disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115>A disease that manifests in a defined anatomical structure.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:1</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:5</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:71</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:72</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:8</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:7</oboInOwl:id>
+        <rdfs:label>disease of anatomical entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A disease that manifests in a defined anatomical structure.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007643"/>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=anatomic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_77 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_77">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+        <obo:IAO_0000115>A disease of anatomical entity that is located_in the gastrointestinal tract.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:27</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:944</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:K92.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:520-579.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D004066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2020_03_01:53619000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0012242</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">GIT disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Gastroenteropathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">alimentary system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">digestive system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">gastrointestinal disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">gastrointestinal disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:77</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
+        <rdfs:label>gastrointestinal system disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_77"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A disease of anatomical entity that is located_in the gastrointestinal tract.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000004">
@@ -6403,6 +6650,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000320"/>
+        <obo:IAO_0000115 xml:lang="en">A sampling strategy in which population units are selected such that each possible unit has a fixed and known or equal probability of selection.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">&quot;Random Sample&quot; (p.238) in Porta, M. (2014). A Dictionary of Epidemiology (6th ed.). Oxford University Press, Incorporated.</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">simple random sampling</rdfs:label>
         <skos:prefLabel xml:lang="en">simple random</skos:prefLabel>
@@ -6424,7 +6673,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <!-- http://purl.obolibrary.org/obo/HSO_0000318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000396"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">risk-based  sampling</rdfs:label>
     </owl:Class>
@@ -6507,8 +6756,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A sampling strategy in which population units are chosen for investigation into a disease cluster or outbreak.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">a specific type of surveillance activity which has as surveillance context an outbreak investigation</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Outbreak investigation</rdfs:label>
+        <rdfs:label xml:lang="en">Cluster/Outbreak investigation</rdfs:label>
     </owl:Class>
     
 
@@ -6645,6 +6895,205 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000393">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000388"/>
         <rdfs:label xml:lang="en">unknown status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000320"/>
+        <rdfs:label xml:lang="en">stratified random sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000072"/>
+        <obo:IAO_0000115 xml:lang="en">A surveillance sampling strategy in which an aspired outcome is explicity stated.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">&quot;Target&quot; (p.279) in Porta, M. (2014). A Dictionary of Epidemiology (6th ed.). Oxford University Press, Incorporated.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">targeted sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A surveillance sampling strategy in which baseline is established at the beginning of a study or project by the selection of sample units via random sampling.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Baseline surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A surveillance sampling strategy in which an aspired outcome is explicity stated.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Targeted surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A targeted surveillance strategy in which the aim is early detection of variants of concern (VoC) in individuals.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Screening for Variants of Concern (VoC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which subsets of a defined population can be identified who are, have been, or in the future may be exposed or not exposed - or exposed in different degrees - to a disease of interest and are selected to under go repeat sampling over a defined period of time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Longitudinal surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which a population that previously tested positive for a disease of interest, and since confirmed to have recovered via a negative test, are monitored for positive test indication of re-infection with the disease of interest within a defined period of time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Re-infection surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which population units are monitored for investigation into vaccine escape, i.e., identifying variants that contain mutations that counteracted the immunity provided by vaccine(s) of interest.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Vaccine escape surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000398"/>
+        <obo:IAO_0000115 xml:lang="en">A priority surveillance strategy in which population units are selected if they have a travel history outside of the reporting region within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Travel-associated surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000403"/>
+        <obo:IAO_0000115 xml:lang="en">A travel-associated surveillance strategy in which population units are selected if they have an intranational travel history within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Domestic travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000404"/>
+        <obo:IAO_0000115 xml:lang="en">A domestic travel-associated surveillance strategy in which population units are selected if they have a travel history between states or provinces within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Interstate/ interprovincial travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000404"/>
+        <obo:IAO_0000115 xml:lang="en">A domestic travel-associated surveillance strategy in which population units are selected if they have a travel history in a state or province within a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Intra-state/ intra-provincial travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000403"/>
+        <obo:IAO_0000115 xml:lang="en">A travel-associated surveillance strategy in which population units are selected if they have a travel history outside of the reporting country in a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">International travel surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000407"/>
+        <obo:IAO_0000115 xml:lang="en">An international travel-associated surveillance strategy in which population units are selected if they have a travel history of crossing an international border via air travel or ground transport.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance of international border crossing by air travel or ground transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000408"/>
+        <obo:IAO_0000115 xml:lang="en">An international travel-associated surveillance strategy in which population units are selected if they have a travel history of crossing an international border via air travel.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance of international border crossing by air travel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000408"/>
+        <obo:IAO_0000115 xml:lang="en">An international travel-associated surveillance strategy in which population units are selected if they have a travel history of crossing an international border via ground transport.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance of international border crossing by ground transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000407"/>
+        <obo:IAO_0000115 xml:lang="en">A travel-associated surveillance strategy in which population units are selected if they have a travel history outside of the reporting country in a specified number of days before onset of symptoms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Surveillance from international worker testing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000374"/>
+        <obo:IAO_0000115 xml:lang="en">An outbreak investigation sampling strategy in which population units are chosen for investigation into a disease outbreak that has connections to two or more jurisdictions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Multi-jurisdictional outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000374"/>
+        <obo:IAO_0000115 xml:lang="en">An outbreak investigation sampling strategy in which population units are chosen for investigation into a disease outbreak that only has connections within a single jurisdiction.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Intra-jurisdictional outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/waiting_placement"/>
+        <rdfs:label xml:lang="en">genetic epidemiology surveillance datum</rdfs:label>
     </owl:Class>
     
 
@@ -14957,6 +15406,33 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/waiting_placement">
         <rdfs:label xml:lang="en">awaiting ontology review/placement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hso.owl#HSO:0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hso.owl#HSO:0000415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000414"/>
+        <rdfs:label xml:lang="en">Variant of Concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hso.owl#HSO:0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hso.owl#HSO:0000416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000414"/>
+        <rdfs:label xml:lang="en">Variant of Interest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hso.owl#HSO:0000417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hso.owl#HSO:0000417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000414"/>
+        <rdfs:label xml:lang="en">Variant Under Monitoring</rdfs:label>
     </owl:Class>
     
 
