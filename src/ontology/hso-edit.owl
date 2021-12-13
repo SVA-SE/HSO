@@ -7058,9 +7058,9 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HSO_0000413 -->
+    <!-- http://purl.obolibrary.org/obo/HSO_0000412 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000413">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000412">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000374"/>
         <obo:IAO_0000115 xml:lang="en">An outbreak investigation sampling strategy in which population units are chosen for investigation into a disease outbreak that has connections to two or more jurisdictions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Multi-jurisdictional outbreak investigation</rdfs:label>
@@ -7068,12 +7068,21 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HSO_0000414 -->
+    <!-- http://purl.obolibrary.org/obo/HSO_0000413 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000414">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000413">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000374"/>
         <obo:IAO_0000115 xml:lang="en">An outbreak investigation sampling strategy in which population units are chosen for investigation into a disease outbreak that only has connections within a single jurisdiction.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Intra-jurisdictional outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/waiting_placement"/>
+        <rdfs:label xml:lang="en">genetic epidemiology surveillance datum</rdfs:label>
     </owl:Class>
     
 
@@ -15386,6 +15395,33 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/waiting_placement">
         <rdfs:label xml:lang="en">awaiting ontology review/placement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hso.owl#HSO:0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hso.owl#HSO:0000415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000414"/>
+        <rdfs:label xml:lang="en">Variant of Concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hso.owl#HSO:0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hso.owl#HSO:0000416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000414"/>
+        <rdfs:label xml:lang="en">Variant of Interest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hso.owl#HSO:0000417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hso.owl#HSO:0000417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000414"/>
+        <rdfs:label xml:lang="en">Variant Under Monitoring</rdfs:label>
     </owl:Class>
     
 
