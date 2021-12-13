@@ -6639,6 +6639,8 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000320"/>
+        <obo:IAO_0000115 xml:lang="en">A sampling strategy in which population units are selected such that each possible unit has a fixed and known or equal probability of selection.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">&quot;Random Sample&quot; (p.238) in Porta, M. (2014). A Dictionary of Epidemiology (6th ed.). Oxford University Press, Incorporated.</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">simple random sampling</rdfs:label>
         <skos:prefLabel xml:lang="en">simple random</skos:prefLabel>
@@ -6881,6 +6883,15 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000393">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000388"/>
         <rdfs:label xml:lang="en">unknown status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000320"/>
+        <rdfs:label xml:lang="en">stratified random sampling</rdfs:label>
     </owl:Class>
     
 
