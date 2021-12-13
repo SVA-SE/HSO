@@ -17,7 +17,6 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hso.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hso/2021-12-13/hso.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <dc:contributor>Crawford Revie</dc:contributor>
         <dc:contributor>Eva Blomqvist</dc:contributor>
         <dc:contributor>Karl Hammar</dc:contributor>
@@ -753,6 +752,12 @@ It may include a description of manual or automatic data capture processes that 
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/member -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/member"/>
@@ -988,6 +993,12 @@ It may include a description of manual or automatic data capture processes that 
     <!-- http://xmlns.com/foaf/0.1/homepage -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
     
 
 
