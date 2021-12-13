@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hso.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hso/2020-11-28/hso.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hso/2021-12-13/hso.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <dc:contributor>Crawford Revie</dc:contributor>
         <dc:contributor>Eva Blomqvist</dc:contributor>
