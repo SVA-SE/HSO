@@ -6662,7 +6662,7 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <!-- http://purl.obolibrary.org/obo/HSO_0000318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000396"/>
         <obo:IAO_0000119 xml:lang="en">https://github.com/SVA-SE/AHSURED/wiki</obo:IAO_0000119>
         <rdfs:label xml:lang="en">risk-based  sampling</rdfs:label>
     </owl:Class>
@@ -6892,6 +6892,17 @@ Describe the information used to calculate sample size at the SSU level, e.g. th
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000395">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000320"/>
         <rdfs:label xml:lang="en">stratified random sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HSO_0000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HSO_0000396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HSO_0000072"/>
+        <obo:IAO_0000115 xml:lang="en">A surveillance sampling strategy in which an aspired outcome is explicity stated.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">&quot;Target&quot; (p.279) in Porta, M. (2014). A Dictionary of Epidemiology (6th ed.). Oxford University Press, Incorporated.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">targeted sampling</rdfs:label>
     </owl:Class>
     
 
